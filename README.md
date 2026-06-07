@@ -1,22 +1,26 @@
 # Badge Evening Planner
 
-A static site for planning Scouts (UK) evenings around badges. Define bases (the
-activities you run on an evening), each tied to the badge requirements it covers,
-then build an evening from a set of bases and preview which requirements and
-badges it would complete. Browse badges, read the requirements, and tick them off
-too. Everything is saved in your browser - no account, no server.
+A static site for planning Scouts (UK) evenings around badges. A base is one
+activity you run on an evening (the Scouting sense of the word - a station scouts
+rotate around), each tied to the badge requirements it covers. Build an evening
+from a set of bases and see which requirements and badges it would complete. The
+plan is the only source of completion: a requirement counts as done when a base
+in your plan covers it - there is no separate progress tracking. Everything is
+saved in your browser - no account, no server.
 
 ## Bases and planning
 
-- A base is an activity, authored as `src/content/bases/<slug>/index.md` (folder
-  per base, like badges, so images and files sit alongside). Frontmatter lists
-  the leaf requirements it covers (across any badge), plus duration, equipment
-  and tags; the markdown body holds the run instructions.
+- A base is authored as `src/content/bases/<slug>/index.md` (folder per base,
+  like badges, so images and files sit alongside). Frontmatter lists the leaf
+  requirements it covers (across any badge), plus duration, equipment and tags;
+  the markdown body holds the run instructions.
 - `/bases` browses the library; `/bases/new` is a builder that lets you tick
   requirements off a badge and exports the `index.md` to commit.
-- `/plan` is the evening planner: add bases to the plan (saved in your browser)
-  and see, per badge, what is already done, what the plan would cover, and the
-  aggregated kit list. The planner is preview-only - it never ticks requirements.
+- `/plan` is the evening planner: add bases to the plan, set a target length, and
+  see per-badge coverage and the aggregated kit list. Save the working plan as a
+  named evening to reopen later.
+- A badge page shows its requirements ticked off by whichever bases are in your
+  current plan, naming the base that covers each one.
 
 ## Stack
 
