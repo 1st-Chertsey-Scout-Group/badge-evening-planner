@@ -1,4 +1,5 @@
 /** @jsxImportSource preact */
+import type { ComponentChildren } from 'preact'
 
 interface Props {
   percent: number
@@ -6,6 +7,8 @@ interface Props {
   stroke?: number
   complete?: boolean
   label?: boolean
+  // custom centre content (e.g. a stage number); ignored once complete (shows a check)
+  center?: ComponentChildren
 }
 
 export default function ProgressRing({
@@ -14,6 +17,7 @@ export default function ProgressRing({
   stroke = 6,
   complete = false,
   label = true,
+  center,
 }: Props) {
   const r = (size - stroke) / 2
   const circumference = 2 * Math.PI * r
@@ -46,11 +50,14 @@ export default function ProgressRing({
           style={{ transition: 'stroke-dashoffset 300ms ease' }}
         />
       </svg>
-      {label && (
-        <span class="absolute text-xs font-bold" style={{ color }}>
-          {complete ? '✓' : `${percent}%`}
-        </span>
-      )}
+      {(() => {
+        const content = complete ? '✓' : (center ?? (label ? `${percent}%` : null))
+        return content == null ? null : (
+          <span class="absolute text-xs font-bold" style={{ color }}>
+            {content}
+          </span>
+        )
+      })()}
     </span>
   )
 }

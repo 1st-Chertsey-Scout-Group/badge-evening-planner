@@ -1,6 +1,6 @@
 /** @jsxImportSource preact */
 import { useEffect, useMemo, useState } from 'preact/hooks'
-import { badgeTally, nodeTally, type Ticked } from '@/lib/progress'
+import { badgeTally, nodeTally, unitTally, type Ticked } from '@/lib/progress'
 import { getTicked, onProgressChange, resetBadge, setTicked as persist } from '@/lib/storage'
 import type { ReqNode, ResolvedBadge, Stage, Unit } from '@/lib/types'
 import ProgressRing from './ProgressRing'
@@ -93,12 +93,8 @@ export default function BadgeChecklist({ badge }: Props) {
   )
 }
 
-function unitSatisfied(unit: Unit, ticked: Ticked): boolean {
-  return (
-    unit.mandatory.every((n) => nodeTally(n, ticked).satisfied) &&
-    unit.optional.every((n) => nodeTally(n, ticked).satisfied)
-  )
-}
+const pctOf = (t: { done: number; needed: number }): number =>
+  t.needed ? Math.round((t.done / t.needed) * 100) : 100
 
 function unitStarted(unit: Unit, ticked: Ticked): boolean {
   return [...unit.mandatory, ...unit.optional].some((n) => nodeTally(n, ticked).done > 0)
@@ -128,7 +124,8 @@ function StageSection({
   ticked,
   onToggle,
 }: { stage: Stage; index: number } & ToggleProps) {
-  const done = unitSatisfied(stage, ticked)
+  const t = unitTally(stage, ticked)
+  const done = t.satisfied
   const started = unitStarted(stage, ticked)
   const [override, setOverride] = useState<boolean | null>(null)
   const open = override ?? (index === 0 || started)
@@ -145,12 +142,15 @@ function StageSection({
         onClick={() => setOverride(!open)}
         class="flex w-full items-center gap-2 p-4 text-left"
       >
-        <span
-          class={`flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs font-bold ${
-            done ? 'bg-scout-green text-white' : 'bg-slate-200 text-slate-500'
-          }`}
-        >
-          {done ? '✓' : index + 1}
+        <span class="shrink-0">
+          <ProgressRing
+            percent={pctOf(t)}
+            complete={done}
+            size={28}
+            stroke={3}
+            label={false}
+            center={index + 1}
+          />
         </span>
         <h3 class="flex-1 font-semibold text-slate-800">{stage.label}</h3>
         <Chevron open={open} />
@@ -223,17 +223,28 @@ function Requirement({ node, ticked, onToggle }: { node: ReqNode } & ToggleProps
       )
     }
     return (
-      <div
-        class={`rounded-lg border-l-4 pl-3 ${t.satisfied ? 'border-scout-green' : 'border-slate-200'}`}
-      >
-        <p class="flex flex-wrap items-center gap-2 font-medium text-slate-800">
-          {node.title}
-          <span class="rounded-full bg-slate-100 px-2 py-0.5 text-xs font-semibold text-slate-500">
-            Do all
+      <div>
+        <div class="flex items-start gap-2">
+          <span class="mt-0.5 shrink-0">
+            <ProgressRing
+              percent={pctOf(t)}
+              complete={t.satisfied}
+              size={22}
+              stroke={3}
+              label={false}
+            />
           </span>
-        </p>
-        {node.notesHtml && <Prose html={node.notesHtml} />}
-        <div class="mt-2">
+          <div class="flex-1">
+            <p class="flex flex-wrap items-center gap-2 font-medium text-slate-800">
+              {node.title}
+              <span class="rounded-full bg-slate-100 px-2 py-0.5 text-xs font-semibold text-slate-500">
+                Do all
+              </span>
+            </p>
+            {node.notesHtml && <Prose html={node.notesHtml} />}
+          </div>
+        </div>
+        <div class="mt-2 pl-7">
           <RequirementList nodes={node.children} ticked={ticked} onToggle={onToggle} />
         </div>
       </div>
@@ -380,7 +391,8 @@ function ExpandableOption({
   ticked,
   onToggle,
 }: { option: ReqNode; done: boolean; dim: string } & ToggleProps) {
-  const started = nodeTally(option, ticked).done > 0
+  const t = nodeTally(option, ticked)
+  const started = t.done > 0
   const [override, setOverride] = useState<boolean | null>(null)
   const open = override ?? started
 
@@ -412,12 +424,8 @@ function ExpandableOption({
         onClick={() => setOverride(!open)}
         class="flex w-full items-center gap-3 p-3 text-left"
       >
-        <span
-          class={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-xs text-white ${
-            done ? 'bg-scout-green' : 'bg-slate-200'
-          }`}
-        >
-          {done ? '✓' : ''}
+        <span class="shrink-0">
+          <ProgressRing percent={pctOf(t)} complete={done} size={22} stroke={3} label={false} />
         </span>
         <span class={`flex-1 font-medium ${done ? 'text-scout-purple-dark' : 'text-slate-800'}`}>
           {option.title}
