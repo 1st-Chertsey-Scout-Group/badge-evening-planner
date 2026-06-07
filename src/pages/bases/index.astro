@@ -1,0 +1,27 @@
+---
+import Base from '@/layouts/Base.astro'
+import BaseBrowser from '@/components/BaseBrowser'
+import { allBaseSummaries } from '@/lib/bases'
+
+const bases = await allBaseSummaries()
+---
+
+<Base title="Bases - Badge Tracker" description="Browse activity bases and build an evening plan.">
+  <main class="mx-auto max-w-5xl px-4 py-8">
+    <div class="mb-6 flex flex-wrap items-end justify-between gap-3">
+      <div>
+        <h1 class="text-2xl font-bold text-slate-900 sm:text-3xl">Bases</h1>
+        <p class="mt-1 text-slate-600">
+          Activities to run on an evening. Add bases to your plan to see what they complete.
+        </p>
+      </div>
+      <a
+        href="/bases/new"
+        class="inline-flex items-center gap-1.5 rounded-lg border border-scout-purple px-3 py-2 text-sm font-medium text-scout-purple hover:bg-scout-purple hover:text-white"
+      >
+        Build a base
+      </a>
+    </div>
+    <BaseBrowser client:load bases={bases} />
+  </main>
+</Base>

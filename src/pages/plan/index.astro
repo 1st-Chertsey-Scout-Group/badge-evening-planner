@@ -1,0 +1,23 @@
+---
+import Base from '@/layouts/Base.astro'
+import PlanBoard from '@/components/PlanBoard'
+import { allBaseSummaries, touchedBadges } from '@/lib/bases'
+
+const bases = await allBaseSummaries()
+const badges = await touchedBadges()
+---
+
+<Base
+  title="Planner - Badge Tracker"
+  description="Plan an evening from your selected bases and see what they complete."
+>
+  <main class="mx-auto max-w-5xl px-4 py-8">
+    <div class="mb-6">
+      <h1 class="text-2xl font-bold text-slate-900 sm:text-3xl">Evening planner</h1>
+      <p class="mt-1 text-slate-600">
+        Bases in your plan, and what they would complete. Existing ticks are taken into account.
+      </p>
+    </div>
+    <PlanBoard client:load bases={bases} badges={badges} />
+  </main>
+</Base>
