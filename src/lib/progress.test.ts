@@ -78,8 +78,16 @@ describe('badgeTally', () => {
       type: 'activity',
       unit: { mandatory: [leaf('a'), leaf('b')], optional: [], optionsToQualify: 0 },
     }
-    expect(badgeTally(model, new Set())).toMatchObject({ percent: 0, complete: false, started: false })
-    expect(badgeTally(model, new Set(['a']))).toMatchObject({ percent: 50, started: true, complete: false })
+    expect(badgeTally(model, new Set())).toMatchObject({
+      percent: 0,
+      complete: false,
+      started: false,
+    })
+    expect(badgeTally(model, new Set(['a']))).toMatchObject({
+      percent: 50,
+      started: true,
+      complete: false,
+    })
     expect(badgeTally(model, new Set(['a', 'b']))).toMatchObject({ percent: 100, complete: true })
   })
 
@@ -90,7 +98,11 @@ describe('badgeTally', () => {
       stages: [stage('s1'), stage('s2'), stage('s3'), stage('s4')],
     }
     expect(badgeTally(model, new Set())).toMatchObject({ done: 0, needed: 4, percent: 0 })
-    expect(badgeTally(model, new Set(['s1', 's2']))).toMatchObject({ done: 2, percent: 50, started: true })
+    expect(badgeTally(model, new Set(['s1', 's2']))).toMatchObject({
+      done: 2,
+      percent: 50,
+      started: true,
+    })
     expect(badgeTally(model, new Set(['s1', 's2', 's3', 's4']))).toMatchObject({
       complete: true,
       percent: 100,
