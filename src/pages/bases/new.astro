@@ -9,16 +9,23 @@ const badges = (await getCollection('badges'))
   .sort((a, b) => a.title.localeCompare(b.title))
 ---
 
-<Base title="Build a base - Bases" description="Create a base by picking the requirements it covers.">
+<Base
+  title="Build a base - Bases"
+  description="Create a base by picking the requirements it covers."
+>
   <main class="mx-auto max-w-6xl px-4 py-8">
-    <a href="/bases" class="inline-flex items-center gap-1 text-sm text-scout-purple hover:underline">
+    <a
+      href="/bases"
+      class="inline-flex items-center gap-1 text-sm text-scout-purple hover:underline"
+    >
       <ArrowLeft size={16} /> All bases
     </a>
     <div class="mt-4 mb-6">
       <h1 class="text-2xl font-bold text-slate-900 sm:text-3xl">Build a base</h1>
       <p class="mt-1 text-slate-600">
-        Fill in the details, tick the leaf requirements it covers, then export the
-        file into <code class="rounded bg-slate-100 px-1 text-sm">src/content/bases/</code>.
+        Fill in the details, tick the leaf requirements it covers, then export the file into <code
+          class="rounded bg-slate-100 px-1 text-sm">src/content/bases/</code
+        >.
       </p>
     </div>
     <BaseBuilder client:load badges={badges} />

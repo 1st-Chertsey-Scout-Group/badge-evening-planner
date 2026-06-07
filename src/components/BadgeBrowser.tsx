@@ -1,15 +1,9 @@
 /** @jsxImportSource preact */
 import { useEffect, useMemo, useState } from 'preact/hooks'
-import { badgeTally, type BadgeType, type ProgressModel } from '@/lib/progress'
-import {
-  exportProgress,
-  getAllTicked,
-  importProgress,
-  onProgressChange,
-  resetAll,
-} from '@/lib/storage'
+import { type BadgeType, type ProgressModel } from '@/lib/progress'
+import { badgeCoverage, coveredLeavesForBadge } from '@/lib/coverage'
+import { getPlan, onPlanChange } from '@/lib/plan'
 import { TYPE_LABEL, TYPE_ORDER } from '@/lib/badges'
-import { Download, Trash2, Upload } from 'lucide-preact'
 
 export interface BadgeSummary {
   slug: string
@@ -19,33 +13,37 @@ export interface BadgeSummary {
   model: ProgressModel
 }
 
-type Status = 'all' | 'not-started' | 'in-progress' | 'complete'
-
-const STATUS_LABEL: Record<Exclude<Status, 'all'>, string> = {
-  'not-started': 'Not started',
-  'in-progress': 'In progress',
-  complete: 'Complete',
+export interface PlanBase {
+  slug: string
+  covers: { reqId: string; badgeSlug: string }[]
 }
 
-const EMPTY: ReadonlySet<string> = new Set()
+type Status = 'all' | 'uncovered' | 'partial' | 'complete'
+
+const STATUS_LABEL: Record<Exclude<Status, 'all'>, string> = {
+  uncovered: 'Not covered',
+  partial: 'Partly covered',
+  complete: 'Completed',
+}
 
 interface Props {
   badges: BadgeSummary[]
+  bases: PlanBase[]
 }
 
-export default function BadgeBrowser({ badges }: Props) {
-  const [ticked, setTicked] = useState<Record<string, Set<string>>>({})
+export default function BadgeBrowser({ badges, bases }: Props) {
+  const [plan, setPlan] = useState<Set<string>>(new Set())
   const [query, setQuery] = useState('')
   const [types, setTypes] = useState<BadgeType[]>([])
   const [status, setStatus] = useState<Status>('all')
-  // progress lives in localStorage, read after hydration; skeleton until then
+  // the plan lives in localStorage, read after hydration; skeleton until then
   const [loaded, setLoaded] = useState(false)
 
   useEffect(() => {
-    const sync = () => setTicked(getAllTicked())
+    const sync = () => setPlan(getPlan())
     sync()
     setLoaded(true)
-    return onProgressChange(sync)
+    return onPlanChange(sync)
   }, [])
 
   const typeOptions = useMemo(
@@ -56,15 +54,16 @@ export default function BadgeBrowser({ badges }: Props) {
   const rows = useMemo(
     () =>
       badges.map((b) => {
-        const tally = badgeTally(b.model, ticked[b.slug] ?? EMPTY)
+        const covered = coveredLeavesForBadge(b.slug, plan, bases)
+        const tally = badgeCoverage(b.model, covered).tally
         const s: Exclude<Status, 'all'> = tally.complete
           ? 'complete'
           : tally.started
-            ? 'in-progress'
-            : 'not-started'
+            ? 'partial'
+            : 'uncovered'
         return { badge: b, tally, status: s }
       }),
-    [badges, ticked],
+    [badges, bases, plan],
   )
 
   const q = query.trim().toLowerCase()
@@ -76,38 +75,7 @@ export default function BadgeBrowser({ badges }: Props) {
   )
 
   const completeCount = rows.filter((r) => r.status === 'complete').length
-  const startedCount = rows.filter((r) => r.status === 'in-progress').length
-
-  function download() {
-    const blob = new Blob([exportProgress()], { type: 'application/json' })
-    const url = URL.createObjectURL(blob)
-    const a = document.createElement('a')
-    a.href = url
-    a.download = 'badge-progress.json'
-    a.click()
-    URL.revokeObjectURL(url)
-  }
-
-  function onImportFile(e: Event) {
-    const input = e.currentTarget as HTMLInputElement
-    const file = input.files?.[0]
-    input.value = ''
-    if (!file) return
-    file
-      .text()
-      .then((text) => {
-        importProgress(text)
-        setTicked(getAllTicked())
-      })
-      .catch(() => alert('Could not read that progress file.'))
-  }
-
-  function resetEverything() {
-    if (confirm('Clear saved progress for every badge? This cannot be undone.')) {
-      resetAll()
-      setTicked({})
-    }
-  }
+  const partialCount = rows.filter((r) => r.status === 'partial').length
 
   function toggleType(t: BadgeType) {
     setTypes((cur) => (cur.includes(t) ? cur.filter((x) => x !== t) : [...cur, t]))
@@ -118,38 +86,19 @@ export default function BadgeBrowser({ badges }: Props) {
       <div class="mb-6 flex flex-wrap items-center justify-between gap-3 rounded-xl bg-white px-4 py-3 ring-1 ring-slate-200">
         {loaded ? (
           <p class="text-sm text-slate-600">
-            <span class="font-semibold text-scout-green">{completeCount}</span> complete,{' '}
-            <span class="font-semibold text-scout-purple">{startedCount}</span> in progress
-            <span class="text-slate-400"> of {badges.length}</span>
+            Your plan completes <span class="font-semibold text-scout-green">{completeCount}</span>{' '}
+            and partly covers <span class="font-semibold text-scout-purple">{partialCount}</span>
+            <span class="text-slate-400"> of {badges.length} badges</span>
           </p>
         ) : (
           <div class="h-4 w-48 animate-pulse rounded bg-slate-200" />
         )}
-        <div class="flex flex-wrap items-center gap-2 text-sm">
-          <button
-            type="button"
-            onClick={download}
-            class="inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 font-medium text-slate-600 ring-1 ring-slate-200 hover:bg-slate-50"
-          >
-            <Download size={15} /> Export
-          </button>
-          <label class="inline-flex cursor-pointer items-center gap-1.5 rounded-lg px-3 py-1.5 font-medium text-slate-600 ring-1 ring-slate-200 hover:bg-slate-50">
-            <Upload size={15} /> Import
-            <input
-              type="file"
-              accept="application/json,.json"
-              class="hidden"
-              onChange={onImportFile}
-            />
-          </label>
-          <button
-            type="button"
-            onClick={resetEverything}
-            class="inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 font-medium text-scout-red ring-1 ring-scout-red/30 hover:bg-scout-red/5"
-          >
-            <Trash2 size={15} /> Reset all
-          </button>
-        </div>
+        <a
+          href="/plan"
+          class="inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-medium text-slate-600 ring-1 ring-slate-200 hover:bg-slate-50"
+        >
+          Open planner
+        </a>
       </div>
 
       <div class="mb-6 space-y-3">
@@ -171,9 +120,9 @@ export default function BadgeBrowser({ badges }: Props) {
           ))}
         </div>
         <div class="flex flex-wrap gap-2">
-          {(['all', 'not-started', 'in-progress', 'complete'] as Status[]).map((s) => (
+          {(['all', 'uncovered', 'partial', 'complete'] as Status[]).map((s) => (
             <Chip key={s} active={status === s} onClick={() => setStatus(s)} subtle>
-              {s === 'all' ? 'Any progress' : STATUS_LABEL[s]}
+              {s === 'all' ? 'Any coverage' : STATUS_LABEL[s]}
             </Chip>
           ))}
         </div>
@@ -212,8 +161,8 @@ export default function BadgeBrowser({ badges }: Props) {
                     <div class="h-1.5 w-full animate-pulse rounded-full bg-slate-200" />
                     <div class="mt-1 h-3 w-10 animate-pulse rounded bg-slate-200" />
                   </div>
-                ) : r.status === 'not-started' ? (
-                  <p class="mt-auto pt-3 text-xs text-slate-400">Not started</p>
+                ) : r.status === 'uncovered' ? (
+                  <p class="mt-auto pt-3 text-xs text-slate-400">Not in plan</p>
                 ) : (
                   <div class="mt-auto w-full pt-3">
                     <div
@@ -222,7 +171,7 @@ export default function BadgeBrowser({ badges }: Props) {
                       aria-valuemin={0}
                       aria-valuemax={100}
                       aria-valuenow={r.tally.percent}
-                      aria-label={`${r.badge.title}: ${r.tally.percent}% complete`}
+                      aria-label={`${r.badge.title}: plan covers ${r.tally.percent}%`}
                     >
                       <div
                         class={`h-full rounded-full transition-all ${
@@ -236,7 +185,7 @@ export default function BadgeBrowser({ badges }: Props) {
                         r.tally.complete ? 'text-scout-green' : 'text-slate-500'
                       }`}
                     >
-                      {r.tally.complete ? 'Complete' : `${r.tally.percent}%`}
+                      {r.tally.complete ? 'Completed' : `${r.tally.percent}%`}
                     </p>
                   </div>
                 )}

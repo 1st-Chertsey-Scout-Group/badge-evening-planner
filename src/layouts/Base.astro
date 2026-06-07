@@ -36,7 +36,9 @@ const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : As
         </a>
         <nav class="ml-auto flex items-center gap-4">
           <a href="/" class="text-sm font-medium text-slate-600 hover:text-scout-purple">Badges</a>
-          <a href="/bases" class="text-sm font-medium text-slate-600 hover:text-scout-purple">Bases</a>
+          <a href="/bases" class="text-sm font-medium text-slate-600 hover:text-scout-purple"
+            >Bases</a
+          >
           <NavPlan client:load />
         </nav>
       </div>

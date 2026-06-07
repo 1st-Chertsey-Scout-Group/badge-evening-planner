@@ -54,7 +54,9 @@ function newId(): string {
 // Newest first. Reverse before the stable sort so same-tick saves still order
 // newest-first rather than by insertion.
 export function listEvenings(): Evening[] {
-  return read().reverse().sort((a, b) => b.createdAt - a.createdAt)
+  return read()
+    .reverse()
+    .sort((a, b) => b.createdAt - a.createdAt)
 }
 
 export function getEvening(id: string): Evening | undefined {

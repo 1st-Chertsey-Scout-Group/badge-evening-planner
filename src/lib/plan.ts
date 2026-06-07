@@ -1,7 +1,7 @@
 // Browser-only "current plan" cart: the base slugs selected for the evening you
 // are putting together. One transient working set, not a saved named evening -
-// it survives navigation and reload until cleared. Kept separate from the
-// requirement ticks in storage.ts (key badge-progress:v1).
+// it survives navigation and reload until cleared. The plan is the only source
+// of completion - what a badge has "done" is what the planned bases cover.
 
 const KEY = 'badge-plan:v1'
 const LENGTH_KEY = 'badge-plan-length:v1'

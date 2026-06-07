@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { badgePreview, coveredTicks, kitList } from '@/lib/coverage'
+import { badgeCoverage, coveredLeavesForBadge, coveredTicks, kitList } from '@/lib/coverage'
 import type { ProgressModel, ProgressNode } from '@/lib/progress'
 
 const leaf = (id: string, repeatTimes = 1): ProgressNode => ({
@@ -37,48 +37,68 @@ describe('coveredTicks', () => {
   })
 })
 
-describe('badgePreview', () => {
-  it('classifies each leaf as done, covered or missing', () => {
+describe('badgeCoverage', () => {
+  it('classifies each leaf as covered or missing', () => {
     const model = unit([leaf('a'), leaf('b'), leaf('c')])
-    const p = badgePreview(model, new Set(['a']), new Set(['b']))
-    expect(p.states).toEqual({ a: 'done', b: 'covered', c: 'missing' })
+    const c = badgeCoverage(model, new Set(['a', 'b']))
+    expect(c.states).toEqual({ a: 'covered', b: 'covered', c: 'missing' })
   })
 
-  it('projects completion from ticks plus the plan', () => {
+  it('completes a badge once the plan covers everything', () => {
     const model = unit([leaf('a'), leaf('b')])
-    const p = badgePreview(model, new Set(['a']), new Set(['b']))
-    expect(p.current.complete).toBe(false)
-    expect(p.projected.complete).toBe(true)
+    expect(badgeCoverage(model, new Set(['a'])).tally.complete).toBe(false)
+    expect(badgeCoverage(model, new Set(['a', 'b'])).tally.complete).toBe(true)
   })
 
   it('counts a covered repeat leaf as fully satisfied', () => {
     const model = unit([leaf('a', 3)])
-    const p = badgePreview(model, new Set(), new Set(['a']))
-    expect(p.projected.complete).toBe(true)
+    expect(badgeCoverage(model, new Set(['a'])).tally.complete).toBe(true)
   })
 
-  it('handles a do-all branch across stages of completion', () => {
+  it('handles a do-all branch', () => {
     const model = unit([all('p', [leaf('a'), leaf('b')])])
-    const p = badgePreview(model, new Set(['a']), new Set(['b']))
-    expect(p.states).toEqual({ a: 'done', b: 'covered' })
-    expect(p.projected.complete).toBe(true)
+    const c = badgeCoverage(model, new Set(['a', 'b']))
+    expect(c.states).toEqual({ a: 'covered', b: 'covered' })
+    expect(c.tally.complete).toBe(true)
+  })
+})
+
+describe('coveredLeavesForBadge', () => {
+  const bases = [
+    { slug: 'bleeding', covers: [{ reqId: '1', badgeSlug: 'first-aid' }] },
+    {
+      slug: 'burns',
+      covers: [
+        { reqId: '2', badgeSlug: 'first-aid' },
+        { reqId: '9', badgeSlug: 'fire-safety' },
+      ],
+    },
+  ]
+
+  it('unions leaf ids from in-plan bases for the badge', () => {
+    expect(coveredLeavesForBadge('first-aid', new Set(['bleeding', 'burns']), bases)).toEqual(
+      new Set(['1', '2']),
+    )
   })
 
-  it('leaves manual ticks taking priority over coverage', () => {
-    const model = unit([leaf('a')])
-    const p = badgePreview(model, new Set(['a']), new Set(['a']))
-    expect(p.states.a).toBe('done')
+  it('ignores bases not in the plan and covers for other badges', () => {
+    expect(coveredLeavesForBadge('first-aid', new Set(['burns']), bases)).toEqual(new Set(['2']))
+    expect(coveredLeavesForBadge('fire-safety', new Set(['burns']), bases)).toEqual(new Set(['9']))
   })
 })
 
 describe('kitList', () => {
-  it('dedupes case-insensitively keeping first wording', () => {
+  it('dedupes case-insensitively keeping first wording, with counts', () => {
     expect(
       kitList([{ equipment: ['Gloves', 'Bandages'] }, { equipment: ['gloves', 'Cling film'] }]),
-    ).toEqual(['Gloves', 'Bandages', 'Cling film'])
+    ).toEqual([
+      { item: 'Gloves', count: 2 },
+      { item: 'Bandages', count: 1 },
+      { item: 'Cling film', count: 1 },
+    ])
   })
 
   it('drops blanks', () => {
-    expect(kitList([{ equipment: ['  ', 'Mats'] }])).toEqual(['Mats'])
+    expect(kitList([{ equipment: ['  ', 'Mats'] }])).toEqual([{ item: 'Mats', count: 1 }])
   })
 })

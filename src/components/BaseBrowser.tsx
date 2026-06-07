@@ -111,7 +111,10 @@ function BaseCard({ base, on, loaded }: { base: BaseSummary; on: boolean; loaded
   return (
     <li class="flex flex-col rounded-xl border border-slate-200 bg-white p-4">
       <div class="flex items-start justify-between gap-3">
-        <a href={`/bases/${base.slug}`} class="font-semibold text-slate-900 hover:text-scout-purple">
+        <a
+          href={`/bases/${base.slug}`}
+          class="font-semibold text-slate-900 hover:text-scout-purple"
+        >
           {base.title}
         </a>
         <span class="inline-flex shrink-0 items-center gap-1 text-xs text-slate-500">

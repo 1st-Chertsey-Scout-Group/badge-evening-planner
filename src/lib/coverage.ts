@@ -1,16 +1,15 @@
-// Coverage preview for the evening planner. Pure and island-safe: given a
-// badge's progress model, the requirements already ticked, and the leaf ids a
-// selected set of bases would cover, it works out what an evening adds. Sits on
-// top of progress.ts and never touches storage or astro:content.
+// Plan-driven coverage for a badge. Pure and island-safe: given a badge's
+// progress model and the leaf ids the bases in the current plan would cover, it
+// works out completion and per-requirement state. Sits on top of progress.ts
+// and never touches storage or astro:content. The plan is the only source of
+// "done" - there is no manual progress.
 
 import {
   badgeTally,
-  nodeTally,
   type BadgeTally,
   type ProgressModel,
   type ProgressNode,
   type ProgressUnit,
-  type Ticked,
 } from './progress'
 
 function units(model: ProgressModel): ProgressUnit[] {
@@ -37,49 +36,55 @@ export function coveredTicks(model: ProgressModel, covered: ReadonlySet<string>)
   return out
 }
 
-export type ReqState = 'done' | 'covered' | 'missing'
+export type ReqState = 'covered' | 'missing'
 
-export interface BadgePreview {
-  // completion from ticks alone vs ticks plus the planned bases
-  current: BadgeTally
-  projected: BadgeTally
-  // per leaf id: already ticked, would be covered by the plan, or still missing
+export interface BadgeCoverage {
+  tally: BadgeTally
+  // per leaf id: covered by the plan, or still missing
   states: Record<string, ReqState>
 }
 
-export function badgePreview(
-  model: ProgressModel,
-  manual: Ticked,
-  covered: ReadonlySet<string>,
-): BadgePreview {
-  const combined = new Set<string>([...manual, ...coveredTicks(model, covered)])
+export function badgeCoverage(model: ProgressModel, covered: ReadonlySet<string>): BadgeCoverage {
   const states: Record<string, ReqState> = {}
-  for (const n of leaves(model)) {
-    states[n.id] = nodeTally(n, manual).satisfied
-      ? 'done'
-      : covered.has(n.id)
-        ? 'covered'
-        : 'missing'
+  for (const n of leaves(model)) states[n.id] = covered.has(n.id) ? 'covered' : 'missing'
+  return { tally: badgeTally(model, coveredTicks(model, covered)), states }
+}
+
+// The plan stores base slugs; each base knows which leaf requirements it covers
+// and for which badge. The leaf ids a plan covers for one badge.
+interface PlanBase {
+  slug: string
+  covers: { reqId: string; badgeSlug: string }[]
+}
+
+export function coveredLeavesForBadge(
+  badgeSlug: string,
+  plan: ReadonlySet<string>,
+  bases: PlanBase[],
+): Set<string> {
+  const out = new Set<string>()
+  for (const b of bases) {
+    if (!plan.has(b.slug)) continue
+    for (const c of b.covers) if (c.badgeSlug === badgeSlug) out.add(c.reqId)
   }
-  return {
-    current: badgeTally(model, manual),
-    projected: badgeTally(model, combined),
-    states,
-  }
+  return out
 }
 
 // One deduped equipment list for an evening, keyed case-insensitively but
-// keeping the first-seen wording.
-export function kitList(bases: { equipment: string[] }[]): string[] {
-  const seen = new Set<string>()
-  const out: string[] = []
+// keeping the first-seen wording. Counts how many bases call for each item.
+export function kitList(bases: { equipment: string[] }[]): { item: string; count: number }[] {
+  const order: string[] = []
+  const byKey = new Map<string, { item: string; count: number }>()
   for (const b of bases)
-    for (const item of b.equipment) {
-      const key = item.trim().toLowerCase()
-      if (key && !seen.has(key)) {
-        seen.add(key)
-        out.push(item)
+    for (const raw of b.equipment) {
+      const key = raw.trim().toLowerCase()
+      if (!key) continue
+      const e = byKey.get(key)
+      if (e) e.count++
+      else {
+        byKey.set(key, { item: raw, count: 1 })
+        order.push(key)
       }
     }
-  return out
+  return order.map((k) => byKey.get(k)!)
 }

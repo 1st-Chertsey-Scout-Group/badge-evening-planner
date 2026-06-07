@@ -22,8 +22,16 @@ const slugify = (s: string): string =>
     .replace(/^-+|-+$/g, '')
 
 const yaml = (s: string): string => JSON.stringify(s)
-const lines = (s: string): string[] => s.split('\n').map((x) => x.trim()).filter(Boolean)
-const splitList = (s: string): string[] => s.split(',').map((x) => x.trim()).filter(Boolean)
+const lines = (s: string): string[] =>
+  s
+    .split('\n')
+    .map((x) => x.trim())
+    .filter(Boolean)
+const splitList = (s: string): string[] =>
+  s
+    .split(',')
+    .map((x) => x.trim())
+    .filter(Boolean)
 
 function arrayBlock(name: string, items: string[]): string {
   if (items.length === 0) return `${name}: []`
@@ -123,41 +131,81 @@ export default function BaseBuilder({ badges }: Props) {
     return [...m.entries()]
   }, [picked])
 
-  const field = 'w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-scout-purple focus:outline-none'
+  const field =
+    'w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-scout-purple focus:outline-none'
 
   return (
     <div class="grid gap-8 lg:grid-cols-2">
       <div class="space-y-5">
         <div>
           <label class="block text-sm font-medium text-slate-700">Title</label>
-          <input class={`mt-1 ${field}`} value={title} onInput={(e) => setTitle(e.currentTarget.value)} placeholder="Dealing with bleeding" />
+          <input
+            class={`mt-1 ${field}`}
+            value={title}
+            onInput={(e) => setTitle(e.currentTarget.value)}
+            placeholder="Dealing with bleeding"
+          />
         </div>
         <div>
           <label class="block text-sm font-medium text-slate-700">Description</label>
-          <input class={`mt-1 ${field}`} value={description} onInput={(e) => setDescription(e.currentTarget.value)} placeholder="One line on what the activity is" />
+          <input
+            class={`mt-1 ${field}`}
+            value={description}
+            onInput={(e) => setDescription(e.currentTarget.value)}
+            placeholder="One line on what the activity is"
+          />
         </div>
         <div class="grid grid-cols-2 gap-4">
           <div>
             <label class="block text-sm font-medium text-slate-700">Duration (min)</label>
-            <input type="number" min="1" class={`mt-1 ${field}`} value={duration} onInput={(e) => setDuration(e.currentTarget.value)} />
+            <input
+              type="number"
+              min="1"
+              class={`mt-1 ${field}`}
+              value={duration}
+              onInput={(e) => setDuration(e.currentTarget.value)}
+            />
           </div>
           <div>
             <label class="block text-sm font-medium text-slate-700">Tags</label>
-            <input class={`mt-1 ${field}`} value={tags} onInput={(e) => setTags(e.currentTarget.value)} placeholder="Scouts, Indoor" />
+            <input
+              class={`mt-1 ${field}`}
+              value={tags}
+              onInput={(e) => setTags(e.currentTarget.value)}
+              placeholder="Scouts, Indoor"
+            />
           </div>
         </div>
         <div>
           <label class="block text-sm font-medium text-slate-700">Equipment (one per line)</label>
-          <textarea class={`mt-1 ${field}`} rows={3} value={equipment} onInput={(e) => setEquipment(e.currentTarget.value)} />
+          <textarea
+            class={`mt-1 ${field}`}
+            rows={3}
+            value={equipment}
+            onInput={(e) => setEquipment(e.currentTarget.value)}
+          />
         </div>
         <div>
-          <label class="block text-sm font-medium text-slate-700">Run instructions (markdown)</label>
-          <textarea class={`mt-1 ${field}`} rows={5} value={body} onInput={(e) => setBody(e.currentTarget.value)} />
+          <label class="block text-sm font-medium text-slate-700">
+            Run instructions (markdown)
+          </label>
+          <textarea
+            class={`mt-1 ${field}`}
+            rows={5}
+            value={body}
+            onInput={(e) => setBody(e.currentTarget.value)}
+          />
         </div>
 
         <div>
-          <label class="block text-sm font-medium text-slate-700">Add requirements from a badge</label>
-          <select class={`mt-1 ${field}`} value={badgeSlug} onChange={(e) => setBadgeSlug(e.currentTarget.value)}>
+          <label class="block text-sm font-medium text-slate-700">
+            Add requirements from a badge
+          </label>
+          <select
+            class={`mt-1 ${field}`}
+            value={badgeSlug}
+            onChange={(e) => setBadgeSlug(e.currentTarget.value)}
+          >
             <option value="">Choose a badge...</option>
             {badges.map((b) => (
               <option key={b.slug} value={b.slug}>
@@ -171,7 +219,11 @@ export default function BaseBuilder({ badges }: Props) {
             <div class="mt-3 max-h-96 overflow-y-auto rounded-lg border border-slate-200 p-3">
               {trees[badgeSlug].groups.map((g, i) => (
                 <div key={i} class={i > 0 ? 'mt-4' : ''}>
-                  {g.label && <p class="mb-1 text-xs font-semibold tracking-wide text-slate-500 uppercase">{g.label}</p>}
+                  {g.label && (
+                    <p class="mb-1 text-xs font-semibold tracking-wide text-slate-500 uppercase">
+                      {g.label}
+                    </p>
+                  )}
                   <Tree nodes={g.nodes} picked={picked} onToggle={toggle} />
                 </div>
               ))}
@@ -217,10 +269,20 @@ export default function BaseBuilder({ badges }: Props) {
           <div class="flex items-center justify-between gap-2">
             <h2 class="text-sm font-semibold tracking-wide text-slate-500 uppercase">index.md</h2>
             <div class="flex gap-2">
-              <button type="button" onClick={copy} disabled={!valid} class="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 px-2.5 py-1 text-xs font-medium text-slate-700 hover:border-scout-purple disabled:opacity-40">
+              <button
+                type="button"
+                onClick={copy}
+                disabled={!valid}
+                class="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 px-2.5 py-1 text-xs font-medium text-slate-700 hover:border-scout-purple disabled:opacity-40"
+              >
                 {copied ? <Check size={13} /> : <Copy size={13} />} {copied ? 'Copied' : 'Copy'}
               </button>
-              <button type="button" onClick={download} disabled={!valid} class="inline-flex items-center gap-1.5 rounded-lg bg-scout-purple px-2.5 py-1 text-xs font-medium text-white hover:bg-scout-purple/90 disabled:opacity-40">
+              <button
+                type="button"
+                onClick={download}
+                disabled={!valid}
+                class="inline-flex items-center gap-1.5 rounded-lg bg-scout-purple px-2.5 py-1 text-xs font-medium text-white hover:bg-scout-purple/90 disabled:opacity-40"
+              >
                 <Download size={13} /> Download
               </button>
             </div>
@@ -233,7 +295,9 @@ export default function BaseBuilder({ badges }: Props) {
               Needs a title, a duration and at least one requirement.
             </p>
           )}
-          <pre class="mt-3 max-h-96 overflow-auto rounded-lg bg-slate-900 p-3 text-xs text-slate-100"><code>{md}</code></pre>
+          <pre class="mt-3 max-h-96 overflow-auto rounded-lg bg-slate-900 p-3 text-xs text-slate-100">
+            <code>{md}</code>
+          </pre>
         </section>
       </div>
     </div>

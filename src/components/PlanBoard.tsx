@@ -1,7 +1,7 @@
 /** @jsxImportSource preact */
 import { useEffect, useMemo, useState } from 'preact/hooks'
 import type { BaseSummary, Cover, TouchedBadge } from '@/lib/bases'
-import { badgePreview, kitList, type BadgePreview } from '@/lib/coverage'
+import { badgeCoverage, kitList, type BadgeCoverage as Coverage } from '@/lib/coverage'
 import {
   clearPlan,
   DEFAULT_LENGTH,
@@ -20,7 +20,6 @@ import {
   onEveningsChange,
   saveEvening,
 } from '@/lib/evenings'
-import { getAllTicked, onProgressChange } from '@/lib/storage'
 import { Bookmark, Clock, Copy, FolderOpen, Trash2, X } from 'lucide-preact'
 
 interface Props {
@@ -28,11 +27,8 @@ interface Props {
   badges: TouchedBadge[]
 }
 
-const EMPTY: ReadonlySet<string> = new Set()
-
 export default function PlanBoard({ bases, badges }: Props) {
   const [plan, setPlan] = useState<Set<string>>(new Set())
-  const [ticks, setTicks] = useState<Record<string, Set<string>>>({})
   const [length, setLength] = useState(DEFAULT_LENGTH)
   const [evenings, setEvenings] = useState<Evening[]>([])
   const [loaded, setLoaded] = useState(false)
@@ -42,17 +38,11 @@ export default function PlanBoard({ bases, badges }: Props) {
       setPlan(getPlan())
       setLength(getPlanLength())
     }
-    const syncTicks = () => setTicks(getAllTicked())
     const syncEvenings = () => setEvenings(listEvenings())
     syncPlan()
-    syncTicks()
     syncEvenings()
     setLoaded(true)
-    return combine(
-      onPlanChange(syncPlan),
-      onProgressChange(syncTicks),
-      onEveningsChange(syncEvenings),
-    )
+    return combine(onPlanChange(syncPlan), onEveningsChange(syncEvenings))
   }, [])
 
   const baseBySlug = useMemo(() => new Map(bases.map((b) => [b.slug, b])), [bases])
@@ -79,20 +69,20 @@ export default function PlanBoard({ bases, badges }: Props) {
   }, [selected])
 
   const previews = useMemo(() => {
-    const out: { badge: TouchedBadge; covers: Cover[]; p: BadgePreview }[] = []
+    const out: { badge: TouchedBadge; covers: Cover[]; p: Coverage }[] = []
     for (const [slug, { ids, covers }] of byBadge) {
       const badge = badgeBySlug.get(slug)
       if (!badge) continue
-      out.push({ badge, covers, p: badgePreview(badge.model, ticks[slug] ?? EMPTY, ids) })
+      out.push({ badge, covers, p: badgeCoverage(badge.model, ids) })
     }
     return out.sort((a, b) => a.badge.title.localeCompare(b.badge.title))
-  }, [byBadge, badgeBySlug, ticks])
+  }, [byBadge, badgeBySlug])
 
   const totalMins = selected.reduce((n, b) => n + b.duration, 0)
   const kit = useMemo(() => kitList(selected), [selected])
-  const completes = previews.filter((x) => x.p.projected.complete && !x.p.current.complete).length
+  const completes = previews.filter((x) => x.p.tally.complete).length
 
-  const completing = previews.find((x) => x.p.projected.complete && !x.p.current.complete)
+  const completing = previews.find((x) => x.p.tally.complete)
   function save() {
     const name = prompt(
       'Name this evening',
@@ -275,14 +265,14 @@ function BadgeCoverage({
 }: {
   badge: TouchedBadge
   covers: Cover[]
-  p: BadgePreview
+  p: Coverage
 }) {
-  const newlyComplete = p.projected.complete && !p.current.complete
+  const complete = p.tally.complete
   const label = badge.model.stages ? 'stages' : 'requirements'
   return (
     <section
       class={`overflow-hidden rounded-xl border bg-white ${
-        newlyComplete ? 'border-scout-green/60' : 'border-slate-200'
+        complete ? 'border-scout-green/60' : 'border-slate-200'
       }`}
     >
       <div class="flex items-center gap-3 p-4">
@@ -301,29 +291,20 @@ function BadgeCoverage({
             {badge.title}
           </a>
           <p class="text-xs text-slate-500">
-            {p.current.done} of {p.current.needed} {label} done
-            {p.projected.done !== p.current.done && (
-              <>
-                {' '}
-                &rarr; <span class="font-semibold text-scout-green">{p.projected.done}</span> with
-                this plan
-              </>
-            )}
+            Plan covers {p.tally.done} of {p.tally.needed} {label}
           </p>
         </div>
-        {newlyComplete && (
+        {complete && (
           <span class="shrink-0 rounded-full bg-scout-green px-2.5 py-0.5 text-xs font-semibold text-white">
             Completes
           </span>
         )}
       </div>
       <div class="h-1.5 w-full bg-slate-100">
-        <div class="h-full bg-scout-purple/30" style={`width:${p.projected.percent}%`}>
-          <div
-            class="h-full bg-scout-purple"
-            style={`width:${pctRatio(p.current.percent, p.projected.percent)}%`}
-          />
-        </div>
+        <div
+          class={`h-full ${complete ? 'bg-scout-green' : 'bg-scout-purple'}`}
+          style={`width:${p.tally.percent}%`}
+        />
       </div>
       <ul class="space-y-1 border-t border-slate-100 px-4 py-3 text-sm text-slate-600">
         {covers.map((c) => (
@@ -335,11 +316,6 @@ function BadgeCoverage({
       </ul>
     </section>
   )
-}
-
-// inner (already-done) fill as a fraction of the outer (projected) fill width
-function pctRatio(now: number, then: number): number {
-  return then === 0 ? 0 : Math.round((now / then) * 100)
 }
 
 function SelectedBases({ bases }: { bases: BaseSummary[] }) {
@@ -371,14 +347,17 @@ function SelectedBases({ bases }: { bases: BaseSummary[] }) {
   )
 }
 
-function KitList({ items }: { items: string[] }) {
+function KitList({ items }: { items: { item: string; count: number }[] }) {
   if (items.length === 0) return null
   return (
     <section class="rounded-xl border border-slate-200 bg-white p-4">
       <h2 class="text-sm font-semibold tracking-wide text-slate-500 uppercase">Kit list</h2>
       <ul class="mt-3 list-disc space-y-1 pl-5 text-sm text-slate-600">
-        {items.map((i) => (
-          <li key={i}>{i}</li>
+        {items.map(({ item, count }) => (
+          <li key={item}>
+            {item}
+            {count > 1 && <span class="text-slate-400"> &times;{count}</span>}
+          </li>
         ))}
       </ul>
     </section>

@@ -1,6 +1,6 @@
 // Build-time resolution of a badge's requirement refs into a nested tree, with
 // markdown notes rendered to HTML. Server-only: imports astro:content, so never
-// pull this into a client island (islands use progress.ts / storage.ts).
+// pull this into a client island (islands use progress.ts / coverage.ts).
 
 import { getCollection, getEntry, type CollectionEntry } from 'astro:content'
 import { md } from './markdown'

@@ -82,15 +82,13 @@ const related = d.relatedBadges.map((r) => {
     }
 
     <section class="mt-8">
-      <BadgeChecklist client:load badge={resolved} />
+      <BadgeChecklist client:load badge={resolved} bases={bases} />
     </section>
 
     {
       bases.length > 0 && (
         <section class="mt-10">
-          <h2 class="mb-3 text-lg font-bold text-slate-900">
-            Bases for this badge
-          </h2>
+          <h2 class="mb-3 text-lg font-bold text-slate-900">Bases for this badge</h2>
           <p class="mb-3 text-sm text-slate-600">
             Activities that tick off these requirements. Add them to your evening plan.
           </p>

@@ -26,7 +26,10 @@ const badges = [...byBadge.entries()]
 
 <Base title={`${resolved.title} - Bases`} description={resolved.description}>
   <main class="mx-auto max-w-3xl px-4 py-8">
-    <a href="/bases" class="inline-flex items-center gap-1 text-sm text-scout-purple hover:underline">
+    <a
+      href="/bases"
+      class="inline-flex items-center gap-1 text-sm text-scout-purple hover:underline"
+    >
       <ArrowLeft size={16} /> All bases
     </a>
 
@@ -35,7 +38,8 @@ const badges = [...byBadge.entries()]
         <h1 class="text-2xl font-bold text-slate-900 sm:text-3xl">{resolved.title}</h1>
         {resolved.description && <p class="mt-1 text-slate-600">{resolved.description}</p>}
         <p class="mt-2 inline-flex items-center gap-1.5 text-sm text-slate-500">
-          <Clock size={15} /> {resolved.duration} min
+          <Clock size={15} />
+          {resolved.duration} min
         </p>
       </div>
       <PlanToggle client:load slug={resolved.slug} />
@@ -59,10 +63,7 @@ const badges = [...byBadge.entries()]
         {
           badges.map(([slug, b]) => (
             <li>
-              <a
-                href={`/badges/${slug}`}
-                class="font-medium text-scout-purple hover:underline"
-              >
+              <a href={`/badges/${slug}`} class="font-medium text-scout-purple hover:underline">
                 {b.title}
               </a>
               <ul class="mt-1 list-disc space-y-1 pl-5 text-sm text-slate-600">

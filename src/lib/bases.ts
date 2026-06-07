@@ -38,8 +38,7 @@ export interface TouchedBadge {
 
 let _titles: Map<string, string> | null = null
 async function badgeTitles(): Promise<Map<string, string>> {
-  if (!_titles)
-    _titles = new Map((await getCollection('badges')).map((b) => [b.id, b.data.title]))
+  if (!_titles) _titles = new Map((await getCollection('badges')).map((b) => [b.id, b.data.title]))
   return _titles
 }
 
