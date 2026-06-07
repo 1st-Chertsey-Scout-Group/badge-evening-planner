@@ -8,5 +8,7 @@ export default defineConfig({
   integrations: [preact()],
   vite: {
     plugins: [tailwindcss()],
+    // the islands' @jsxImportSource preact pragma needs the automatic transform
+    esbuild: { jsx: 'automatic', jsxImportSource: 'preact' },
   },
 })
