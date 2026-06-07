@@ -10,7 +10,7 @@ const summaries: BadgeSummary[] = await Promise.all(
   badges
     .sort((a, b) => a.data.title.localeCompare(b.data.title))
     .map(async (b) => {
-      const img = await getImage({ src: b.data.image.src, width: 192, height: 192 })
+      const img = await getImage({ src: b.data.image.src, width: 192 })
       return {
         slug: b.id,
         title: b.data.title,

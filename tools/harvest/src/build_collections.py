@@ -27,6 +27,7 @@ import shutil
 import sys
 import urllib.request
 from pathlib import Path
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 from core import CMS, HEADERS, WWW, md, normalize_text
 
@@ -166,7 +167,7 @@ def download_image(image: object, slug: str, dest_dir: Path, no_images: bool) ->
     if not dest.exists():
         dest_dir.mkdir(parents=True, exist_ok=True)
         try:
-            req = urllib.request.Request(abs_cms(image["url"]), headers=HEADERS)
+            req = urllib.request.Request(abs_cms(uncropped(image["url"])), headers=HEADERS)
             with urllib.request.urlopen(req, timeout=30) as r:
                 dest.write_bytes(r.read())
         except Exception as exc:  # noqa: BLE001 - keep building without the image
@@ -178,6 +179,17 @@ def download_image(image: object, slug: str, dest_dir: Path, no_images: bool) ->
 
 def abs_cms(path: str) -> str:
     return CMS + path if path.startswith("/") else path
+
+
+def uncropped(url: str) -> str:
+    """Badge art is ~square. The CMS crops to the requested width x height, and
+    some staged badges request a 16:9 banner (e.g. width=800&height=450). Drop
+    `height` so the artwork comes back at its native aspect, uncropped."""
+    parts = urlsplit(url)
+    if not parts.query:
+        return url
+    kept = [(k, v) for k, v in parse_qsl(parts.query) if k.lower() != "height"]
+    return urlunsplit(parts._replace(query=urlencode(kept)))
 
 
 def build_badge(raw: dict, btype: str, slug: str, reqs: dict, no_images: bool) -> dict:
