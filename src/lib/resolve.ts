@@ -11,7 +11,7 @@ import type { ReqNode, ResolvedBadge, Stage, Unit } from './types'
 type Ref = { collection: 'requirements'; id: string }
 
 let _slugs: Set<string> | null = null
-async function badgeSlugs(): Promise<Set<string>> {
+export async function getBadgeSlugs(): Promise<Set<string>> {
   if (!_slugs) _slugs = new Set((await getCollection('badges')).map((b) => b.id))
   return _slugs
 }
@@ -23,7 +23,7 @@ function proseHtml(src: string, slugs: ReadonlySet<string>): string {
 // Render markdown to HTML with links resolved, for the Astro-side prose blocks
 // (tips, safety, youth-shaped) that don't go through resolveBadge.
 export async function renderProse(src: string | null | undefined): Promise<string> {
-  return proseHtml(src ?? '', await badgeSlugs())
+  return proseHtml(src ?? '', await getBadgeSlugs())
 }
 
 async function resolveNode(ref: Ref, slugs: ReadonlySet<string>): Promise<ReqNode> {
@@ -60,7 +60,7 @@ async function resolveUnit(
 
 export async function resolveBadge(badge: CollectionEntry<'badges'>): Promise<ResolvedBadge> {
   const d = badge.data
-  const slugs = await badgeSlugs()
+  const slugs = await getBadgeSlugs()
   if (d.stages) {
     const stages: Stage[] = await Promise.all(
       d.stages.map(async (s) => ({

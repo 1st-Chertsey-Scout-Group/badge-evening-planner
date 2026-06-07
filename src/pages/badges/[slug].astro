@@ -3,7 +3,8 @@ import { getCollection } from 'astro:content'
 import { Image } from 'astro:assets'
 import Base from '@/layouts/Base.astro'
 import BadgeChecklist from '@/components/BadgeChecklist'
-import { resolveBadge, renderProse } from '@/lib/resolve'
+import { getBadgeSlugs, resolveBadge, renderProse } from '@/lib/resolve'
+import { badgeHrefFor } from '@/lib/links'
 import { PROSE } from '@/lib/prose'
 import { TYPE_LABEL } from '@/lib/badges'
 import { ArrowLeft } from 'lucide-preact'
@@ -26,6 +27,12 @@ const tips = await Promise.all(
     detailsHtml: t.details ? await renderProse(t.details) : '',
   })),
 )
+
+const slugs = await getBadgeSlugs()
+const related = d.relatedBadges.map((r) => {
+  const internal = badgeHrefFor(r.url, slugs)
+  return { title: r.title, href: internal ?? r.url, external: internal === null }
+})
 ---
 
 <Base title={`${d.title} - Badge Tracker`} description={d.description}>
@@ -116,15 +123,16 @@ const tips = await Promise.all(
     }
 
     {
-      d.relatedBadges.length > 0 && (
+      related.length > 0 && (
         <section class="mt-10">
           <h2 class="mb-3 text-lg font-bold text-slate-900">Related badges</h2>
           <ul class="flex flex-wrap gap-2">
-            {d.relatedBadges.map((r) => (
+            {related.map((r) => (
               <li>
                 <a
-                  href={r.url}
+                  href={r.href}
                   class="rounded-full bg-scout-purple/10 px-3 py-1 text-sm text-scout-purple-dark hover:bg-scout-purple/20"
+                  {...(r.external ? { target: '_blank', rel: 'noopener' } : {})}
                 >
                   {r.title}
                 </a>
