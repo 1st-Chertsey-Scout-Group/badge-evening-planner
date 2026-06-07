@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useState } from 'preact/hooks'
 import { badgeTally, nodeTally, type Ticked } from '@/lib/progress'
 import { getTicked, onProgressChange, resetBadge, setTicked as persist } from '@/lib/storage'
-import type { ReqNode, ResolvedBadge, Unit } from '@/lib/types'
+import type { ReqNode, ResolvedBadge, Stage, Unit } from '@/lib/types'
 import ProgressRing from './ProgressRing'
 
 interface Props {
@@ -85,28 +85,9 @@ export default function BadgeChecklist({ badge }: Props) {
       )}
 
       {badge.stages
-        ? badge.stages.map((stage, i) => {
-            const done = unitSatisfied(stage, ticked)
-            return (
-              <section key={i} class="mb-4 rounded-xl border border-slate-200 bg-white p-4">
-                <header class="mb-2 flex items-center gap-2">
-                  <span
-                    class={`flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs font-bold ${
-                      done ? 'bg-scout-green text-white' : 'bg-slate-200 text-slate-500'
-                    }`}
-                  >
-                    {done ? '✓' : i + 1}
-                  </span>
-                  <h3 class="font-semibold text-slate-800">{stage.label}</h3>
-                </header>
-                <RequirementList
-                  nodes={[...stage.mandatory, ...stage.optional]}
-                  ticked={ticked}
-                  onToggle={setOne}
-                />
-              </section>
-            )
-          })
+        ? badge.stages.map((stage, i) => (
+            <StageSection key={i} stage={stage} index={i} ticked={ticked} onToggle={setOne} />
+          ))
         : badge.unit && <UnitView unit={badge.unit} ticked={ticked} onToggle={setOne} />}
     </div>
   )
@@ -116,6 +97,74 @@ function unitSatisfied(unit: Unit, ticked: Ticked): boolean {
   return (
     unit.mandatory.every((n) => nodeTally(n, ticked).satisfied) &&
     unit.optional.every((n) => nodeTally(n, ticked).satisfied)
+  )
+}
+
+function unitStarted(unit: Unit, ticked: Ticked): boolean {
+  return [...unit.mandatory, ...unit.optional].some((n) => nodeTally(n, ticked).done > 0)
+}
+
+function Chevron({ open }: { open: boolean }) {
+  return (
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      class={`shrink-0 text-slate-400 transition-transform ${open ? 'rotate-180' : ''}`}
+    >
+      <path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  )
+}
+
+// A staged badge's stage: collapsible, open by default for stage 1 and for any
+// stage that already has progress.
+function StageSection({
+  stage,
+  index,
+  ticked,
+  onToggle,
+}: { stage: Stage; index: number } & ToggleProps) {
+  const done = unitSatisfied(stage, ticked)
+  const started = unitStarted(stage, ticked)
+  const [override, setOverride] = useState<boolean | null>(null)
+  const open = override ?? (index === 0 || started)
+
+  return (
+    <section
+      class={`mb-4 overflow-hidden rounded-xl border bg-white ${
+        done ? 'border-scout-green/50' : 'border-slate-200'
+      }`}
+    >
+      <button
+        type="button"
+        aria-expanded={open}
+        onClick={() => setOverride(!open)}
+        class="flex w-full items-center gap-2 p-4 text-left"
+      >
+        <span
+          class={`flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs font-bold ${
+            done ? 'bg-scout-green text-white' : 'bg-slate-200 text-slate-500'
+          }`}
+        >
+          {done ? '✓' : index + 1}
+        </span>
+        <h3 class="flex-1 font-semibold text-slate-800">{stage.label}</h3>
+        <Chevron open={open} />
+      </button>
+      {open && (
+        <div class="border-t border-slate-100 px-4 pt-3 pb-4">
+          <RequirementList
+            nodes={[...stage.mandatory, ...stage.optional]}
+            ticked={ticked}
+            onToggle={onToggle}
+          />
+        </div>
+      )}
+    </section>
   )
 }
 
@@ -373,17 +422,7 @@ function ExpandableOption({
         <span class={`flex-1 font-medium ${done ? 'text-scout-purple-dark' : 'text-slate-800'}`}>
           {option.title}
         </span>
-        <svg
-          width="16"
-          height="16"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          class={`shrink-0 text-slate-400 transition-transform ${open ? 'rotate-180' : ''}`}
-        >
-          <path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round" />
-        </svg>
+        <Chevron open={open} />
       </button>
       {open && (
         <div class="border-t border-slate-100 px-3 pt-2 pb-3">
