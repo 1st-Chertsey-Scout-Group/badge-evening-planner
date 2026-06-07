@@ -15,7 +15,8 @@
     "@astrojs/preact": "^5.1.5",
     "@fontsource-variable/nunito-sans": "^5.2.7",
     "astro": "^6.4.4",
-    "preact": "^10.29.2"
+    "preact": "^10.29.2",
+    "sharp": "^0.34.5"
   },
   "packageManager": "pnpm@11.5.2",
   "devDependencies": {
