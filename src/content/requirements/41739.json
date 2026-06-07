@@ -1,0 +1,13 @@
+{
+  "badge": "hobbies",
+  "parent": null,
+  "children": [
+    "46228",
+    "50027"
+  ],
+  "title": "Option 1:",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "diy",
+  "parent": "45128",
+  "children": [],
+  "title": "safety equipment (such as goggles,  gloves, masks, ear defenders)",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

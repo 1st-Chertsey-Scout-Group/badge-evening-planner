@@ -1,0 +1,14 @@
+{
+  "badge": "snowsports",
+  "parent": "40902",
+  "children": [
+    "49570",
+    "49571",
+    "49572"
+  ],
+  "title": "Moving around on your skis or snowboard including;",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

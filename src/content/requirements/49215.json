@@ -1,0 +1,10 @@
+{
+  "badge": "mechanic",
+  "parent": "49214",
+  "children": [],
+  "title": "replenishing a light aircraft fuel and oil system safely",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

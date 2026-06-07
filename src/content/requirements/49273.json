@@ -1,0 +1,10 @@
+{
+  "badge": "writer",
+  "parent": "41213",
+  "children": [],
+  "title": "Write a letter to a pen pal (real or imaginary) of at least 600 words.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

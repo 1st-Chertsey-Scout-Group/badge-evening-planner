@@ -1,0 +1,10 @@
+{
+  "badge": "world",
+  "parent": null,
+  "children": [],
+  "title": "Take part in an activity that reflects upon and explores your own beliefs, attitudes and values (this may or may not include religious beliefs).",
+  "notes": "What values do we share as Scouts? Which Scout value means the most to you?",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "dragon-boating",
+  "parent": null,
+  "children": [],
+  "title": "Take part in a competitive or timed dragon boat event over a course of at least 250 metres.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "community-impact",
+  "parent": null,
+  "children": [],
+  "title": "Plan action. Decide what issue your section would like to take action on and what you would like to change. Work with a group of people not involved in Scouting, who are passionate about your cause, to plan action that will make a positive difference.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "climber",
+  "parent": null,
+  "children": [],
+  "title": "Explain the safety rules for climbing on both natural and artificial rock faces.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

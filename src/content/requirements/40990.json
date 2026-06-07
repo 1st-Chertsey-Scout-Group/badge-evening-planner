@@ -1,0 +1,10 @@
+{
+  "badge": "international",
+  "parent": null,
+  "children": [],
+  "title": "Find out about the World Scout Movement's history and what it does today.",
+  "notes": "Complete a quiz in teams to see who in your Troop knows the most about the World Scout Movement and discuss what you think World Scouting could do in the future.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

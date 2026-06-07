@@ -1,0 +1,10 @@
+{
+  "badge": "hill-walker",
+  "parent": null,
+  "children": [],
+  "title": "Complete your planned journeys.",
+  "notes": "Take turns in leading the group for part of each journey. Keep a log of your journeys.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

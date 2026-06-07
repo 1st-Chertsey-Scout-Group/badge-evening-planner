@@ -1,0 +1,10 @@
+{
+  "badge": "street-sports",
+  "parent": null,
+  "children": [],
+  "title": "Explain how to care for the equipment used and explain what you should look out for when equipment is nearing the end of its life.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

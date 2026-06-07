@@ -1,0 +1,10 @@
+{
+  "badge": "geocaching",
+  "parent": null,
+  "children": [],
+  "title": "Find five geocaches using a GPS. At least three geocaches must be 'multi-caches', with at least two waypoints.",
+  "notes": "Talk about the GPS receiver's accuracy of information provided.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

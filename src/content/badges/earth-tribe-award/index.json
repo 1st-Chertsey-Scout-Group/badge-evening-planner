@@ -1,0 +1,48 @@
+{
+  "slug": "earth-tribe-award",
+  "type": "challenge",
+  "badgeType": "Challenge Award",
+  "title": "Earth Tribe Award",
+  "description": "The Earth Tribe Award is about helping us understand more about protecting our world. Find out how you can be a planet champion!",
+  "versionDate": "May 2024",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/awards/earth-tribe-award/",
+  "sections": [],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "Buy your Earth Tribe Award from Scout Store.",
+      "details": "Once you have completed your pathway you can order your Earth Tribe Award from [Scout Store.](https://shop.scouts.org.uk/new-in/scouts-section-earth-tribe-award-badge#selection.size=719&selection.color=34)"
+    },
+    {
+      "title": "You only need to complete one pathway to earn your award, but you can complete all the pathways multiple times.",
+      "details": ""
+    },
+    {
+      "title": "The Earth Tribe Award pathways follow a similar structure to the Community Impact Staged badges, so you can draw on past experiences.",
+      "details": ""
+    },
+    {
+      "title": "Uniform and badge placement",
+      "details": "The Earth Tribe Award goes on your right arm, under the District and County/Area/Region badges."
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./earth-tribe-award.png",
+    "alt": "Earth Tribe badge for the Scout section, which is round with colourful shapes and the World Scout logo in the middle."
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "Choose one of the following pathways:",
+  "optionsToQualify": 1,
+  "mandatory": [],
+  "optional": [
+    "79692",
+    "79694",
+    "79695"
+  ]
+}

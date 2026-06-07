@@ -1,0 +1,10 @@
+{
+  "badge": "cyclist",
+  "parent": "45376",
+  "children": [],
+  "title": "Show you understand the Mountain Bike Code of Conduct.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

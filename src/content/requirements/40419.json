@@ -1,0 +1,10 @@
+{
+  "badge": "paddle-sports",
+  "parent": null,
+  "children": [],
+  "title": "Gain the British Canoeing Paddle Discover Award.",
+  "notes": "More information about this award can be found on the [British Canoeing website](https://gopaddling.info/discover-awards/).",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

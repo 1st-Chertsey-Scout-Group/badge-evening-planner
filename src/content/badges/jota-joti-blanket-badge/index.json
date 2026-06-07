@@ -1,0 +1,40 @@
+{
+  "slug": "jota-joti-blanket-badge",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "JOTA-JOTI Blanket Badge",
+  "description": "Jamboree on the Air and Jamboree on the Internet (JOTA-JOTI) is the world's largest digital and radio Scouts event, taking place every year over the third full weekend of October. It's a great chance for groups and sections to take part in an international Jamboree.",
+  "versionDate": "January 0001",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/jota-joti-blanket-badge/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "Buy the badge",
+      "details": "You can buy the [JOTA-JOTI Blanket Badge from Scout Store.](https://shop.scouts.org.uk/search/jota%20joti)"
+    },
+    {
+      "title": "Find out more",
+      "details": "- Find out more about the event and how to take part on our [JOTA-JOTI webpage.](/volunteers/running-your-section/programme-guidance/international-scouts-and-events/international-events/jota-joti/)\n- You can take a look at what exciting activities are planned for this year on [WOSM's JOTI-JOTA website.](https://www.jotajoti.info/)\n- Join Scout Adventures for [JOTA-JOTI at Gilwell Park, London](#)."
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./jota-joti-blanket-badge.png",
+    "alt": ""
+  },
+  "requirementsIntro": "Ideas to earn your badge:",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "87048"
+  ],
+  "optional": []
+}

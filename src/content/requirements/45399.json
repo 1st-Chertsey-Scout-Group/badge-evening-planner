@@ -1,0 +1,10 @@
+{
+  "badge": "cyclist",
+  "parent": "45398",
+  "children": [],
+  "title": "Show you can control a cycle along a slalom course",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

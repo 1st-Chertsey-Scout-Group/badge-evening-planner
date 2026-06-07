@@ -1,0 +1,10 @@
+{
+  "badge": "islamophobia-awareness-month-blanket-badge",
+  "parent": "82546",
+  "children": [],
+  "title": "Send a card to a loved one.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

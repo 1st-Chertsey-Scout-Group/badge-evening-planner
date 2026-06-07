@@ -1,0 +1,10 @@
+{
+  "badge": "jota-joti-blanket-badge",
+  "parent": null,
+  "children": [],
+  "title": "Take part in a JOTA-JOTI event.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "hobbies",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Hobbies",
+  "description": "Take part in a hobby and develop your skills. You could choose to develop your creative and artistic flair, play sports or take part in other pursuits.",
+  "versionDate": "January 2018",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/hobbies/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "You can earn more than one Hobbies Badge.",
+      "details": ""
+    },
+    {
+      "title": "A hobby is an activity done regularly in leisure time for enjoyment. This could include reading.",
+      "details": ""
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./hobbies.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "Choose one of the two options below. Complete the tasks for your chosen option to achieve this badge.",
+  "optionsToQualify": 1,
+  "mandatory": [],
+  "optional": [
+    "41739",
+    "41741"
+  ]
+}

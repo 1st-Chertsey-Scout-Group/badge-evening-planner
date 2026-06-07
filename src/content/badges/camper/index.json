@@ -1,0 +1,39 @@
+{
+  "slug": "camper",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Camper",
+  "description": "Get Up and have fun in the great outdoors. Forge new skills as you camp under canvas for at least 15 nights.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/camper/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./camper.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "45318",
+    "45326",
+    "45325",
+    "45321",
+    "45322",
+    "45323",
+    "45324",
+    "45320",
+    "45319"
+  ],
+  "optional": []
+}

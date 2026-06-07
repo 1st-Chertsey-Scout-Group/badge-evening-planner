@@ -1,0 +1,10 @@
+{
+  "badge": "navigator",
+  "parent": "40898",
+  "children": [],
+  "title": "Recorded instructions.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

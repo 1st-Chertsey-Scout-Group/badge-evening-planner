@@ -1,0 +1,13 @@
+{
+  "badge": "model-maker",
+  "parent": "45387",
+  "children": [
+    "49235",
+    "49236"
+  ],
+  "title": "Choose one of these two activities:",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": 1
+}

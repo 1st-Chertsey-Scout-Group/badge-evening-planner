@@ -1,0 +1,10 @@
+{
+  "badge": "photographer",
+  "parent": "45418",
+  "children": [],
+  "title": "Describe what accessories are available to use with digital cameras or smartphone cameras.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

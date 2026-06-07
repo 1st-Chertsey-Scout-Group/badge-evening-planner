@@ -1,0 +1,10 @@
+{
+  "badge": "hill-walker",
+  "parent": null,
+  "children": [],
+  "title": "Before setting out, list the equipment that should be taken and explain how to use them correctly.",
+  "notes": "This includes:\n\n- spare food and safety or emergency equipment\n- what you should wear\n- what you should carry.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

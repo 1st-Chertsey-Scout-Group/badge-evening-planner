@@ -1,0 +1,14 @@
+{
+  "badge": "islamophobia-awareness-month-blanket-badge",
+  "parent": null,
+  "children": [
+    "82599",
+    "82601",
+    "82602"
+  ],
+  "title": "Inspire change",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": 1
+}

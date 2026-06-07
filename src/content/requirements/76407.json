@@ -1,0 +1,10 @@
+{
+  "badge": "skills",
+  "parent": "75677",
+  "children": [],
+  "title": "Use a washing machine to wash a load of clothes",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

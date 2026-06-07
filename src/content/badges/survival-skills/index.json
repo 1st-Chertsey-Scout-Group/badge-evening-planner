@@ -1,0 +1,42 @@
+{
+  "slug": "survival-skills",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Survival Skills",
+  "description": "Be prepared for the unexpected! Develop your survival skills to be self-reliant in tough conditions and an awareness of natural resources and how to use them.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/survival-skills/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "Guidance for Leaders",
+      "details": "For requirement 2 - The young people could find other ways to demonstrate their survival kit. It could be a list, pictures cut from magazines, or a digital recreation of their survival kit."
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": "For number 3, wild mountainous country is not suitable. The nights away scheme rules must be followed.\n\nWhen working with knives it is recommended to work in small manageable groups of 3-4 scouts to one leader.\n\nSnaring legislation is dependent on National location, so please ensure you know the relevant laws, best practices and required tags/registrations.\n\nWhere you are not familiar with snaring practices it may be better to have an expert run this activity with your section.",
+  "youthShapedSuggestions": null,
+  "supportedBy": {
+    "title": "Victorinox",
+    "url": "https://www.scouts.org.uk/supporters/victorinox/",
+    "logoUrl": "https://www.scouts.org.uk/media/3770/victorinox.png?rxy=0.5057142857142857,0.44857142857142857&width=800&height=450&v=1db82200d588130"
+  },
+  "image": {
+    "src": "./survival-skills.png",
+    "alt": "Scout Survival Skills badge - a round badge with a picture of a fire and the Victorinox logo"
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "40805",
+    "40806",
+    "40807"
+  ],
+  "optional": []
+}

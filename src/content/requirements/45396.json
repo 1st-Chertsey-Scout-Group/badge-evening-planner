@@ -1,0 +1,10 @@
+{
+  "badge": "cyclist",
+  "parent": "45376",
+  "children": [],
+  "title": "Learn the basics of first aid, including the treatment of hypothermia and find out what to do in the case of an accident.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

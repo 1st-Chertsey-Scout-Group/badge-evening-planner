@@ -1,0 +1,10 @@
+{
+  "badge": "global-issues",
+  "parent": null,
+  "children": [],
+  "title": "Investigate a recent natural disaster by looking at photos, news articles or videos online.",
+  "notes": "Decide in small groups what five things were needed to help people after the disaster. Decide as a Troop how best you can help when a natural disaster happens.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "mechanic",
+  "parent": "45183",
+  "children": [],
+  "title": "Learn the principles of operating an engine. Learn about the function of the clutch, gearbox, carburettor and transmission of a motorcycle.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

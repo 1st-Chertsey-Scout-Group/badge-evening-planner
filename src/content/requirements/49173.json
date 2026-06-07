@@ -1,0 +1,10 @@
+{
+  "badge": "fire-safety",
+  "parent": "49158",
+  "children": [],
+  "title": "closing doors and windows",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

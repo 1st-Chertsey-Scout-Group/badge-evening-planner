@@ -1,0 +1,10 @@
+{
+  "badge": "equestrian",
+  "parent": "45955",
+  "children": [],
+  "title": "Jump over small fences.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

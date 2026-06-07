@@ -1,0 +1,10 @@
+{
+  "badge": "farming",
+  "parent": "45650",
+  "children": [],
+  "title": "Find out about the organisation, as well as the daily and seasonal operations, of a farm of your choice.",
+  "notes": "Make a note of practices relating to livestock, crops, cultivation, rotation, machinery and labour force.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,15 @@
+{
+  "badge": "geocaching",
+  "parent": null,
+  "children": [
+    "49189",
+    "50495",
+    "50496",
+    "50497"
+  ],
+  "title": "Programme a handheld GPS receiver to:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "writer",
+  "parent": "41213",
+  "children": [],
+  "title": "Write a descriptive passage of around 600 words on a subject, agreed with an appropriate adult beforehand.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "nautical-skills",
+  "parent": "40354",
+  "children": [],
+  "title": "Make a sailmaker's whipping and one other type of whipping and safely heat-seal the end of a rope. Describe the correct use of these whippings.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

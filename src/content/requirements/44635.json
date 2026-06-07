@@ -1,0 +1,10 @@
+{
+  "badge": "digital-citizen",
+  "parent": null,
+  "children": [],
+  "title": "Investigate how people from different backgrounds interact online.",
+  "notes": "Share how you'd act differently because of these differences. People might be from different countries, be different ages, have different abilities or amounts of money, etc.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

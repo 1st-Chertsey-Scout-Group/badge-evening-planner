@@ -1,0 +1,92 @@
+{
+  "slug": "musician",
+  "type": "staged",
+  "badgeType": "Staged",
+  "title": "Musician",
+  "description": "",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/staged-badges/musician/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./musician.png",
+    "alt": ""
+  },
+  "displayTitle": "Musician Staged Activity Badge",
+  "stages": [
+    {
+      "label": "Musician Stage 1",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "40649",
+        "40655",
+        "40656",
+        "40659"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Musician Stage 2",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "40663",
+        "40665",
+        "40667",
+        "40669"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Musician Stage 3",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "40673",
+        "40675",
+        "40676",
+        "40677"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Musician Stage 4",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "40680",
+        "40681",
+        "40682",
+        "40683"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Musician Stage 5",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "40686",
+        "40688",
+        "40690",
+        "40692"
+      ],
+      "optional": []
+    }
+  ]
+}

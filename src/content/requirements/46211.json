@@ -1,0 +1,10 @@
+{
+  "badge": "space",
+  "parent": null,
+  "children": [],
+  "title": "You can use the stars to find your way. Explore how you can navigate using stars and constellations.",
+  "notes": "You could use a telescope, a star map or a digital tool.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

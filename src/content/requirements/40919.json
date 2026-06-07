@@ -1,0 +1,16 @@
+{
+  "badge": "snowsports",
+  "parent": null,
+  "children": [
+    "45625",
+    "45626",
+    "45627",
+    "45628",
+    "45629"
+  ],
+  "title": "Show you understand what equipment to carry for the different two types of activity you may undertake:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": 2
+}

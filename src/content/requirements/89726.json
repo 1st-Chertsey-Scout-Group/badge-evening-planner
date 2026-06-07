@@ -1,0 +1,10 @@
+{
+  "badge": "musician",
+  "parent": "40682",
+  "children": [],
+  "title": "Talk about some of the musicians who are associated with your instrument",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

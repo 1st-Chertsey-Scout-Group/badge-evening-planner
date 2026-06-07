@@ -1,0 +1,10 @@
+{
+  "badge": "hobbies",
+  "parent": "41741",
+  "children": [],
+  "title": "Talk to your Patrol Leader or your Troop about the collection or study you chose.",
+  "notes": "Explain why you chose your objects and what you like about them.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

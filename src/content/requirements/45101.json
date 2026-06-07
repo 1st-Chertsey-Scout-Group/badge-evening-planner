@@ -1,0 +1,10 @@
+{
+  "badge": "chef",
+  "parent": null,
+  "children": [],
+  "title": "Show how and where to shop for the food and the best way to transport it.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

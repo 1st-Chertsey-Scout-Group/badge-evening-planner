@@ -1,0 +1,10 @@
+{
+  "badge": "athletics-plus",
+  "parent": "46155",
+  "children": [],
+  "title": "Cool-down routine",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "geocaching",
+  "parent": "46294",
+  "children": [],
+  "title": "enter the grid reference of a local landmark and navigate to the waypoint",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

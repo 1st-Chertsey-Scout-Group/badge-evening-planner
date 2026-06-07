@@ -1,0 +1,10 @@
+{
+  "badge": "local-knowledge",
+  "parent": "45313",
+  "children": [],
+  "title": "Gain a general knowledge of what parts of the country are served from  your local airport, mainline railway and coach stations.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

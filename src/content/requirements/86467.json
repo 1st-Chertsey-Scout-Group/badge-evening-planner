@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": "43520",
+  "children": [],
+  "title": "Work with a team and take on different roles (such as pilot, co-pilot, air traffic control, air marshal, and ground crew) to simulate safely completing a flight.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

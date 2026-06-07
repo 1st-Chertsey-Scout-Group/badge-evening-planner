@@ -1,0 +1,10 @@
+{
+  "badge": "survival-skills",
+  "parent": "40805",
+  "children": [],
+  "title": "basic knife or multi-tool skills, including safety and sharpening and maintenance",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

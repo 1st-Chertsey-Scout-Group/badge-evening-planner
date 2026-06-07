@@ -1,0 +1,14 @@
+{
+  "badge": "air-spotter",
+  "parent": null,
+  "children": [
+    "49107",
+    "49108",
+    "49109"
+  ],
+  "title": "Complete one of these activities: (1)",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

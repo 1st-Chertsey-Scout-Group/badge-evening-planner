@@ -1,0 +1,10 @@
+{
+  "badge": "digital-maker",
+  "parent": null,
+  "children": [],
+  "title": "Using a combination of programming, digital art, digital devices, electronic components, and other appropriate materials, create something that could serve a purpose in a Scouting activity.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

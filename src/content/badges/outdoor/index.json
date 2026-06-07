@@ -1,0 +1,46 @@
+{
+  "slug": "outdoor",
+  "type": "challenge",
+  "badgeType": "Challenge Award",
+  "title": "Outdoor",
+  "description": "Spend eight nights away from home. Cook a meal on camp. Tread new ground. It's time to find your feet in the great outdoors.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/awards/outdoor/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "Each young person who participates in the Programme, including badges and awards, should face a similar degree of challenge.",
+      "details": "Requirements can be adapted according to each young person's abilities.\n\nFor more information and practical tips see our guidance on [flexibility](/volunteers/inclusion-and-diversity/supporting-those-with-additional-needs-and-neurodiversity/reasonable-adjustments/?cat=377,293&moduleID=10)."
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./outdoor.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "75640",
+    "75641",
+    "75642",
+    "75643",
+    "75644",
+    "75645",
+    "75646",
+    "75647",
+    "75648",
+    "75649",
+    "75650"
+  ],
+  "optional": []
+}

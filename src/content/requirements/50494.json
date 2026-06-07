@@ -1,0 +1,10 @@
+{
+  "badge": "geocaching",
+  "parent": "46300",
+  "children": [],
+  "title": "plan, assemble and hide two caches, one of which should be a multi-cache.",
+  "notes": "Make sure the location is suitable and that other navigators have proper access to the land and terrain",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "creative",
+  "parent": null,
+  "children": [],
+  "title": "Use your creative ability to produce something that promotes a Scouting activity or an event.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "physical-recreation",
+  "parent": null,
+  "children": [],
+  "title": "Show how you would prepare before taking part in your sport or pursuit.",
+  "notes": "You could run through any special equipment or clothes you need and any warm-up and warm-down routines.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

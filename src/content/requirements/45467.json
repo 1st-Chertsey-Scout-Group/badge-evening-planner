@@ -1,0 +1,10 @@
+{
+  "badge": "navigator",
+  "parent": null,
+  "children": [],
+  "title": "Using 1:50000 and 1:25000 scale Ordnance Survey maps show that you understand the meaning of scale.",
+  "notes": "Can set the map to north and can recognise conventional map symbols.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

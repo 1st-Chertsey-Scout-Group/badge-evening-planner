@@ -1,0 +1,10 @@
+{
+  "badge": "camper",
+  "parent": null,
+  "children": [],
+  "title": "Construct two useful camp gadgets.",
+  "notes": "Examples for this could include grease traps, a washing-up station, a camp larder, an altar fire, a flagpole, or a camp gate.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

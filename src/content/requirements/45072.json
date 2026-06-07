@@ -1,0 +1,10 @@
+{
+  "badge": "communicator",
+  "parent": "45024",
+  "children": [],
+  "title": "Carry out a simple conversation for about 10 minutes.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

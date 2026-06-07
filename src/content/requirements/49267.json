@@ -1,0 +1,10 @@
+{
+  "badge": "water-activities",
+  "parent": "45872",
+  "children": [],
+  "title": "Royal Yachting Association National (RYA) Youth Windsurfing Scheme Stage 1.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

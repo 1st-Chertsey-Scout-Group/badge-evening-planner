@@ -1,0 +1,10 @@
+{
+  "badge": "international",
+  "parent": "40996",
+  "children": [],
+  "title": "Jamboree On The Internet (JOTI) or Jamboree On The Air (JOTA)",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

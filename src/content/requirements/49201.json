@@ -1,0 +1,10 @@
+{
+  "badge": "mechanic",
+  "parent": "45180",
+  "children": [],
+  "title": "Remove and replace a road wheel.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

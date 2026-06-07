@@ -1,0 +1,10 @@
+{
+  "badge": "air-or-sea-navigation",
+  "parent": "40440",
+  "children": [],
+  "title": "Show that you understand how a compass works, including the difference between magnetic, true and grid north.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

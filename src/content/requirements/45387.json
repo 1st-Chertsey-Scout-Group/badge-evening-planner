@@ -1,0 +1,13 @@
+{
+  "badge": "model-maker",
+  "parent": null,
+  "children": [
+    "49234",
+    "49237"
+  ],
+  "title": "Model cars",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

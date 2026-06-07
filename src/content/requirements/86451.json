@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": "43455",
+  "children": [],
+  "title": "Know the role of an airfield marshal.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

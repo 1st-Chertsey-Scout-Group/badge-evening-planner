@@ -1,0 +1,10 @@
+{
+  "badge": "sailing",
+  "parent": "49552",
+  "children": [],
+  "title": "Being able to name equipment used and parts of the boat.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

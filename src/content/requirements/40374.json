@@ -1,0 +1,10 @@
+{
+  "badge": "nautical-skills",
+  "parent": null,
+  "children": [],
+  "title": "Learn about and explain the 'nautical rules of the road'.",
+  "notes": "Including passing other watercraft, the International Rules for Preventing Collisions at Sea (IRPCS), light signals, sound signals and the use of channels.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

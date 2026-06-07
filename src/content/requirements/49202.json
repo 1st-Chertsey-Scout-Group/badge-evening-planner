@@ -1,0 +1,10 @@
+{
+  "badge": "mechanic",
+  "parent": "45180",
+  "children": [],
+  "title": "Explain what to look for when checking that a tyre conforms to the legal requirement. Find out why tyres with different amounts of wear should not be mixed on the same axle.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

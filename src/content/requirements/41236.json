@@ -1,0 +1,10 @@
+{
+  "badge": "forester",
+  "parent": null,
+  "children": [],
+  "title": "Show how to fell and trim out a tree or lay a hedge.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

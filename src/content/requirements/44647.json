@@ -1,0 +1,10 @@
+{
+  "badge": "digital-citizen",
+  "parent": null,
+  "children": [],
+  "title": "In a creative way of your choice, map out what digital actions other people take which makes information about you public.",
+  "notes": "Discuss with other young people what the positive and negative consequences of this might be, and what actions you can take to protect yourself.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

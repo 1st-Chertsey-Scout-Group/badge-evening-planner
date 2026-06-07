@@ -1,0 +1,13 @@
+{
+  "badge": "scientist",
+  "parent": "45163",
+  "children": [
+    "45176",
+    "45177"
+  ],
+  "title": "Plan and complete three science experiments or activities. Check your plan with an adult first, then for each experiment:",
+  "notes": "You could try making invisible ink, creating an eruption, designing a catapult or putting together a battery.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

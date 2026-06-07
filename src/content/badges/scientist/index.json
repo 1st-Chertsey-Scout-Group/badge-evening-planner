@@ -1,0 +1,69 @@
+{
+  "slug": "scientist",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Scientist",
+  "description": "Spark your curiosity and creativity with the Scientist activity badge. Have fun learning some valuable science-based skills.",
+  "versionDate": "March 2019",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/scientist/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "You can complete this badge individually, in Patrols, or in other small groups.",
+      "details": ""
+    },
+    {
+      "title": "For option 1, you could investigate any activity completed as part of Scouts, such as archery, climbing or zip lining, or a hobby you do outside of Scouts, such as cooking, trampolining or swimming.",
+      "details": ""
+    },
+    {
+      "title": "If you choose to do a presentation to share your knowledge with others, this could be in the form of a video or animation.",
+      "details": ""
+    },
+    {
+      "title": "For option 2, you could share what you have discovered with your Patrol, Troop, another Group, a leader or someone else. There are lots of ways you could do this. Why not plan a demonstration, a presentation, run an activity or create a video?",
+      "details": ""
+    },
+    {
+      "title": "Guidance for leaders",
+      "details": "Make sure that the experiments and activities that Scouts are doing are safe, particularly when it comes to making changes. Information about planning and assessing risk can be found at [scouts.org.uk/safety](http://www.scouts.org.uk/safety)."
+    },
+    {
+      "title": "Why not see if there is a local STEM Ambassador who can provide some support?",
+      "details": "Find out more about STEM Ambassadors on the [STEM Learning website](https://www.stem.org.uk/stem-ambassadors)."
+    },
+    {
+      "title": "Why not tie this badge in with British Science Week in March?",
+      "details": ""
+    },
+    {
+      "title": "This badge can contribute towards a CREST Award.",
+      "details": "You can gain a Discovery or Bronze CREST Award by completing option 1 as a project of at least five or ten hours. [Find out more about CREST Awards.](https://members.scouts.org.uk/crestawards)"
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": {
+    "title": "Rolls-Royce",
+    "url": "https://www.scouts.org.uk/supporters/rolls-royce/",
+    "logoUrl": "https://www.scouts.org.uk/media/3755/rolls-royce.png?rxy=0.48561151079136688,0.460431654676259&width=800&height=450&v=1db8220187de5f0"
+  },
+  "image": {
+    "src": "./scientist.png",
+    "alt": ""
+  },
+  "requirementsIntro": "To earn your badge choose one of the following options, then complete all of the tasks under your chosen option.",
+  "optionsIntro": "",
+  "optionsToQualify": 1,
+  "mandatory": [],
+  "optional": [
+    "45162",
+    "45163"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "chef",
+  "parent": null,
+  "children": [],
+  "title": "Demonstrate how to clear up and manage leftovers safely and responsibly.",
+  "notes": "This should include washing up utensils, pots and pans and the cooking area; reusing, composting or recycling where possible; and disposing of any waste in a way that prevents vermin or disease.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "fundraising",
+  "parent": null,
+  "children": [],
+  "title": "Think of a short reason that tells potential donors about your chosen cause.",
+  "notes": "It must be inspiring and clear to raise the most money.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

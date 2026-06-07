@@ -1,0 +1,10 @@
+{
+  "badge": "communicator",
+  "parent": "45005",
+  "children": [],
+  "title": "Log 25 different amateur radio stations. Note the date, time, call sign, frequency, readability and location. You may include some broadcast stations.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

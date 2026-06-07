@@ -1,0 +1,10 @@
+{
+  "badge": "power-coxswain",
+  "parent": null,
+  "children": [],
+  "title": "Complete the following steps under proper supervision:",
+  "notes": "- Locate the engine and know how to start and stop it safely.\n- Take part in a man overboard drill.\n- Launch and recover your craft (if that's possible) and come alongside. Moor and berth your craft.\n- Control the speed and direction of your craft to steer around a course or on a journey.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

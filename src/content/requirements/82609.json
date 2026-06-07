@@ -1,0 +1,10 @@
+{
+  "badge": "islamophobia-awareness-month-blanket-badge",
+  "parent": "82546",
+  "children": [],
+  "title": "Support a food bank.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

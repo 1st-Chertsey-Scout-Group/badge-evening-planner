@@ -1,0 +1,16 @@
+{
+  "badge": "navigator",
+  "parent": null,
+  "children": [
+    "50096",
+    "50095",
+    "50094",
+    "50093",
+    "50092"
+  ],
+  "title": "Show you know how to:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

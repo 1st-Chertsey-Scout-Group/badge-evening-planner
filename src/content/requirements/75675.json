@@ -1,0 +1,10 @@
+{
+  "badge": "skills",
+  "parent": null,
+  "children": [],
+  "title": "Show you understand why eating a sensible diet and getting enough sleep is important.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

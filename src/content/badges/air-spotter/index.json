@@ -1,0 +1,43 @@
+{
+  "slug": "air-spotter",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Air Spotter",
+  "description": "Take up your binoculars, observe the skies, and learn to recognise an Airbus from a Boeing",
+  "versionDate": "January 2018",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/air-spotter/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "Useful links",
+      "details": "- [RAF aircraft](https://www.raf.mod.uk/aircraft/) - images and information about the RAF's active aircraft\n- [RAF Top Trumps card game](https://rafyouthstem.org.uk/resource/raf-top-trump-card-game/) - Beat the Stats, A full set of Top Trump Cards and rules based on current and historical RAF aircraft.\n- [Air-Britain aviation image library](https://abpic.co.uk/)\n- [Jetphotos.com](http://www.jetphotos.com/) - an aviation photography website\n- [Aviationpix.co.uk](http://aviationpix.co.uk/) - aviation photography by photographer Steve Crampton\n- [Planespotter.org](http://planespotter.org/) - a database of aircraft and photos"
+    },
+    {
+      "title": "Contributors:",
+      "details": "- Dean Hatcher (Training Officer, RAFAC)\n- 20th Stourbridge (Halfpenny Green) Air Scouts\n- Sqn Ldr Paul Harrap (RAF Cranwell)\n- Clint Marler (UK Programme Support Team Member)"
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./air-spotter.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "49101",
+    "89802",
+    "89803",
+    "49104"
+  ],
+  "optional": []
+}

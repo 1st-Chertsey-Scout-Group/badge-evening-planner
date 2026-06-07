@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": "43495",
+  "children": [],
+  "title": "Follow the flight path of an aircraft using maps and satellite images and see how landmarks help pilots find their way.",
+  "notes": "You could map the route using Google Maps, Ordnance Survey maps, or an aviation chart.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

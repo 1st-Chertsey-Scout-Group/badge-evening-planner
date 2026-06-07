@@ -1,0 +1,10 @@
+{
+  "badge": "mechanic",
+  "parent": "45182",
+  "children": [],
+  "title": "Learn and then demonstrate Aircraft Marshalling signals used by day and night.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "local-knowledge",
+  "parent": "45312",
+  "children": [],
+  "title": "Use a street map to point out six locations from step 1.",
+  "notes": "From your home or Scout Headquarters, show the quickest route to one of the places.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

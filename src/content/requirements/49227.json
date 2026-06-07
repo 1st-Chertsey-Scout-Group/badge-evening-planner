@@ -1,0 +1,10 @@
+{
+  "badge": "model-maker",
+  "parent": "49225",
+  "children": [],
+  "title": "Design and construct a model from a wood, plastic or metal construction  set, such as Lego or Meccano.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

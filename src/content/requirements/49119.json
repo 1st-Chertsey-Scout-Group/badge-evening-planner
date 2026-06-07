@@ -1,0 +1,10 @@
+{
+  "badge": "activity-plus",
+  "parent": null,
+  "children": [],
+  "title": "Agree a target with your leader before going for the Activity Plus badge.",
+  "notes": "An Activity Plus badge can be awarded for any activity badge, apart from the following: Athletics, Athletics Plus, Community Impact, Hikes Away, Nights Away and Time on the Water.\n\nWhen an Activity Plus is awarded for a Staged Activity Badge, it can only be awarded against the highest stage of that badge.\n\nYou can find some example targets in the Tips section of this page.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

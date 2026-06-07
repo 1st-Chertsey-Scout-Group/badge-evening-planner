@@ -1,0 +1,61 @@
+{
+  "slug": "nature",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Nature",
+  "description": "Become a great Naturalist and play your part in preserving the natural world as a whole.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/nature/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "Visit a Nattergal Wildland",
+      "details": "As part of the Scouts partnership, you can join special days out at Nattergal's Wildlands, which will continue to grow, and currently include:\n\n- Harold's Park, Essex\n- Boothby, Lincolnshire\n- High Fen, Norfolk\n\nDuring these visits, you can take part in guided walks, wildlife-spotting challenges, hands-on conservation activities and behind-the-scenes looks at how large-scale Nature recovery works. [Find out more on the Nattergal website](https://www.nattergal.com/scouts)."
+    },
+    {
+      "title": "There are lots of places you could visit, like a nature reserve or gardens, woodlands or forest, park, urban green spaces, moorlands, fields or meadows, beaches, or along a waterway (such as a stream, river or canal).",
+      "details": ""
+    },
+    {
+      "title": "Make sure you seek appropriate permission and follow relevant guidance.",
+      "details": "Always make sure you have appropriate permission for your visit, follow the Countryside Code or equivalent, and follow appropriate safety guidance for the location, such as [being near to water](/volunteers/running-your-section/programme-guidance/information-for-volunteers/general-activity-guidance/general-water-activities/)."
+    },
+    {
+      "title": "Learning more about a plant or animal.",
+      "details": "- Here's some things you might want to find out:\n\n  - It's lifecycle and how long it lives\n  - What role it plays in the ecosystem\n  - Where it is in the food chain - what it eats and what it's eaten by\n  - Is it a native or invasive species?\n  - Is it endangered?\n\n- You can find out about different species found in a specific area using the [NBN Atlas](https://nbnatlas.org/), the UK's largest collection of publicly available biodiversity data."
+    },
+    {
+      "title": "Previous badge requirements",
+      "details": "We've recently worked with volunteers and external subject matter experts to update the requirements for this badge. Troops who are already working towards this badge can continue working towards the older set of requirements on this page until the end of 2026. [View the previous Naturalist Activity Badge requirements.](/media/x3yp2utz/scouts-naturalis-activity-badge-previous-requirements.pdf)"
+    },
+    {
+      "title": "Buy the badge",
+      "details": "You can buy the [Just a moment...](https://shop.scouts.org.uk/new-in/scouts-naturalist-activity-badge-nattergal-114509)[Scout Store](https://shop.scouts.org.uk/new-in/scouts-naturalist-activity-badge-nattergal-114509)."
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./nature.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "41156",
+    "41157",
+    "41158",
+    "41159",
+    "41160",
+    "88657"
+  ],
+  "optional": []
+}

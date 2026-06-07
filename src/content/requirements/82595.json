@@ -1,0 +1,10 @@
+{
+  "badge": "islamophobia-awareness-month-blanket-badge",
+  "parent": "82593",
+  "children": [],
+  "title": "Invite a member of the Muslim community, such as a local sheikh or imam, to visit your group.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

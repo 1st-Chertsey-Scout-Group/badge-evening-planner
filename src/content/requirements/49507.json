@@ -1,0 +1,10 @@
+{
+  "badge": "musician",
+  "parent": "49506",
+  "children": [],
+  "title": "Your instrument and why you enjoy playing it.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

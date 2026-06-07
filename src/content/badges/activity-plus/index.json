@@ -1,0 +1,54 @@
+{
+  "slug": "activity-plus",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Activity Plus",
+  "description": "If you've enjoyed completing an Activity Badge, go above and beyond the requirements and set yourself a new challenge on a similar topic.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/activity-plus/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "The Activity Plus badge is left blank with a grey border, as it can be applied to a range of different Activity Badges and Staged Activity Badges. You can place this badge underneath the relevant activity badge on your Scout uniform.",
+      "details": ""
+    },
+    {
+      "title": "Ideas for Activity Plus targets for Beavers",
+      "details": "- For the Gardener Plus badge, you could look after your garden or allotment for a further three months. Depending on the time of year, you could either plant or harvest different types of plants, and explain how you know they're ready to plant or pick.\n- For the Cook Plus badge, you could prepare and cook another three dishes and serve them as a meal.\n- For the Animal Friend Plus badge, you could help to care for an animal for a further six weeks. Explain why you give it the type of food and exercise that you do."
+    },
+    {
+      "title": "Ideas for Activity Plus targets for Cubs",
+      "details": "- For the Book Reader Plus, you could read at least another six books, then tell your group about them or write book reviews.\n- For the Cyclist Plus, you could gain the Bikeability Level 3.\n- For the DIY Plus, you could finish a DIY project that is more difficult than the example given."
+    },
+    {
+      "title": "Ideas for Activity Plus targets for Scouts",
+      "details": "- For the Pulling (Fixed Seat Rowing) Plus, you could take charge of a boat under oars.\n- For the Meteorologist Plus, you could keep a weather diary for an agreed number of months.\n- For the Dragon Boating Plus, you could compete in a national dragon boating competition.\n- For relevant Plus badges, you could gain a personal or leadership permit, or an NGB qualification for the activity."
+    },
+    {
+      "title": "Ideas for Activity Plus targets for Explorers",
+      "details": "- For the Fundraising Plus, you could raise a further £500.\n- For the Climbing Plus, you could gain a personal or leadership permit for this activity, and continue to develop your climbing skills for an agreed period of time.\n- For relevant Plus badges, you could gain a personal or leadership permit, or an NGB qualification for the activity."
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./activity-plus.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "49118",
+    "49119",
+    "49120"
+  ],
+  "optional": []
+}

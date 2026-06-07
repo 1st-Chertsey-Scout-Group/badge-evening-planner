@@ -1,0 +1,10 @@
+{
+  "badge": "local-knowledge",
+  "parent": "45314",
+  "children": [],
+  "title": "Over a period agreed with your leader, get involved in a project to help preserve some aspect of national or local heritage.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

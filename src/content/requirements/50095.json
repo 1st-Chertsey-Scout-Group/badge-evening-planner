@@ -1,0 +1,10 @@
+{
+  "badge": "navigator",
+  "parent": "45490",
+  "children": [],
+  "title": "Use back bearings to check the route.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

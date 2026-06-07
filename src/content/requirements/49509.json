@@ -1,0 +1,10 @@
+{
+  "badge": "musician",
+  "parent": "40676",
+  "children": [],
+  "title": "Talk about three well known pieces of music or songs associated with your instrument.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

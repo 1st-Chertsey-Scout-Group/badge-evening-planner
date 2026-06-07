@@ -1,0 +1,14 @@
+{
+  "badge": "digital-citizen",
+  "parent": null,
+  "children": [
+    "49468",
+    "49469",
+    "49470"
+  ],
+  "title": "In a team, use a digital collaboration tool of your choice to achieve one of the following:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

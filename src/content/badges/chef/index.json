@@ -1,0 +1,60 @@
+{
+  "slug": "chef",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Chef",
+  "description": "Plan and produce a tasty menu for your Scout troop after they come back after a long day of activities.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/chef/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "You can gain the Chef badge twice, once by completing the steps using an indoor kitchen and once for outdoors.",
+      "details": ""
+    },
+    {
+      "title": "Take time to talk about and respect any cultural, religious, ethical or medical food needs in your group.",
+      "details": "- Talk about these needs before planning your menu so everyone feels included and supported. Make sure everyone can eat safely and comfortably, without feeling singled out.\n- When serving your meal, try to include at least one course that everyone can enjoy, or offer suitable alternatives so nobody misses out on sharing the experience."
+    },
+    {
+      "title": "Take your tastebuds on a journey around the world.",
+      "details": "- You could plan a meal from a different country or culture to your own. You could talk to someone from that culture to learn more about their traditions and favourite foods.\n- Explore the story behind your dish by learning about its history, ingredients, or how it's traditionally made.\n- You could connect with a Scout group in another country - learn from them or find a tried-and-tested recipe.\n- This is a great opportunity to link to your [World Challenge Award](/scouts/awards/world/) or [International Activity Badge](/scouts/activity-badges/international/)."
+    },
+    {
+      "title": "Find tips on avoiding food waste and being eco-friendly.",
+      "details": "- **Plan to reduce waste: **Think about how your choices can minimise food waste. Plan portions carefully and use ingredients efficiently (for example, using the same ingredients across more than one meal).\n- **Shop smart: **Choose suitable pack sizes and buy only what you need. Where possible, avoid unnecessary packaging (for example, choose loose items) or pick recyclable packaging.\n- **Prep carefully:** Prepare food so edible parts aren't thrown away - many vegetable skins are edible and nutritious, so you might not need to peel them.\n- **Serve sensibly: **Offer sensible portions so less ends up in the bin. Let people have seconds if they're still hungry, and store or reuse leftovers creatively.\n- **Choose local when you can:** Locally sourced food often means fewer food miles and less packaging.\n- **Recycle properly: **Recycle food waste and packaging correctly. Check the [Recycle Now website](https://www.recyclenow.com/) or your local council site to find out what can be recycled in your area."
+    },
+    {
+      "title": "Food safety and hygiene",
+      "details": "Make sure you're following our [food safety and hygiene guidance](/volunteers/staying-safe-and-safeguarding/safety/safe-camping-residentials-and-outdoor-skills/guidance-for-food-safety/) when completing your badge"
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": {
+    "title": "HelloFresh",
+    "url": "https://www.scouts.org.uk/supporters/hellofresh/",
+    "logoUrl": "https://www.scouts.org.uk/media/dt1lklhx/hello-fresh-round.png?width=800&height=450&v=1dc5ecaa7db15b0"
+  },
+  "image": {
+    "src": "./chef.png",
+    "alt": "Round Scouts badge with cooking utensils and the words HelloFresh"
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "45100",
+    "45101",
+    "45102",
+    "45103",
+    "45104"
+  ],
+  "optional": []
+}

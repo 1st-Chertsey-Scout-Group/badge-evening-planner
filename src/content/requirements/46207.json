@@ -1,0 +1,10 @@
+{
+  "badge": "space",
+  "parent": null,
+  "children": [],
+  "title": "Learn about the speed of light and how we use light years to measure distances in space.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

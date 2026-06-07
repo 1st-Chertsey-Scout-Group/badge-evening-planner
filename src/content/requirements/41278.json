@@ -1,0 +1,10 @@
+{
+  "badge": "digital-maker",
+  "parent": null,
+  "children": [],
+  "title": "Create and share a resource that would allow someone else to replicate your project with minimal previous knowledge.",
+  "notes": "This resource should be digital, and it can be any format you like: a video (or a series!), an online (printable) document, an entry on a tutorials website such as Instructables, a blog post...Or meet with people who could benefit from your solution to share how you created it and explain how it can help them.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

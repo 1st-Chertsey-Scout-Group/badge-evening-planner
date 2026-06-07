@@ -1,0 +1,10 @@
+{
+  "badge": "expedition",
+  "parent": "75783",
+  "children": [],
+  "title": "Use a map or other navigation device to keep track of where you are.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

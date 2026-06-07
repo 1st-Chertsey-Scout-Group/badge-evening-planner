@@ -1,0 +1,10 @@
+{
+  "badge": "electronics",
+  "parent": null,
+  "children": [],
+  "title": "Use a multimeter to measure voltage, current and resistance in a simple circuit.",
+  "notes": "Explain the relationship between these values.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

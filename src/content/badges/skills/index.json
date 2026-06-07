@@ -1,0 +1,56 @@
+{
+  "slug": "skills",
+  "type": "challenge",
+  "badgeType": "Challenge Award",
+  "title": "Skills",
+  "description": "Everyone has to start somewhere, and practice makes perfect. Hone your skills over a six-week period, and see how quickly you'll soar!",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/awards/skills/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "Taking part in physical activities",
+      "details": "Some possible activities and challenges are listed in the badge requirements, and the list can be added to. Any activity where the Scout will develop their fitness level whilst being able to show improvement is acceptable, and activities can be done as a whole Troop or as individuals. A simple chart can be used for record keeping. Scouts should understand the importance of warm up exercises and warm down and record the use of these in their log."
+    },
+    {
+      "title": "Understanding healthy diets and sleep patterns",
+      "details": "Scouts should be encouraged to understand the importance of diet in maintaining a healthy body, including the importance of a balanced diet as well as staying hydrated and the importance of a regular sleep pattern. Why not explore [The Eatwell Guide](https://www.gov.uk/government/publications/the-eatwell-guide/the-eatwell-guide-how-to-use-in-promotional-material) or invite a nutritionist to visit and help run a programme that incorporates diet and sleep."
+    },
+    {
+      "title": "Researching the effects of smoking, alcohol and drugs",
+      "details": "This section is aimed at helping a Scout to understand the effect smoking, alcohol and drugs will have on their body, the dangers connected to each and the law relating to each. Services like the NHS and Police often offer programmes that are aimed at young people around these areas, and could be invited in to run an evening. It is best practice to let parents know that you will be covering these topics. Useful information can also be found on [Talk to Frank](https://www.talktofrank.com/)."
+    },
+    {
+      "title": "Learning and using life skills",
+      "details": "Scouts may choose from this list of life skills, or could learn and use another similar home skill agreed with their leader. It is important that they learn the skill, then later put it into practice - this clause should be practical not theoretical! Scouts should be supervised by a competent adult or young leader when demonstrating these skills. Skills could be covered by running bases in a Troop evening, and safety messages should be included when teaching the skills. Scouts could then put their newly acquired skills into practice at home, or on a residential experience."
+    },
+    {
+      "title": "Participating in problem-solving activities",
+      "details": "Problem-solving is a life skill we all require and Scouts should be encouraged to develop. It may be a real life scenario such as a quick response to a situation requiring first aid, a problem requiring tactical thinking to solve, or problems that arise out of relationships and need to be solved for the group or Patrol to get along."
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./skills.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "75674",
+    "75675",
+    "75676",
+    "75677",
+    "75678"
+  ],
+  "optional": []
+}

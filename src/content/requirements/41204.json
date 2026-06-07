@@ -1,0 +1,10 @@
+{
+  "badge": "entertainer",
+  "parent": "41196",
+  "children": [],
+  "title": "Rehearse the entertainment and make sure everyone has a job to do.",
+  "notes": "You might need actors, a producer, a stage manager, front of house or a publicity manager.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

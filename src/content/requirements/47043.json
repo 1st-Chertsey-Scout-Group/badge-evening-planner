@@ -1,0 +1,10 @@
+{
+  "badge": "circus-skills",
+  "parent": null,
+  "children": [],
+  "title": "Watch at least two circus or street performance events.",
+  "notes": "Talk about what you saw.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "communicator",
+  "parent": "45024",
+  "children": [],
+  "title": "Use sign language to describe a Scouting experience to another person.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

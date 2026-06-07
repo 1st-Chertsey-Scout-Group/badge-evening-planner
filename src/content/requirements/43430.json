@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": null,
+  "children": [],
+  "title": "Make an aircraft out of recycled materials, then try to make it fly.",
+  "notes": "Explore how different shapes and materials change how it flies.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

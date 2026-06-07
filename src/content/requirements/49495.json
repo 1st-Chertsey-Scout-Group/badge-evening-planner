@@ -1,0 +1,10 @@
+{
+  "badge": "musician",
+  "parent": "40649",
+  "children": [],
+  "title": "Listen to a short tune of a couple of lines and then sing it back.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

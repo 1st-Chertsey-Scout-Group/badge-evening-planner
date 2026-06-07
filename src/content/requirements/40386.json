@@ -1,0 +1,10 @@
+{
+  "badge": "pioneer",
+  "parent": null,
+  "children": [],
+  "title": "Name and tie at least six knots and three lashings that are useful in pioneering.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

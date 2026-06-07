@@ -1,0 +1,10 @@
+{
+  "badge": "local-knowledge",
+  "parent": "45313",
+  "children": [],
+  "title": "Find out how to reach the local airport, mainline railway and coach stations, and major tourist attractions from your Scout Headquarters or home.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

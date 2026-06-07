@@ -1,0 +1,40 @@
+{
+  "slug": "electronics",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Electronics",
+  "description": "There's a bright spark in us all. Master the clever systems and circuits to support modern life.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/electronics/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": "Young people must check and comply with the activity rules in chapter nine of the [Policy, Organisation and Rules](/por/) and the Adventurous Activity Permit Scheme.",
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./electronics.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "45233",
+    "45234",
+    "45235",
+    "45236",
+    "45237",
+    "45238",
+    "45239",
+    "45240",
+    "45241",
+    "45242"
+  ],
+  "optional": []
+}

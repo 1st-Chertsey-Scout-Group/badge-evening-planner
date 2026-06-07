@@ -1,0 +1,10 @@
+{
+  "badge": "money-skills",
+  "parent": null,
+  "children": [],
+  "title": "Learn about how money is used online.",
+  "notes": "Find out about online banking, digital money (such as cryptocurrencies), how to keep your money safe and how money works in games.",
+  "optional": false,
+  "repeatTimes": 2,
+  "requiredOfChildren": "all"
+}

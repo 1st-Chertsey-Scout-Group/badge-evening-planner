@@ -1,0 +1,13 @@
+{
+  "badge": "scientist",
+  "parent": null,
+  "children": [
+    "45605",
+    "49262"
+  ],
+  "title": "Option 1",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

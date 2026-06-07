@@ -1,0 +1,10 @@
+{
+  "badge": "sailing",
+  "parent": "40456",
+  "children": [],
+  "title": "Tidal ebb and flow",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

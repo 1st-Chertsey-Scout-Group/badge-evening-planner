@@ -1,0 +1,42 @@
+{
+  "slug": "media-relations-marketing",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Media Relations & Marketing",
+  "description": "Develop your eye for a compelling story and generate 'hooks' to draw in audiences. Become a creative storyteller, and get media coverage for your story.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/media-relations-marketing/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "Getting involved with Scout media SASUs is a great way to work towards this badge.",
+      "details": "- [Scout Radio](https://scout.radio/) is a collection of Scouting volunteers based around the country who are experienced in Broadcast Radio, or who want to gain more experience through working with Scouting and young people to deliver Radio.\n- [Scout Content](https://www.scoutcontent.org.uk/) produces high quality digital content and media coverage for Scouting via events held by The Scouts, Scout Adventures, County Jamboree teams and others. The Unit also supports The Scouts more widely through the production and development of content to be shared through Scouting social media channels."
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./media-relations-marketing.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "Choose from three of these activities to achieve this badge:",
+  "optionsToQualify": 3,
+  "mandatory": [],
+  "optional": [
+    "41219",
+    "41220",
+    "41221",
+    "41222",
+    "41223",
+    "41224",
+    "41225"
+  ]
+}

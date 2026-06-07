@@ -1,0 +1,35 @@
+{
+  "slug": "circus-skills",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Circus Skills",
+  "description": "Come and join the big top, be the star attraction, and entertain with your ace circus skills.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/circus-skills/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./circus-skills.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "47039",
+    "47040",
+    "47041",
+    "47042",
+    "47043"
+  ],
+  "optional": []
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "air-spotter",
+  "parent": "89803",
+  "children": [],
+  "title": "Learn the RAF and NATO system of letter designation according to aircraft function.",
+  "notes": "Give examples of three designations.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

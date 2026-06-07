@@ -1,0 +1,10 @@
+{
+  "badge": "media-relations-marketing",
+  "parent": null,
+  "children": [],
+  "title": "Find out about local media outlets such as radio, TV, newspapers and online.",
+  "notes": "Find out what their target audience is and work out a storyline that they might be interested in featuring.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

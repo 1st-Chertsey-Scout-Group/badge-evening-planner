@@ -1,0 +1,10 @@
+{
+  "badge": "meteorologist",
+  "parent": null,
+  "children": [],
+  "title": "Record the weather conditions every day for two weeks, or once a week for three months.",
+  "notes": "Use equipment like a rain gauge or an outdoor thermometer.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "air-or-sea-navigation",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Air or Sea Navigation",
+  "description": "Be the one who knows the way to go - at sea or by air. Learn a skill that would help you navigate your crew on your journey.",
+  "versionDate": "May 2019",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/air-or-sea-navigation/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "Guidance for Leaders",
+      "details": "For requirement i of the air option of this badge, the following example could be used to calculate overheard flight times.\n\nIf the aircraft's air speed is 130 knots, what would be the time of flight from overhead starting point to overhead destination? Work this out for each of these conditions:\na. with no wind at all\nb. with a headwind of 30 knots\nc. with a tailwind of 50 knots."
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./air-or-sea-navigation.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 1,
+  "mandatory": [],
+  "optional": [
+    "40440",
+    "40441"
+  ]
+}

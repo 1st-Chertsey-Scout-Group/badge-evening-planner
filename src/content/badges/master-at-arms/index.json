@@ -1,0 +1,38 @@
+{
+  "slug": "master-at-arms",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Master at Arms",
+  "description": "Shoot an arrow with precision, Fire a rifle with pinpoint accuracy or fence with Olympian finesse.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/master-at-arms/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "If you have completed the NSRA Youth Proficiency Scheme in Air Rifle or Air Pistol shooting you automatically earn this badge.",
+      "details": ""
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./master-at-arms.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "45768",
+    "45769",
+    "45770"
+  ],
+  "optional": []
+}

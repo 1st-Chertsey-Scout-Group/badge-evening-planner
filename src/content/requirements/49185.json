@@ -1,0 +1,10 @@
+{
+  "badge": "geocaching",
+  "parent": "46293",
+  "children": [],
+  "title": "how it works",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

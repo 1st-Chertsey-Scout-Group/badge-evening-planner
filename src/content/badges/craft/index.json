@@ -1,0 +1,31 @@
+{
+  "slug": "craft",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Craft",
+  "description": "Unleash your crafty creativity and take your crafting skills to the next level.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/craft/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./craft.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "45062"
+  ],
+  "optional": []
+}

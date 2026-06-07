@@ -1,0 +1,10 @@
+{
+  "badge": "forester",
+  "parent": null,
+  "children": [],
+  "title": "Identify at least eight common types of tree that grow in your area, including both deciduous and coniferous.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

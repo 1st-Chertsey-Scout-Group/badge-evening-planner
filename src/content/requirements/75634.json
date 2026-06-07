@@ -1,0 +1,10 @@
+{
+  "badge": "creative",
+  "parent": null,
+  "children": [],
+  "title": "Construct a model using materials like a plastic kit or recycled items.",
+  "notes": "Alternatively, make a useful item from wood, metal or plastic.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

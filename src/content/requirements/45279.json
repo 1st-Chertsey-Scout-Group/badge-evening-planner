@@ -1,0 +1,10 @@
+{
+  "badge": "air-researcher",
+  "parent": null,
+  "children": [],
+  "title": "While you're doing your research, visit at least one place of interest that relates to your chosen subject.",
+  "notes": "It could be a museum, an air display or an aeronautics factory.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "world-faiths",
+  "parent": "45892",
+  "children": [],
+  "title": "Attend a festival or event linked to a faith that you are not familiar with.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

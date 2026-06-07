@@ -1,0 +1,33 @@
+{
+  "slug": "athletics-plus",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Athletics Plus",
+  "description": "Go the extra distance with the Athletics Plus badge and reach new heights.",
+  "versionDate": "January 2018",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/athletics-plus/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./athletics-plus.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "46155",
+    "46156",
+    "46157"
+  ],
+  "optional": []
+}

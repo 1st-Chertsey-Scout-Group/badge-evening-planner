@@ -1,0 +1,37 @@
+{
+  "slug": "world",
+  "type": "challenge",
+  "badgeType": "Challenge Award",
+  "title": "World",
+  "description": "Whether you're volunteering in your local community or learning about an international issue, this award is all about exploring the world from your doorstep and making a positive impact.",
+  "versionDate": "September 2018",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/awards/world/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./world.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "75754",
+    "75755",
+    "75756",
+    "75757",
+    "75758",
+    "75759",
+    "75760"
+  ],
+  "optional": []
+}

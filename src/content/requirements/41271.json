@@ -1,0 +1,10 @@
+{
+  "badge": "digital-maker",
+  "parent": null,
+  "children": [],
+  "title": "Design and create digital graphics for use as part of one of the above.",
+  "notes": "The elements of the project should all fit within the project's specific purpose.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

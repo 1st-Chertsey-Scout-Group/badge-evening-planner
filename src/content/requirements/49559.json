@@ -1,0 +1,10 @@
+{
+  "badge": "sailing",
+  "parent": "49554",
+  "children": [],
+  "title": "Coming alongside a moored boat",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "media-relations-marketing",
+  "parent": null,
+  "children": [],
+  "title": "Write a press release about a Scout event that has taken place.",
+  "notes": "Send it to your local Media Development Manager so that they can get it published in the local press, radio station or community website.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

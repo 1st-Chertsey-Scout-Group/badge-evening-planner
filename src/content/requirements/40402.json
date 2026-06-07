@@ -1,0 +1,18 @@
+{
+  "badge": "sailing",
+  "parent": null,
+  "children": [
+    "50557",
+    "50561",
+    "50559",
+    "50571",
+    "49554",
+    "49561",
+    "40500"
+  ],
+  "title": "Complete the following badge requirements:",
+  "notes": "If you're using a keelboat, you don't have to complete steps 1-3.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": 4
+}

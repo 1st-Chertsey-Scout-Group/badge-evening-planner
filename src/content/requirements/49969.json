@@ -1,0 +1,10 @@
+{
+  "badge": "photographer",
+  "parent": "49257",
+  "children": [],
+  "title": "Discuss the differences between recording video on a video camera, digital camera and a smartphone.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

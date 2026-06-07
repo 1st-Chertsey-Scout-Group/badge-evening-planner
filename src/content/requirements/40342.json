@@ -1,0 +1,10 @@
+{
+  "badge": "nautical-skills",
+  "parent": null,
+  "children": [],
+  "title": "Show how to check water depth using a method appropriate to your activity so that you don't ground or beach.",
+  "notes": "Try a method normally used in your activity.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

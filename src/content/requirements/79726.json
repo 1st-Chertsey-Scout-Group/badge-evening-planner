@@ -1,0 +1,10 @@
+{
+  "badge": "earth-tribe-award",
+  "parent": "79694",
+  "children": [],
+  "title": "Tell the world",
+  "notes": "Share with your group or local community what you did to help use less or greener energy. Tell them the impact these changes can have and why you think it's important.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

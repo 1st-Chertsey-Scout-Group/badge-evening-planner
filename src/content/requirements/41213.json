@@ -1,0 +1,20 @@
+{
+  "badge": "writer",
+  "parent": null,
+  "children": [
+    "45113",
+    "45115",
+    "49270",
+    "49271",
+    "41406",
+    "49272",
+    "45123",
+    "45097",
+    "49273"
+  ],
+  "title": "Complete four of these activities.",
+  "notes": "Talk about your choices with an appropriate adult.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": 4
+}

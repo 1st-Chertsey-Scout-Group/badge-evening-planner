@@ -1,0 +1,10 @@
+{
+  "badge": "musician",
+  "parent": null,
+  "children": [],
+  "title": "Performance",
+  "notes": "Sing or play two different types of song or tune on your chosen instrument. You must perform in front of other people either in Scouting or at a public performance.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

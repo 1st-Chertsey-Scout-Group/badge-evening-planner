@@ -1,0 +1,40 @@
+{
+  "slug": "orienteer",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Orienteer",
+  "description": "Find your way from one point to another, using only a map, a compass and your brain",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/orienteer/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "If you've qualified for the 2 Star Navigation Challenge certificate, you can automatically earn this badge.",
+      "details": ""
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./orienteer.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "45474",
+    "45475",
+    "45476",
+    "45477",
+    "45478"
+  ],
+  "optional": []
+}

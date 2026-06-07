@@ -1,0 +1,10 @@
+{
+  "badge": "farming",
+  "parent": "45650",
+  "children": [],
+  "title": "Find photos to demonstrate the changes in farming practices that have taken place over a number of years.",
+  "notes": "Explain the reasons for these.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

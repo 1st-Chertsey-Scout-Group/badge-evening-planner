@@ -1,0 +1,13 @@
+{
+  "badge": "artist",
+  "parent": null,
+  "children": [
+    "49088",
+    "49089"
+  ],
+  "title": "Artist",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

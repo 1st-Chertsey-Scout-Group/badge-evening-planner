@@ -1,0 +1,10 @@
+{
+  "badge": "communicator",
+  "parent": "45019",
+  "children": [],
+  "title": "Communicate with a person who does not speak your native language.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

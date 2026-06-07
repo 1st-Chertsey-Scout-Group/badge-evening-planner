@@ -1,0 +1,16 @@
+{
+  "badge": "quartermaster",
+  "parent": null,
+  "children": [
+    "45976",
+    "50503",
+    "45981",
+    "50504",
+    "50506"
+  ],
+  "title": "As equipment quartermaster, assist at a Nights Away experience for at least two days.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

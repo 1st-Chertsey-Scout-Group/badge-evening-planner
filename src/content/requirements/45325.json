@@ -1,0 +1,10 @@
+{
+  "badge": "camper",
+  "parent": null,
+  "children": [],
+  "title": "Find out what to look for when choosing a campsite and in deciding the best position to pitch tents.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "electronics",
+  "parent": null,
+  "children": [],
+  "title": "Describe the systems used for marking components with their values.",
+  "notes": "Demonstrate by identifying the values of resistors and capacitors by their markings. Explain the importance of the rating of a component.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "world",
+  "parent": null,
+  "children": [],
+  "title": "Take part in an activity that explores an international issue.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

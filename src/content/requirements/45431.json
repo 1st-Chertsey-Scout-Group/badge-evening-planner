@@ -1,0 +1,10 @@
+{
+  "badge": "global-issues",
+  "parent": null,
+  "children": [],
+  "title": "Think about the rights that we have in the UK (like the right to vote, the right to go to school and equal gender rights).",
+  "notes": "Compare these with the rights a Scout in another country might have.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

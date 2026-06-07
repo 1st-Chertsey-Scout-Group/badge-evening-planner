@@ -1,0 +1,10 @@
+{
+  "badge": "mechanic",
+  "parent": "45180",
+  "children": [],
+  "title": "Show how to change a wiper blade.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

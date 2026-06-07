@@ -1,0 +1,10 @@
+{
+  "badge": "team-leader",
+  "parent": null,
+  "children": [],
+  "title": "Successfully lead a Scout team at a camp or all day event.",
+  "notes": "You need to:\n\n- look after the whole Patrol/team\n- help individuals in your team if they need it\n- make sure that your team achieves the goal you have been set",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

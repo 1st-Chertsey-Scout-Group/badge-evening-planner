@@ -1,0 +1,35 @@
+{
+  "slug": "street-sports",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Street Sports",
+  "description": "Be spontaneous, improvise and show your creativity. Take up the challenge and get involved in a street sport like skateboarding, in-line skating or Parkour.",
+  "versionDate": "January 2018",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/street-sports/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./street-sports.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "50019",
+    "50020",
+    "50021",
+    "50022",
+    "50023"
+  ],
+  "optional": []
+}

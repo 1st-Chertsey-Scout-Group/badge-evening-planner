@@ -1,0 +1,10 @@
+{
+  "badge": "air-or-sea-navigation",
+  "parent": "50791",
+  "children": [],
+  "title": "Show you're able to correct a magnetic compass course for variation and deviation to obtain a true bearing.",
+  "notes": "Next, adjust a given true bearing to obtain a compass course.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

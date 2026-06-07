@@ -1,0 +1,10 @@
+{
+  "badge": "cyclist",
+  "parent": "45398",
+  "children": [],
+  "title": "Show you understand the Highway Code, including road signs and helmet use",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

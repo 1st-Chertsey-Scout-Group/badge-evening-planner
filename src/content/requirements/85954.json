@@ -1,0 +1,10 @@
+{
+  "badge": "money-skills",
+  "parent": null,
+  "children": [],
+  "title": "Learn how to budget and make smart choices with your money.",
+  "notes": "Explore how much everyday things cost, try comparing differently priced products, or plan an adventure where you aim to get the best value for your money.",
+  "optional": false,
+  "repeatTimes": 2,
+  "requiredOfChildren": "all"
+}

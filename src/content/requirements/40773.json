@@ -1,0 +1,10 @@
+{
+  "badge": "librarian",
+  "parent": null,
+  "children": [],
+  "title": "Show that you can use a library catalogue.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

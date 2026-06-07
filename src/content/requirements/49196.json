@@ -1,0 +1,10 @@
+{
+  "badge": "mechanic",
+  "parent": "45180",
+  "children": [],
+  "title": "Learn the principles of operating an engine.",
+  "notes": "Make sure you understand the function of the clutch, gearbox and rear axle differential.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

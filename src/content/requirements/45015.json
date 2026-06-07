@@ -1,0 +1,19 @@
+{
+  "badge": "communicator",
+  "parent": null,
+  "children": [
+    "49132",
+    "49133",
+    "49134",
+    "49135",
+    "49136",
+    "49137",
+    "49138",
+    "49139"
+  ],
+  "title": "Mobile and internet communication",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

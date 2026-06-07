@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": "43455",
+  "children": [],
+  "title": "Try out a flight simulator. This could be done online, on an app, on a computer game or as an immersive experience.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

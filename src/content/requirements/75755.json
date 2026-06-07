@@ -1,0 +1,10 @@
+{
+  "badge": "world",
+  "parent": null,
+  "children": [],
+  "title": "Spend a day volunteering with and finding out about a service in your local community:",
+  "notes": "- What are their challenges?\n- Who relies on this service?\n- What positive impact could you have on this service in the future?\n\nServices could be homeless shelters, local nature reserves, care homes and food banks.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

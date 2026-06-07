@@ -1,0 +1,14 @@
+{
+  "badge": "emergency-aid",
+  "parent": null,
+  "children": [
+    "49481",
+    "41401",
+    "49482"
+  ],
+  "title": "Explain to your leader or another adult about:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

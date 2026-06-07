@@ -1,0 +1,10 @@
+{
+  "badge": "climber",
+  "parent": null,
+  "children": [],
+  "title": "Take part in four or more separate climbs.",
+  "notes": "Your climbs should either be on artificial walls of grade 4+/5 or natural faces up to 'difficult' standard. You could do a mixture of both, using a different route for each climb. Either way, an experienced climber must supervise your climbs and evaluate your ability.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

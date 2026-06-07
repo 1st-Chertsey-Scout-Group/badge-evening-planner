@@ -1,0 +1,10 @@
+{
+  "badge": "sailing",
+  "parent": "40402",
+  "children": [],
+  "title": "Show you know how to recover a man overboard.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

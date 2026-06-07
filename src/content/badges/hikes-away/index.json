@@ -1,0 +1,157 @@
+{
+  "slug": "hikes-away",
+  "type": "staged",
+  "badgeType": "Staged",
+  "title": "Hikes Away",
+  "description": "",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/staged-badges/hikes-away/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "GO Outdoors support this badge.",
+      "details": "Find out more about the [support offered by GO Outdoors](/supporters/go-outdoors/)."
+    },
+    {
+      "title": "Hiking can be adapted for everyone. There are easy access routes in National Parks, and The Outdoor Guide also has information about wheelchair accessible routes.",
+      "details": "Find out about [easy access routes in National Parks](https://www.nationalparks.uk/accessibility/). The Outdoor Guide has information about [wheelchair friendly walks](https://theoutdoorguide.co.uk/walking-routes/accessible/)."
+    },
+    {
+      "title": "Hikes or journeys you've taken part in for previous stages of the badge can be counted towards your total as you move through the sections.",
+      "details": ""
+    }
+  ],
+  "relatedBadges": [
+    {
+      "title": "Hill Walker",
+      "url": "https://www.scouts.org.uk/explorers/activity-badges/hill-walker/"
+    },
+    {
+      "title": "Hill Walker",
+      "url": "https://www.scouts.org.uk/scouts/activity-badges/hill-walker/"
+    },
+    {
+      "title": "Explore",
+      "url": "https://www.scouts.org.uk/beavers/activity-badges/explore/"
+    }
+  ],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": {
+    "title": "GO Outdoors",
+    "url": "https://www.scouts.org.uk/supporters/go-outdoors/",
+    "logoUrl": "https://www.scouts.org.uk/media/7342/gooutdoors.png?width=800&height=450&v=1dab58ee87e5d70"
+  },
+  "image": {
+    "src": "./hikes-away.png",
+    "alt": "Badge showing a backpack with a number 1 and the words Go Outdoors"
+  },
+  "displayTitle": "Hikes Away Staged Activity Badge",
+  "stages": [
+    {
+      "label": "Hikes Away 1",
+      "threshold": 1,
+      "requirementsIntro": "",
+      "optionsIntro": "Complete 1 hike or journey to earn this badge:",
+      "mandatory": [],
+      "optional": [
+        "39977"
+      ]
+    },
+    {
+      "label": "Hikes Away 2",
+      "threshold": 2,
+      "requirementsIntro": "",
+      "optionsIntro": "Complete 2 hikes or journeys to earn this badge:",
+      "mandatory": [],
+      "optional": [
+        "39982"
+      ]
+    },
+    {
+      "label": "Hikes Away 5",
+      "threshold": 5,
+      "requirementsIntro": "",
+      "optionsIntro": "Complete 5 hikes or journeys to earn this badge:",
+      "mandatory": [],
+      "optional": [
+        "39987"
+      ]
+    },
+    {
+      "label": "Hikes Away 10",
+      "threshold": 10,
+      "requirementsIntro": "",
+      "optionsIntro": "Complete 10 hikes or journeys to earn this badge:",
+      "mandatory": [],
+      "optional": [
+        "39992"
+      ]
+    },
+    {
+      "label": "Hikes Away 15",
+      "threshold": 15,
+      "requirementsIntro": "",
+      "optionsIntro": "Complete 15 hikes or journeys to earn this badge:",
+      "mandatory": [],
+      "optional": [
+        "39997"
+      ]
+    },
+    {
+      "label": "Hikes Away 20",
+      "threshold": 20,
+      "requirementsIntro": "",
+      "optionsIntro": "Complete 20 hikes or journeys to earn this badge:",
+      "mandatory": [],
+      "optional": [
+        "40002"
+      ]
+    },
+    {
+      "label": "Hikes Away 35",
+      "threshold": 35,
+      "requirementsIntro": "",
+      "optionsIntro": "Complete 35 hikes or journeys to earn this badge:",
+      "mandatory": [],
+      "optional": [
+        "40007"
+      ]
+    },
+    {
+      "label": "Hikes Away 50",
+      "threshold": 50,
+      "requirementsIntro": "",
+      "optionsIntro": "Complete 50 hikes or journeys to earn this badge:",
+      "mandatory": [],
+      "optional": [
+        "40012"
+      ]
+    },
+    {
+      "label": "Hikes Away 75",
+      "threshold": 75,
+      "requirementsIntro": "",
+      "optionsIntro": "Complete 75 hikes or journeys to earn this badge:",
+      "mandatory": [],
+      "optional": [
+        "89741"
+      ]
+    },
+    {
+      "label": "Hikes Away 100",
+      "threshold": 100,
+      "requirementsIntro": "",
+      "optionsIntro": "Complete 100 hikes or journeys to earn this badge:",
+      "mandatory": [],
+      "optional": [
+        "89747"
+      ]
+    }
+  ]
+}

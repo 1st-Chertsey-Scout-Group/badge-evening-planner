@@ -1,0 +1,15 @@
+{
+  "badge": "mechanic",
+  "parent": null,
+  "children": [
+    "49211",
+    "49212",
+    "49213",
+    "49214"
+  ],
+  "title": "Aircraft",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

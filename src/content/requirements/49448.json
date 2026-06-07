@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": "43433",
+  "children": [],
+  "title": "Find out about one kind of aircraft and tell someone else about it.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

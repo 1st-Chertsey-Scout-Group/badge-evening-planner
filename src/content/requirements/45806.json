@@ -1,0 +1,10 @@
+{
+  "badge": "my-faith",
+  "parent": null,
+  "children": [],
+  "title": "Find out more about the origins of your faith.",
+  "notes": "Share what you find out with others in the Troop.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

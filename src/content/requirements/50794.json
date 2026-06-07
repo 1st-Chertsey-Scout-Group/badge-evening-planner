@@ -1,0 +1,10 @@
+{
+  "badge": "air-or-sea-navigation",
+  "parent": "50487",
+  "children": [],
+  "title": "Plot a position using a combination of compass bearings and one or more of these: satellite navigation system, vertical sextant angle, horizontal sextant angle, line of sounding or transits.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

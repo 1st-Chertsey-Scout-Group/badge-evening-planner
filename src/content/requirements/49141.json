@@ -1,0 +1,10 @@
+{
+  "badge": "communicator",
+  "parent": "45019",
+  "children": [],
+  "title": "After a few minutes of study, translate a paragraph of basic text.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

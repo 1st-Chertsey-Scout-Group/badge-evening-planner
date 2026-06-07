@@ -1,0 +1,15 @@
+{
+  "badge": "geocaching",
+  "parent": null,
+  "children": [
+    "49185",
+    "49186",
+    "49187",
+    "49188"
+  ],
+  "title": "Show that you know about the Global Positioning System (GPS) by explaining:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

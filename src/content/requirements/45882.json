@@ -1,0 +1,10 @@
+{
+  "badge": "angler",
+  "parent": null,
+  "children": [],
+  "title": "Choose the correct equipment and method for where you plan to fish.",
+  "notes": "You should be able to:\n\n- Assemble a rod, reel or pole.\n- Choose the right form of bait, lure or fly for your planned fishing activity.\n- Tie at least three different knots for your chosen method of fishing.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

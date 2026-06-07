@@ -1,0 +1,10 @@
+{
+  "badge": "equestrian",
+  "parent": "45956",
+  "children": [],
+  "title": "Show you know how to take care of saddlery and other equipment.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

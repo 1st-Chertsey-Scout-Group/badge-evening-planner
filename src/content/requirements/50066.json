@@ -1,0 +1,10 @@
+{
+  "badge": "meteorologist",
+  "parent": "45818",
+  "children": [],
+  "title": "Wind force and direction",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

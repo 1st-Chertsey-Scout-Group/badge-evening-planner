@@ -1,0 +1,10 @@
+{
+  "badge": "paddle-sports",
+  "parent": "40418",
+  "children": [],
+  "title": "Lift, carry and launch a boat.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

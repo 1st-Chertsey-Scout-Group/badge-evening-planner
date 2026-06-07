@@ -1,0 +1,210 @@
+{
+  "slug": "nights-away",
+  "type": "staged",
+  "badgeType": "Staged",
+  "title": "Nights Away",
+  "description": "",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/staged-badges/nights-away/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [
+    "Outdoors",
+    "At camp"
+  ],
+  "activityTypes": [
+    "Outdoor skills"
+  ],
+  "outcomes": [
+    {
+      "label": "Value the outdoors",
+      "description": "Enjoy being outside, feel comfortable in nature, and feel connected to the natural environment."
+    },
+    {
+      "label": "Try new things",
+      "description": "Find it easier to meet new people, go to new places, and do new things."
+    }
+  ],
+  "tips": [
+    {
+      "title": "Nights away you've taken part in for previous stages of the badge can be counted towards your total as you move through the sections",
+      "details": ""
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": "You must always be properly equipped for your activity and the weather conditions.",
+  "youthShapedSuggestions": null,
+  "supportedBy": {
+    "title": "GO Outdoors",
+    "url": "https://www.scouts.org.uk/supporters/go-outdoors/",
+    "logoUrl": "https://www.scouts.org.uk/media/7342/gooutdoors.png?width=800&height=450&v=1dab58ee87e5d70"
+  },
+  "image": {
+    "src": "./nights-away.png",
+    "alt": "Badge showing a lamp with the number one and the words Go Outdoors"
+  },
+  "displayTitle": "Nights Away Staged Activity Badge",
+  "stages": [
+    {
+      "label": "1 Night Away",
+      "threshold": 1,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "45330"
+      ],
+      "optional": []
+    },
+    {
+      "label": "2 Nights Away",
+      "threshold": 2,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "45332"
+      ],
+      "optional": []
+    },
+    {
+      "label": "3 Nights Away",
+      "threshold": 3,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "45334"
+      ],
+      "optional": []
+    },
+    {
+      "label": "4 Nights Away",
+      "threshold": 4,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "45336"
+      ],
+      "optional": []
+    },
+    {
+      "label": "5 Nights Away",
+      "threshold": 5,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "45338"
+      ],
+      "optional": []
+    },
+    {
+      "label": "10 Nights Away",
+      "threshold": 10,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "45340"
+      ],
+      "optional": []
+    },
+    {
+      "label": "15 Nights Away",
+      "threshold": 15,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "45342"
+      ],
+      "optional": []
+    },
+    {
+      "label": "20 Nights Away",
+      "threshold": 20,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "45344"
+      ],
+      "optional": []
+    },
+    {
+      "label": "35 Nights Away",
+      "threshold": 35,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "45346"
+      ],
+      "optional": []
+    },
+    {
+      "label": "50 Nights Away",
+      "threshold": 50,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "45348"
+      ],
+      "optional": []
+    },
+    {
+      "label": "75 Nights Away",
+      "threshold": 75,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "45350"
+      ],
+      "optional": []
+    },
+    {
+      "label": "100 Nights Away",
+      "threshold": 100,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "45352"
+      ],
+      "optional": []
+    },
+    {
+      "label": "125 Nights Away",
+      "threshold": 125,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "45354"
+      ],
+      "optional": []
+    },
+    {
+      "label": "150 Nights Away",
+      "threshold": 150,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "45356"
+      ],
+      "optional": []
+    },
+    {
+      "label": "175 Nights Away",
+      "threshold": 175,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "45358"
+      ],
+      "optional": []
+    },
+    {
+      "label": "200 Nights Away",
+      "threshold": 200,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "45360"
+      ],
+      "optional": []
+    }
+  ]
+}

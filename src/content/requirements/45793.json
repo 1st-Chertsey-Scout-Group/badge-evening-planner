@@ -1,0 +1,10 @@
+{
+  "badge": "activity-centre-service",
+  "parent": null,
+  "children": [],
+  "title": "Explain and show how to use three items of equipment that you've used in your work with the activity centre.",
+  "notes": "Show or talk about how you maintain the equipment.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

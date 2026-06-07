@@ -1,0 +1,15 @@
+{
+  "badge": "islamophobia-awareness-month-blanket-badge",
+  "parent": null,
+  "children": [
+    "82594",
+    "82595",
+    "82596",
+    "82597"
+  ],
+  "title": "Learn about bias and discrimination",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": 1
+}

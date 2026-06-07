@@ -1,0 +1,10 @@
+{
+  "badge": "communicator",
+  "parent": "45012",
+  "children": [],
+  "title": "Learn the International Phonetic Alphabet and define at least eight international Q code signals.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

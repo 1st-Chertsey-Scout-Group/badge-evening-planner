@@ -1,0 +1,10 @@
+{
+  "badge": "pioneer",
+  "parent": "40384",
+  "children": [],
+  "title": "an outdoor pioneering project, like building a monkey bridge, a raft or parallel runway",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

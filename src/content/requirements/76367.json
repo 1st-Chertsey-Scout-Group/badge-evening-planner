@@ -1,0 +1,10 @@
+{
+  "badge": "skills",
+  "parent": "75677",
+  "children": [],
+  "title": "Change a lightbulb, in a ceiling light",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

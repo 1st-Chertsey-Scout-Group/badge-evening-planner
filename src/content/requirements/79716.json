@@ -1,0 +1,10 @@
+{
+  "badge": "earth-tribe-award",
+  "parent": "79692",
+  "children": [],
+  "title": "Tell the world",
+  "notes": "Share with your group or local community what you did to help support and protect nature. Tell them the impact these changes can have and why you think it's important.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

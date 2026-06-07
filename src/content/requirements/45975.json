@@ -1,0 +1,10 @@
+{
+  "badge": "quartermaster",
+  "parent": "45968",
+  "children": [],
+  "title": "Show ability in these areas:",
+  "notes": "- care and storage of tents, including how to do simple repairs\n- care and storage of cordage. This includes whipping, splicing, hanking, coiling and safety inspections\n- safe storage and handling of fuels such as methylated spirits, paraffin, petrol and gas\n- care of cooking stoves and cooking utensils, including simple repairs, cleaning and general maintenance\n- convenient storage of a section's training and games equipment\n- caring for and storing equipment used for adventurous activities, such as sailing gear, canoes and paddles, life jackets and buoyancy aids, go-karts or climbing ropes.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

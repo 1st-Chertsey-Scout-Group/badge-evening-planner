@@ -1,0 +1,10 @@
+{
+  "badge": "circus-skills",
+  "parent": null,
+  "children": [],
+  "title": "Select two skills from the table below:",
+  "notes": "The two skills must be from different lists.\n\n    Aerial Balance Manipulative Ground trapeze trick-cycling cigar boxes handstands roman rings stilts club swinging tumbling aerial ladder ladder devil sticks acrobatics aerial rope tightrope diablo wire walking wire walking perch roller bolo Clowning Juggling Spinning make up with three objects or more yo-yo costume poi spinning rhythmic gymnastics (twirling ribbon) spinning plates",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "photographer",
+  "parent": "46569",
+  "children": [],
+  "title": "Produce six black and white photographs, based on a theme of your choice. Explain the steps you took to create them and the impact of using black and white as an alternative to colour images.",
+  "notes": "You could produce high quality prints on photographic paper or present them on screen.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

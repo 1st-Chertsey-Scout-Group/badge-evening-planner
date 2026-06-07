@@ -1,0 +1,10 @@
+{
+  "badge": "survival-skills",
+  "parent": "40805",
+  "children": [],
+  "title": "some basic actions to take while waiting rescue that will both keep you (and your group) safe and will assist your rescuers in locating you",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

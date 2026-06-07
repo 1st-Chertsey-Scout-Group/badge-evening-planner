@@ -1,0 +1,16 @@
+{
+  "badge": "earth-tribe-award",
+  "parent": null,
+  "children": [
+    "79707",
+    "79709",
+    "79711",
+    "79715",
+    "79716"
+  ],
+  "title": "Champions for Nature",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

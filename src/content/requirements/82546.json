@@ -1,0 +1,17 @@
+{
+  "badge": "islamophobia-awareness-month-blanket-badge",
+  "parent": null,
+  "children": [
+    "82547",
+    "82607",
+    "82609",
+    "82603",
+    "82604",
+    "82605"
+  ],
+  "title": "Do an act of kindness",
+  "notes": "Islam promotes being caring and having compassion for others. It also teaches Muslims to look after our environment - the Prophet Muhammed (peace be upon him) said 'removing a harmful thing from the path is a charitable act.' You could:",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": 1
+}

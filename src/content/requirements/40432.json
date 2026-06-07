@@ -1,0 +1,10 @@
+{
+  "badge": "paddle-sports",
+  "parent": "40430",
+  "children": [],
+  "title": "Balancing a boat.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "paddle-sports",
+  "parent": "40435",
+  "children": [],
+  "title": "Short boat",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

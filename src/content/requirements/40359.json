@@ -1,0 +1,10 @@
+{
+  "badge": "nautical-skills",
+  "parent": null,
+  "children": [],
+  "title": "Develop your skills in one water based activity to a level where you can operate the watercraft safely.",
+  "notes": "You could demonstrate this by gaining a personal permit or the relevant national governing body personal competency award.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

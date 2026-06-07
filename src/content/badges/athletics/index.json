@@ -1,0 +1,34 @@
+{
+  "slug": "athletics",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Athletics",
+  "description": "Wipe the sweat from your brow, as you close in your personal best. Athletics is all about practising, persevering and improving - perfect for a Scout like you.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/athletics/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./athletics.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "46162",
+    "46163",
+    "46164",
+    "46165"
+  ],
+  "optional": []
+}

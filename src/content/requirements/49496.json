@@ -1,0 +1,10 @@
+{
+  "badge": "musician",
+  "parent": "40649",
+  "children": [],
+  "title": "Listen to another tune and then beat or clap out the rhythm.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

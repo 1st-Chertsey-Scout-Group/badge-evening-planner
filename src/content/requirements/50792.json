@@ -1,0 +1,10 @@
+{
+  "badge": "air-or-sea-navigation",
+  "parent": "50791",
+  "children": [],
+  "title": "Read a mariner's compass marked in points and degrees and demonstrate your knowledge of compasses generally.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

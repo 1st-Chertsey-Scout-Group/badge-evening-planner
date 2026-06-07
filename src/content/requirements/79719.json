@@ -1,0 +1,10 @@
+{
+  "badge": "earth-tribe-award",
+  "parent": "79694",
+  "children": [],
+  "title": "Identify the need",
+  "notes": "Find out how we generate energy in different ways and how they can effect the environment.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

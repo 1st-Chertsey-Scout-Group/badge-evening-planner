@@ -1,0 +1,10 @@
+{
+  "badge": "history-comes-alive-blanket-badge",
+  "parent": null,
+  "children": [],
+  "title": "Make a moment in history come alive for your group.",
+  "notes": "You could do this by fact finding, model making, reenactment, costumes or pictures. It's important you make this moment in time exciting and memorable!",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": "45642",
+  "children": [],
+  "title": "Complete a free run down a moderate to hard slope (red) showing balance, control, good choice of line and awareness of other people on the slope",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

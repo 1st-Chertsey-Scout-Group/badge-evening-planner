@@ -1,0 +1,10 @@
+{
+  "badge": "air-researcher",
+  "parent": null,
+  "children": [],
+  "title": "Research one historical aspect of flight, and share what you find out with the Troop.",
+  "notes": "You might like to find out about:\n\n- the development of aviation or flight over a period of time agreed with your leader\n- balloons or airships, from their first appearance to the present day\n- a type of aero engine, such as a jet or piston engines in general, or a specific engine like the Rolls-Royce Merlin\n- the development of an aircraft type, like a Spitfire, Boeing 747, Harrier, Stealth Bomber, space shuttle or the Wessex helicopter. You could find out details about its history, role and achievements",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

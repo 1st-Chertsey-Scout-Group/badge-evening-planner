@@ -1,0 +1,10 @@
+{
+  "badge": "earth-tribe-award",
+  "parent": "79694",
+  "children": [],
+  "title": "Take action",
+  "notes": "Carry out your plan and encourage your community to be part of your action.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

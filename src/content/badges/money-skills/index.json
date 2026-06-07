@@ -1,0 +1,66 @@
+{
+  "slug": "money-skills",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Money Skills",
+  "description": "Learn how to be confident in decisions around money.",
+  "versionDate": "January 0001",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/money-skills/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [
+    "Indoors",
+    "Outdoors",
+    "At camp"
+  ],
+  "activityTypes": [
+    "Practical skills"
+  ],
+  "outcomes": [
+    {
+      "label": "Be a citizen",
+      "description": "Know that you're a local, national, and international citizen, and understand your responsibilities."
+    },
+    {
+      "label": "Develop skills",
+      "description": "Gain a range of practical and modern skills for school, work, and your social life."
+    }
+  ],
+  "tips": [
+    {
+      "title": "Activities per requirement",
+      "details": "We suggest young people complete two activities per requirement. This will give them time to explore different aspects of each requirement, learn from different scenarios, and have time to digest this important topic."
+    },
+    {
+      "title": "Buy the badge",
+      "details": "You can buy the [Scouts Money Skills Activity Badge from Scout Store](https://shop.scouts.org.uk/new-in/scouts-money-skills-activity-badge-113750)"
+    },
+    {
+      "title": "Financial Education Framework",
+      "details": "This badge has been created in collaboration with Young Enterprise. This collaboration has meant we have been successful in gaining the Young Enterprise Quality Mark for the badge and related activities. For more information have a look at the[ Financial Education Framework website](https://www.young-enterprise.org.uk/teachers-hub/financial-education/resources-hub/financial-education-planning-frameworks/)."
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": {
+    "title": "HSBC UK",
+    "url": "https://www.scouts.org.uk/supporters/hsbc-uk/",
+    "logoUrl": "https://www.scouts.org.uk/media/13886/hsbc-uk.png?cc=0.036000910182936156,0,0.15397861070100011,0.0000000000000005614164825759&width=800&height=450&v=1db822029340140"
+  },
+  "image": {
+    "src": "./money-skills.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "85953",
+    "85954",
+    "85955",
+    "85956"
+  ],
+  "optional": []
+}

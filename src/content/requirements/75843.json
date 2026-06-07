@@ -1,0 +1,10 @@
+{
+  "badge": "team-leader",
+  "parent": null,
+  "children": [],
+  "title": "Represent the views of other Scouts.",
+  "notes": "For example, at a Patrol Leaders' Council or something similar and report back to them afterwards.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

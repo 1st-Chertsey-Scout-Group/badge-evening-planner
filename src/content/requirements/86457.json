@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": "43495",
+  "children": [],
+  "title": "Explore the different types of emergency radio calls used in aviation, such as mayday and pan-pan",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

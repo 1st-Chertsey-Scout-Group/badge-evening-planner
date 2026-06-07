@@ -1,0 +1,15 @@
+{
+  "badge": "snowsports",
+  "parent": null,
+  "children": [
+    "49566",
+    "49567",
+    "49568",
+    "49569"
+  ],
+  "title": "Take part in a taster session that covers:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

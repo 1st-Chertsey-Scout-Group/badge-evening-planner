@@ -1,0 +1,10 @@
+{
+  "badge": "sports-enthusiast",
+  "parent": null,
+  "children": [],
+  "title": "Describe the levels of achievement within your chosen sport locally, nationally or internationally.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "communicator",
+  "parent": "45012",
+  "children": [],
+  "title": "Show that you know the proper procedure for sending and receiving a message.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

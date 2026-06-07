@@ -1,0 +1,16 @@
+{
+  "badge": "earth-tribe-award",
+  "parent": null,
+  "children": [
+    "79719",
+    "79720",
+    "79722",
+    "79724",
+    "79726"
+  ],
+  "title": "Go Solar",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

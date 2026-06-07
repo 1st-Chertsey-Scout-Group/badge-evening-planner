@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": "43433",
+  "children": [],
+  "title": "Use the phonetic alphabet to spell out flight-related terms and phrases.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

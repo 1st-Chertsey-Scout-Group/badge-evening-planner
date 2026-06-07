@@ -1,0 +1,10 @@
+{
+  "badge": "swimmer",
+  "parent": null,
+  "children": [],
+  "title": "Moving through the water helps you get to different places. Swim at least 5 metres with or without support from a float.",
+  "notes": "You could swim to an adult, to a floating toy or even to the other side of the pool.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

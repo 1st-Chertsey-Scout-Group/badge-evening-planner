@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": "43520",
+  "children": [],
+  "title": "Learn what runway markings mean, then explain how lights and pyrotechnic signals are used for ground-to-aircraft communication.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

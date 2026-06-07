@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": "40924",
+  "children": [],
+  "title": "Complete a cross-country timed route and then improve your time over a two further attempts",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

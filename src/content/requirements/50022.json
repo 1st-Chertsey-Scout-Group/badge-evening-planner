@@ -1,0 +1,10 @@
+{
+  "badge": "street-sports",
+  "parent": null,
+  "children": [],
+  "title": "Show that you're skilled in your chosen street sport and show how you've improved over three months.",
+  "notes": "You could take part in an exhibition, public event or competition.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

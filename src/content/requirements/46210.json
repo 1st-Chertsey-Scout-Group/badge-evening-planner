@@ -1,0 +1,10 @@
+{
+  "badge": "space",
+  "parent": null,
+  "children": [],
+  "title": "Discover something new about the universe and share it with the group.",
+  "notes": "You could explore planets, stars, galaxies, asteroids or something else.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

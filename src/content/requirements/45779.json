@@ -1,0 +1,10 @@
+{
+  "badge": "caver",
+  "parent": null,
+  "children": [],
+  "title": "Keep a record of your trips and the routes you followed.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "digital-citizen",
+  "parent": null,
+  "children": [],
+  "title": "Take part in a debate on a topic that you think there may be lots of misinformation about online.",
+  "notes": "Use evidence you've found online only. After the debate, discuss how easy it was to know if the evidence you found was reliable or not.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

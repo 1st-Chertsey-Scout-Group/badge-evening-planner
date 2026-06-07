@@ -1,0 +1,10 @@
+{
+  "badge": "teamwork",
+  "parent": null,
+  "children": [],
+  "title": "Give at least three examples of when you've been in different types of teams.",
+  "notes": "Explain your role in those teams.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

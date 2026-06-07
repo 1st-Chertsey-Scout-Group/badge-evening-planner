@@ -1,0 +1,10 @@
+{
+  "badge": "expedition",
+  "parent": "75782",
+  "children": [],
+  "title": "Choosing suitable equipment for your journey.",
+  "notes": "You might consider tents, stoves, rucksacks, walking equipment, emergency equipment, first aid kit, wet weather gear, appropriate food and a camera",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

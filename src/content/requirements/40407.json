@@ -1,0 +1,10 @@
+{
+  "badge": "sailing",
+  "parent": null,
+  "children": [],
+  "title": "Complete the RYA Youth Sailing Scheme Stage 4.",
+  "notes": "You can find out more about the Scheme on the [RYA website](https://mc-7049507c-bba8-48f3-9742-307992-cd.azurewebsites.net/training/courses/youth-sailing-scheme-start-sailing-stage-4-sss4c?activities=&courseTypes=&experienceLevels=2).",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

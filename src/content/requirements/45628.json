@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": "40919",
+  "children": [],
+  "title": "An off-piste experience",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

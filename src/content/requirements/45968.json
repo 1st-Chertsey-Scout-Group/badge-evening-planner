@@ -1,0 +1,14 @@
+{
+  "badge": "quartermaster",
+  "parent": null,
+  "children": [
+    "45975",
+    "50505",
+    "50507"
+  ],
+  "title": "Assist a Group or Troop Quartermaster for at least three months.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

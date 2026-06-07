@@ -1,0 +1,10 @@
+{
+  "badge": "electronics",
+  "parent": null,
+  "children": [],
+  "title": "Show that you know the symbols used to represent common components in circuit diagrams.",
+  "notes": "Show how to identify the polarity of a diode and a specific PIN on an integrated circuit.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

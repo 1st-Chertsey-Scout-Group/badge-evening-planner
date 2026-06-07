@@ -1,0 +1,10 @@
+{
+  "badge": "world-faiths",
+  "parent": "45893",
+  "children": [],
+  "title": "Find out about someone whose faith has had a significant impact upon their life.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

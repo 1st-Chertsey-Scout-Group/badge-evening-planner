@@ -1,0 +1,12 @@
+{
+  "badge": "digital-maker",
+  "parent": null,
+  "children": [
+    "49475"
+  ],
+  "title": "Attend a digital making event and show your work, or help somebody else in your section or another section to work towards a Digital Maker Staged Activity badge.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "scientist",
+  "parent": "45162",
+  "children": [],
+  "title": "Explore and discuss the science behind two Scouting activities or hobbies.",
+  "notes": "For example, you could investigate the science behind a perfect campfire, how a kayak stays afloat and travels through the water, or how a compass or GPS device works.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

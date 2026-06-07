@@ -1,0 +1,10 @@
+{
+  "badge": "hobbies",
+  "parent": "41739",
+  "children": [],
+  "title": "Take up a hobby or interest that you do not already have an activity badge for.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

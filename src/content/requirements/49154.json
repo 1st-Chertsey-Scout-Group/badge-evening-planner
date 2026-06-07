@@ -1,0 +1,10 @@
+{
+  "badge": "dragon-boating",
+  "parent": "49147",
+  "children": [],
+  "title": "the water buddy system",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

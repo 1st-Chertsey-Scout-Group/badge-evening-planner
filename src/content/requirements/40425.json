@@ -1,0 +1,23 @@
+{
+  "badge": "paddle-sports",
+  "parent": null,
+  "children": [
+    "45546",
+    "45547",
+    "49541",
+    "49542",
+    "49543",
+    "49544",
+    "49545",
+    "49546",
+    "49547",
+    "49548",
+    "49549",
+    "49550"
+  ],
+  "title": "Gain two of the following British Canoeing Personal Performance Awards:",
+  "notes": "More information about the Personal Performance Awards can be found on the [British Canoeing website](https://www.britishcanoeingawarding.org.uk/personal-performance-awards/).",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": 2
+}

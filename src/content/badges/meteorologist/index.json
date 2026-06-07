@@ -1,0 +1,36 @@
+{
+  "slug": "meteorologist",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Meteorologist",
+  "description": "Rain or shine, wind or snow - ignite your passion for the weather.",
+  "versionDate": "January 2018",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/meteorologist/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./meteorologist.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "45818",
+    "45819",
+    "45820",
+    "45821",
+    "45822",
+    "45823"
+  ],
+  "optional": []
+}

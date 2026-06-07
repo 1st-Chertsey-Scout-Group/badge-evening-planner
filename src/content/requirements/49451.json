@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": "43433",
+  "children": [],
+  "title": "Learn how different weather conditions can affect air activities.",
+  "notes": "You could test how a paper plane flies on a calm day and on windy day.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

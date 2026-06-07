@@ -1,0 +1,10 @@
+{
+  "badge": "world-faiths",
+  "parent": "45893",
+  "children": [],
+  "title": "Learn about the life of a founder or a prominent leader of a faith.",
+  "notes": "You could learn about people like Prince Siddhartha Gautama, Mohammed, Jesus Christ or a saint such as St George.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

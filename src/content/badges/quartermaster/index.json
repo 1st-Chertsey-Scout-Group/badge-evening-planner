@@ -1,0 +1,32 @@
+{
+  "slug": "quartermaster",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Quartermaster",
+  "description": "Keep your scout troop well stocked with supplies by discovering what it takes to be a great quartermaster.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/quartermaster/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./quartermaster.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 1,
+  "mandatory": [],
+  "optional": [
+    "45968",
+    "45969"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": null,
+  "children": [],
+  "title": "Describe any aircraft (including fictional) you'd like to fly in and explain why.",
+  "notes": "Present your idea in a creative way, such as artwork, presentations, digital designs or models.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

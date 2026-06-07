@@ -1,0 +1,40 @@
+{
+  "slug": "water-activities",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Water Activities",
+  "description": "From scuba diving to water skiing, hit the water and indulge your passion, for a fantastic water activities experience.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/water-activities/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "UK Headquarters can provide alternative requirements for water sports not listed above. You can gain a badge for every standard you meet.",
+      "details": ""
+    },
+    {
+      "title": "This badge is for non-boating activities. If you're interested in boating, you might prefer Dragon Boating, Power Coxswain, Pulling or Nautical Skills.",
+      "details": ""
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./water-activities.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "45872"
+  ],
+  "optional": []
+}

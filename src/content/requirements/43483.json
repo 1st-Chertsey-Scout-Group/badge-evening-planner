@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": null,
+  "children": [],
+  "title": "Draw a runway and the circuit pattern that planes follow, then explain how air traffic control uses this circuit to keep planes safe and communicate with pilots.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

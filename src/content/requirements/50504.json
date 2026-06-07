@@ -1,0 +1,10 @@
+{
+  "badge": "quartermaster",
+  "parent": "45969",
+  "children": [],
+  "title": "Choose tools to take to camp, to complete emergency repairs on equipment.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

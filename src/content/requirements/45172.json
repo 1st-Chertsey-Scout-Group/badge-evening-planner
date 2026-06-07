@@ -1,0 +1,10 @@
+{
+  "badge": "environmental-conservation",
+  "parent": null,
+  "children": [],
+  "title": "Get involved in a campaign to make others aware of an environmental issue.",
+  "notes": "You could write to your MP and other local agencies or speak to a community group.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,15 @@
+{
+  "badge": "navigator",
+  "parent": "45491",
+  "children": [
+    "50553",
+    "50554",
+    "50555",
+    "50556"
+  ],
+  "title": "Interpret contour lines in terms of shape and steepness of terrain. Learn what the topographical features mean, including:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

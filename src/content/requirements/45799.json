@@ -1,0 +1,10 @@
+{
+  "badge": "activity-centre-service",
+  "parent": "45794",
+  "children": [],
+  "title": "the use of computers in campsite management",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

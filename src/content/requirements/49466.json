@@ -1,0 +1,10 @@
+{
+  "badge": "community-impact",
+  "parent": "39528",
+  "children": [],
+  "title": "spend at least 12 hours personally taking action on your chosen issue. You can achieve more impact by spreading your time out, over four months, instead of doing it all in one go.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

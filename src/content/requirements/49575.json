@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": "45642",
+  "children": [],
+  "title": "Complete a 3km cross country ski route on a prepared track",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "swimmer",
+  "parent": null,
+  "children": [],
+  "title": "Moving away from the wall can help you feel more confident in the water. Push away from the wall on either your front or back, then glide further into the middle of the pool.",
+  "notes": "You can do this with or without support from a float.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

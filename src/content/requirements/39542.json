@@ -1,0 +1,13 @@
+{
+  "badge": "community-impact",
+  "parent": null,
+  "children": [
+    "50549",
+    "50552"
+  ],
+  "title": "Take action over twelve months. You should:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

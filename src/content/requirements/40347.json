@@ -1,0 +1,10 @@
+{
+  "badge": "nautical-skills",
+  "parent": null,
+  "children": [],
+  "title": "Explain the difference between a buoyancy aid and a life jacket, when each should be used and how they function.",
+  "notes": "Show how they are worn.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

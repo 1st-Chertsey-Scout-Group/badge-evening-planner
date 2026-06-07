@@ -1,0 +1,10 @@
+{
+  "badge": "air-or-sea-navigation",
+  "parent": "45944",
+  "children": [],
+  "title": "On a topographical air map, draw a track for an imaginary flight of at least 80 nautical miles. Point out the landmarks that would show up on both sides of the track, in clear visibility, at an altitude of about 600 feet.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

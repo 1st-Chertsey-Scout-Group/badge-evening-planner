@@ -1,0 +1,38 @@
+{
+  "slug": "climber",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Climber",
+  "description": "Climbing requires an inner determination to reach the summit, communication skills and working as part of team - perfect for a scout like you.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/climber/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./climber.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "45194",
+    "45195",
+    "45196",
+    "45197",
+    "45198",
+    "45199",
+    "45200",
+    "45201"
+  ],
+  "optional": []
+}

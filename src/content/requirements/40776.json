@@ -1,0 +1,10 @@
+{
+  "badge": "librarian",
+  "parent": null,
+  "children": [],
+  "title": "Show how you would search for information using the internet.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

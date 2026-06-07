@@ -1,0 +1,13 @@
+{
+  "badge": "mechanic",
+  "parent": null,
+  "children": [
+    "49205",
+    "49208"
+  ],
+  "title": "Power boat",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

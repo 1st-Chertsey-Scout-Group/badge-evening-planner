@@ -1,0 +1,37 @@
+{
+  "slug": "photographer",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Photographer",
+  "description": "Take an image, freeze a moment, and discover the art of photography.",
+  "versionDate": "January 2018",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/photographer/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "Whichever option you choose, you should use a camera that allows you to modify settings and use an optical zoom. Most camera functions on smartphones and tablets don't have these features but if you have one that does, you can use it.",
+      "details": ""
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./photographer.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 1,
+  "mandatory": [],
+  "optional": [
+    "45418",
+    "45419"
+  ]
+}

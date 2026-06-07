@@ -1,0 +1,10 @@
+{
+  "badge": "writer",
+  "parent": "41213",
+  "children": [],
+  "title": "Produce a published article of around 600 words in length.",
+  "notes": "You could contribute to a school, faith, community or Scout magazine or write a letter to a local paper.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

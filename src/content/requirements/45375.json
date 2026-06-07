@@ -1,0 +1,16 @@
+{
+  "badge": "cyclist",
+  "parent": null,
+  "children": [
+    "49121",
+    "45395",
+    "45472",
+    "46375",
+    "45398"
+  ],
+  "title": "Road cycling",
+  "notes": "You can automatically complete this option if you gain Bikeability Level 2 or 3. Otherwise, here's what you need to do for this option:",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "artist",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Artist",
+  "description": "Express yourself! Stretch your imagination and discover the artist within you.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/artist/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./artist.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "Choose one of the following options:",
+  "optionsToQualify": 1,
+  "mandatory": [],
+  "optional": [
+    "46100",
+    "46101"
+  ]
+}

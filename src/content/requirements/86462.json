@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": "43520",
+  "children": [],
+  "title": "Learn about the emergency procedures for one specific type of aircraft.",
+  "notes": "Understand what actions to take in emergency events, such as engine failure, cable break or autorotation.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

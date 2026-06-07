@@ -1,0 +1,10 @@
+{
+  "badge": "nautical-skills",
+  "parent": null,
+  "children": [],
+  "title": "Use a knot (either a round turn and two half hitches or a bowline) or a cleat correctly to moor a boat with a painter or mooring line.",
+  "notes": "Describe what you need to be aware of when using these to moor.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

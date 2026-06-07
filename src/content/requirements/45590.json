@@ -1,0 +1,10 @@
+{
+  "badge": "parascending",
+  "parent": null,
+  "children": [],
+  "title": "Take part in a parascending course.",
+  "notes": "Show that you can:\n\n- demonstrate a good landing roll\n- put on a harness and adjust it\n- assist on more than two occasions as tensiometer reader, observer or log keeper.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

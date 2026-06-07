@@ -1,0 +1,17 @@
+{
+  "badge": "meteorologist",
+  "parent": null,
+  "children": [
+    "50066",
+    "46121",
+    "50067",
+    "50068",
+    "50069",
+    "50070"
+  ],
+  "title": "Explain how each of these are measured:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

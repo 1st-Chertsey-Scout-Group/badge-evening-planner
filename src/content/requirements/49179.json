@@ -1,0 +1,10 @@
+{
+  "badge": "fundraising",
+  "parent": null,
+  "children": [],
+  "title": "Write a short report about your fundraising challenge and submit it to your leader, Troop Forum or Patrol Leaders' Council.",
+  "notes": "Detail the cost versus the amount raised and give three top tips that could help other fundraisers.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "lifesaver",
+  "parent": null,
+  "children": [],
+  "title": "Explain and, if you can, show what you would do if:",
+  "notes": "- a person fell through ice\n- a pet fell through ice",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

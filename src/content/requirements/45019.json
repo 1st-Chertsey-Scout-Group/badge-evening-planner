@@ -1,0 +1,16 @@
+{
+  "badge": "communicator",
+  "parent": null,
+  "children": [
+    "45069",
+    "45070",
+    "49140",
+    "49141",
+    "49142"
+  ],
+  "title": "Foreign languages",
+  "notes": "Complete these tasks in any foreign language:",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

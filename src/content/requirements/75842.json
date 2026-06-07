@@ -1,0 +1,10 @@
+{
+  "badge": "team-leader",
+  "parent": null,
+  "children": [],
+  "title": "Help another Scout to develop a Scouting skill.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

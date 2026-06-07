@@ -1,0 +1,10 @@
+{
+  "badge": "communicator",
+  "parent": "45012",
+  "children": [],
+  "title": "Send and receive a short message by Morse code or semaphore at a rate of five words per minute.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

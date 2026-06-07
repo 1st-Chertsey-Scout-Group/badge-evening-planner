@@ -1,0 +1,10 @@
+{
+  "badge": "master-at-arms",
+  "parent": null,
+  "children": [],
+  "title": "Take part in your chosen activity at an officially supervised contest.",
+  "notes": "Afterwards, talk to the instructor about your performance and how you can improve.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

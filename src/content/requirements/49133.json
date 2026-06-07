@@ -1,0 +1,10 @@
+{
+  "badge": "communicator",
+  "parent": "45015",
+  "children": [],
+  "title": "Learn the meaning of these terms: SMS, MMS, 3G, 4G, WAP and Bluetooth.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,16 @@
+{
+  "badge": "local-knowledge",
+  "parent": null,
+  "children": [
+    "46039",
+    "46040",
+    "45646",
+    "46041",
+    "46042"
+  ],
+  "title": "Urban areas",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

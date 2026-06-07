@@ -1,0 +1,10 @@
+{
+  "badge": "martial-arts",
+  "parent": null,
+  "children": [],
+  "title": "Take part in a regular martial arts activity that's recognised by your sports council for at least six months.",
+  "notes": "Show how you've improved by at least one level over that period.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

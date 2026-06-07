@@ -1,0 +1,10 @@
+{
+  "badge": "circus-skills",
+  "parent": null,
+  "children": [],
+  "title": "Carry on putting effort into your two selected skills and show some  achievement.",
+  "notes": "Someone with experience should guide you throughout.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,13 @@
+{
+  "badge": "air-or-sea-navigation",
+  "parent": "40440",
+  "children": [
+    "45945",
+    "45946"
+  ],
+  "title": "Choose one of these to do:",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": 1
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "team-leader",
+  "type": "challenge",
+  "badgeType": "Challenge Award",
+  "title": "Team Leader",
+  "description": "Learn how to lead by example and take one for the team!",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/awards/team-leader/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "This Challenge Award provides the perfect next step for anyone who has enjoyed earning their Teamwork Challenge Award, and wants to develop their leadership skills further.",
+      "details": "Some people may find it useful to complete their Teamwork Award before moving onto their Team Leader Award."
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./team-leader.png",
+    "alt": ""
+  },
+  "requirementsIntro": "Do these tasks over at least three months:",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "75840",
+    "75841",
+    "75842",
+    "75843"
+  ],
+  "optional": []
+}

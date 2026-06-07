@@ -1,0 +1,10 @@
+{
+  "badge": "mechanic",
+  "parent": "49214",
+  "children": [],
+  "title": "rigging and de-rigging a glider",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

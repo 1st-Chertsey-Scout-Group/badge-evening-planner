@@ -1,0 +1,33 @@
+{
+  "slug": "farming",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Farming",
+  "description": "Learn about the process behind the food on our plates. You'll get some hands-on practical experience and develop a deeper appreciation for the natural world.",
+  "versionDate": "January 2018",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/farming/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": "An experienced adult will need to oversee the activities.",
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./farming.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 1,
+  "mandatory": [],
+  "optional": [
+    "45650",
+    "45651",
+    "45652"
+  ]
+}

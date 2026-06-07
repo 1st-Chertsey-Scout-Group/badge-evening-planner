@@ -1,0 +1,15 @@
+{
+  "badge": "snowsports",
+  "parent": null,
+  "children": [
+    "45630",
+    "45631",
+    "45632",
+    "45633"
+  ],
+  "title": "Plan a half-day's activity, considering the following:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

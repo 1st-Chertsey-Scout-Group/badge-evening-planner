@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": "40916",
+  "children": [],
+  "title": "Identify hazards of the mountain environment.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

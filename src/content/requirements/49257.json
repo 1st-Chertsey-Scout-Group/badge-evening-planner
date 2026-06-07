@@ -1,0 +1,13 @@
+{
+  "badge": "photographer",
+  "parent": "45419",
+  "children": [
+    "49258",
+    "49969"
+  ],
+  "title": "Choose one of these two activities:",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

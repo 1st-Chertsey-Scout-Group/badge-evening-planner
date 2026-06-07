@@ -1,0 +1,14 @@
+{
+  "badge": "farming",
+  "parent": null,
+  "children": [
+    "49182",
+    "49183",
+    "49184"
+  ],
+  "title": "Farming",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "my-faith",
+  "parent": null,
+  "children": [],
+  "title": "Explore something about the history of your faith at a local, national or international level.",
+  "notes": "You could learn about influential people, or visit a shrine or other holy place.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

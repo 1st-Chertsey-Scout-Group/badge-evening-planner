@@ -1,0 +1,43 @@
+{
+  "slug": "pulling-fixed-seat-rowing",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Pulling (Fixed Seat Rowing)",
+  "description": "Take a stroke, cut through the water, and become a rowing master.",
+  "versionDate": "January 2018",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/pulling-fixed-seat-rowing/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "If you have completed a British Rowing Learn2Row (L2R) course in a fixed seat craft, or gained a personal or leadership activity permit for pulling, you can automatically gain this badge.",
+      "details": ""
+    },
+    {
+      "title": "Learn about water safety with the RNLI.",
+      "details": "You could [book a free visit from the RNLI to learn about water safety](https://rnli.org/youth-education/educational-visits)."
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./pulling-fixed-seat-rowing.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "49243",
+    "49244",
+    "49245",
+    "49246"
+  ],
+  "optional": []
+}

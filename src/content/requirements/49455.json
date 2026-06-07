@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": "43455",
+  "children": [],
+  "title": "Find out about unmanned aircraft, such as drones.",
+  "notes": "Understand why they might be used and discover the rules around flying them safely.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,16 @@
+{
+  "badge": "sailing",
+  "parent": "40406",
+  "children": [
+    "40502",
+    "49565",
+    "45825",
+    "40457",
+    "40458"
+  ],
+  "title": "Show that you know about:",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

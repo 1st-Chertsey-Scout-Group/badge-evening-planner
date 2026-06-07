@@ -1,0 +1,19 @@
+{
+  "badge": "paddle-sports",
+  "parent": "40424",
+  "children": [
+    "49533",
+    "49534",
+    "49535",
+    "49536",
+    "49537",
+    "49538",
+    "49539",
+    "49540"
+  ],
+  "title": "Take part in at least two of the following activities that you have not tried before:",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": 2
+}

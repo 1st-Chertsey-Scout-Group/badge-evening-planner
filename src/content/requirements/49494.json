@@ -1,0 +1,10 @@
+{
+  "badge": "emergency-aid",
+  "parent": "41393",
+  "children": [],
+  "title": "is having a seizure",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

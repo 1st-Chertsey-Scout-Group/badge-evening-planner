@@ -1,0 +1,13 @@
+{
+  "badge": "athletics",
+  "parent": null,
+  "children": [
+    "49096",
+    "49097"
+  ],
+  "title": "Run through an appropriate warm-up and warm-down routine using all the main muscle groups. Explain why both routines are important.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

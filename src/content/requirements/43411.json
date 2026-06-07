@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": null,
+  "children": [],
+  "title": "Make an aircraft out of paper and see how well it flies.",
+  "notes": "You could try flying them into a bucket or through a hoop!",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

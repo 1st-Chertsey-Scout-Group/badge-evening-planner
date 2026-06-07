@@ -1,0 +1,44 @@
+{
+  "slug": "communicator",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Communicator",
+  "description": "We're refreshing this badge and we'd love more Scout Troops to be involved. Interested? Drop us an email at programme@scouts.org.uk \n\nCommunication can help us reach out to more people, from longer distances and using a wide range of languages. Work towards your Communicator badge and help bring people closer together.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/communicator/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "Guidance for Leaders",
+      "details": "- Getting involved in Jamboree on the Air (JOTA) or Jamboree on the Internet (JOTI) provides a good opportunity for Scouts to work towards this badge. For more information, please visit the [WOSM event page](https://www.jotajoti.info/) or the [UK JOTA-JOTI Facebook page](https://www.facebook.com/pages/Jota-Joti-UK/117666688369069), or email [joti@scouts.org.uk.](mailto:joti@scouts.org.uk)"
+    },
+    {
+      "title": "Get involved in updating this badge",
+      "details": "We're currently reviewing and will be updating this badge, as it's a little out of date. We'd love more Troops and volunteers to get involved.\n\nIf you're interested, email [programme@scouts.org.uk](mailto:programme@scouts.org.uk?subject=Scout Communicator badge review) and we'll send you all the info you need."
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./communicator.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 1,
+  "mandatory": [],
+  "optional": [
+    "45005",
+    "45012",
+    "45015",
+    "45019",
+    "45024"
+  ]
+}

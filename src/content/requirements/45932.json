@@ -1,0 +1,10 @@
+{
+  "badge": "farming",
+  "parent": "45651",
+  "children": [],
+  "title": "Show you're successful in growing:",
+  "notes": "- three kinds of hardy annual flower\n- three kinds of vegetable\n- two kinds of bulbs, herbaceous plants, flowering shrubs or rose",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

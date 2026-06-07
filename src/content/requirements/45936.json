@@ -1,0 +1,10 @@
+{
+  "badge": "farming",
+  "parent": "45652",
+  "children": [],
+  "title": "Keep any kind of livestock for at least three months.",
+  "notes": "You could:\n\n- look after farm animals or birds, and learn how they should be housed, fed and bred as well as their economic uses. Show how to handle them safely and learn about animal welfare.\n- manage a hive. Bring in some of the honey you produce.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

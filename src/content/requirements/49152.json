@@ -1,0 +1,10 @@
+{
+  "badge": "dragon-boating",
+  "parent": "49147",
+  "children": [],
+  "title": "the safety rules",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

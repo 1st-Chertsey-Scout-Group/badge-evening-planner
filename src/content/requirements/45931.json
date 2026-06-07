@@ -1,0 +1,10 @@
+{
+  "badge": "farming",
+  "parent": "45651",
+  "children": [],
+  "title": "Cultivate an area of garden or an allotment for a specific length of time.",
+  "notes": "Agree this beforehand with your leadership team.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

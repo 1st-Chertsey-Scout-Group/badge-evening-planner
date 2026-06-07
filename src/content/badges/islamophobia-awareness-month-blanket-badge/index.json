@@ -1,0 +1,52 @@
+{
+  "slug": "islamophobia-awareness-month-blanket-badge",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Islamophobia Awareness Month Blanket Badge",
+  "description": "Our Islamophobia Awareness Month badge helps to promote understanding, respect and inclusivity in Scouts, as well as in the wider community. It's supported by the Muslim Scout Fellowship (MSF).\n \nOur blanket badges don't have set requirements, but we've added some ideas below to help you mark Islamophobia Awareness Month with your group. You can use any of our ideas, from any or all of the five themes we've suggested.",
+  "versionDate": "January 0001",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/islamophobia-awareness-month-blanket-badge/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "Buy the blanket badge",
+      "details": "You can buy the [Islamophobia Awareness Month blanket badge](https://shop.scouts.org.uk/volunteer-leaders/volunteer-leaders-badges/islamophobia-awareness-month-blanket-badge-113730#selection.color=34&selection.size=719) from Scout Store."
+    },
+    {
+      "title": "About Islamophobia Awareness Month",
+      "details": "Islamophobia Awareness Month is in November, and it's all about creating a society free from Islamophobia in all of its forms. The theme this year is Seeds of Change and it's about how small actions contribute to big change. Find out more on the [Islamophobia Awareness Month website](https://www.islamophobia-awareness.org/)."
+    },
+    {
+      "title": "Find information about Islamophobia",
+      "details": "Islamophobia is the fear of, hostility towards or hatred against the religion of Islam and against Muslims. When people understand more about Islam and the Muslim community, it can help to stop discrimination, bullying and stereotyping, and create a more inclusive society.\n\nYou can download [factsheets from the Islamophobia Awareness Month website](https://www.islamophobia-awareness.org/factsheets/). These include information and statistics about Islamophobia in schools, sport and in the media.\n\nYou can also read our [blogs about Islamophobia Awareness Month](/news/2022/november/islamophobia-awareness-month-what-is-and-how-to-talk-about-islamophobia/)."
+    },
+    {
+      "title": "Learn about the Muslim Scout Fellowship",
+      "details": "The UK Muslim Scout Fellowship (MSF) is a Scout Programme Support Sub Team, which supports the Muslim community in Scouts and helps grow Scouts in new communities. Find out more on the [Muslim Scout Fellowship website](https://ukmsf.org/)."
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./islamophobia-awareness-month-blanket-badge.png",
+    "alt": ""
+  },
+  "requirementsIntro": "Ideas to earn your badge:",
+  "optionsIntro": "Ideas to earn your badge:",
+  "optionsToQualify": 1,
+  "mandatory": [],
+  "optional": [
+    "82583",
+    "82546",
+    "82588",
+    "82593",
+    "82598"
+  ]
+}

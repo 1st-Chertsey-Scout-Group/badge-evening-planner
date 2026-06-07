@@ -1,0 +1,15 @@
+{
+  "badge": "communicator",
+  "parent": null,
+  "children": [
+    "49128",
+    "49129",
+    "49130",
+    "49131"
+  ],
+  "title": "Communication codes",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

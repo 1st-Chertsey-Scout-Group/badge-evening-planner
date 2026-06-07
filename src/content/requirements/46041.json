@@ -1,0 +1,10 @@
+{
+  "badge": "local-knowledge",
+  "parent": "45313",
+  "children": [],
+  "title": "Give clear directions to a place of interest 8 kilometres away, to a person travelling by car or public transport.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

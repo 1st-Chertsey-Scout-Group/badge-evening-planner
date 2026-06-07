@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": "40919",
+  "children": [],
+  "title": "A session at a snow park",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

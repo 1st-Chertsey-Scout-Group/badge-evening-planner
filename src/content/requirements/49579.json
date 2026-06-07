@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": "40924",
+  "children": [],
+  "title": "Complete a day's cross country ski trip, planning your route before you go",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

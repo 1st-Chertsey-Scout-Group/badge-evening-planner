@@ -1,0 +1,10 @@
+{
+  "badge": "paddle-sports",
+  "parent": "40430",
+  "children": [],
+  "title": "Manoeuvring your boat in different directions, including moving forward.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

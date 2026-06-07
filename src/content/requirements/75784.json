@@ -1,0 +1,10 @@
+{
+  "badge": "expedition",
+  "parent": null,
+  "children": [],
+  "title": "Produce an individual report or presentation within the three weeks following your expedition or exploration.",
+  "notes": "You could present your work as a project, performance, video recording, oral presentation, blog or website.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

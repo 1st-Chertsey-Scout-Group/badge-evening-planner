@@ -1,0 +1,10 @@
+{
+  "badge": "parascending",
+  "parent": null,
+  "children": [],
+  "title": "Learn the main characteristics and different types of parachutes used by  parascenders.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,16 @@
+{
+  "badge": "paddle-sports",
+  "parent": null,
+  "children": [
+    "40520",
+    "40521",
+    "40477",
+    "40479",
+    "40430"
+  ],
+  "title": "Complete the following badge requirements:",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

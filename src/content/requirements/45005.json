@@ -1,0 +1,19 @@
+{
+  "badge": "communicator",
+  "parent": null,
+  "children": [
+    "45680",
+    "45681",
+    "46799",
+    "49123",
+    "49124",
+    "49125",
+    "49126",
+    "49127"
+  ],
+  "title": "Radio communication",
+  "notes": "You automatically gain this activity badge if you already hold, or working towards, any of these qualifications:\n\n- Radio Amateur Licence (Foundation, Intermediate or Full)\n\nIf not, complete all of these:",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

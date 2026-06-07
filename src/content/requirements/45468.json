@@ -1,0 +1,10 @@
+{
+  "badge": "navigator",
+  "parent": null,
+  "children": [],
+  "title": "Follow and walk a route of at least 5km, using a map to navigate for at least part of the journey.",
+  "notes": "Your Leader can plan the route but you'll work with your team, or take turns, to navigate.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

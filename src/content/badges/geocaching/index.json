@@ -1,0 +1,38 @@
+{
+  "slug": "geocaching",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Geocaching",
+  "description": "Discover the exciting adventure of geocaching, where you can enjoy the freedom of being outside and identifying new places. All you require is a handheld GPS device and a sense of fun.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/geocaching/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./geocaching.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "46293",
+    "46294",
+    "46295",
+    "46296",
+    "46297",
+    "46298",
+    "46299",
+    "46300"
+  ],
+  "optional": []
+}

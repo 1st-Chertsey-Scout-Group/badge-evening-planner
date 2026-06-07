@@ -1,0 +1,10 @@
+{
+  "badge": "street-sports",
+  "parent": null,
+  "children": [],
+  "title": "Take part in a street sport like skateboarding, roller or in-line skating, Parkour or another street sport agreed by your leadership team.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

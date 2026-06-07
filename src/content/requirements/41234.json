@@ -1,0 +1,10 @@
+{
+  "badge": "forester",
+  "parent": null,
+  "children": [],
+  "title": "Find out how both natural woodland and commercial forests are managed.",
+  "notes": "Be aware of the damage these areas may be exposed to from wind, frost, fire and animals.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

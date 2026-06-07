@@ -1,0 +1,10 @@
+{
+  "badge": "sailing",
+  "parent": "40396",
+  "children": [],
+  "title": "Identify different types of sailing crafts.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

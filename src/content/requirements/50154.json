@@ -1,0 +1,10 @@
+{
+  "badge": "equestrian",
+  "parent": "45957",
+  "children": [],
+  "title": "Show you have a basic knowledge of grass management.",
+  "notes": "Show you recognise poisonous plants and the results of overgrazing.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

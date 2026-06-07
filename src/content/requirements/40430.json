@@ -1,0 +1,15 @@
+{
+  "badge": "paddle-sports",
+  "parent": "40415",
+  "children": [
+    "49526",
+    "40431",
+    "40432",
+    "40433"
+  ],
+  "title": "Take part in a taster session that covers:",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,15 @@
+{
+  "badge": "expedition",
+  "parent": null,
+  "children": [
+    "76242",
+    "76243",
+    "75891",
+    "76244"
+  ],
+  "title": "During the expedition or exploration:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": "45642",
+  "children": [],
+  "title": "Demonstrate a sequence of 10 linked turns",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

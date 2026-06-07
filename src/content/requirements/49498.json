@@ -1,0 +1,10 @@
+{
+  "badge": "musician",
+  "parent": "40656",
+  "children": [],
+  "title": "Talk about your instrument and why you enjoy playing it. Alternatively, you could talk about the songs you sing and why you enjoy singing them.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "nautical-skills",
+  "parent": null,
+  "children": [],
+  "title": "Demonstrate knowledge of pilotage, navigation lights, sound signals, tides, currents and eddies, depending on what's relevant to your local waterways.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

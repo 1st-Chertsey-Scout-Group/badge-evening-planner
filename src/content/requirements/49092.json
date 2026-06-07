@@ -1,0 +1,10 @@
+{
+  "badge": "artist",
+  "parent": "46101",
+  "children": [],
+  "title": "Make a list of major events, exhibitions or venues connected with your chosen subject.",
+  "notes": "Talk about why the items on your list are important.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

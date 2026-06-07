@@ -1,0 +1,10 @@
+{
+  "badge": "local-knowledge",
+  "parent": "45314",
+  "children": [],
+  "title": "Study an aspect of national history, local history or family heritage.",
+  "notes": "Exhibit or present the results to other people.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

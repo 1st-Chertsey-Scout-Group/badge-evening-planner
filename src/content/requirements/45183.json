@@ -1,0 +1,19 @@
+{
+  "badge": "mechanic",
+  "parent": null,
+  "children": [
+    "49222",
+    "50502",
+    "49223",
+    "49224",
+    "50499",
+    "50500",
+    "50501",
+    "45187"
+  ],
+  "title": "Motorcycle or scooter",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

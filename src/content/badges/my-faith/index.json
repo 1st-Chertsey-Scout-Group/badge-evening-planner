@@ -1,0 +1,39 @@
+{
+  "slug": "my-faith",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "My Faith",
+  "description": "Develop a deeper aptitude of your beliefs and how they help to guide you through all the stages of your life.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/my-faith/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "If you have been confirmed, had your bat mitzvah or bar mitzvah or a similar faith life experience, you only need to take part in a Scouting activity relating to your faith to qualify for your badge.",
+      "details": ""
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./my-faith.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "45805",
+    "45806",
+    "45807",
+    "45808"
+  ],
+  "optional": []
+}

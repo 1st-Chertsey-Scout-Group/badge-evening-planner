@@ -1,0 +1,10 @@
+{
+  "badge": "sailing",
+  "parent": "40396",
+  "children": [],
+  "title": "Dress appropriately for a sailing activity, showing you know the importance of buoyancy aids and how to put one on correctly.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

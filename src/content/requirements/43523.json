@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": null,
+  "children": [],
+  "title": "Design and build a model of a part of an aircraft and explain how it helps the plane fly.",
+  "notes": "For example, make a cockpit control panel or a wing with flaps.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "photographer",
+  "parent": "49257",
+  "children": [],
+  "title": "Show that you know how to care for a video camera and accessories, such as storage media, batteries, microphones and lights",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

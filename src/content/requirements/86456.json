@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": "43495",
+  "children": [],
+  "title": "Explain why pilot's (and other flight crew) use a pre-flight checklist.",
+  "notes": "Describe the main items that are checked.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

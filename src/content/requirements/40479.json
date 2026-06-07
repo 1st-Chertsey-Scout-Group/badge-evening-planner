@@ -1,0 +1,10 @@
+{
+  "badge": "paddle-sports",
+  "parent": "40415",
+  "children": [],
+  "title": "Dress appropriately for your chosen activity. Show you know the importance of buoyancy aids and how to put one on correctly.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

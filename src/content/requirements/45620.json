@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": "40916",
+  "children": [],
+  "title": "Show you understand what to do in the event of an accident.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

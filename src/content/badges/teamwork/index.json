@@ -1,0 +1,34 @@
+{
+  "slug": "teamwork",
+  "type": "challenge",
+  "badgeType": "Challenge Award",
+  "title": "Teamwork",
+  "description": "Two hands are better than one. Four hands are better than two. Work with your fellow Scouts over a three-month period, and achieve something truly awesome together.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/awards/teamwork/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./teamwork.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "75775",
+    "75776",
+    "75777",
+    "75778"
+  ],
+  "optional": []
+}

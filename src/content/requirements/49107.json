@@ -1,0 +1,10 @@
+{
+  "badge": "air-spotter",
+  "parent": "89803",
+  "children": [],
+  "title": "Recognise and name the national aircraft markings, both service and civil, of at least six countries including the United Kingdom.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

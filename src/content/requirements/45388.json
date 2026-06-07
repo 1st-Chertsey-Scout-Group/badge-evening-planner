@@ -1,0 +1,14 @@
+{
+  "badge": "model-maker",
+  "parent": null,
+  "children": [
+    "49238",
+    "49239",
+    "49240"
+  ],
+  "title": "Model trains",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

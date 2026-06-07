@@ -1,0 +1,10 @@
+{
+  "badge": "communicator",
+  "parent": "45005",
+  "children": [],
+  "title": "Learn the regulations governing the use of amateur radio equipment.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "mechanic",
+  "parent": "45183",
+  "children": [],
+  "title": "Explain what to look for when checking that a tyre conforms to the legal requirement.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

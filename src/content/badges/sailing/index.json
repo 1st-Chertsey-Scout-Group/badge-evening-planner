@@ -1,0 +1,81 @@
+{
+  "slug": "sailing",
+  "type": "staged",
+  "badgeType": "Staged",
+  "title": "Sailing",
+  "description": "",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/staged-badges/sailing/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "You can complete most of these steps without actually being on the water, although it's best to complete them as part of a sailing activity.",
+      "details": "This is a lot more fun, and will give you a head start when you start working towards Stage 2."
+    },
+    {
+      "title": "Learn about water safety with the RNLI.",
+      "details": "You could [book a free visit from the RNLI to learn about water safety](https://rnli.org/youth-education/educational-visits)."
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./sailing.png",
+    "alt": ""
+  },
+  "displayTitle": "Sailing Staged Activity Badge",
+  "stages": [
+    {
+      "label": "Sailing Stage 1",
+      "threshold": 1,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [],
+      "optional": [
+        "40396",
+        "40397"
+      ]
+    },
+    {
+      "label": "Sailing Stage 2",
+      "threshold": 1,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [],
+      "optional": [
+        "40399",
+        "40400"
+      ]
+    },
+    {
+      "label": "Sailing Stage 3",
+      "threshold": 1,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [],
+      "optional": [
+        "40402",
+        "40403",
+        "40404"
+      ]
+    },
+    {
+      "label": "Sailing Stage 4",
+      "threshold": 1,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [],
+      "optional": [
+        "40406",
+        "40407"
+      ]
+    }
+  ]
+}

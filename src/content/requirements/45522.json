@@ -1,0 +1,10 @@
+{
+  "badge": "pioneer",
+  "parent": "40384",
+  "children": [],
+  "title": "an indoor pioneering project, like constructing a catapult or chariot",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

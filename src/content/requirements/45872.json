@@ -1,0 +1,16 @@
+{
+  "badge": "water-activities",
+  "parent": null,
+  "children": [
+    "49265",
+    "49266",
+    "49267",
+    "49268",
+    "49269"
+  ],
+  "title": "Reach one of these standards:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": 1
+}

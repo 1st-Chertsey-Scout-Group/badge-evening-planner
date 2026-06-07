@@ -1,0 +1,103 @@
+{
+  "slug": "digital-maker",
+  "type": "staged",
+  "badgeType": "Staged",
+  "title": "Digital Maker",
+  "description": "",
+  "versionDate": "May 2018",
+  "sourceUrl": "https://www.scouts.org.uk/staged-badges/digital-maker/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "Raspberry Pi Coolest Projects",
+      "details": "Showcase your tech projects with other creators in the UK and across the world! Check out the [Coolest Projects webpages](https://online.coolestprojects.org/) to take part for free from February, or join the celebratory livestream with announcement of the judges' favourite projects in June.\n\nWe'd love to see Scouts of all ages involved so please mention you're a Scout when you register!"
+    },
+    {
+      "title": "You could use the digital art you have created in requirement 1 in either your program for requirement 2 or in your digital creation for requirement 3.",
+      "details": ""
+    },
+    {
+      "title": "You can help others to work towards any stage of their Digital Maker Staged Activity  badge. If you are an Explorer Scout Young Leader, supporting Beavers, Cubs, or Scouts with their Digital Maker activities would count for this requirement.",
+      "details": ""
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": {
+    "title": "Raspberry Pi Foundation",
+    "url": "https://www.scouts.org.uk/supporters/raspberrypi/",
+    "logoUrl": "https://www.scouts.org.uk/media/3752/raspberry-pi.png?width=800&height=450&v=1db82b583e44bf0"
+  },
+  "image": {
+    "src": "./digital-maker.png",
+    "alt": "Digital Maker Badge"
+  },
+  "displayTitle": "Digital Maker Staged Activity Badge",
+  "stages": [
+    {
+      "label": "Digital Maker Stage 1",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "41261",
+        "41262",
+        "41263"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Digital Maker Stage 2",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "41265",
+        "41266",
+        "41267"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Digital Maker Stage 3",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "41269",
+        "41270",
+        "41271",
+        "41272"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Digital Maker Stage 4",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "41274",
+        "41275"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Digital Maker Stage 5",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "41277",
+        "41278"
+      ],
+      "optional": []
+    }
+  ]
+}

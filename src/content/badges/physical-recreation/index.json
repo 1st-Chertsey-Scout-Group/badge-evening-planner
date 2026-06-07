@@ -1,0 +1,56 @@
+{
+  "slug": "physical-recreation",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Physical Recreation",
+  "description": "Have fun and take part in a physical activity and improve both your body and mind.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/physical-recreation/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "You can gain more than one Physical Recreation badge for different sports or pursuits.",
+      "details": ""
+    },
+    {
+      "title": "Sports that young people play after school or at weekends can count towards number 1 although normal PE or games lessons do not.",
+      "details": ""
+    },
+    {
+      "title": "Let experts at your local rugby club run the session for you!",
+      "details": "Register interest in your Scout Group being twinned with a local rugby club by [entering your details using this form](https://app.smartsheet.com/b/form/cc1a93729fd34e37b3b1a1562bd5d22b)."
+    },
+    {
+      "title": "Find your local RFU Rugby Club",
+      "details": "Hook up with your local RFU Rugby club by heading over to [https://www.englandrugby.com/play/find-rugby](https://www.englandrugby.com/play/find-rugby)"
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": {
+    "title": "England Rugby (The RFU)",
+    "url": "https://www.scouts.org.uk/supporters/england-rugby/",
+    "logoUrl": "https://www.scouts.org.uk/media/3ruhuic1/rfu-round.png?width=800&height=450&v=1dc435d9f557670"
+  },
+  "image": {
+    "src": "./physical-recreation.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "40723",
+    "40725",
+    "40727",
+    "40729",
+    "40731"
+  ],
+  "optional": []
+}

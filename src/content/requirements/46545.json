@@ -1,0 +1,10 @@
+{
+  "badge": "instructor",
+  "parent": null,
+  "children": [],
+  "title": "Attend a training course covering the technical skills involved in the activity badge and the use of appropriate training methods.",
+  "notes": "If there's no recognised technical skill course for your badge, an individual training programme can be arranged with a qualified instructor.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

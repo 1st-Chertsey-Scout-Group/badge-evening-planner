@@ -1,0 +1,25 @@
+{
+  "badge": "emergency-aid",
+  "parent": null,
+  "children": [
+    "45829",
+    "45830",
+    "45835",
+    "45850",
+    "45840",
+    "45841",
+    "45846",
+    "49488",
+    "45853",
+    "45857",
+    "45860",
+    "45864",
+    "45863",
+    "49489"
+  ],
+  "title": "Explain how you help someone who:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

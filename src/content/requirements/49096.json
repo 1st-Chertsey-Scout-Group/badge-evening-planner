@@ -1,0 +1,10 @@
+{
+  "badge": "athletics",
+  "parent": "46162",
+  "children": [],
+  "title": "Warm up routine",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

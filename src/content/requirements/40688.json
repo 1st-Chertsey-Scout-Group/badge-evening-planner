@@ -1,0 +1,10 @@
+{
+  "badge": "musician",
+  "parent": null,
+  "children": [],
+  "title": "Performance",
+  "notes": "Sing or play three different types of song or tune on your chosen instrument. One should be a solo and one should be played with other musicians in an arrangement of your choice. Your performance should be public such as at a group show or church service.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

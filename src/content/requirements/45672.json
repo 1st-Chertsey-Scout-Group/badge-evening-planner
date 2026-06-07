@@ -1,0 +1,10 @@
+{
+  "badge": "international",
+  "parent": "40996",
+  "children": [],
+  "title": "a link to Scouts in another country",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "hill-walker",
+  "parent": null,
+  "children": [],
+  "title": "Make sure you know the different types of  hazards you might come across.",
+  "notes": "There might be water hazards, unstable ground, changeable weather conditions or other dangers.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

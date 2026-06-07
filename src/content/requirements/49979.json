@@ -1,0 +1,10 @@
+{
+  "badge": "sports-enthusiast",
+  "parent": null,
+  "children": [],
+  "title": "Show that you know some of the personalities, champions or other experts in your chosen sport.",
+  "notes": "Explain how they might have inspired you.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

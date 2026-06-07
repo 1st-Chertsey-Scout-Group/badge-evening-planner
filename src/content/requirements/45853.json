@@ -1,0 +1,10 @@
+{
+  "badge": "emergency-aid",
+  "parent": "41387",
+  "children": [],
+  "title": "is having a heart attack",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

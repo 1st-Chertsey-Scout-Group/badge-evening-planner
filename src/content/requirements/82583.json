@@ -1,0 +1,15 @@
+{
+  "badge": "islamophobia-awareness-month-blanket-badge",
+  "parent": null,
+  "children": [
+    "82584",
+    "82585",
+    "82586",
+    "82587"
+  ],
+  "title": "Learn about Islam",
+  "notes": "Learn about Islam, and discover what Muslims do and practice every day. Find out how the values of Islam are similar to our values in Scouts. You could:",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": 1
+}

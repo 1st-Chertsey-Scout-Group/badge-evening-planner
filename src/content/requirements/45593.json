@@ -1,0 +1,10 @@
+{
+  "badge": "parascending",
+  "parent": null,
+  "children": [],
+  "title": "Experience at least four parascending flights.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "entertainer",
+  "parent": "41196",
+  "children": [],
+  "title": "Write and plan some original entertainment.",
+  "notes": "It could involve a campfire or stage routine involving mime, drama, music, storytelling or conjuring.\n\nAlternatively, it could take the form of a presentation featuring sketches, film, slides, tapes, photography or sound recordings.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

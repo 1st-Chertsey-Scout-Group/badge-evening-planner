@@ -1,0 +1,10 @@
+{
+  "badge": "creative",
+  "parent": null,
+  "children": [],
+  "title": "Show how to use social media or the internet in a creative and safe way.",
+  "notes": "Explain why it's important to use them safely.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

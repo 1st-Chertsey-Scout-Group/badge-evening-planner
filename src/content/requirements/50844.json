@@ -1,0 +1,10 @@
+{
+  "badge": "cyclist",
+  "parent": "45377",
+  "children": [],
+  "title": "Level 3 Go-MTB Award from Cycling Scotland, Sustrans, CTC or Scottish Cycling MBLA.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

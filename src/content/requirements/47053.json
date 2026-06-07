@@ -1,0 +1,10 @@
+{
+  "badge": "navigator",
+  "parent": "45491",
+  "children": [],
+  "title": "Learn how to use and give six-figure grid references. Demonstrate the use of a roamer to improve accuracy.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

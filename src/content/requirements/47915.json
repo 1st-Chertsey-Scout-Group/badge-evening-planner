@@ -1,0 +1,10 @@
+{
+  "badge": "swimmer",
+  "parent": null,
+  "children": [],
+  "title": "Swimming can mean that you need to have your head under the water. Take part in an activity to help you build your confidence in getting your hair wet.",
+  "notes": "You could scoop water over your head or face, blow some bubbles, or dip your head under the water.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

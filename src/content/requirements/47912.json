@@ -1,0 +1,10 @@
+{
+  "badge": "swimmer",
+  "parent": null,
+  "children": [],
+  "title": "Staying safe near water is very important. Learn how you can stay safe while being in or around water.",
+  "notes": "You could learn about different places to swim, learn about safety flags on the beach or even some rules about swimming pools.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

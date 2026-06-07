@@ -1,0 +1,10 @@
+{
+  "badge": "musician",
+  "parent": "40667",
+  "children": [],
+  "title": "Name several musicians who you have heard.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

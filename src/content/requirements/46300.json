@@ -1,0 +1,13 @@
+{
+  "badge": "geocaching",
+  "parent": null,
+  "children": [
+    "50494",
+    "50498"
+  ],
+  "title": "With the help of an adult:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

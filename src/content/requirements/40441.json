@@ -1,0 +1,19 @@
+{
+  "badge": "air-or-sea-navigation",
+  "parent": null,
+  "children": [
+    "40467",
+    "50791",
+    "50487",
+    "40513",
+    "40514",
+    "40515",
+    "45928",
+    "49087"
+  ],
+  "title": "Sea navigation",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

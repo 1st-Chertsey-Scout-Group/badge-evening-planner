@@ -1,0 +1,10 @@
+{
+  "badge": "skills",
+  "parent": "75677",
+  "children": [],
+  "title": "Do another similar home skill",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

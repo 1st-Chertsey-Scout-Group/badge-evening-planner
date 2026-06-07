@@ -1,0 +1,123 @@
+{
+  "slug": "air-activities",
+  "type": "staged",
+  "badgeType": "Staged",
+  "title": "Air Activities",
+  "description": "",
+  "versionDate": "July 2025",
+  "sourceUrl": "https://www.scouts.org.uk/staged-badges/air-activities/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "Previous badge requirements",
+      "details": "You can find the previous requirements for the Air Activities Staged Activity Badge in this [document.](https://cms.scouts.org.uk/media/ur3hnhpk/air-activities-staged-activity-badge-old-requirements.pdf)"
+    },
+    {
+      "title": "RAF Resources",
+      "details": "- Visit the [RAF and Scouts partner page](/supporters/raf/) to explore a range of exciting opportunities, including the Free Scout Takeover Days 2025-a brilliant chance for Scouts to get hands-on with STEM activities in real RAF settings. Spaces are limited, so be sure to book early!\n- You'll also find the [RAF Workbooks](/media/3m4d2wra/riat-activity-booklet-greyscale-print-marks.pdf) a fantastic set of free, printable resources for Scout groups. Full of fun and varied tasks, they're perfect for helping young people explore science, technology, engineering, and maths (STEM) and for supporting your air activities sessions.\n- [RAF Top Trumps card game](https://rafyouthstem.org.uk/resource/raf-top-trump-card-game/) - Beat the Stats, A full set of Top Trump Cards and rules based on current and historical RAF aircraft."
+    },
+    {
+      "title": "RAF Resources",
+      "details": "- Visit the[RAF and Scouts partner page](/supporters/raf/) to explore a range of exciting opportunities, including the Free Scout Takeover Days 2025-a brilliant chance for Scouts to get hands-on with STEM activities in real RAF settings. Spaces are limited, so be sure to book early!\n- You'll also find the [RAF Workbooks](/media/3m4d2wra/riat-activity-booklet-greyscale-print-marks.pdf) a fantastic set of free, printable resources for Scout groups. Full of fun and varied tasks, they're perfect for helping young people explore science, technology, engineering, and maths (STEM) and for supporting your air activities sessions.\n- [RAF Top Trumps card game](https://rafyouthstem.org.uk/resource/raf-top-trump-card-game/) - Beat the Stats, A full set of Top Trump Cards and rules based on current and historical RAF aircraft."
+    },
+    {
+      "title": "Information about flight simulators:",
+      "details": "- There are free online flight simulators available, which would be sufficient for stage 3. Examples are listed in this [external article](https://www.digitaltrends.com/gaming/best-free-flight-simulators/).\n- There are desktop flight simulator programmes available, such as Microsoft simulator and X-plane. Due to the cost of these, it would be worth purchasing at District level.\n- A local aviation/aircraft museum or gliding club may have a flight simulator that you could access, or if you're an RAF recognised Air Scout groups, you could ask your local ATC unit."
+    },
+    {
+      "title": "Information about flight simulators",
+      "details": "- There are free online flight simulators available, which would be sufficient for stage 3. Examples are listed in this [external article](https://www.digitaltrends.com/gaming/best-free-flight-simulators/).\n- There are desktop flight simulator programmes available, such as Microsoft simulator and X-plane. Due to the cost of these, it would be worth purchasing at District level.\n- A local aviation/aircraft museum or gliding club may have a flight simulator that you could access, or if you're an RAF recognised Air Scout groups, you could ask your local ATC unit."
+    },
+    {
+      "title": "Stage 6 badges",
+      "details": "Young people can continue working towards the old Stage 6 requirements until 30 June 2026. From 1 July 2026, they must follow the new requirements listed on this page.\n\nDuring the transition, Stage 6 badges can be awarded either for completing the old Stage 6 or for completing all 11 requirements of Stage 5."
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": {
+    "title": "The Royal Air Force (RAF)",
+    "url": "https://www.scouts.org.uk/supporters/raf/",
+    "logoUrl": "https://www.scouts.org.uk/media/3751/raf.png?width=800&height=450&v=1db82b5a77c6340"
+  },
+  "image": {
+    "src": "./air-activities.png",
+    "alt": "A round blue badge with a yellow airplane and the Royal Air Force logo in the middle and a purple edge"
+  },
+  "displayTitle": "Air Activities Staged Activity Badge",
+  "stages": [
+    {
+      "label": "Air Activities Stage 1",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "43411",
+        "43415",
+        "43418",
+        "43420",
+        "43423"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Air Activities Stage 2",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "43430",
+        "43436",
+        "43439",
+        "43441",
+        "43433"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Air Activities Stage 3",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "43449",
+        "43452",
+        "43458",
+        "43455"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Air Activities Stage 4",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "43480",
+        "43483",
+        "43486",
+        "43495"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Air Activities Stage 5",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "43514",
+        "43517",
+        "43523",
+        "43520"
+      ],
+      "optional": []
+    }
+  ]
+}

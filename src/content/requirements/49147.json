@@ -1,0 +1,14 @@
+{
+  "badge": "dragon-boating",
+  "parent": null,
+  "children": [
+    "49152",
+    "49153",
+    "49154"
+  ],
+  "title": "Learn:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

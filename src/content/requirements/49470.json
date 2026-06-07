@@ -1,0 +1,10 @@
+{
+  "badge": "digital-citizen",
+  "parent": "44663",
+  "children": [],
+  "title": "Something that promotes young people's voices to local decision makers.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

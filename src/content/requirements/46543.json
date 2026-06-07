@@ -1,0 +1,10 @@
+{
+  "badge": "instructor",
+  "parent": null,
+  "children": [],
+  "title": "Hold the activity badge in your chosen activity.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

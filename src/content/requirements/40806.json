@@ -1,0 +1,10 @@
+{
+  "badge": "survival-skills",
+  "parent": null,
+  "children": [],
+  "title": "Put together a personal survival kit.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

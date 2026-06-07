@@ -1,0 +1,10 @@
+{
+  "badge": "mechanic",
+  "parent": "45182",
+  "children": [],
+  "title": "Learn the basic principles of one these component parts and be able to point them out:",
+  "notes": "- an aircraft piston engine\n- an aircraft gas turbine engine.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

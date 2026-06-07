@@ -1,0 +1,10 @@
+{
+  "badge": "dragon-boating",
+  "parent": null,
+  "children": [],
+  "title": "Carry out practice training sessions for a minimum of two hours.",
+  "notes": "Practice a race over a distance of at least 250 metres.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "emergency-aid",
+  "parent": null,
+  "children": [],
+  "title": "Explain to your leader or another adult about how to call 999.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}
