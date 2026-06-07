@@ -9,6 +9,11 @@ interface Props {
   badge: ResolvedBadge
 }
 
+interface ToggleProps {
+  ticked: Set<string>
+  onToggle: (id: string, on: boolean) => void
+}
+
 export default function BadgeChecklist({ badge }: Props) {
   const [ticked, setTickedState] = useState<Set<string>>(new Set())
 
@@ -81,7 +86,7 @@ export default function BadgeChecklist({ badge }: Props) {
 
       {badge.stages
         ? badge.stages.map((stage, i) => {
-            const done = nodeTallyUnit(stage, ticked)
+            const done = unitSatisfied(stage, ticked)
             return (
               <section key={i} class="mb-4 rounded-xl border border-slate-200 bg-white p-4">
                 <header class="mb-2 flex items-center gap-2">
@@ -94,7 +99,7 @@ export default function BadgeChecklist({ badge }: Props) {
                   </span>
                   <h3 class="font-semibold text-slate-800">{stage.label}</h3>
                 </header>
-                <NodeList
+                <RequirementList
                   nodes={[...stage.mandatory, ...stage.optional]}
                   ticked={ticked}
                   onToggle={setOne}
@@ -107,67 +112,67 @@ export default function BadgeChecklist({ badge }: Props) {
   )
 }
 
-function nodeTallyUnit(unit: Unit, ticked: Ticked): boolean {
+function unitSatisfied(unit: Unit, ticked: Ticked): boolean {
   return (
     unit.mandatory.every((n) => nodeTally(n, ticked).satisfied) &&
     unit.optional.every((n) => nodeTally(n, ticked).satisfied)
   )
 }
 
-interface UnitProps {
-  unit: Unit
-  ticked: Set<string>
-  onToggle: (id: string, on: boolean) => void
-}
-
-function UnitView({ unit, ticked, onToggle }: UnitProps) {
-  const chosen = unit.optional.filter((o) => nodeTally(o, ticked).satisfied).length
+function UnitView({ unit, ticked, onToggle }: { unit: Unit } & ToggleProps) {
   return (
     <div class="space-y-4">
       {unit.requirementsIntroHtml && <Prose html={unit.requirementsIntroHtml} />}
-      <NodeList nodes={unit.mandatory} ticked={ticked} onToggle={onToggle} />
+      <RequirementList nodes={unit.mandatory} ticked={ticked} onToggle={onToggle} />
 
       {unit.optional.length > 0 && (
-        <div class="rounded-xl border border-scout-purple/30 bg-scout-purple/5 p-4">
-          <p class="mb-1 text-sm font-semibold text-scout-purple-dark">
-            Choose {unit.optionsToQualify} of the following
-            <span class="ml-2 font-normal text-slate-500">
-              ({chosen}/{unit.optionsToQualify} chosen)
-            </span>
-          </p>
-          {unit.optionsIntroHtml && <Prose html={unit.optionsIntroHtml} />}
-          <div class="mt-2">
-            <NodeList nodes={unit.optional} ticked={ticked} onToggle={onToggle} />
-          </div>
-        </div>
+        <ChooseGroup
+          options={unit.optional}
+          n={unit.optionsToQualify}
+          label={`Choose ${unit.optionsToQualify} of the following`}
+          introHtml={unit.optionsIntroHtml}
+          ticked={ticked}
+          onToggle={onToggle}
+        />
       )}
     </div>
   )
 }
 
-interface NodeListProps {
-  nodes: ReqNode[]
-  ticked: Set<string>
-  onToggle: (id: string, on: boolean) => void
-}
-
-function NodeList({ nodes, ticked, onToggle }: NodeListProps) {
+// "Do all" context: nodes render as checkboxes (or a nested choose-N group).
+function RequirementList({ nodes, ticked, onToggle }: { nodes: ReqNode[] } & ToggleProps) {
   return (
     <ul class="space-y-3">
       {nodes.map((node) => (
         <li key={node.id}>
-          <Node node={node} ticked={ticked} onToggle={onToggle} />
+          <Requirement node={node} ticked={ticked} onToggle={onToggle} />
         </li>
       ))}
     </ul>
   )
 }
 
-function Node({ node, ticked, onToggle }: { node: ReqNode } & Omit<NodeListProps, 'nodes'>) {
+function Requirement({ node, ticked, onToggle }: { node: ReqNode } & ToggleProps) {
   const t = nodeTally(node, ticked)
 
-  // Branch node: a group with a do-all / choose-N rule and nested children.
+  // Branch with children: either a do-all group or a choose-N group.
   if (node.children.length > 0) {
+    if (typeof node.requiredOfChildren === 'number') {
+      return (
+        <div>
+          <p class="font-medium text-slate-800">{node.title}</p>
+          {node.notesHtml && <Prose html={node.notesHtml} />}
+          <div class="mt-2">
+            <ChooseGroup
+              options={node.children}
+              n={node.requiredOfChildren}
+              ticked={ticked}
+              onToggle={onToggle}
+            />
+          </div>
+        </div>
+      )
+    }
     return (
       <div
         class={`rounded-lg border-l-4 pl-3 ${t.satisfied ? 'border-scout-green' : 'border-slate-200'}`}
@@ -175,12 +180,12 @@ function Node({ node, ticked, onToggle }: { node: ReqNode } & Omit<NodeListProps
         <p class="flex flex-wrap items-center gap-2 font-medium text-slate-800">
           {node.title}
           <span class="rounded-full bg-slate-100 px-2 py-0.5 text-xs font-semibold text-slate-500">
-            {node.requiredOfChildren === 'all' ? 'Do all' : `Choose ${node.requiredOfChildren}`}
+            Do all
           </span>
         </p>
         {node.notesHtml && <Prose html={node.notesHtml} />}
         <div class="mt-2">
-          <NodeList nodes={node.children} ticked={ticked} onToggle={onToggle} />
+          <RequirementList nodes={node.children} ticked={ticked} onToggle={onToggle} />
         </div>
       </div>
     )
@@ -194,25 +199,7 @@ function Node({ node, ticked, onToggle }: { node: ReqNode } & Omit<NodeListProps
           {node.title} <span class="text-xs text-slate-500">({node.repeatTimes} times)</span>
         </p>
         {node.notesHtml && <Prose html={node.notesHtml} />}
-        <div class="mt-1 flex flex-wrap gap-3">
-          {Array.from({ length: node.repeatTimes }, (_, k) => {
-            const id = `${node.id}#${k}`
-            return (
-              <label
-                key={k}
-                class="flex cursor-pointer items-center gap-1.5 text-sm text-slate-600"
-              >
-                <input
-                  type="checkbox"
-                  class="h-4 w-4 accent-scout-purple"
-                  checked={ticked.has(id)}
-                  onChange={(e) => onToggle(id, e.currentTarget.checked)}
-                />
-                {k + 1}
-              </label>
-            )
-          })}
-        </div>
+        <RepeatBoxes node={node} ticked={ticked} onToggle={onToggle} />
       </div>
     )
   }
@@ -233,6 +220,178 @@ function Node({ node, ticked, onToggle }: { node: ReqNode } & Omit<NodeListProps
         {node.notesHtml && <Prose html={node.notesHtml} />}
       </span>
     </label>
+  )
+}
+
+function RepeatBoxes({ node, ticked, onToggle }: { node: ReqNode } & ToggleProps) {
+  return (
+    <div class="mt-1 flex flex-wrap gap-3">
+      {Array.from({ length: node.repeatTimes }, (_, k) => {
+        const id = `${node.id}#${k}`
+        return (
+          <label key={k} class="flex cursor-pointer items-center gap-1.5 text-sm text-slate-600">
+            <input
+              type="checkbox"
+              class="h-4 w-4 accent-scout-purple"
+              checked={ticked.has(id)}
+              onChange={(e) => onToggle(id, e.currentTarget.checked)}
+            />
+            {k + 1}
+          </label>
+        )
+      })}
+    </div>
+  )
+}
+
+// "Pick N" context: each option is a button (leaf) or expandable card (subtree).
+function ChooseGroup({
+  options,
+  n,
+  label,
+  introHtml,
+  ticked,
+  onToggle,
+}: { options: ReqNode[]; n: number; label?: string; introHtml?: string } & ToggleProps) {
+  const chosen = options.filter((o) => nodeTally(o, ticked).satisfied).length
+  const satisfied = chosen >= n
+  return (
+    <div class="rounded-xl border border-scout-purple/30 bg-scout-purple/5 p-4">
+      <p class="mb-2 flex flex-wrap items-center gap-2 text-sm font-semibold text-scout-purple-dark">
+        <span>{label ?? `Choose ${n}`}</span>
+        <span
+          class={`rounded-full px-2 py-0.5 text-xs font-semibold ${
+            satisfied ? 'bg-scout-green text-white' : 'bg-white text-slate-500'
+          }`}
+        >
+          {chosen} of {n} done
+        </span>
+      </p>
+      {introHtml && <Prose html={introHtml} />}
+      <ul class="space-y-2">
+        {options.map((o) => (
+          <li key={o.id}>
+            <Option option={o} groupSatisfied={satisfied} ticked={ticked} onToggle={onToggle} />
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
+}
+
+function Option({
+  option,
+  groupSatisfied,
+  ticked,
+  onToggle,
+}: { option: ReqNode; groupSatisfied: boolean } & ToggleProps) {
+  const done = nodeTally(option, ticked).satisfied
+  const dim = groupSatisfied && !done ? 'opacity-60' : ''
+
+  // Simple leaf option: a single toggle button (selecting it = doing it).
+  if (option.children.length === 0 && option.repeatTimes <= 1) {
+    return (
+      <button
+        type="button"
+        aria-pressed={done}
+        onClick={() => onToggle(option.id, !done)}
+        class={`flex w-full items-start gap-3 rounded-xl border p-3 text-left transition ${dim} ${
+          done
+            ? 'border-scout-purple bg-scout-purple/10'
+            : 'border-slate-200 bg-white hover:border-scout-purple/40'
+        }`}
+      >
+        <span
+          class={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-md border text-xs text-white ${
+            done ? 'border-scout-purple bg-scout-purple' : 'border-slate-300'
+          }`}
+        >
+          {done ? '✓' : ''}
+        </span>
+        <span>
+          <span class={`font-medium ${done ? 'text-scout-purple-dark' : 'text-slate-800'}`}>
+            {option.title}
+          </span>
+          {option.notesHtml && <Prose html={option.notesHtml} />}
+        </span>
+      </button>
+    )
+  }
+
+  // Subtree option: an expandable card that counts once its sub-steps are done.
+  return (
+    <ExpandableOption option={option} done={done} dim={dim} ticked={ticked} onToggle={onToggle} />
+  )
+}
+
+function ExpandableOption({
+  option,
+  done,
+  dim,
+  ticked,
+  onToggle,
+}: { option: ReqNode; done: boolean; dim: string } & ToggleProps) {
+  const started = nodeTally(option, ticked).done > 0
+  const [override, setOverride] = useState<boolean | null>(null)
+  const open = override ?? started
+
+  const body =
+    option.children.length > 0 ? (
+      typeof option.requiredOfChildren === 'number' ? (
+        <ChooseGroup
+          options={option.children}
+          n={option.requiredOfChildren}
+          ticked={ticked}
+          onToggle={onToggle}
+        />
+      ) : (
+        <RequirementList nodes={option.children} ticked={ticked} onToggle={onToggle} />
+      )
+    ) : (
+      <RepeatBoxes node={option} ticked={ticked} onToggle={onToggle} />
+    )
+
+  return (
+    <div
+      class={`overflow-hidden rounded-xl border bg-white ${dim} ${
+        done ? 'border-scout-purple' : 'border-slate-200'
+      }`}
+    >
+      <button
+        type="button"
+        aria-expanded={open}
+        onClick={() => setOverride(!open)}
+        class="flex w-full items-center gap-3 p-3 text-left"
+      >
+        <span
+          class={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-xs text-white ${
+            done ? 'bg-scout-green' : 'bg-slate-200'
+          }`}
+        >
+          {done ? '✓' : ''}
+        </span>
+        <span class={`flex-1 font-medium ${done ? 'text-scout-purple-dark' : 'text-slate-800'}`}>
+          {option.title}
+        </span>
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          class={`shrink-0 text-slate-400 transition-transform ${open ? 'rotate-180' : ''}`}
+        >
+          <path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+      {open && (
+        <div class="border-t border-slate-100 px-3 pt-2 pb-3">
+          {option.notesHtml && <Prose html={option.notesHtml} />}
+          <div class="mt-2">{body}</div>
+        </div>
+      )}
+    </div>
   )
 }
 
