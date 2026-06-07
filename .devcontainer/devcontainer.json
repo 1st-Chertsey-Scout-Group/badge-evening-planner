@@ -1,0 +1,23 @@
+{
+  "name": "Astro",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  "runArgs": ["--net=host"],
+  "features": {
+    "ghcr.io/timcane/devcontainer-features/claude-code-passthrough:latest": {
+      "passthroughHostConfig": true
+    },
+    "ghcr.io/devcontainers/features/python:1": {}
+  },
+  "forwardPorts": [4321],
+  "postCreateCommand": "pnpm install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "astro-build.astro-vscode",
+        "bradlc.vscode-tailwindcss",
+        "esbenp.prettier-vscode",
+        "ms-python.python"
+      ]
+    }
+  }
+}
