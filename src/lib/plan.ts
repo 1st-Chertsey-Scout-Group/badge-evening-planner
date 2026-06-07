@@ -4,7 +4,12 @@
 // requirement ticks in storage.ts (key badge-progress:v1).
 
 const KEY = 'badge-plan:v1'
+const LENGTH_KEY = 'badge-plan-length:v1'
 const CHANGE = 'badge-plan:change'
+
+// Target length of the evening being planned, in minutes. The plan board shows
+// the selected bases against it (under or over). Default for a fresh plan.
+export const DEFAULT_LENGTH = 90
 
 function read(): string[] {
   if (typeof localStorage === 'undefined') return []
@@ -51,6 +56,24 @@ export function togglePlan(slug: string, on: boolean): void {
 
 export function clearPlan(): void {
   write([])
+}
+
+// Replace the whole cart in one write, e.g. when opening a saved evening.
+export function setPlan(slugs: string[]): void {
+  write(slugs)
+}
+
+export function getPlanLength(): number {
+  if (typeof localStorage === 'undefined') return DEFAULT_LENGTH
+  const n = Number.parseInt(localStorage.getItem(LENGTH_KEY) ?? '', 10)
+  return Number.isFinite(n) && n > 0 ? n : DEFAULT_LENGTH
+}
+
+export function setPlanLength(mins: number): void {
+  if (typeof localStorage === 'undefined') return
+  if (!Number.isFinite(mins) || mins <= 0) return
+  localStorage.setItem(LENGTH_KEY, String(Math.round(mins)))
+  dispatchEvent(new CustomEvent(CHANGE))
 }
 
 // Fires on our own writes and on cross-tab storage events. Returns an unsubscribe.
