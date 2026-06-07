@@ -17,9 +17,12 @@ interface ToggleProps {
 
 export default function BadgeChecklist({ badge }: Props) {
   const [ticked, setTickedState] = useState<Set<string>>(new Set())
+  // saved ticks are read from localStorage after hydration; skeleton until then
+  const [loaded, setLoaded] = useState(false)
 
   useEffect(() => {
     setTickedState(getTicked(badge.slug))
+    setLoaded(true)
     return onProgressChange(() => setTickedState(getTicked(badge.slug)))
   }, [badge.slug])
 
@@ -44,35 +47,47 @@ export default function BadgeChecklist({ badge }: Props) {
   return (
     <div>
       <div class="sticky top-0 z-10 -mx-4 mb-6 flex items-center gap-4 border-b border-slate-200 bg-slate-50/90 px-4 py-3 backdrop-blur sm:mx-0 sm:rounded-xl sm:border sm:px-5">
-        <ProgressRing percent={tally.percent} complete={tally.complete} size={64} stroke={7} />
-        <div class="flex-1">
-          <p class="text-sm font-semibold text-slate-700">
-            {tally.complete ? (
-              <span class="text-scout-green">Badge complete</span>
-            ) : (
-              <>
-                {tally.done} of {tally.needed} {badge.stages ? 'stages' : 'requirements'} done
-              </>
+        {loaded ? (
+          <>
+            <ProgressRing percent={tally.percent} complete={tally.complete} size={64} stroke={7} />
+            <div class="flex-1">
+              <p class="text-sm font-semibold text-slate-700">
+                {tally.complete ? (
+                  <span class="text-scout-green">Badge complete</span>
+                ) : (
+                  <>
+                    {tally.done} of {tally.needed} {badge.stages ? 'stages' : 'requirements'} done
+                  </>
+                )}
+              </p>
+              <p class="text-xs text-slate-500">
+                {tally.complete
+                  ? 'Every requirement is ticked off.'
+                  : `${tally.needed - tally.done} to go`}
+              </p>
+            </div>
+            {tally.started && (
+              <button
+                type="button"
+                onClick={reset}
+                class="inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-medium text-slate-500 hover:bg-slate-200 hover:text-slate-700"
+              >
+                <RotateCcw size={14} /> Reset
+              </button>
             )}
-          </p>
-          <p class="text-xs text-slate-500">
-            {tally.complete
-              ? 'Every requirement is ticked off.'
-              : `${tally.needed - tally.done} to go`}
-          </p>
-        </div>
-        {tally.started && (
-          <button
-            type="button"
-            onClick={reset}
-            class="inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-medium text-slate-500 hover:bg-slate-200 hover:text-slate-700"
-          >
-            <RotateCcw size={14} /> Reset
-          </button>
+          </>
+        ) : (
+          <>
+            <div class="h-16 w-16 shrink-0 animate-pulse rounded-full bg-slate-200" />
+            <div class="flex-1 space-y-2">
+              <div class="h-4 w-40 animate-pulse rounded bg-slate-200" />
+              <div class="h-3 w-24 animate-pulse rounded bg-slate-200" />
+            </div>
+          </>
         )}
       </div>
 
-      {todo.length > 0 && (
+      {loaded && todo.length > 0 && (
         <details class="mb-6 rounded-xl border border-slate-200 bg-white px-4 py-3">
           <summary class="cursor-pointer text-sm font-semibold text-slate-700">
             Still to do ({todo.length})
