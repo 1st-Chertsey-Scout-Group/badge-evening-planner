@@ -95,12 +95,29 @@ def abs_url(path: str | None) -> str | None:
 
 
 # --- requirements ---
+_WORD_N = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9, "ten": 10}
+_CHOOSE_RE = re.compile(r"\b(one|two|three|four|five|six|seven|eight|nine|ten|\d+)\s+of\s+(these|the following)\b")
+
+
+def infer_choose_n(title: str, n_children: int) -> int | None:
+    """scouts.org.uk often leaves subRequirementsToQualify at 0 even when the
+    requirement text says "complete one of these". Recover N from the wording."""
+    m = _CHOOSE_RE.search((title or "").lower())
+    if not m:
+        return None
+    tok = m.group(1)
+    n = _WORD_N.get(tok, int(tok) if tok.isdigit() else 0)
+    return n if 0 < n < n_children else None
+
+
 def required_of_children(node: dict) -> object:
     kids = node.get("subRequirements") or []
     if not kids:
         return "all"
     q = node.get("subRequirementsToQualify") or 0
-    return q if 0 < q < len(kids) else "all"
+    if 0 < q < len(kids):
+        return q
+    return infer_choose_n(node.get("title") or "", len(kids)) or "all"
 
 
 def emit_requirement(node: dict, badge_id: str, parent_id: str | None, acc: dict) -> str:

@@ -9,5 +9,5 @@
   "notes": "",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": 1
 }

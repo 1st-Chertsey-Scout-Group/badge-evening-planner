@@ -10,5 +10,5 @@
   "notes": "",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": 1
 }
