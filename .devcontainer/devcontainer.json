@@ -6,7 +6,8 @@
     "ghcr.io/timcane/devcontainer-features/claude-code-passthrough:latest": {
       "passthroughHostConfig": true
     },
-    "ghcr.io/devcontainers/features/python:1": {}
+    "ghcr.io/devcontainers/features/python:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
   },
   "forwardPorts": [4321],
   "postCreateCommand": "pnpm install",
