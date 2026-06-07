@@ -3,7 +3,9 @@ import { getCollection } from 'astro:content'
 import { Image } from 'astro:assets'
 import Base from '@/layouts/Base.astro'
 import BadgeChecklist from '@/components/BadgeChecklist'
+import BadgeBases from '@/components/BadgeBases'
 import { getBadgeSlugs, resolveBadge, renderProse } from '@/lib/resolve'
+import { basesForBadge } from '@/lib/bases'
 import { badgeHrefFor } from '@/lib/links'
 import { PROSE } from '@/lib/prose'
 import { TYPE_LABEL } from '@/lib/badges'
@@ -27,6 +29,8 @@ const tips = await Promise.all(
     detailsHtml: t.details ? await renderProse(t.details) : '',
   })),
 )
+
+const bases = await basesForBadge(badge.id)
 
 const slugs = await getBadgeSlugs()
 const related = d.relatedBadges.map((r) => {
@@ -80,6 +84,20 @@ const related = d.relatedBadges.map((r) => {
     <section class="mt-8">
       <BadgeChecklist client:load badge={resolved} />
     </section>
+
+    {
+      bases.length > 0 && (
+        <section class="mt-10">
+          <h2 class="mb-3 text-lg font-bold text-slate-900">
+            Bases for this badge
+          </h2>
+          <p class="mb-3 text-sm text-slate-600">
+            Activities that tick off these requirements. Add them to your evening plan.
+          </p>
+          <BadgeBases client:load badgeSlug={badge.id} bases={bases} />
+        </section>
+      )
+    }
 
     {
       d.tips.length > 0 && (
