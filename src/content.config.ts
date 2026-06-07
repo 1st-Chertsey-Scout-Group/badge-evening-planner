@@ -75,4 +75,24 @@ const badges = defineCollection({
     }),
 })
 
-export const collections = { badges, requirements }
+// A base is an activity run on an evening. It covers leaf requirements (across
+// any badge); the markdown body holds the run instructions. reference() checks
+// the ids exist; the leaf check lives in resolveBases (a non-leaf ref fails the
+// build there).
+const bases = defineCollection({
+  loader: glob({
+    pattern: '*/index.md',
+    base: './src/content/bases',
+    generateId: ({ entry }) => entry.replace(/\/index\.md$/, ''),
+  }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    duration: z.number().int().positive(),
+    equipment: z.array(z.string()),
+    tags: z.array(z.string()),
+    requirements: reqRefs,
+  }),
+})
+
+export const collections = { badges, requirements, bases }
