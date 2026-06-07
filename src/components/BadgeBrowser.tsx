@@ -1,7 +1,13 @@
 /** @jsxImportSource preact */
 import { useEffect, useMemo, useState } from 'preact/hooks'
 import { badgeTally, type BadgeType, type ProgressModel } from '@/lib/progress'
-import { getAllTicked, onProgressChange } from '@/lib/storage'
+import {
+  exportProgress,
+  getAllTicked,
+  importProgress,
+  onProgressChange,
+  resetAll,
+} from '@/lib/storage'
 import { TYPE_LABEL, TYPE_ORDER } from '@/lib/badges'
 import ProgressRing from './ProgressRing'
 
@@ -66,12 +72,79 @@ export default function BadgeBrowser({ badges }: Props) {
       (status === 'all' || r.status === status),
   )
 
+  const completeCount = rows.filter((r) => r.status === 'complete').length
+  const startedCount = rows.filter((r) => r.status === 'in-progress').length
+
+  function download() {
+    const blob = new Blob([exportProgress()], { type: 'application/json' })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = 'badge-progress.json'
+    a.click()
+    URL.revokeObjectURL(url)
+  }
+
+  function onImportFile(e: Event) {
+    const input = e.currentTarget as HTMLInputElement
+    const file = input.files?.[0]
+    input.value = ''
+    if (!file) return
+    file
+      .text()
+      .then((text) => {
+        importProgress(text)
+        setTicked(getAllTicked())
+      })
+      .catch(() => alert('Could not read that progress file.'))
+  }
+
+  function resetEverything() {
+    if (confirm('Clear saved progress for every badge? This cannot be undone.')) {
+      resetAll()
+      setTicked({})
+    }
+  }
+
   function toggleType(t: BadgeType) {
     setTypes((cur) => (cur.includes(t) ? cur.filter((x) => x !== t) : [...cur, t]))
   }
 
   return (
     <div>
+      <div class="mb-6 flex flex-wrap items-center justify-between gap-3 rounded-xl bg-white px-4 py-3 ring-1 ring-slate-200">
+        <p class="text-sm text-slate-600">
+          <span class="font-semibold text-scout-green">{completeCount}</span> complete,{' '}
+          <span class="font-semibold text-scout-purple">{startedCount}</span> in progress
+          <span class="text-slate-400"> of {badges.length}</span>
+        </p>
+        <div class="flex flex-wrap items-center gap-2 text-sm">
+          <button
+            type="button"
+            onClick={download}
+            class="rounded-lg px-3 py-1.5 font-medium text-slate-600 ring-1 ring-slate-200 hover:bg-slate-50"
+          >
+            Export
+          </button>
+          <label class="cursor-pointer rounded-lg px-3 py-1.5 font-medium text-slate-600 ring-1 ring-slate-200 hover:bg-slate-50">
+            Import
+            <input
+              type="file"
+              accept="application/json,.json"
+              class="hidden"
+              onChange={onImportFile}
+            />
+          </label>
+          <button
+            type="button"
+            onClick={resetEverything}
+            class="rounded-lg px-3 py-1.5 font-medium text-scout-red ring-1 ring-scout-red/30 hover:bg-scout-red/5"
+          >
+            Reset all
+          </button>
+        </div>
+      </div>
+
       <div class="mb-6 space-y-3">
         <input
           type="search"
