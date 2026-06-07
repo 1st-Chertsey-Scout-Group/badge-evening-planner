@@ -9,6 +9,7 @@ import {
   resetAll,
 } from '@/lib/storage'
 import { TYPE_LABEL, TYPE_ORDER } from '@/lib/badges'
+import { Download, Trash2, Upload } from 'lucide-preact'
 import ProgressRing from './ProgressRing'
 
 export interface BadgeSummary {
@@ -122,12 +123,12 @@ export default function BadgeBrowser({ badges }: Props) {
           <button
             type="button"
             onClick={download}
-            class="rounded-lg px-3 py-1.5 font-medium text-slate-600 ring-1 ring-slate-200 hover:bg-slate-50"
+            class="inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 font-medium text-slate-600 ring-1 ring-slate-200 hover:bg-slate-50"
           >
-            Export
+            <Download size={15} /> Export
           </button>
-          <label class="cursor-pointer rounded-lg px-3 py-1.5 font-medium text-slate-600 ring-1 ring-slate-200 hover:bg-slate-50">
-            Import
+          <label class="inline-flex cursor-pointer items-center gap-1.5 rounded-lg px-3 py-1.5 font-medium text-slate-600 ring-1 ring-slate-200 hover:bg-slate-50">
+            <Upload size={15} /> Import
             <input
               type="file"
               accept="application/json,.json"
@@ -138,9 +139,9 @@ export default function BadgeBrowser({ badges }: Props) {
           <button
             type="button"
             onClick={resetEverything}
-            class="rounded-lg px-3 py-1.5 font-medium text-scout-red ring-1 ring-scout-red/30 hover:bg-scout-red/5"
+            class="inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 font-medium text-scout-red ring-1 ring-scout-red/30 hover:bg-scout-red/5"
           >
-            Reset all
+            <Trash2 size={15} /> Reset all
           </button>
         </div>
       </div>

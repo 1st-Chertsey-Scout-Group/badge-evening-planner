@@ -3,7 +3,7 @@ import { useEffect, useMemo, useState } from 'preact/hooks'
 import { badgeTally, nodeTally, unitTally, type Ticked } from '@/lib/progress'
 import { getTicked, onProgressChange, resetBadge, setTicked as persist } from '@/lib/storage'
 import type { ReqNode, ResolvedBadge, Stage, Unit } from '@/lib/types'
-import { Check, ChevronDown } from 'lucide-preact'
+import { Check, ChevronDown, RotateCcw } from 'lucide-preact'
 import ProgressRing from './ProgressRing'
 
 interface Props {
@@ -65,9 +65,9 @@ export default function BadgeChecklist({ badge }: Props) {
           <button
             type="button"
             onClick={reset}
-            class="rounded-lg px-3 py-1.5 text-xs font-medium text-slate-500 hover:bg-slate-200 hover:text-slate-700"
+            class="inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-medium text-slate-500 hover:bg-slate-200 hover:text-slate-700"
           >
-            Reset
+            <RotateCcw size={14} /> Reset
           </button>
         )}
       </div>
