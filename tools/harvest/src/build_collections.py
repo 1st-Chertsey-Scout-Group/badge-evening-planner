@@ -2,10 +2,14 @@
 """Build the Astro content collections from tools/harvest/output/badges-raw/.
 
 Emits two linked collections, per tools/harvest/docs/badge-data-rules.md:
-  - src/content/badges/<type>-<slug>.json      (badge metadata + ordered entry
-    points into the requirement tree)
+  - src/content/badges/<slug>/index.json       (badge metadata + ordered entry
+    points into the requirement tree, with its image colocated alongside)
   - src/content/requirements/<sourceId>.json   (one addressable node per file,
     keyed by the Umbraco source id; lean, linked by refs)
+
+Badge entry ids are the bare slug (slugs are unique across types); the `type`
+field carries activity/staged/challenge/top. Requirement `badge` refs use that
+same slug so they resolve against the badges collection.
 
 Requirement nodes carry parent + ordered children refs; "choose N vs all" lives
 on the parent (badge.optionsToQualify over optional[]; requiredOfChildren over a
@@ -19,6 +23,7 @@ from __future__ import annotations
 
 import json
 import re
+import shutil
 import sys
 import urllib.request
 from pathlib import Path
@@ -30,7 +35,6 @@ REPO_ROOT = Path(__file__).resolve().parents[3]
 RAW = TOOL_ROOT / "output" / "badges-raw"
 BADGES_OUT = REPO_ROOT / "src" / "content" / "badges"
 REQS_OUT = REPO_ROOT / "src" / "content" / "requirements"
-IMAGES_OUT = BADGES_OUT / "images"
 
 
 def normalize_obj(o: object) -> object:
@@ -150,25 +154,26 @@ def sponsor_of(node: dict) -> dict | None:
     return {"title": sb.get("title"), "url": abs_url(sb.get("url")), "logoUrl": abs_url(logo.get("url"))}
 
 
-def download_image(image: object, stem: str, no_images: bool) -> dict | None:
+def download_image(image: object, slug: str, dest_dir: Path, no_images: bool) -> dict | None:
     if not isinstance(image, dict) or not image.get("url"):
         return None
     alt = image.get("altText") or ""
     if no_images:
         return None
     ext = (image.get("type") or "png").lower()
-    name = f"{stem}.{ext}"
-    dest = IMAGES_OUT / name
+    name = f"{slug}.{ext}"
+    dest = dest_dir / name
     if not dest.exists():
-        IMAGES_OUT.mkdir(parents=True, exist_ok=True)
+        dest_dir.mkdir(parents=True, exist_ok=True)
         try:
             req = urllib.request.Request(abs_cms(image["url"]), headers=HEADERS)
             with urllib.request.urlopen(req, timeout=30) as r:
                 dest.write_bytes(r.read())
         except Exception as exc:  # noqa: BLE001 - keep building without the image
-            print(f"  ! image {stem}: {exc}", file=sys.stderr)
+            print(f"  ! image {slug}: {exc}", file=sys.stderr)
             return None
-    return {"src": f"./images/{name}", "alt": alt}
+    # relative to the badge's index.json so the Astro image() schema resolves it
+    return {"src": f"./{name}", "alt": alt}
 
 
 def abs_cms(path: str) -> str:
@@ -176,7 +181,7 @@ def abs_cms(path: str) -> str:
 
 
 def build_badge(raw: dict, btype: str, slug: str, reqs: dict, no_images: bool) -> dict:
-    badge_id = f"{btype}-{slug}"
+    badge_id = slug
     staged = raw.get("type") == "stagedBadge"
     facet_src = (raw.get("badges") or []) if staged else [raw]
 
@@ -202,7 +207,7 @@ def build_badge(raw: dict, btype: str, slug: str, reqs: dict, no_images: bool) -
     badge["youthShapedSuggestions"] = "\n\n".join(youth) or None
     badge["supportedBy"] = sponsor_of(raw) or next((sponsor_of(s) for s in facet_src if sponsor_of(s)), None)
 
-    image = download_image(raw.get("image"), badge_id, no_images)
+    image = download_image(raw.get("image"), slug, BADGES_OUT / slug, no_images)
     if image:
         badge["image"] = image
 
@@ -254,10 +259,12 @@ def verify(badges: list[dict], reqs: dict) -> list[str]:
 def run(no_images: bool = False) -> int:
     global _dropped_branches
     _dropped_branches = 0
-    for d in (BADGES_OUT, REQS_OUT):
-        d.mkdir(parents=True, exist_ok=True)
-        for f in d.glob("*.json"):
-            f.unlink()
+    if BADGES_OUT.exists():
+        shutil.rmtree(BADGES_OUT)
+    BADGES_OUT.mkdir(parents=True, exist_ok=True)
+    REQS_OUT.mkdir(parents=True, exist_ok=True)
+    for f in REQS_OUT.glob("*.json"):
+        f.unlink()
 
     reqs: dict = {}
     badges: list[dict] = []
@@ -265,7 +272,9 @@ def run(no_images: bool = False) -> int:
         btype, _, slug = f.stem.partition("-")
         badge = build_badge(json.loads(f.read_text(encoding="utf-8")), btype, slug, reqs, no_images)
         badges.append(badge)
-        (BADGES_OUT / f.name).write_text(
+        badge_dir = BADGES_OUT / slug
+        badge_dir.mkdir(parents=True, exist_ok=True)
+        (badge_dir / "index.json").write_text(
             json.dumps(normalize_obj(badge), indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
         )
 

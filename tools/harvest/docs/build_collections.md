@@ -15,15 +15,18 @@ and runs a reference-integrity check before returning.
 
 ## Output
 
-- `src/content/badges/<type>-<slug>.json` - 90 badges (metadata + ordered ref
-  lists into the requirement tree).
+- `src/content/badges/<slug>/index.json` - 90 badges (metadata + ordered ref
+  lists into the requirement tree). Entry id is the bare slug (unique across
+  types); the `type` field carries activity/staged/challenge/top.
+- `src/content/badges/<slug>/<slug>.<ext>` - the badge image, colocated with its
+  entry so the Astro `image()` schema helper resolves `./<slug>.<ext>`
+  (downloaded live from cms; cached, skipped if present).
 - `src/content/requirements/<sourceId>.json` - ~1,237 requirement nodes, keyed by
-  Umbraco source id, linked by `badge` / `parent` / `children` refs.
-- `src/content/badges/images/<type>-<slug>.<ext>` - badge images (downloaded
-  live from cms; cached, skipped if present).
+  Umbraco source id, linked by `badge` / `parent` / `children` refs (`badge` is
+  the slug).
 
-All output is gitignored - regenerate it with this command. The schema it
-satisfies is `src/content.config.ts`.
+The output is committed to the repo; re-run this command to refresh it after a
+re-harvest. The schema it satisfies is `src/content.config.ts`.
 
 ## What it does
 
