@@ -199,7 +199,7 @@ export default function BadgeBrowser({ badges }: Props) {
                     class="h-20 w-20 object-contain"
                   />
                   {r.status !== 'not-started' && (
-                    <span class="absolute -right-1 -bottom-1">
+                    <span class="absolute -right-2 -bottom-2 rounded-full bg-white p-0.5 shadow-sm ring-1 ring-slate-200">
                       <ProgressRing
                         percent={r.tally.percent}
                         complete={r.tally.complete}
