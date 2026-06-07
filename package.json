@@ -9,10 +9,12 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "test": "vitest run"
   },
   "dependencies": {
     "@astrojs/preact": "^5.1.5",
+    "@astrojs/sitemap": "^3.7.3",
     "@fontsource-variable/nunito-sans": "^5.2.7",
     "astro": "^6.4.4",
     "lucide-preact": "^1.17.0",
@@ -28,6 +30,7 @@
     "prettier": "^3.8.3",
     "prettier-plugin-astro": "^0.14.1",
     "tailwindcss": "^4.3.0",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.8"
   }
 }
