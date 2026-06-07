@@ -216,7 +216,14 @@ export default function BadgeBrowser({ badges }: Props) {
                   <p class="mt-auto pt-3 text-xs text-slate-400">Not started</p>
                 ) : (
                   <div class="mt-auto w-full pt-3">
-                    <div class="h-1.5 w-full overflow-hidden rounded-full bg-slate-200">
+                    <div
+                      class="h-1.5 w-full overflow-hidden rounded-full bg-slate-200"
+                      role="progressbar"
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      aria-valuenow={r.tally.percent}
+                      aria-label={`${r.badge.title}: ${r.tally.percent}% complete`}
+                    >
                       <div
                         class={`h-full rounded-full transition-all ${
                           r.tally.complete ? 'bg-scout-green' : 'bg-scout-purple'

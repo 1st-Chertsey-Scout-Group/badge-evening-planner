@@ -26,6 +26,7 @@ export default function ProgressRing({
   const color = complete ? 'var(--color-scout-green)' : 'var(--color-scout-purple)'
   return (
     <span
+      aria-hidden="true"
       class="relative inline-flex items-center justify-center"
       style={{ width: size, height: size }}
     >
