@@ -3,7 +3,7 @@
   "parent": null,
   "children": [],
   "title": "Take part in six athletics events.",
-  "notes": "Choose at least one from each of the three sections below, improving your distance or time over a number of attempts.\n\n    **Field events** **Track events** **Team events**\n\nDiscus\n\nShot put\n\nThrowing a cricket ball\n\nJavelin\n\nHigh jump\n\nLong Jump\n\nStanding Jump\n\nSargent Jump\n\n100m\n\n200m\n\n400m\n\n800m\n\n1500m\n\n100m hurdles\n\n4 x100m relay\n\nTeam assault course\n\nAssisted blindfold race",
+  "notes": "Choose at least one from each of the three sections below, improving your distance or time over a number of attempts.\n\n| Field events | Track events | Team events |\n| --- | --- | --- |\n| Discus<br>Shot put<br>Throwing a cricket ball<br>Javelin<br>High jump<br>Long Jump<br>Standing Jump<br>Sargent Jump | 100m<br>200m<br>400m<br>800m<br>1500m<br>100m hurdles | 4 x100m relay<br>Team assault course<br>Assisted blindfold race |",
   "optional": false,
   "repeatTimes": 1,
   "requiredOfChildren": "all"
