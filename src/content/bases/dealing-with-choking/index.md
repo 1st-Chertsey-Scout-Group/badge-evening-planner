@@ -10,6 +10,8 @@ tags:
   - Indoor
 requirements:
   - '45845'
+  - '45846'
+  - '45847'
 ---
 
 Demonstrate on a manikin or describe carefully - do not practise thrusts on a

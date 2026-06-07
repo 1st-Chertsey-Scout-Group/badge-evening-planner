@@ -10,10 +10,13 @@ tags:
   - First aid
   - Indoor
 requirements:
+  - '41377'
+  - '41384'
+  - '41391'
+  - '41401'
   - '49476'
   - '49477'
   - '49481'
-  - '41401'
 ---
 
 Run as a role-play. One scout is the 999 operator, another is the caller working

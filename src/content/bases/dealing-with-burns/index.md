@@ -11,6 +11,9 @@ tags:
   - First aid
   - Indoor
 requirements:
+  - '45849'
+  - '45850'
+  - '45851'
   - '49485'
 ---
 

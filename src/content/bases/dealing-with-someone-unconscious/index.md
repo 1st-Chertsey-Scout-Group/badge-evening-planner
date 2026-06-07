@@ -10,6 +10,9 @@ tags:
   - First aid
   - Indoor
 requirements:
+  - '45827'
+  - '45829'
+  - '45831'
   - '49478'
   - '49483'
 ---
