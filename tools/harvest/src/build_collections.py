@@ -114,10 +114,14 @@ def required_of_children(node: dict) -> object:
     kids = node.get("subRequirements") or []
     if not kids:
         return "all"
+    n = len(kids)
+    # The title's explicit "<N> of these" wording wins over the source count,
+    # which scouts.org.uk frequently leaves at 0 or sets inconsistent with the text.
+    inferred = infer_choose_n(node.get("title") or "", n)
+    if inferred:
+        return inferred
     q = node.get("subRequirementsToQualify") or 0
-    if 0 < q < len(kids):
-        return q
-    return infer_choose_n(node.get("title") or "", len(kids)) or "all"
+    return q if 0 < q < n else "all"
 
 
 def emit_requirement(node: dict, badge_id: str, parent_id: str | None, acc: dict) -> str:
