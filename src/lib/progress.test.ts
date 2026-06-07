@@ -1,5 +1,11 @@
 import { describe, expect, it } from 'vitest'
-import { badgeTally, nodeTally, unitTally, type ProgressModel, type ProgressNode } from './progress'
+import {
+  badgeTally,
+  nodeTally,
+  unitTally,
+  type ProgressModel,
+  type ProgressNode,
+} from '@/lib/progress'
 
 const leaf = (id: string, repeatTimes = 1): ProgressNode => ({
   id,
