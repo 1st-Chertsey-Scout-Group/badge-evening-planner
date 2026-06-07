@@ -10,6 +10,7 @@ import { getCollection, getEntry, type CollectionEntry } from 'astro:content'
 import { getImage } from 'astro:assets'
 import { leanModel, resolveBadge } from './resolve'
 import type { ProgressModel } from './progress'
+import type { ReqNode } from './types'
 
 export interface Cover {
   reqId: string
@@ -83,6 +84,33 @@ export async function allBaseSummaries(): Promise<BaseSummary[]> {
 
 export async function basesForBadge(slug: string): Promise<BaseSummary[]> {
   return (await allBaseSummaries()).filter((b) => b.covers.some((c) => c.badgeSlug === slug))
+}
+
+export interface TreeNode {
+  id: string
+  title: string
+  children: TreeNode[]
+}
+
+export interface BadgeTree {
+  slug: string
+  title: string
+  // one group per stage for staged badges, otherwise a single unnamed group
+  groups: { label: string; nodes: TreeNode[] }[]
+}
+
+function trim(n: ReqNode): TreeNode {
+  return { id: n.id, title: n.title, children: n.children.map(trim) }
+}
+
+// The requirement tree (ids + titles only) the base builder renders so you can
+// tick leaf requirements. Served as static JSON per badge.
+export async function badgeTree(entry: CollectionEntry<'badges'>): Promise<BadgeTree> {
+  const r = await resolveBadge(entry)
+  const groups = r.stages
+    ? r.stages.map((s) => ({ label: s.label, nodes: [...s.mandatory, ...s.optional].map(trim) }))
+    : [{ label: '', nodes: r.unit ? [...r.unit.mandatory, ...r.unit.optional].map(trim) : [] }]
+  return { slug: entry.id, title: entry.data.title, groups }
 }
 
 // Lean models (plus name and icon) for every badge any base touches - the data
