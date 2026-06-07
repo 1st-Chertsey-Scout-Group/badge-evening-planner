@@ -10,7 +10,6 @@ import {
 } from '@/lib/storage'
 import { TYPE_LABEL, TYPE_ORDER } from '@/lib/badges'
 import { Download, Trash2, Upload } from 'lucide-preact'
-import ProgressRing from './ProgressRing'
 
 export interface BadgeSummary {
   slug: string
@@ -39,10 +38,13 @@ export default function BadgeBrowser({ badges }: Props) {
   const [query, setQuery] = useState('')
   const [types, setTypes] = useState<BadgeType[]>([])
   const [status, setStatus] = useState<Status>('all')
+  // progress lives in localStorage, read after hydration; skeleton until then
+  const [loaded, setLoaded] = useState(false)
 
   useEffect(() => {
     const sync = () => setTicked(getAllTicked())
     sync()
+    setLoaded(true)
     return onProgressChange(sync)
   }, [])
 
@@ -114,11 +116,15 @@ export default function BadgeBrowser({ badges }: Props) {
   return (
     <div>
       <div class="mb-6 flex flex-wrap items-center justify-between gap-3 rounded-xl bg-white px-4 py-3 ring-1 ring-slate-200">
-        <p class="text-sm text-slate-600">
-          <span class="font-semibold text-scout-green">{completeCount}</span> complete,{' '}
-          <span class="font-semibold text-scout-purple">{startedCount}</span> in progress
-          <span class="text-slate-400"> of {badges.length}</span>
-        </p>
+        {loaded ? (
+          <p class="text-sm text-slate-600">
+            <span class="font-semibold text-scout-green">{completeCount}</span> complete,{' '}
+            <span class="font-semibold text-scout-purple">{startedCount}</span> in progress
+            <span class="text-slate-400"> of {badges.length}</span>
+          </p>
+        ) : (
+          <div class="h-4 w-48 animate-pulse rounded bg-slate-200" />
+        )}
         <div class="flex flex-wrap items-center gap-2 text-sm">
           <button
             type="button"
@@ -189,30 +195,44 @@ export default function BadgeBrowser({ badges }: Props) {
                 href={`/badges/${r.badge.slug}`}
                 class="flex h-full flex-col items-center rounded-2xl border border-slate-200 bg-white p-4 text-center transition hover:border-scout-purple/50 hover:shadow-md"
               >
-                <span class="relative">
-                  <img
-                    src={r.badge.img.src}
-                    alt={r.badge.img.alt}
-                    width={96}
-                    height={96}
-                    loading="lazy"
-                    class="h-20 w-20 object-contain"
-                  />
-                  {r.status !== 'not-started' && (
-                    <span class="absolute -right-2 -bottom-2 rounded-full bg-white p-0.5 shadow-sm ring-1 ring-slate-200">
-                      <ProgressRing
-                        percent={r.tally.percent}
-                        complete={r.tally.complete}
-                        size={30}
-                        stroke={4}
-                      />
-                    </span>
-                  )}
-                </span>
+                <img
+                  src={r.badge.img.src}
+                  alt={r.badge.img.alt}
+                  width={96}
+                  height={96}
+                  loading="lazy"
+                  class="h-20 w-20 object-contain"
+                />
                 <span class="mt-3 line-clamp-2 text-sm font-semibold text-slate-800">
                   {r.badge.title}
                 </span>
                 <span class="mt-1 text-xs text-slate-400">{TYPE_LABEL[r.badge.type]}</span>
+                {!loaded ? (
+                  <div class="mt-auto w-full pt-3">
+                    <div class="h-1.5 w-full animate-pulse rounded-full bg-slate-200" />
+                    <div class="mt-1 h-3 w-10 animate-pulse rounded bg-slate-200" />
+                  </div>
+                ) : r.status === 'not-started' ? (
+                  <p class="mt-auto pt-3 text-xs text-slate-400">Not started</p>
+                ) : (
+                  <div class="mt-auto w-full pt-3">
+                    <div class="h-1.5 w-full overflow-hidden rounded-full bg-slate-200">
+                      <div
+                        class={`h-full rounded-full transition-all ${
+                          r.tally.complete ? 'bg-scout-green' : 'bg-scout-purple'
+                        }`}
+                        style={{ width: `${r.tally.percent}%` }}
+                      />
+                    </div>
+                    <p
+                      class={`mt-1 text-xs font-medium ${
+                        r.tally.complete ? 'text-scout-green' : 'text-slate-500'
+                      }`}
+                    >
+                      {r.tally.complete ? 'Complete' : `${r.tally.percent}%`}
+                    </p>
+                  </div>
+                )}
               </a>
             </li>
           ))}
