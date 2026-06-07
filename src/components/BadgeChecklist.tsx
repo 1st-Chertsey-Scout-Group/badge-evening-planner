@@ -4,6 +4,7 @@ import { badgeTally, nodeTally, unitTally, type Ticked } from '@/lib/progress'
 import { getTicked, onProgressChange, resetBadge, setTicked as persist } from '@/lib/storage'
 import type { ReqNode, ResolvedBadge, Stage, Unit } from '@/lib/types'
 import { Check, ChevronDown, RotateCcw } from 'lucide-preact'
+import { PROSE } from '@/lib/prose'
 import ProgressRing from './ProgressRing'
 
 interface Props {
@@ -452,12 +453,7 @@ function ExpandableOption({
 }
 
 function Prose({ html }: { html: string }) {
-  return (
-    <div
-      class="prose-notes mt-1 text-sm text-slate-500 [&_a]:text-scout-purple [&_a]:underline [&_ul]:list-disc [&_ul]:pl-5"
-      dangerouslySetInnerHTML={{ __html: html }}
-    />
-  )
+  return <div class={`mt-1 ${PROSE}`} dangerouslySetInnerHTML={{ __html: html }} />
 }
 
 // Titles of what still needs doing: outstanding mandatory leaves, plus a hint

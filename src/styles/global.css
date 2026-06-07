@@ -1,4 +1,5 @@
 @import 'tailwindcss';
+@plugin "@tailwindcss/typography";
 
 /* Scouts brand palette. Purple is primary; green marks completion. */
 @theme {
