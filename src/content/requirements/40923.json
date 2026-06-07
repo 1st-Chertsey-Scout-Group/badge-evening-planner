@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": null,
+  "children": [],
+  "title": "Participate in a snowsport activity different from that which the other requirements have been completed in.",
+  "notes": "This could be something completely new or an activity you've not done for a while such as skiing, snowboarding, cross country skiing, ski touring and slalom.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

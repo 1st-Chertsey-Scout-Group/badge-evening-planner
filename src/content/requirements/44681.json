@@ -1,0 +1,10 @@
+{
+  "badge": "digital-citizen",
+  "parent": null,
+  "children": [],
+  "title": "Create a digital version of the Scout Law which shows how each law can be followed when online.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

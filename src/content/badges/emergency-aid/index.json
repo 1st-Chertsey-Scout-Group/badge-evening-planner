@@ -1,0 +1,81 @@
+{
+  "slug": "emergency-aid",
+  "type": "staged",
+  "badgeType": "Staged",
+  "title": "Emergency Aid",
+  "description": "",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/staged-badges/emergency-aid/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./emergency-aid.png",
+    "alt": ""
+  },
+  "displayTitle": "Emergency Aid Staged Activity Badge",
+  "stages": [
+    {
+      "label": "Emergency Aid Stage 1",
+      "threshold": 0,
+      "requirementsIntro": "Show you understand all of the actions listed.",
+      "optionsIntro": "",
+      "mandatory": [
+        "41368"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Emergency Aid Stage 2",
+      "threshold": 0,
+      "requirementsIntro": "Show you understand all of the actions listed under each number.",
+      "optionsIntro": "",
+      "mandatory": [
+        "41372",
+        "41374"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Emergency Aid Stage 3",
+      "threshold": 0,
+      "requirementsIntro": "You will need to take part in around two to three hours of training, which should be taught by an adult with relevant knowledge.",
+      "optionsIntro": "",
+      "mandatory": [
+        "41377",
+        "41380"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Emergency Aid Stage 4",
+      "threshold": 0,
+      "requirementsIntro": "You will need to take part in around three to six hours of training, which should be taught by an adult with relevant knowledge.",
+      "optionsIntro": "",
+      "mandatory": [
+        "41384",
+        "41387"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Emergency Aid Stage 5",
+      "threshold": 0,
+      "requirementsIntro": "You will need to take part in around six to eight hours of training, which should be taught by an adult with relevant knowledge.",
+      "optionsIntro": "",
+      "mandatory": [
+        "41391",
+        "41393"
+      ],
+      "optional": []
+    }
+  ]
+}

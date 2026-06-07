@@ -1,0 +1,10 @@
+{
+  "badge": "angler",
+  "parent": null,
+  "children": [],
+  "title": "Learn the basic hygiene precautions to take when fishing.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

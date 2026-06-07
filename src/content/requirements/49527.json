@@ -1,0 +1,10 @@
+{
+  "badge": "paddle-sports",
+  "parent": "40435",
+  "children": [],
+  "title": "Crew",
+  "notes": "Choose from K2 (two-man kayak), K4 (four-man kayak), C2 (two-man canoe), or OC2 (two-man canoe with outrigger).",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

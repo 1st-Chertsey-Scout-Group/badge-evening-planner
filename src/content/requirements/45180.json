@@ -1,0 +1,20 @@
+{
+  "badge": "mechanic",
+  "parent": null,
+  "children": [
+    "49196",
+    "49197",
+    "49198",
+    "49199",
+    "49200",
+    "49201",
+    "49202",
+    "49203",
+    "49204"
+  ],
+  "title": "Motor car",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "model-maker",
+  "parent": "45385",
+  "children": [],
+  "title": "Build a model aeroplane, using a kit if you want to.",
+  "notes": "It must meet one of these target flight performances:\n\n- A hand-launched glider must fly for 25 seconds.\n- A tow-launched glider must fly for 45 seconds, with 50 metres maximum line length.\n- A rubber-powered aircraft must fly for 30 seconds.\n- An engine-powered aircraft must fly for 45 seconds, with 15 seconds maximum motor run.\n- A control line aircraft must show a smooth take-off and landing, with three laps of level flight at about 2 metres, with a climb and dive.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

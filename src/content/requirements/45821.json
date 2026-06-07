@@ -1,0 +1,10 @@
+{
+  "badge": "meteorologist",
+  "parent": null,
+  "children": [],
+  "title": "What do 'warm' and 'cold' air masses in summer and winter do to the typical weather in your area?",
+  "notes": "Describe the effects on land and sea.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "fire-safety",
+  "parent": "49158",
+  "children": [],
+  "title": "oil heaters and open solid fuel fires",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

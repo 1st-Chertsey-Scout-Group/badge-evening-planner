@@ -1,0 +1,10 @@
+{
+  "badge": "air-or-sea-navigation",
+  "parent": "40440",
+  "children": [],
+  "title": "Explain what magnetic deviation is and how it applies to air navigation.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

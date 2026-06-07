@@ -1,0 +1,10 @@
+{
+  "badge": "nautical-skills",
+  "parent": "40364",
+  "children": [],
+  "title": "Demonstrate three calls made on a Bosun's pipe, other than 'still' and 'carry on'.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

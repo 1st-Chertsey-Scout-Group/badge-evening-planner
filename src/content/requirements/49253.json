@@ -1,0 +1,10 @@
+{
+  "badge": "photographer",
+  "parent": "45418",
+  "children": [],
+  "title": "Diagnose typical faults that happen at the photographing or editing stages, such as over or under exposure and high or low contrast.",
+  "notes": "Explain how to reduce camera shake and how to respond to subject movement.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

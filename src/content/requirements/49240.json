@@ -1,0 +1,10 @@
+{
+  "badge": "model-maker",
+  "parent": "45388",
+  "children": [],
+  "title": "Talk about the experience of building your models with a knowledgeable adult.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

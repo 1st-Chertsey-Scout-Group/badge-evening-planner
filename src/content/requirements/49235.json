@@ -1,0 +1,10 @@
+{
+  "badge": "model-maker",
+  "parent": "49234",
+  "children": [],
+  "title": "Build an electric slot car racer.",
+  "notes": "Drive it a minimum distance of 122 metres on any track, without stopping or leaving the slot more than four times.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

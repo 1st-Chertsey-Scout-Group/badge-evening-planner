@@ -1,0 +1,10 @@
+{
+  "badge": "outdoor",
+  "parent": "75650",
+  "children": [],
+  "title": "Lead the cooking of a meal for the group.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

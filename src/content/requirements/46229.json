@@ -1,0 +1,10 @@
+{
+  "badge": "hobbies",
+  "parent": "41741",
+  "children": [],
+  "title": "Make a collection or study of objects for at least four months.",
+  "notes": "You could collect books or magazines, films, cards, key rings, figurines or similar.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "lifesaver",
+  "parent": null,
+  "children": [],
+  "title": "Explain and, if you can, show how you would carry out a rescue from water using these methods:",
+  "notes": "- shout\n- reach\n- throwing a buoyant aid\n- throwing a rope\n- wade.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

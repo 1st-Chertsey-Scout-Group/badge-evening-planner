@@ -1,0 +1,10 @@
+{
+  "badge": "hill-walker",
+  "parent": null,
+  "children": [],
+  "title": "With others, plan at least five one-day journeys of at least 14km in hilly country.",
+  "notes": "At least three of these should be in areas defined as terrain one and be led by a permit holder.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,16 @@
+{
+  "badge": "pioneer",
+  "parent": null,
+  "children": [
+    "49241",
+    "40389",
+    "45977",
+    "45519",
+    "45517"
+  ],
+  "title": "Show the correct way to do these:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

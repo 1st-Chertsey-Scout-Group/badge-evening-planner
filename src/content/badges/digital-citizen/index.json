@@ -1,0 +1,82 @@
+{
+  "slug": "digital-citizen",
+  "type": "staged",
+  "badgeType": "Staged",
+  "title": "Digital Citizen",
+  "description": "",
+  "versionDate": "June 2023",
+  "sourceUrl": "https://www.scouts.org.uk/staged-badges/digital-citizen/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": "You can find the new badge requirements on this page. However, if you're midway through the old badge requirements, you can still use these to complete the badge until 1 February 2021. The old badge requirements can be found [here](https://members.scouts.org.uk/supportresources/4282/digital-citizen-staged-activity-badge/?cat=11,18,773&moduleID=10).",
+  "supportedBy": null,
+  "image": {
+    "src": "./digital-citizen.png",
+    "alt": ""
+  },
+  "displayTitle": "Digital Citizen Staged Activity Badge",
+  "stages": [
+    {
+      "label": "Digital Citizen Stage 1",
+      "threshold": 0,
+      "requirementsIntro": "Complete every task to achieve Stage 1, showing that you have thought about the potential risks and how to stay safe for each activity.",
+      "optionsIntro": "",
+      "mandatory": [
+        "44599",
+        "44606",
+        "44610",
+        "44613"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Digital Citizen Stage 2",
+      "threshold": 0,
+      "requirementsIntro": "Complete every task to achieve Stage 2, showing that you have thought about the potential risks and how to stay safe for each activity.",
+      "optionsIntro": "",
+      "mandatory": [
+        "44623",
+        "44627",
+        "44631",
+        "44635",
+        "44639"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Digital Citizen Stage 3",
+      "threshold": 0,
+      "requirementsIntro": "Complete every task to achieve Stage 3, showing that you have thought about the potential risks and how to stay safe for each activity.",
+      "optionsIntro": "",
+      "mandatory": [
+        "44647",
+        "44651",
+        "44654",
+        "44659",
+        "44663"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Digital Citizen Stage 4",
+      "threshold": 0,
+      "requirementsIntro": "Complete every task to achieve Stage 4, showing that you have thought about the potential risks and how to stay safe for each activity.",
+      "optionsIntro": "",
+      "mandatory": [
+        "44672",
+        "44677",
+        "44681",
+        "44685",
+        "44689"
+      ],
+      "optional": []
+    }
+  ]
+}

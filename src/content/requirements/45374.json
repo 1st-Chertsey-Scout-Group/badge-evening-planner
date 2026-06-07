@@ -1,0 +1,10 @@
+{
+  "badge": "cyclist",
+  "parent": null,
+  "children": [],
+  "title": "Show that you can carry out essential maintenance and repairs, including:",
+  "notes": "- Checking and adjusting the brakes\n- Checking and adjusting the gear change\n- Adjusting the seat and handlebars to a correct height\n- Removing a wheel and locating and repairing a puncture\n- Checking and adjusting your cycle helmet\n- Maintaining a set of lights",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

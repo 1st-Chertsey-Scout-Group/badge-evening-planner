@@ -1,0 +1,19 @@
+{
+  "badge": "air-activities",
+  "parent": null,
+  "children": [
+    "49457",
+    "49458",
+    "86462",
+    "86463",
+    "86464",
+    "86465",
+    "86466",
+    "86467"
+  ],
+  "title": "Complete any four of the following:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": 4
+}

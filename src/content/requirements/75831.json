@@ -1,0 +1,10 @@
+{
+  "badge": "skills",
+  "parent": "75677",
+  "children": [],
+  "title": "Fix a puncture or a dropped chain on a bike",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

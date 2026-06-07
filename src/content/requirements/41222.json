@@ -1,0 +1,10 @@
+{
+  "badge": "media-relations-marketing",
+  "parent": null,
+  "children": [],
+  "title": "Prepare and present an audio or video package about a Scouting event or activity.",
+  "notes": "The report should be accurate, informative and reflect the adventure of Scouting.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

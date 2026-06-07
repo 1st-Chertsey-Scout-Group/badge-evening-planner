@@ -1,0 +1,239 @@
+{
+  "slug": "swimmer",
+  "type": "staged",
+  "badgeType": "Staged",
+  "title": "Swimmer",
+  "description": "",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/staged-badges/swimmer/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "Printable version of requirements",
+      "details": "If you need to print a version of the requirements to take to a swimming instructor, we have created this [Stage 1 document](https://cms.scouts.org.uk/media/n1tgvuic/swimmer-stage-1-pdf.pdf) you can use."
+    },
+    {
+      "title": "Swim England",
+      "details": "The Swim England equivalent for this stage is **Discovery Duckling 4.**\n\nIf you have achieved this award, you can gain your Stage 1 Activity Badge."
+    },
+    {
+      "title": "Swim Wales",
+      "details": "The Swim Wales equivalent for this stage is **Splash 6.**\n\nIf you have achieved this award, you can gain your Stage 1 Activity Badge."
+    },
+    {
+      "title": "Swim Ulster",
+      "details": "The Swim Ulster equivalent for this stage is **Level 2.**\n\nIf you have achieved this award, you can gain your Stage 1 Activity Badge."
+    },
+    {
+      "title": "Scottish Swimming",
+      "details": "The Scottish Swimming equivalent for this stage is **Swim Skills 1.**\n\nIf you have achieved this award, you can gain your Stage 1 Activity Badge."
+    },
+    {
+      "title": "STA (Swimming Teachers Association)",
+      "details": "The STA equivalent for this stage is **Octopus 1.**\n\nIf you have achieved this award, you can gain your Stage 1 Activity Badge."
+    },
+    {
+      "title": "Printable version of requirements",
+      "details": "If you need to print a version of the requirements to take to a swimming instructor, we have created this [Stage 2 document](https://cms.scouts.org.uk/media/m5xpxzga/swimmer-stage-2-pdf.pdf) you can use."
+    },
+    {
+      "title": "Swim England",
+      "details": "The Swim England equivalent for this stage is **Stage 3.**\n\nIf you have achieved this award, you can gain your Stage 2 Activity Badge."
+    },
+    {
+      "title": "Swim Wales",
+      "details": "The Swim Wales equivalent for this stage is **Wave 3****.**\n\nIf you have achieved this award, you can gain your Stage 2 Activity Badge."
+    },
+    {
+      "title": "Swim Ulster",
+      "details": "The Swim Ulster equivalent for this stage is **Level 4.**\n\nIf you have achieved this award, you can gain your Stage 2 Activity Badge."
+    },
+    {
+      "title": "Scottish Swimming",
+      "details": "The Scottish Swimming equivalent for this stage is **Swim Skills 1.**\n\nIf you have achieved this award, you can gain your Stage 2 Activity Badge."
+    },
+    {
+      "title": "STA (Swimming Teachers Association)",
+      "details": "The STA equivalent for this stage is **Goldfish 2.**\n\nIf you have achieved this award, you can gain your Stage 2 Activity Badge."
+    },
+    {
+      "title": "Printable version of requirements",
+      "details": "If you need to print a version of the requirements to take to a swimming instructor, we have created this [Stage 3 document](https://cms.scouts.org.uk/media/luyics0d/swimmer-stage-3-pdf.pdf) you can use."
+    },
+    {
+      "title": "Swim England",
+      "details": "The Swim England equivalent for this stage is **Stage 5.**\n\nIf you have achieved this award, you can gain your Stage 3 Activity Badge."
+    },
+    {
+      "title": "Swim Wales",
+      "details": "The Swim Wales equivalent for this stage is **Wave 5****.**\n\nIf you have achieved this award, you can gain your Stage 3 Activity Badge."
+    },
+    {
+      "title": "Swim Ulster",
+      "details": "The Swim Ulster equivalent for this stage is **Level 6.**\n\nIf you have achieved this award, you can gain your Stage 3 Activity Badge."
+    },
+    {
+      "title": "Scottish Swimming",
+      "details": "The Scottish Swimming equivalent for this stage is **Swim Skills 2.**\n\nIf you have achieved this award, you can gain your Stage 3 Activity Badge."
+    },
+    {
+      "title": "STA (Swimming Teachers Association)",
+      "details": "The STA equivalent for this stage is **Angelfish 2.**\n\nIf you have achieved this award, you can gain your Stage 3 Activity Badge."
+    },
+    {
+      "title": "Printable version of requirements",
+      "details": "If you need to print a version of the requirements to take to a swimming instructor, we have created this [Stage 4 document ](https://cms.scouts.org.uk/media/pxhckvhk/swimmer-stage-4-pdf.pdf)you can use."
+    },
+    {
+      "title": "Swim England",
+      "details": "The Swim England equivalent for this stage is **Stage 7.**\n\nIf you have achieved this award, you can gain your Stage 4 Activity Badge."
+    },
+    {
+      "title": "Swim Wales",
+      "details": "The Swim Wales equivalent for this stage is **Wave 7****.**\n\nIf you have achieved this award, you can gain your Stage 4 Activity Badge."
+    },
+    {
+      "title": "Swim Ulster",
+      "details": "The Swim Ulster equivalent for this stage is **Level 7.**\n\nIf you have achieved this award, you can gain your Stage 4 Activity Badge."
+    },
+    {
+      "title": "Scottish Swimming",
+      "details": "The Scottish Swimming equivalent for this stage is **Swim Skills 3.**\n\nIf you have achieved this award, you can gain your Stage 4 Activity Badge."
+    },
+    {
+      "title": "STA (Swimming Teachers Association)",
+      "details": "The STA equivalent for this stage is **Shark 3.**\n\nIf you have achieved this award, you can gain your Stage 4 Activity Badge."
+    },
+    {
+      "title": "Printable version of requirements",
+      "details": "If you need to print a version of the requirements to take to a swimming instructor, we have created this [Stage 5 document](https://cms.scouts.org.uk/media/cken5i1f/swimmer-stage-5-pdf.pdf) you can use."
+    },
+    {
+      "title": "Swim England",
+      "details": "The Swim England equivalent for this stage is **Stage 9.**\n\nIf you have achieved this award, you can gain your Stage 5 Activity Badge."
+    },
+    {
+      "title": "Swim Wales",
+      "details": "The Swim Wales equivalent for this stage is **Advanced Swimming Skills, Level 1. **\n\nIf you have achieved this award, you can gain your Stage 4 Activity Badge."
+    },
+    {
+      "title": "Scottish Swimming",
+      "details": "The Scottish Swimming equivalent for this stage is **Swim Skills 4.**\n\nIf you have achieved this award, you can gain your Stage 5 Activity Badge."
+    },
+    {
+      "title": "STA (Swimming Teachers Association)",
+      "details": "The STA equivalent for this stage is the **Platinum Award.**\n\nIf you have achieved this award, you can gain your Stage 5 Activity Badge."
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./swimmer.png",
+    "alt": ""
+  },
+  "displayTitle": "Swimmer Staged Activity Badge",
+  "stages": [
+    {
+      "label": "Swimmer Stage 1",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "47912",
+        "47913",
+        "47914",
+        "47915",
+        "47916",
+        "47917",
+        "47918",
+        "47919"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Swimmer Stage 2",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "47923",
+        "47924",
+        "47925",
+        "47926",
+        "47927",
+        "47928",
+        "47929",
+        "47930",
+        "47931"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Swimmer Stage 3",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "47935",
+        "47936",
+        "47937",
+        "47938",
+        "47939",
+        "47940",
+        "47941",
+        "47942",
+        "47943",
+        "84246"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Swimmer Stage 4",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "47945",
+        "47946",
+        "47947",
+        "47948",
+        "47949",
+        "47950",
+        "47951",
+        "47952",
+        "47953",
+        "84248",
+        "84249"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Swimmer Stage 5",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "47955",
+        "47956",
+        "47957",
+        "47958",
+        "47959",
+        "47960",
+        "47961",
+        "47962",
+        "47963",
+        "47964",
+        "47965",
+        "84250"
+      ],
+      "optional": []
+    }
+  ]
+}

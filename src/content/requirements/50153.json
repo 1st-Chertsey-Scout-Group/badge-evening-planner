@@ -1,0 +1,10 @@
+{
+  "badge": "equestrian",
+  "parent": "45957",
+  "children": [],
+  "title": "Find out about some of the basic health issues affecting horses and ponies, including worms and laminitis.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

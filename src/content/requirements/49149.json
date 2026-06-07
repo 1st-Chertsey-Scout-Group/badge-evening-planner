@@ -1,0 +1,10 @@
+{
+  "badge": "dragon-boating",
+  "parent": null,
+  "children": [],
+  "title": "Learn the instructions and commands issued by The Dragon Boat Racing Association.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

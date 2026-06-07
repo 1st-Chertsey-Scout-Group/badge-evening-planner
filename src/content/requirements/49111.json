@@ -1,0 +1,10 @@
+{
+  "badge": "activity-centre-service",
+  "parent": "45794",
+  "children": [],
+  "title": "the need for good site drainage and clear ditches",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "power-coxswain",
+  "parent": null,
+  "children": [],
+  "title": "Here's what you need to do:",
+  "notes": "- choose and identify the boat you will use\n- choose the waters you will visit\n- identify the features and hazards of this water\n- learn what the rules are for boating on the water you're using\n- wear the proper clothing and make sure you have the correct equipment for your craft",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

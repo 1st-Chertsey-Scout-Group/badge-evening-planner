@@ -1,0 +1,10 @@
+{
+  "badge": "nautical-skills",
+  "parent": null,
+  "children": [],
+  "title": "Name the parts of your chosen watercraft.",
+  "notes": "If you have completed Nautical Skills Stage 3 you must choose a different watercraft.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

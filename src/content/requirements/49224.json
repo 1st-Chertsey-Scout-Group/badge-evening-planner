@@ -1,0 +1,10 @@
+{
+  "badge": "mechanic",
+  "parent": "45183",
+  "children": [],
+  "title": "Explain how to adjust the tension of the final drive chain.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

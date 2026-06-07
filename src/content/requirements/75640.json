@@ -1,0 +1,10 @@
+{
+  "badge": "outdoor",
+  "parent": null,
+  "children": [],
+  "title": "Take an active part in at least eight nights away as a Scout.",
+  "notes": "Four of the nights should be camping. While you're away, work with other Scouts to complete the other tasks on this list.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

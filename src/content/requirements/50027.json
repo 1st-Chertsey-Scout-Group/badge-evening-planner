@@ -1,0 +1,10 @@
+{
+  "badge": "hobbies",
+  "parent": "41739",
+  "children": [],
+  "title": "Keep a record of your hobby for at least four months.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

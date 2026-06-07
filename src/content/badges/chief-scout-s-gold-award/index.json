@@ -1,0 +1,37 @@
+{
+  "slug": "chief-scout-s-gold-award",
+  "type": "top",
+  "badgeType": "Challenge Award",
+  "title": "Chief Scout's Gold Award",
+  "description": "",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/top-awards/chief-scout-s-gold-award/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "If you haven't quite completed the challenges for the Chief Scout's Gold Award, you can complete them in your first term in the Explorer Unit.",
+      "details": "You can wear your Chief Scout's Silver Award on your uniform until you achieve your Chief Scout's Gold Award."
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./chief-scout-s-gold-award.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "39682",
+    "39681"
+  ],
+  "optional": []
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "navigator",
+  "parent": null,
+  "children": [],
+  "title": "Walk two compass routes of at least 5 kilometres each.",
+  "notes": "They should be defined on a map, one route's start and end points defined by you and the other by an adult.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

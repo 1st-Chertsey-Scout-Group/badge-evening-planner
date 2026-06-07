@@ -1,0 +1,10 @@
+{
+  "badge": "pioneer",
+  "parent": "40385",
+  "children": [],
+  "title": "coiling and storing a rope",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

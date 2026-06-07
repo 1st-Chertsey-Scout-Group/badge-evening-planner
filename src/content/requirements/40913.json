@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": null,
+  "children": [],
+  "title": "Demonstrate how to safely use a drag lift or magic carpet for downhill skiing or snowboarding.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

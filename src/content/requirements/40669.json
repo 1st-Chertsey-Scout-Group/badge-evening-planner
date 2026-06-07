@@ -1,0 +1,10 @@
+{
+  "badge": "musician",
+  "parent": null,
+  "children": [],
+  "title": "Interest",
+  "notes": "Talk about your own interests in music, including what you listen to most and how it's similar or different to the music you play or sing.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

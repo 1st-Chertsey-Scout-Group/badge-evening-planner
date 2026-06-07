@@ -1,0 +1,39 @@
+{
+  "slug": "international",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "International",
+  "description": "Explore the culture and traditions of other countries. Your journey will broaden your horizons as you learn about different communities.",
+  "versionDate": "September 2018",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/international/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "For number 2, traditional crafts from another country might include hieroglyphics, Chinese calligraphy, traditional tribal dress or masks, musical instruments, leatherwork, jewellery and accessories, or woodcraft.",
+      "details": ""
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./international.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "40990",
+    "40992",
+    "40995",
+    "40996"
+  ],
+  "optional": []
+}

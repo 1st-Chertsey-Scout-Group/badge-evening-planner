@@ -1,0 +1,10 @@
+{
+  "badge": "circus-skills",
+  "parent": null,
+  "children": [],
+  "title": "Find out things about circus life and talk about these with an adult.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

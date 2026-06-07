@@ -1,0 +1,10 @@
+{
+  "badge": "entertainer",
+  "parent": "41196",
+  "children": [],
+  "title": "Present the entertainment to an audience at a school, for your Troop or at a parents' evening.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

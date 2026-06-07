@@ -1,0 +1,10 @@
+{
+  "badge": "angler",
+  "parent": null,
+  "children": [],
+  "title": "Learn about invasive species and make sure to check, clean, and dry your equipment to stop them spreading.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

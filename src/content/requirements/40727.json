@@ -1,0 +1,10 @@
+{
+  "badge": "physical-recreation",
+  "parent": null,
+  "children": [],
+  "title": "Explain the rules or guidelines that govern the sport or pursuit you chose.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

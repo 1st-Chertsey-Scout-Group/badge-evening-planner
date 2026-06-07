@@ -1,0 +1,10 @@
+{
+  "badge": "navigator",
+  "parent": null,
+  "children": [],
+  "title": "Show you know how to dress appropriately for the walk and what kit you and your group need.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

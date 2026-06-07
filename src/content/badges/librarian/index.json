@@ -1,0 +1,36 @@
+{
+  "slug": "librarian",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Librarian",
+  "description": "Discover a world of knowledge at your fingertips. Showcase your library catalogue knowledge and other librarian skills.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/librarian/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./librarian.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "40772",
+    "40773",
+    "40774",
+    "40775",
+    "40776",
+    "40777"
+  ],
+  "optional": []
+}

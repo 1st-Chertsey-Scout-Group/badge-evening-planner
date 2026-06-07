@@ -1,0 +1,10 @@
+{
+  "badge": "camper",
+  "parent": null,
+  "children": [],
+  "title": "Camp as a Scout for at least 15 nights",
+  "notes": "You could camp in a tent, or try something new, from hammocks to bivouacs, or even indoors.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

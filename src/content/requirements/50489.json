@@ -1,0 +1,10 @@
+{
+  "badge": "air-or-sea-navigation",
+  "parent": "50487",
+  "children": [],
+  "title": "Plot a position using the 'running fix' method.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

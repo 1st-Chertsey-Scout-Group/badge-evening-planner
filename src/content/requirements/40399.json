@@ -1,0 +1,16 @@
+{
+  "badge": "sailing",
+  "parent": null,
+  "children": [
+    "50570",
+    "50569",
+    "50564",
+    "50567",
+    "50565"
+  ],
+  "title": "Complete the following badge requirements:",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

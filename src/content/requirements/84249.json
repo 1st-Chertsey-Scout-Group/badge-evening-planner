@@ -1,0 +1,10 @@
+{
+  "badge": "swimmer",
+  "parent": null,
+  "children": [],
+  "title": "Scull for 5 metres on your front or your back.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

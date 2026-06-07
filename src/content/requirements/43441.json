@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": null,
+  "children": [],
+  "title": "Know the dangers of an airfield.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

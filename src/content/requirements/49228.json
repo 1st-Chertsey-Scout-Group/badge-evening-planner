@@ -1,0 +1,10 @@
+{
+  "badge": "model-maker",
+  "parent": "45384",
+  "children": [],
+  "title": "Show that you know the different types of kits or parts available in the material you chose.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

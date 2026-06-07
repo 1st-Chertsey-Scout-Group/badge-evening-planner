@@ -1,0 +1,10 @@
+{
+  "badge": "electronics",
+  "parent": null,
+  "children": [],
+  "title": "Talk about the uses and benefits of electronics in everyday life.",
+  "notes": "Explain how electronics can be used to improve lives.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

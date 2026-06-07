@@ -1,0 +1,10 @@
+{
+  "badge": "digital-maker",
+  "parent": null,
+  "children": [],
+  "title": "Write clear instructions for a computer or person to follow to complete a task.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "global-issues",
+  "parent": null,
+  "children": [],
+  "title": "In small groups, learn about an international health issue and use a creative way to share what you have learnt with your Troop.",
+  "notes": "Issues could include Malaria, Ebola, HIV and Aids.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,21 @@
+{
+  "badge": "outdoor",
+  "parent": null,
+  "children": [
+    "76406",
+    "75822",
+    "75726",
+    "76245",
+    "76246",
+    "75725",
+    "76408",
+    "75654",
+    "76248",
+    "76247"
+  ],
+  "title": "Complete at least four of these tasks:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": 4
+}

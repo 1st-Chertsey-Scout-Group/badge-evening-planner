@@ -1,0 +1,10 @@
+{
+  "badge": "skills",
+  "parent": null,
+  "children": [],
+  "title": "Do some research so that you can explain the dangers and harmful effects of smoking, alcohol and drugs.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

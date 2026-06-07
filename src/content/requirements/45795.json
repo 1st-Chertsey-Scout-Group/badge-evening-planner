@@ -1,0 +1,10 @@
+{
+  "badge": "activity-centre-service",
+  "parent": null,
+  "children": [],
+  "title": "Talk about developments and improvements you would like to see at a permanent campsite.",
+  "notes": "It could be the one you worked at or another one you know well.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

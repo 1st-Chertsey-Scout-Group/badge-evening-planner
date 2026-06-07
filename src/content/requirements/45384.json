@@ -1,0 +1,14 @@
+{
+  "badge": "model-maker",
+  "parent": null,
+  "children": [
+    "49225",
+    "49228",
+    "49229"
+  ],
+  "title": "General model making",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "pulling-fixed-seat-rowing",
+  "parent": null,
+  "children": [],
+  "title": "Show that you understand the equipment required for the activity.",
+  "notes": "As part of this:\n\n- point out and name the basic parts of a pulling boat\n- explain the importance of wearing appropriate clothing for various weather conditions",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

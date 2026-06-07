@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": "43520",
+  "children": [],
+  "title": "Take part in an air activity you haven't tried before or show a reasonable level of skill in an air activity you already practise.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

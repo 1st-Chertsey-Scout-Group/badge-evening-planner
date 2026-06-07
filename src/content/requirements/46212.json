@@ -1,0 +1,10 @@
+{
+  "badge": "space",
+  "parent": null,
+  "children": [],
+  "title": "Imagine you're planning an expedition to a distant solar system. Design how you'll travel there and think about what you will need to take with you.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

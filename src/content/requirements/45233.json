@@ -1,0 +1,10 @@
+{
+  "badge": "electronics",
+  "parent": null,
+  "children": [],
+  "title": "Identify a number of common electronic components that are shown to you.",
+  "notes": "Explain, in simple terms, the functions they perform in electronic circuits.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

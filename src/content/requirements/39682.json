@@ -1,0 +1,10 @@
+{
+  "badge": "chief-scout-s-gold-award",
+  "parent": null,
+  "children": [],
+  "title": "Earn six activity or staged activity badges of your choice.",
+  "notes": "They could be badges you gain outside your normal meetings or ones you've achieved through your programme.\n\n[Explore the Scouts activity badges](/scouts/activity-badges/).",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "swimmer",
+  "parent": null,
+  "children": [],
+  "title": "Float on your front and then your back, holding each float for at least 5 seconds.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "equestrian",
+  "parent": "45958",
+  "children": [],
+  "title": "Explain why you need a hat, body protector, stirrup and other  safety equipment.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

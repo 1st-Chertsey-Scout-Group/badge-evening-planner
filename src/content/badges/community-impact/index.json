@@ -1,0 +1,88 @@
+{
+  "slug": "community-impact",
+  "type": "staged",
+  "badgeType": "Staged",
+  "title": "Community Impact",
+  "description": "",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/staged-badges/community-impact/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "Try some of these community impact focused activities!",
+      "details": "[https://www.scouts.org.uk/activities/?name=community%20impact](https://www.scouts.org.uk/activities/?name=community%20impact)"
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./community-impact.png",
+    "alt": ""
+  },
+  "displayTitle": "Community Impact Staged Activity Badge",
+  "stages": [
+    {
+      "label": "Community Impact Stage 1",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "39512",
+        "39514",
+        "39516",
+        "39518",
+        "39520"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Community Impact Stage 2",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "39523",
+        "39525",
+        "39528",
+        "39530",
+        "39532"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Community Impact Stage 3",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "39535",
+        "39537",
+        "39539",
+        "39541",
+        "39543"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Community Impact Stage 4",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "39538",
+        "39540",
+        "39542",
+        "39544",
+        "39546"
+      ],
+      "optional": []
+    }
+  ]
+}

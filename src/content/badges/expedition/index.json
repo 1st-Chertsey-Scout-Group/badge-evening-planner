@@ -1,0 +1,43 @@
+{
+  "slug": "expedition",
+  "type": "challenge",
+  "badgeType": "Challenge Award",
+  "title": "Expedition",
+  "description": "Are you ready for your next big adventure? Take part in a two-day expedition or exploration, in the UK or abroad.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/awards/expedition/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "You won't be totally on your own during the expedition (or exploration)!",
+      "details": "A Leader or other adult will supervise you throughout your journey. This will mean they'll check in with you at least twice a day (maybe more depending on what you've planned), and may watch you from afar or ask you to give them updates as you go."
+    },
+    {
+      "title": "Planning made easy",
+      "details": "Why not use these handy [exploration](https://prod-cms.scouts.org.uk/media/18486/exploration-day-planner.pdf) and [expedition](https://prod-cms.scouts.org.uk/media/6912/generic-resources-expedition-planner.pdf) planner to help you on your way?"
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./expedition.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "75781",
+    "75782",
+    "75783",
+    "75784"
+  ],
+  "optional": []
+}

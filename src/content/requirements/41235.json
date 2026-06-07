@@ -1,0 +1,10 @@
+{
+  "badge": "forester",
+  "parent": null,
+  "children": [],
+  "title": "Show how to select, use and care for forestry equipment, and know the safety issues involved.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

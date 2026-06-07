@@ -1,0 +1,10 @@
+{
+  "badge": "sailing",
+  "parent": "40396",
+  "children": [],
+  "title": "Take part in a warm-up activity to prepare you for a sailing activity.",
+  "notes": "You could try tacking and gybing, hiking out or syncro-jump to cross the boat together in a tack or gybe.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

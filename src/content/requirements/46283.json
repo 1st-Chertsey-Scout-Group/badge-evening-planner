@@ -1,0 +1,10 @@
+{
+  "badge": "artist",
+  "parent": "46101",
+  "children": [],
+  "title": "Choose a favourite art form or artist to take an active interest in.",
+  "notes": "It doesn't have to be painting - it could be pop music, sculpture, theatre, architecture, break dancing or anything similar.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "angler",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Angler",
+  "description": "Develop your angling acumen, the sense of pride from reeling in a big catch to the enjoyment from being outside and close to the water's edge. This badge is endorsed by The Angling Trust.",
+  "versionDate": "September 2018",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/angler/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "Updated badge requirements",
+      "details": "The requirements for this badge have recently been updated, and these requirements should be used from now on. However, if you're already working towards the badge or have activities already planned, you can continue using the [old requirements](https://prod-cms.scouts.org.uk/media/ao5myrzw/scouts-angler-activity-badge-previous-requirements.pdf) until April 2025."
+    },
+    {
+      "title": "Fishing licence",
+      "details": "You will need to purchase an Environment Agency Rod Licence if you are 13 years or older when fishing in freshwater in England and Wales. This is a legal requirement. Find out more at [https://www.gov.uk/fishing-licences](https://www.gov.uk/fishing-licences)"
+    },
+    {
+      "title": "Fish welfare",
+      "details": "Fish Welfare is paramount. When photographing the fish you have caught:\n\n- Have all your equipment ready and to hand\n- Ensure the fish has had time to recover fully in the net before photographing\n- The fish is held at no more than knee height over an unhooking mat or carp cradle to prevent injury\n- Return the fish as soon as possible to the water"
+    },
+    {
+      "title": "The Angling Trust",
+      "details": "The Angling Trust is the national governing body for angling. Visit [www.anglingtrust.net](http://www.anglingtrust.net) for more information about how to progress on your angling journey through the Get Fishing programme, the environment and invasive species."
+    },
+    {
+      "title": "Learn about water safety with the RNLI.",
+      "details": "You could [book a free visit from the RNLI to learn about water safety](https://rnli.org/youth-education/educational-visits)."
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": {
+    "title": "GO Outdoors",
+    "url": "https://www.scouts.org.uk/supporters/go-outdoors/",
+    "logoUrl": "https://www.scouts.org.uk/media/7342/gooutdoors.png?width=800&height=450&v=1dab58ee87e5d70"
+  },
+  "image": {
+    "src": "./angler.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "45879",
+    "84158",
+    "45888",
+    "84159",
+    "45880",
+    "45881",
+    "45882",
+    "45885",
+    "45887"
+  ],
+  "optional": []
+}

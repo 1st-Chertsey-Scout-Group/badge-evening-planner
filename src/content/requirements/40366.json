@@ -1,0 +1,10 @@
+{
+  "badge": "nautical-skills",
+  "parent": null,
+  "children": [],
+  "title": "Learn how different boats communicate with each other in your location.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

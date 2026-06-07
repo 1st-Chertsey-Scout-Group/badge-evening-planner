@@ -1,0 +1,10 @@
+{
+  "badge": "digital-citizen",
+  "parent": null,
+  "children": [],
+  "title": "Learn how to create a secure password and make one of your own.",
+  "notes": "Always do this with a trusted adult.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

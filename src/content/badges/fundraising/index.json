@@ -1,0 +1,34 @@
+{
+  "slug": "fundraising",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Fundraising",
+  "description": "Become the inspiration for people to start supporting good causes.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/fundraising/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./fundraising.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "49176",
+    "49177",
+    "49178",
+    "49179"
+  ],
+  "optional": []
+}

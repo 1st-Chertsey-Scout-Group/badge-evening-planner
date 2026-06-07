@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": "43455",
+  "children": [],
+  "title": "Look at an online weather forecast and understand how different conditions (such as wind speed, visibility and cloud cover) impact flying.",
+  "notes": "How do standard weather forecasts differ from METAR reports?",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

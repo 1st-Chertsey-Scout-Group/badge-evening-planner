@@ -1,0 +1,13 @@
+{
+  "badge": "lifesaver",
+  "parent": null,
+  "children": [
+    "49194",
+    "49195"
+  ],
+  "title": "Reach the standard of one of these:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": 1
+}

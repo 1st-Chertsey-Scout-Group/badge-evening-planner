@@ -1,0 +1,32 @@
+{
+  "slug": "martial-arts",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Martial Arts",
+  "description": "Hone your combat skills in Martial Arts. Display a blend of strategy, strength and calmness under pressure.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/martial-arts/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./martial-arts.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "40883",
+    "40885"
+  ],
+  "optional": []
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "space",
+  "parent": null,
+  "children": [],
+  "title": "Find out what happens to an astronaut's body in space. Learn how the lack of gravity affects their body, and what they do to stay fit.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

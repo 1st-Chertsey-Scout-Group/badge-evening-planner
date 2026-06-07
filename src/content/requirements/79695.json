@@ -1,0 +1,16 @@
+{
+  "badge": "earth-tribe-award",
+  "parent": null,
+  "children": [
+    "79728",
+    "79730",
+    "79732",
+    "79734",
+    "79736"
+  ],
+  "title": "Tide Turners",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

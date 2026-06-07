@@ -1,0 +1,10 @@
+{
+  "badge": "paddle-sports",
+  "parent": "40415",
+  "children": [],
+  "title": "Identify different types of paddle craft.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

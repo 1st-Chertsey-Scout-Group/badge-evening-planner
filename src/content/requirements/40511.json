@@ -1,0 +1,10 @@
+{
+  "badge": "paddle-sports",
+  "parent": "40421",
+  "children": [],
+  "title": "Assist someone else back into their vessel following a capsize.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

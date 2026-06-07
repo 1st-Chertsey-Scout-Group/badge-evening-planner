@@ -1,0 +1,10 @@
+{
+  "badge": "local-knowledge",
+  "parent": "45312",
+  "children": [],
+  "title": "Show that you know the local area surrounding your home or Scout Headquarters, up to a radius of 2 kilometres in suburban districts and 5 kilometres in rural districts.",
+  "notes": "Locate as many as you can of these:\n\n- doctors, veterinary surgeons, dentists, hospitals and ambulance station\n- fire station, police station, garages, shopping centres, retail parks and convenience stores\n- main bus stops, railway stations and local routes of buses and trains\n- local Scout Headquarters, public parks, theatres, sports and leisure complexes and cinemas\n- places of worship, museums, schools, colleges and local government buildings\n- local routes that take you to the nearest motorway or national routes.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

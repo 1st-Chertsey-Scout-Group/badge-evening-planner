@@ -1,0 +1,10 @@
+{
+  "badge": "nature",
+  "parent": null,
+  "children": [],
+  "title": "Plan how you'll protect, care for and respect the environment during your visit.",
+  "notes": "Think about how to avoid disturbing wildlife and the local community, and find ways to help protect the area you're exploring.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

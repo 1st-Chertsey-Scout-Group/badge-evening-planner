@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": null,
+  "children": [],
+  "title": "Identify different types of snowsports.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

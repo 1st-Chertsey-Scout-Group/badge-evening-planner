@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": "43495",
+  "children": [],
+  "title": "Simulate a take-off and landing using a flight simulator.",
+  "notes": "This could be done online, on an app, on a computer game or as an immersive experience.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

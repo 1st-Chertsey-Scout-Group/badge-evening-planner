@@ -1,0 +1,10 @@
+{
+  "badge": "mechanic",
+  "parent": "45182",
+  "children": [],
+  "title": "Learn the basic principles of flight and airframe construction of a fixed wing aircraft.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

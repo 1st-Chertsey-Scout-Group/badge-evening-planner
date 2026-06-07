@@ -1,0 +1,10 @@
+{
+  "badge": "activity-centre-service",
+  "parent": null,
+  "children": [],
+  "title": "Help the warden or manager and work for at least five days at a  permanent District, County or National Scout campsite.",
+  "notes": "Alternatively, you can do this work at a similar activity centre.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

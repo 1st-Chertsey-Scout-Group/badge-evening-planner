@@ -1,0 +1,10 @@
+{
+  "badge": "geocaching",
+  "parent": null,
+  "children": [],
+  "title": "Using an Ordnance Survey map (1:25000 or 1:50000 scale) to plan a route of at least 4km that contains a minimum of 10 waypoints.",
+  "notes": "Talk about the features and challenges along the route. Programme the route into a handheld GPS and take the journey.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

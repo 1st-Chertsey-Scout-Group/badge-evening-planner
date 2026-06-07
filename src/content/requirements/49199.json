@@ -1,0 +1,10 @@
+{
+  "badge": "mechanic",
+  "parent": "45180",
+  "children": [],
+  "title": "Show how to check the level of coolant in the radiator, 'top up' the radiator and explain the importance of anti-freeze.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

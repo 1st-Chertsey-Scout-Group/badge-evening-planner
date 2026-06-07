@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": "45642",
+  "children": [],
+  "title": "Complete a 500m cross country ski route on varied terrain",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

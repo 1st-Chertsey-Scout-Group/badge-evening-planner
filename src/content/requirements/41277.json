@@ -1,0 +1,10 @@
+{
+  "badge": "digital-maker",
+  "parent": null,
+  "children": [],
+  "title": "Identify a real-life local or global problem and design, build, test, and improve a solution by combining your digital making skills and selecting appropriate software tools, digital devices, components, and materials.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

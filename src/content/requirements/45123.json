@@ -1,0 +1,10 @@
+{
+  "badge": "writer",
+  "parent": "41213",
+  "children": [],
+  "title": "Write a play or dramatic sketch lasting at least 10 minutes.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

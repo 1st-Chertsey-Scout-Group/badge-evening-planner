@@ -1,0 +1,41 @@
+{
+  "slug": "space",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Space",
+  "description": "Discover what things are out there in our universe and learn how to navigate with the stars. How would you travel through space to make new discoveries?",
+  "versionDate": "January 2018",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/space/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": {
+    "title": "UK Space Agency",
+    "url": "https://www.scouts.org.uk/supporters/uk-space-agency/",
+    "logoUrl": "https://www.scouts.org.uk/media/3758/uk-space-agency.png?width=800&height=450&v=1db82b5945743c0"
+  },
+  "image": {
+    "src": "./space.png",
+    "alt": "Scouts Astronomer Badge with UK Space Agency logo"
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "46206",
+    "46207",
+    "46208",
+    "46209",
+    "46210",
+    "46211",
+    "46212"
+  ],
+  "optional": []
+}

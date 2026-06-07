@@ -1,0 +1,36 @@
+{
+  "slug": "history-comes-alive-blanket-badge",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "History Comes Alive Blanket Badge",
+  "description": "The History Comes Alive Blanket Badge is the winning design from our Scouts 'Design a Badge' competition! Our blanket badges don't have set requirements, but we've added some activity ideas below to help.\n\nBaker, from South Lanarkshire, produced this great design when he was still in Cubs. The top four entries from the competition were posted on social media where members voted for their favourite. Well done Baker!",
+  "versionDate": "January 0001",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/history-comes-alive-blanket-badge/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "Buy the blanket badge",
+      "details": "You can buy the [History Comes Alive blanket badge](https://shop.scouts.org.uk/new-in/history-comes-alive-blanket-badge-113761#selection.size=719&selection.color=34) from Scout Store."
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./history-comes-alive-blanket-badge.png",
+    "alt": ""
+  },
+  "requirementsIntro": "Ideas to earn your badge:",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "84471"
+  ],
+  "optional": []
+}

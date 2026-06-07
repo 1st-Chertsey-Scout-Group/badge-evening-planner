@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": "40922",
+  "children": [],
+  "title": "A plan B in case of bad weather etc.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

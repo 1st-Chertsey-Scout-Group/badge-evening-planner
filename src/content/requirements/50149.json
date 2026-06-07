@@ -1,0 +1,10 @@
+{
+  "badge": "equestrian",
+  "parent": "45956",
+  "children": [],
+  "title": "Groom your pony correctly and explain why it is necessary.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

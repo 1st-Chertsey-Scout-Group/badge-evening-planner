@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": "43455",
+  "children": [],
+  "title": "Send and receive a message using the phonetic alphabet, then explain why it's used to communicate in aviation.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

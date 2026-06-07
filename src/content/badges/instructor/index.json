@@ -1,0 +1,43 @@
+{
+  "slug": "instructor",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Instructor",
+  "description": "",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/instructor/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "You need to do 1, 2 and 3 before you can begin number 4.",
+      "details": ""
+    },
+    {
+      "title": "If you already have an Instructor badge in another area, you may not have to complete number 3.",
+      "details": ""
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./instructor.png",
+    "alt": "Dark blue circle with a yellow border"
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "46543",
+    "46544",
+    "46545",
+    "46546"
+  ],
+  "optional": []
+}

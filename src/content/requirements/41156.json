@@ -1,0 +1,10 @@
+{
+  "badge": "nature",
+  "parent": null,
+  "children": [],
+  "title": "Explore and connect with nature by visiting a suitable and safe location. Identify different plants and animals, and record what you find.",
+  "notes": "You could do this on a day trip, as several visits, or as part of a journey, such as on a hike or expedition.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

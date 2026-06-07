@@ -1,0 +1,10 @@
+{
+  "badge": "digital-citizen",
+  "parent": null,
+  "children": [],
+  "title": "Create a list of rights that you think you should have as a young person when online.",
+  "notes": "Find online examples of where you think these rights are respected.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "nautical-skills",
+  "parent": null,
+  "children": [],
+  "title": "Explain the different types of ropes used in water activities, their advantages and disadvantages and how to care for them.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

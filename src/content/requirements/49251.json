@@ -1,0 +1,10 @@
+{
+  "badge": "pulling-fixed-seat-rowing",
+  "parent": "49246",
+  "children": [],
+  "title": "as bowman, be a lookout and report hazards to the coxswain using standard maritime directions, such as starboard, port quarter and dead ahead",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

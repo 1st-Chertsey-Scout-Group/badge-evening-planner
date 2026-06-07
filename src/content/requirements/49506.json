@@ -1,0 +1,13 @@
+{
+  "badge": "musician",
+  "parent": "40676",
+  "children": [
+    "49507",
+    "49508"
+  ],
+  "title": "Talk about one of these:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": 1
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "outdoor",
+  "parent": null,
+  "children": [],
+  "title": "Lead, or help to lead, a group of Scouts to set up a well-organised site.",
+  "notes": "It should include sleeping tents, food and equipment stores, a fire or stove, kitchen and eating area.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

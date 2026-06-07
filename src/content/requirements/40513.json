@@ -1,0 +1,10 @@
+{
+  "badge": "air-or-sea-navigation",
+  "parent": "40441",
+  "children": [],
+  "title": "Learn how to use tide tables and tidal stream atlases.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

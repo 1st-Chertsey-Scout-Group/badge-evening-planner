@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": null,
+  "children": [],
+  "title": "Find out about the different types of air traffic control services used at airfields and airports.",
+  "notes": "Explain how this would be different at a small local airfield compared to a large international airport.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

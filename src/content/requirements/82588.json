@@ -1,0 +1,15 @@
+{
+  "badge": "islamophobia-awareness-month-blanket-badge",
+  "parent": null,
+  "children": [
+    "82589",
+    "82590",
+    "82591",
+    "82592"
+  ],
+  "title": "Explore Muslim role models",
+  "notes": "Learn about the impact, achievements and contributions that Muslims have made to the world. You could:",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": 1
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "local-knowledge",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Local Knowledge",
+  "description": "Get to know your local area like the back of your hand. Explore all its routes, roads and useful places.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/local-knowledge/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./local-knowledge.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "Choose one of these three options, depending on where you live, then complete all the tasks.",
+  "optionsToQualify": 1,
+  "mandatory": [],
+  "optional": [
+    "45312",
+    "45313",
+    "45314"
+  ]
+}

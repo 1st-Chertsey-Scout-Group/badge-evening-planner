@@ -1,0 +1,10 @@
+{
+  "badge": "adventure",
+  "parent": null,
+  "children": [],
+  "title": "Research other ways you can take part, or develop your skills, in your chosen activities.",
+  "notes": "Follow up your research with action.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

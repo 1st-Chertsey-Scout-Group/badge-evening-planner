@@ -1,0 +1,13 @@
+{
+  "badge": "cyclist",
+  "parent": "45375",
+  "children": [
+    "45399",
+    "46376"
+  ],
+  "title": "Complete one of these:",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": 1
+}

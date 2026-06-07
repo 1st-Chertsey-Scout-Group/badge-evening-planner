@@ -1,0 +1,14 @@
+{
+  "badge": "digital-citizen",
+  "parent": null,
+  "children": [
+    "49472",
+    "49473",
+    "49474"
+  ],
+  "title": "In a team that includes young people from other parts of the country or world, use a digital collaboration tool of your choice to achieve one of the following:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": 1
+}

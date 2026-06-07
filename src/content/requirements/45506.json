@@ -1,0 +1,10 @@
+{
+  "badge": "navigator",
+  "parent": null,
+  "children": [],
+  "title": "Complete a comprehensive route plan for a 20km hill walking route, set by an appropriate adult.",
+  "notes": "It should take place in [Terrain One](#) or [Terrain Two](#). See [POR](/por/9-activities/) for more information about activities in specialist terrain.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

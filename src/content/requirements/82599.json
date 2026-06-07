@@ -1,0 +1,10 @@
+{
+  "badge": "islamophobia-awareness-month-blanket-badge",
+  "parent": "82598",
+  "children": [],
+  "title": "Raise awareness about Islamophobia Awareness Month. You could create a blog or video.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

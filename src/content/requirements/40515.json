@@ -1,0 +1,10 @@
+{
+  "badge": "air-or-sea-navigation",
+  "parent": "40441",
+  "children": [],
+  "title": "Show you understand the buoyage system for United Kingdom coastal waters and other methods of marking dangers and channels.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

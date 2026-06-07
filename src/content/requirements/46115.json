@@ -1,0 +1,10 @@
+{
+  "badge": "digital-citizen",
+  "parent": "44672",
+  "children": [],
+  "title": "Research different ways in which your personal information can be used by algorithms or targeted advertising, and create an activity to show other young people what you found out.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

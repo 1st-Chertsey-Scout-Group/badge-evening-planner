@@ -1,0 +1,10 @@
+{
+  "badge": "electronics",
+  "parent": null,
+  "children": [],
+  "title": "Show that you're aware of the safe working practices to be followed when handling electronic components, circuit boards and when soldering.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "air-or-sea-navigation",
+  "parent": "45944",
+  "children": [],
+  "title": "Identify landmarks on a topographical air map that you would see during a flight of about half an hour in clear weather.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

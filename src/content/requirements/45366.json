@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": "43495",
+  "children": [],
+  "title": "Try an air-based activity and share what you learned.",
+  "notes": "This could be something from our air activities list, travelling on a plane or an activity you've agreed with your group volunteer.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

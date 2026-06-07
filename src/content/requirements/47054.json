@@ -1,0 +1,10 @@
+{
+  "badge": "navigator",
+  "parent": "45491",
+  "children": [],
+  "title": "Show how to set a map, with and without a compass.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

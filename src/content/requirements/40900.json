@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": null,
+  "children": [],
+  "title": "Dress properly for your chosen activity.",
+  "notes": "Show you know the importance of helmets and how to put one on correctly.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

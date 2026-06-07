@@ -1,0 +1,10 @@
+{
+  "badge": "outdoor",
+  "parent": null,
+  "children": [],
+  "title": "Prepare and light an open fire or set up a suitable stove.",
+  "notes": "Use it to prepare, cook and serve a meal safely.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

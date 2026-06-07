@@ -1,0 +1,15 @@
+{
+  "badge": "artist",
+  "parent": null,
+  "children": [
+    "46283",
+    "49090",
+    "49091",
+    "49092"
+  ],
+  "title": "Arts enthusiast",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

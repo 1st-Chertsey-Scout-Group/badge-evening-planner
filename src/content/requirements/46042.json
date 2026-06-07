@@ -1,0 +1,10 @@
+{
+  "badge": "local-knowledge",
+  "parent": "45313",
+  "children": [],
+  "title": "Find out which major local roads link to the motorway and A-road network and the main cities these roads serve.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

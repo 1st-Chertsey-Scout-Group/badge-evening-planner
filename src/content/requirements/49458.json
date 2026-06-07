@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": "43520",
+  "children": [],
+  "title": "Explore a new aviation technology or come up with your own idea for a futuristic invention.",
+  "notes": "Explain how it works and its potential impact.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

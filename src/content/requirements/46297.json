@@ -1,0 +1,10 @@
+{
+  "badge": "geocaching",
+  "parent": null,
+  "children": [],
+  "title": "Sign up to a geocaching website.",
+  "notes": "Find out about geocaching and show that you understand what's involved in both locating and placing a geocache.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

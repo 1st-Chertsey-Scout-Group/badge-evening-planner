@@ -1,0 +1,10 @@
+{
+  "badge": "street-sports",
+  "parent": null,
+  "children": [],
+  "title": "Explain the safety rules for your chosen sport including where to undertake street sports safely and responsibly.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

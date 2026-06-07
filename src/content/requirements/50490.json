@@ -1,0 +1,10 @@
+{
+  "badge": "air-or-sea-navigation",
+  "parent": "50487",
+  "children": [],
+  "title": "Learn what is meant by a 'cocked hat' position and how to use it safely. Plot a position from any three cross bearings.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

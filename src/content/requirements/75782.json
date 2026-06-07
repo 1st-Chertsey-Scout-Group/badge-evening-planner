@@ -1,0 +1,15 @@
+{
+  "badge": "expedition",
+  "parent": null,
+  "children": [
+    "75849",
+    "75850",
+    "75883",
+    "76241"
+  ],
+  "title": "Take an active part in planning the expedition or exploration.",
+  "notes": "Do any training you need and be well prepared.\n\nTraining should include:",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

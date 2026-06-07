@@ -1,0 +1,15 @@
+{
+  "badge": "air-or-sea-navigation",
+  "parent": "40441",
+  "children": [
+    "50792",
+    "50793",
+    "50795",
+    "50796"
+  ],
+  "title": "Show your skills in compass work by completing all of these tasks:",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

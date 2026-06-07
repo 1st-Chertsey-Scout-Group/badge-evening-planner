@@ -1,0 +1,10 @@
+{
+  "badge": "team-leader",
+  "parent": null,
+  "children": [],
+  "title": "Help a new Scout to be part of the Troop with an understanding of what is expected of them.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "global-issues",
+  "parent": null,
+  "children": [],
+  "title": "Find out about an international sporting event and discuss with your Troop how sporting events can contribute to international peace and understanding.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

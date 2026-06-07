@@ -1,0 +1,10 @@
+{
+  "badge": "digital-maker",
+  "parent": null,
+  "children": [],
+  "title": "Show and present your digital making project, explaining the challenges that you encountered while creating it and how you addressed them.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

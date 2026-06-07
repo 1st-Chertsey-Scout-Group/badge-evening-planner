@@ -1,0 +1,10 @@
+{
+  "badge": "digital-maker",
+  "parent": "41275",
+  "children": [],
+  "title": "You could take part in a Raspberry Jam, attend a Code Club, attend a hackathon, or visit a Coderdojo.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

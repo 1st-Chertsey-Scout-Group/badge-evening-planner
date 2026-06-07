@@ -1,0 +1,10 @@
+{
+  "badge": "paddle-sports",
+  "parent": "40418",
+  "children": [],
+  "title": "Paddle forward in a straight line.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

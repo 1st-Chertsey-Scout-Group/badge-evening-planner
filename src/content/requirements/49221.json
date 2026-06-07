@@ -1,0 +1,10 @@
+{
+  "badge": "mechanic",
+  "parent": "49214",
+  "children": [],
+  "title": "checking the control system of a light aircraft or glider for correct sense of movement.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

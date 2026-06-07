@@ -1,0 +1,10 @@
+{
+  "badge": "adventure",
+  "parent": null,
+  "children": [],
+  "title": "Learn about any environmental issues caused by your activity.",
+  "notes": "Take steps to reduce any harm to the environment.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

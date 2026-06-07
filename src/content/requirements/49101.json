@@ -1,0 +1,10 @@
+{
+  "badge": "air-spotter",
+  "parent": null,
+  "children": [],
+  "title": "Learn to recognise 38 out of the 50 aircraft listed in The Scout Association's Aircraft Recognition List:",
+  "notes": "**Combat aircraft **\n\n1. BAe Hawk\n2. BAe / McDonnell-Douglas Harrier II\n3. Lockheed F-16 Fighting Falcon\n4. Lockheed Martin F35 Lightning II\n5. Eurofighter Typhoon\n6. McDonnell-Douglas F-15 Eagle\n7. McDonnell-Douglas F-18 Hornet\n8. Panavia Tornado\n9. SAAB Gripen\n10. McDonnell Douglas F-22 Raptor\n11. Dassault Rafale\n12. Sukhoi Su-27/30/35 Flanker\n\n**Large military aircraft **\n\n1. Airbus A400M\n2. Boeing C-17 Globemaster\n3. Boeing KC-135 Stratotanker/E-3 Sentry\n4. Lockheed C-130/J Hercules\n\n**Light and executive aircraft **\n\n1. BAe Jetstream 32/41\n2. Cessna 150/152\n3. Grumman Gulfstream 2/3/4/5\n4. Piper PA-28 Cherokee\n5. Beechcraft King Air\n6. Robin DR.400/500 series\n7. Cessna Citation\n8. LearJet\n9. Grob Tutor G115E\n\n**Helicopters**\n\n1. McDonnell Douglas MD-900 Explorer\n2. Boeing-Vertol CH-47 Chinook\n3. Eurocopter EC135\n4. McDonnell-Douglas AH-64 Apache\n5. Robinson R-22/R-44\n6. Aerospatiale SA 330 Puma\n7. Agusta Westland Merlin\n8. Sikorsky UH-60 Black Hawk\n9. Sikorsky S-92\n\n**Airliners**\n\n1. Aerospatiale/Aeritalia ATR-42/72\n2. Airbus A-318/319/320/321\n3. Airbus A-350\n4. Airbus A-380\n5. Boeing 737\n6. Boeing 747\n7. Boeing 777\n8. Boeing 787 Dreamliner\n9. Bombardier Dash-8\n10. Bombardier Regional Jet CRJ700/900/1000\n11. Embraer ERJ-135/145\n12. Embraer EMB170/190\n\n**Heritage aircraft **\n\n1. Hawker Hurricane\n2. Supermarine Spitfire\n3. Avro Vulcan\n4. Avro Lancaster",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

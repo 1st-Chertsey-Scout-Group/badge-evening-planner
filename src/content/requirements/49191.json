@@ -1,0 +1,10 @@
+{
+  "badge": "international",
+  "parent": "40996",
+  "children": [],
+  "title": "an international camp held in the UK or abroad",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

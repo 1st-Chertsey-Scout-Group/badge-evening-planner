@@ -1,0 +1,10 @@
+{
+  "badge": "physical-recreation",
+  "parent": null,
+  "children": [],
+  "title": "Regularly take part in an active sport or physical pursuit, which you haven't already gained an activity badge for.",
+  "notes": "It could be a team game like rugby, football or water polo.\n\nIndividual sports like tennis, running or gymnastics count too, so do pursuits like walking, yoga, ice skating or dancing.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

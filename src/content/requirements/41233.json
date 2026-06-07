@@ -1,0 +1,10 @@
+{
+  "badge": "forester",
+  "parent": null,
+  "children": [],
+  "title": "Prepare the soil and successfully transplant a young tree.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

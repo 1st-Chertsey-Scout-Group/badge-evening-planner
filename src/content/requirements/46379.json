@@ -1,0 +1,10 @@
+{
+  "badge": "cyclist",
+  "parent": "45376",
+  "children": [],
+  "title": "Show you can control your cycle over different types of terrain.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

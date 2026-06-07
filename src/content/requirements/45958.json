@@ -1,0 +1,13 @@
+{
+  "badge": "equestrian",
+  "parent": null,
+  "children": [
+    "50155",
+    "50156"
+  ],
+  "title": "Safety",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

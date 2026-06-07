@@ -1,0 +1,14 @@
+{
+  "badge": "diy",
+  "parent": null,
+  "children": [
+    "49143",
+    "49144",
+    "49145"
+  ],
+  "title": "Show you can work safely and know about the following:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

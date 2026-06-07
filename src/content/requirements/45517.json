@@ -1,0 +1,10 @@
+{
+  "badge": "pioneer",
+  "parent": "40385",
+  "children": [],
+  "title": "being safe in pioneering projects. Explain why it's important.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

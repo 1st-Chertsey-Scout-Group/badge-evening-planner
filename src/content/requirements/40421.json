@@ -1,0 +1,19 @@
+{
+  "badge": "paddle-sports",
+  "parent": null,
+  "children": [
+    "40504",
+    "40505",
+    "40506",
+    "40507",
+    "40508",
+    "40509",
+    "40510",
+    "40511"
+  ],
+  "title": "Complete the following badge requirements, using a different vessel to Stage 2:",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "creative",
+  "parent": null,
+  "children": [],
+  "title": "Show that you have developed your skills in one of these activities.",
+  "notes": "Show that you know how to use any equipment safely.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

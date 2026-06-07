@@ -1,0 +1,10 @@
+{
+  "badge": "emergency-aid",
+  "parent": "41393",
+  "children": [],
+  "title": "is experiencing a diabetic emergency",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

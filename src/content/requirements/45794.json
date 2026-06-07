@@ -1,0 +1,20 @@
+{
+  "badge": "activity-centre-service",
+  "parent": null,
+  "children": [
+    "45799",
+    "45800",
+    "49110",
+    "49111",
+    "49112",
+    "49113",
+    "49114",
+    "49115",
+    "49116"
+  ],
+  "title": "Choose four of these to explain and if possible demonstrate:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": 4
+}

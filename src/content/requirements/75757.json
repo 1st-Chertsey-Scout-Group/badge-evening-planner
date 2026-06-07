@@ -1,0 +1,10 @@
+{
+  "badge": "world",
+  "parent": null,
+  "children": [],
+  "title": "Take part in an activity that explores common beliefs and attitudes towards gender or disability in different societies.",
+  "notes": "You could look at this in the context of music, sport and fashion.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

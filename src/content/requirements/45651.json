@@ -1,0 +1,14 @@
+{
+  "badge": "farming",
+  "parent": null,
+  "children": [
+    "45931",
+    "45932",
+    "45933"
+  ],
+  "title": "Smallholder",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

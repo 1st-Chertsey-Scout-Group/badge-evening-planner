@@ -1,0 +1,10 @@
+{
+  "badge": "nautical-skills",
+  "parent": null,
+  "children": [],
+  "title": "Use a throw bag or line to reach a person six metres away in the water.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

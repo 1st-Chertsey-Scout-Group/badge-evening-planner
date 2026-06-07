@@ -1,0 +1,10 @@
+{
+  "badge": "outdoor",
+  "parent": "75650",
+  "children": [],
+  "title": "Show how to pack a rucksack correctly, with appropriate kit for the camp or event.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

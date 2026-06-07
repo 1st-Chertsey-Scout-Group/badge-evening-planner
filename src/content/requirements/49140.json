@@ -1,0 +1,10 @@
+{
+  "badge": "communicator",
+  "parent": "45019",
+  "children": [],
+  "title": "Write a letter of around 150 words.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

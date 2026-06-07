@@ -1,0 +1,10 @@
+{
+  "badge": "photographer",
+  "parent": "45418",
+  "children": [],
+  "title": "Show that you know the main settings on a digital camera or a smartphone camera.",
+  "notes": "- This should include focus and exposure control, and flash settings. Explain the impact of shutter speed and aperture size on the image.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

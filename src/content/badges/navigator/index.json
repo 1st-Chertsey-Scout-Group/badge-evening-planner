@@ -1,0 +1,102 @@
+{
+  "slug": "navigator",
+  "type": "staged",
+  "badgeType": "Staged",
+  "title": "Navigator",
+  "description": "",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/staged-badges/navigator/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./navigator.png",
+    "alt": ""
+  },
+  "displayTitle": "Navigator Staged Activity Badge",
+  "stages": [
+    {
+      "label": "Navigator Stage 1",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "40845",
+        "40847",
+        "40848",
+        "40850",
+        "40852",
+        "40854"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Navigator Stage 2",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "40890",
+        "40892",
+        "40894",
+        "40896",
+        "40898",
+        "40901",
+        "40903"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Navigator Stage 3",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "45465",
+        "45466",
+        "45467",
+        "45468",
+        "45469"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Navigator Stage 4",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "45490",
+        "45491",
+        "45492",
+        "45493",
+        "45494"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Navigator Stage 5",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "45501",
+        "45502",
+        "45503",
+        "45504",
+        "45505",
+        "45506",
+        "45507"
+      ],
+      "optional": []
+    }
+  ]
+}

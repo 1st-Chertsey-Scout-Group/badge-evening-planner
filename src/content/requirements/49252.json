@@ -1,0 +1,10 @@
+{
+  "badge": "photographer",
+  "parent": "45418",
+  "children": [],
+  "title": "Edit a selection of your images, using editing software on a computer or using an app on a smartphone.",
+  "notes": "- This could include cropping, colour, contrast or light levels. Explain what you have changed and how it improved your image.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

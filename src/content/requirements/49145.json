@@ -1,0 +1,10 @@
+{
+  "badge": "diy",
+  "parent": "45128",
+  "children": [],
+  "title": "how and where to turn off mains supplies (such as water, electricity and gas) to the house.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

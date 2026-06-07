@@ -1,0 +1,10 @@
+{
+  "badge": "nautical-skills",
+  "parent": null,
+  "children": [],
+  "title": "Show that you know how to act safely in your chosen activity if you are involved in a capsize or man overboard situation.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

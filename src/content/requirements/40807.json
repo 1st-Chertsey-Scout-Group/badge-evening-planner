@@ -1,0 +1,10 @@
+{
+  "badge": "survival-skills",
+  "parent": null,
+  "children": [],
+  "title": "With a group of at least three Scouts, take part in a survival exercise.",
+  "notes": "The group should:\n\n- construct a shelter of natural or salvaged materials and sleep in it\n- prepare a meal using raw ingredients that could have been found or caught\n- cook all meals over an open fire\n- cook without utensils, although you may use a knife.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

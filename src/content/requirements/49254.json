@@ -1,0 +1,10 @@
+{
+  "badge": "photographer",
+  "parent": "45418",
+  "children": [],
+  "title": "Show that you know how to care for a digital camera or smartphone camera.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

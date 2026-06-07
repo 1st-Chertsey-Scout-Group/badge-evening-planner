@@ -1,0 +1,34 @@
+{
+  "slug": "equestrian",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Equestrian",
+  "description": "Perfect your walk, trot and canter. Showcase your horsemanship skills and create an emotional and trusted bond with your horse",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/equestrian/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./equestrian.png",
+    "alt": ""
+  },
+  "requirementsIntro": "Here's what you need to do to earn this badge:",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "45955",
+    "45956",
+    "45957",
+    "45958"
+  ],
+  "optional": []
+}

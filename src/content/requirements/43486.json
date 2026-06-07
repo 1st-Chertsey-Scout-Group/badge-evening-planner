@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": null,
+  "children": [],
+  "title": "Learn how the wind's speed and direction are measured, then find out why they're important during take-off and landing.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

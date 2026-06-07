@@ -1,0 +1,10 @@
+{
+  "badge": "international",
+  "parent": null,
+  "children": [],
+  "title": "In a language other than your own, introduce yourself and say a few basic, useful, everyday phrases.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

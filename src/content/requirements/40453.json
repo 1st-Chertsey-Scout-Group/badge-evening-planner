@@ -1,0 +1,10 @@
+{
+  "badge": "nautical-skills",
+  "parent": "40364",
+  "children": [],
+  "title": "Make a rope fender or other piece of decorative rope work, such as a lanyard or a decorative knot.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

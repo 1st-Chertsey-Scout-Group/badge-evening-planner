@@ -1,0 +1,13 @@
+{
+  "badge": "equestrian",
+  "parent": null,
+  "children": [
+    "50149",
+    "50150"
+  ],
+  "title": "Grooming and care",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

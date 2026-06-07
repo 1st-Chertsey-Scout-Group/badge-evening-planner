@@ -1,0 +1,10 @@
+{
+  "badge": "teamwork",
+  "parent": null,
+  "children": [],
+  "title": "Take an active part in at least four Troop or Patrol Forums.",
+  "notes": "At each forum, express your views on at least one item being discussed.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

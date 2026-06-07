@@ -1,0 +1,10 @@
+{
+  "badge": "digital-maker",
+  "parent": null,
+  "children": [],
+  "title": "Use a programmable device (such as Arduino, Raspberry Pi, or micro:bit) with electronic components, code, and appropriate materials to create an electronic gadget and use it in a Scouting activity.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

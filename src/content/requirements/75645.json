@@ -1,0 +1,10 @@
+{
+  "badge": "outdoor",
+  "parent": null,
+  "children": [],
+  "title": "Find out why personal and campsite hygiene is important.",
+  "notes": "What should you do to be hygienic?",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

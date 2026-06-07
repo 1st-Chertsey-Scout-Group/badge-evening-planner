@@ -1,0 +1,16 @@
+{
+  "badge": "pulling-fixed-seat-rowing",
+  "parent": null,
+  "children": [
+    "49247",
+    "49248",
+    "49249",
+    "49250",
+    "49251"
+  ],
+  "title": "Complete two of these tasks:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": 2
+}

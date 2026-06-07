@@ -1,0 +1,31 @@
+{
+  "slug": "writer",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Writer",
+  "description": "Develop the craft of storytelling through writing. Reach into your imagination and you could be the next Philip Pullman or Cressida Cowell.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/writer/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./writer.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "41213"
+  ],
+  "optional": []
+}

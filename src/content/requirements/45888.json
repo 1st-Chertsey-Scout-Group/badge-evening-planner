@@ -1,0 +1,10 @@
+{
+  "badge": "angler",
+  "parent": null,
+  "children": [],
+  "title": "Explain how different species of fish have different habitats.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

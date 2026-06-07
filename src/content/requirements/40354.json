@@ -1,0 +1,14 @@
+{
+  "badge": "nautical-skills",
+  "parent": null,
+  "children": [
+    "40484",
+    "40381",
+    "40382"
+  ],
+  "title": "Complete one of the following:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": 1
+}

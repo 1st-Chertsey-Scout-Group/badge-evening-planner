@@ -1,0 +1,10 @@
+{
+  "badge": "community-impact",
+  "parent": null,
+  "children": [],
+  "title": "Tell the world. Help other people to understand why your chosen issue is important, how you have made a positive impact and how they can  help.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

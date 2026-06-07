@@ -1,0 +1,10 @@
+{
+  "badge": "expedition",
+  "parent": "75783",
+  "children": [],
+  "title": "Play a full part in the team.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

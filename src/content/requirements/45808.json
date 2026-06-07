@@ -1,0 +1,10 @@
+{
+  "badge": "my-faith",
+  "parent": null,
+  "children": [],
+  "title": "Explain to an adult some of the teachings of your faith.",
+  "notes": "Explain how these affect the way you live your life.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

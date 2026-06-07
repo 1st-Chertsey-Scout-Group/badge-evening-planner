@@ -1,0 +1,40 @@
+{
+  "slug": "fire-safety",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Fire Safety",
+  "description": "Learn the fire safety essentials. Master the precautionary measures to take to prevent a fire.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/fire-safety/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./fire-safety.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "49156",
+    "49157",
+    "49158",
+    "49159",
+    "49160",
+    "49161",
+    "49162",
+    "49163",
+    "49164",
+    "49165"
+  ],
+  "optional": []
+}

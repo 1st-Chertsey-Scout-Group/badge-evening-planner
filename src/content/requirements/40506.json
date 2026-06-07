@@ -1,0 +1,10 @@
+{
+  "badge": "paddle-sports",
+  "parent": "40421",
+  "children": [],
+  "title": "Show you can get in and out/on or off of your vessel without help.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

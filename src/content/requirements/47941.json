@@ -1,0 +1,10 @@
+{
+  "badge": "swimmer",
+  "parent": null,
+  "children": [],
+  "title": "Swim 25 metres in a stroke of your choice, with or without support.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

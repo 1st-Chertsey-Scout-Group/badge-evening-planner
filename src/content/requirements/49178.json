@@ -1,0 +1,10 @@
+{
+  "badge": "fundraising",
+  "parent": null,
+  "children": [],
+  "title": "Set a target and a date by which you'll have raised the money.",
+  "notes": "We suggest a minimum of £100.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

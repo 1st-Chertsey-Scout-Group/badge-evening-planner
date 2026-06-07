@@ -1,0 +1,10 @@
+{
+  "badge": "equestrian",
+  "parent": "45958",
+  "children": [],
+  "title": "Talk about road safety for riding.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

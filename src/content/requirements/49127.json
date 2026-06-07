@@ -1,0 +1,10 @@
+{
+  "badge": "communicator",
+  "parent": "45005",
+  "children": [],
+  "title": "Show that you can recognise call signs from the UK and near continent.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "skills",
+  "parent": "75677",
+  "children": [],
+  "title": "Mend or customise an item of clothing",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

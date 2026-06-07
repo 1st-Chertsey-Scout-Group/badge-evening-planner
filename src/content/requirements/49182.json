@@ -1,0 +1,10 @@
+{
+  "badge": "farming",
+  "parent": "45650",
+  "children": [],
+  "title": "Learn about farming practices in your area.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "paddle-sports",
+  "parent": "40415",
+  "children": [],
+  "title": "Take part in a warm-up activity to prepare you for canoeing or kayaking.",
+  "notes": "You could practice balancing whilst kneeling, getting in and out of a boat or practising a paddling action.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

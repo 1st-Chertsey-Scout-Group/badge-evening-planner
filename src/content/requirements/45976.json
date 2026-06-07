@@ -1,0 +1,10 @@
+{
+  "badge": "quartermaster",
+  "parent": "45969",
+  "children": [],
+  "title": "During the experience show you're capable in at least three of these areas:",
+  "notes": "- care and maintenance of all tentage, including the ability to do simple repairs to guy lines and fabric tears\n- care and storage of all cordage. This includes whipping, splicing, hanking, coiling and safety inspections.\n- safe storage and handling of fuels used by the camp, such as methylated spirits, paraffin, petrol and gas\n- care, maintenance and general storage of all tools such as axes, spades and saws\n- care and storage of equipment used for adventurous activities, such as sailing gear, canoes and paddles, life jackets and buoyancy aids, and climbing ropes.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

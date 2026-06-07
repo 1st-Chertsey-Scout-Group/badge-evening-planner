@@ -1,0 +1,15 @@
+{
+  "badge": "communicator",
+  "parent": null,
+  "children": [
+    "45072",
+    "45073",
+    "45074",
+    "45075"
+  ],
+  "title": "Translator",
+  "notes": "Complete these tasks in braille or a recognised sign language, such BSL.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

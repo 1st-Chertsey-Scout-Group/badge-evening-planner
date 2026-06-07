@@ -1,0 +1,10 @@
+{
+  "badge": "paddle-sports",
+  "parent": "40436",
+  "children": [],
+  "title": "Sprint",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

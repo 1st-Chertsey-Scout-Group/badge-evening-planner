@@ -1,0 +1,10 @@
+{
+  "badge": "entertainer",
+  "parent": "41198",
+  "children": [],
+  "title": "Take an active part in a Scout show or another production.",
+  "notes": "You'll need to commit to regular rehearsals.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "world-faiths",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "World Faiths",
+  "description": "Discover the true meaning to the world's different faiths, so you can find common ground in your personal relationships,",
+  "versionDate": "January 2017",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/world-faiths/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "There are lots of places of worship young people could visit for number 1, including a Gurdwara, Temple, Mosque, Church or Synagogue.",
+      "details": ""
+    },
+    {
+      "title": "The 'major world faiths' are widely accepted to include Judaism, Hinduism, Islam, Christianity, Buddhism and Sikhism.",
+      "details": "However, this is not an exhaustive list and a broader list of more religions can be found via [BBC Religion](http://www.bbc.co.uk/religion/religions/) pages, which also includes numerically smaller groups, such as Shinto and Taoism."
+    },
+    {
+      "title": "A useful interactive resource to support young people to explore world faiths is BBC Bitesize",
+      "details": "There is a wealth of videos and animations which explore specific elements of different religions eg. What is it like to go Hajj, or what happens at Passover specifically aimed at young people. [BBC Bitesize](http://www.bbc.co.uk/education/subjects/z7hs34j)"
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./world-faiths.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "45892",
+    "45893",
+    "45894",
+    "45895"
+  ],
+  "optional": []
+}

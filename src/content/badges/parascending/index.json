@@ -1,0 +1,34 @@
+{
+  "slug": "parascending",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Parascending",
+  "description": "Take flight and experience the thrill of parascending. Adventure awaits!",
+  "versionDate": "January 2018",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/parascending/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./parascending.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "45590",
+    "45591",
+    "45592",
+    "45593"
+  ],
+  "optional": []
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "pulling-fixed-seat-rowing",
+  "parent": "49246",
+  "children": [],
+  "title": "scull over the stern between two points, 20 metres apart, and turn through 180 degrees",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

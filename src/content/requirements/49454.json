@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": "43455",
+  "children": [],
+  "title": "Draw a diagram or make a model of an airfield and name the key features.",
+  "notes": "Explain the rules for accessing an airfield.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

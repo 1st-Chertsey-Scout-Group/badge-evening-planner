@@ -1,0 +1,10 @@
+{
+  "badge": "digital-citizen",
+  "parent": "44672",
+  "children": [],
+  "title": "In a creative way of your choice, show all the information someone could find about you online and how you'd hide that information if you wanted to. Leave out anything you're uncomfortable with.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

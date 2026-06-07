@@ -1,0 +1,10 @@
+{
+  "badge": "orienteer",
+  "parent": null,
+  "children": [],
+  "title": "Complete three courses at orienteering events recognised by British Orienteering or another similar standard.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

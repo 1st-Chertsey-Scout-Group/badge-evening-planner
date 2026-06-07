@@ -1,0 +1,10 @@
+{
+  "badge": "quartermaster",
+  "parent": "45968",
+  "children": [],
+  "title": "Keep a simple record showing equipment issued and returned.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

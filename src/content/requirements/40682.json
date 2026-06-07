@@ -1,0 +1,14 @@
+{
+  "badge": "musician",
+  "parent": null,
+  "children": [
+    "49510",
+    "49512",
+    "89726"
+  ],
+  "title": "Knowledge",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

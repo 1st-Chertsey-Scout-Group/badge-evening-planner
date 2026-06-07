@@ -1,0 +1,13 @@
+{
+  "badge": "cyclist",
+  "parent": null,
+  "children": [
+    "50492",
+    "50844"
+  ],
+  "title": "External qualifications",
+  "notes": "You can complete this option if you reach one of these standards:",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": 1
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": "40924",
+  "children": [],
+  "title": "Demonstrate your ability to safely descend a black run",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

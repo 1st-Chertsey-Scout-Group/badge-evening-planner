@@ -1,0 +1,16 @@
+{
+  "badge": "navigator",
+  "parent": null,
+  "children": [
+    "49521",
+    "49522",
+    "49523",
+    "49524",
+    "49525"
+  ],
+  "title": "With other Scouts, go for a walk with a leader around the local area.",
+  "notes": "Take it in turns to use one of these methods of navigation:",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

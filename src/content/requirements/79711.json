@@ -1,0 +1,10 @@
+{
+  "badge": "earth-tribe-award",
+  "parent": "79692",
+  "children": [],
+  "title": "Take action",
+  "notes": "Carry out your plan. Tell people about how they can support and protect the nature around them. Remember to spread out your actions to create a lasting change.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

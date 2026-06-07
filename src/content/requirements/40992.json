@@ -1,0 +1,10 @@
+{
+  "badge": "international",
+  "parent": null,
+  "children": [],
+  "title": "Take part in a traditional craft or creative activity from another country.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,13 @@
+{
+  "badge": "pioneer",
+  "parent": null,
+  "children": [
+    "45522",
+    "45520"
+  ],
+  "title": "As a member of a group, take part in:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

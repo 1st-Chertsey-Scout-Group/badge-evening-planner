@@ -1,0 +1,15 @@
+{
+  "badge": "snowsports",
+  "parent": null,
+  "children": [
+    "49577",
+    "49578",
+    "49579",
+    "49580"
+  ],
+  "title": "Choose and complete two of the following:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": 2
+}

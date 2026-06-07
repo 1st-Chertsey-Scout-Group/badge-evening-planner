@@ -1,0 +1,10 @@
+{
+  "badge": "air-spotter",
+  "parent": "89802",
+  "children": [],
+  "title": "Visit an airfield or airport viewing area, for at least an hour.",
+  "notes": "Record the aircraft you spot, including any distinctive features and the aircraft's approximate heading.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

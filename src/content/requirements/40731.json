@@ -1,0 +1,10 @@
+{
+  "badge": "physical-recreation",
+  "parent": null,
+  "children": [],
+  "title": "Explain how to care for the equipment you use.",
+  "notes": "Explain what you should look out for when the equipment is nearing the end of its life.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

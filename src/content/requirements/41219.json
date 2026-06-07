@@ -1,0 +1,10 @@
+{
+  "badge": "media-relations-marketing",
+  "parent": null,
+  "children": [],
+  "title": "Produce and give a presentation about Scouting.",
+  "notes": "Use audio and visual media and think about how you can make it relevant to people not involved in Scouting.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

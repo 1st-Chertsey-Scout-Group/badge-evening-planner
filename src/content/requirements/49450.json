@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": "43433",
+  "children": [],
+  "title": "Meet someone who regularly flies an aircraft, such as a pilot, and talk to them about their experiences.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

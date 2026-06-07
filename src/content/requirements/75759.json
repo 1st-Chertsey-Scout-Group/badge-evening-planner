@@ -1,0 +1,10 @@
+{
+  "badge": "world",
+  "parent": null,
+  "children": [],
+  "title": "Investigate and try to make contact with Scouts in another country.",
+  "notes": "Make sure you and your leader [read the International Links Guidance.](/volunteers/running-your-section/international-scouts-and-events/world-scouting/international-links/)",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "geocaching",
+  "parent": null,
+  "children": [],
+  "title": "Show that you know the difference between Ordnance Survey, and latitude and longitude coordinates.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

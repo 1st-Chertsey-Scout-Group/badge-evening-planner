@@ -5,9 +5,9 @@ from scout.org.uk and generates the Astro content collections this handbook uses
 
 ## What it produces
 
-- `src/content/badges/` - 90 badges (activity, staged, the nine challenge awards,
-  and the Chief Scout's Gold Award), each with metadata and ordered links into
-  the requirement tree.
+- `src/content/badges/<slug>/index.json` - 90 badges (activity, staged, the nine
+  challenge awards, and the Chief Scout's Gold Award), each with metadata, its
+  image colocated in the same folder, and ordered links into the requirement tree.
 - `src/content/requirements/` - ~1,237 individually addressable requirement
   nodes, so a programme/meeting can later reference exactly what it covers.
 

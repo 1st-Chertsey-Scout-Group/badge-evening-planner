@@ -1,0 +1,10 @@
+{
+  "badge": "cyclist",
+  "parent": "45377",
+  "children": [],
+  "title": "The Gold Trix Award of the British Schools Cycling Association",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

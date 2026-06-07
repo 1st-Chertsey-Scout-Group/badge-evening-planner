@@ -1,0 +1,10 @@
+{
+  "badge": "librarian",
+  "parent": null,
+  "children": [],
+  "title": "Show that you know how to look after books and e-readers.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "climber",
+  "parent": null,
+  "children": [],
+  "title": "Show that you know the rope types used for rock climbing.",
+  "notes": "Explain how to coil and maintain them.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

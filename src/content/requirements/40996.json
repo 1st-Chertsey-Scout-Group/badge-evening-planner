@@ -1,0 +1,14 @@
+{
+  "badge": "international",
+  "parent": null,
+  "children": [
+    "46797",
+    "49191",
+    "45672"
+  ],
+  "title": "Take part in one of these events individually or with the Troop and report back to other Scouts:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": 1
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "cyclist",
+  "parent": "45376",
+  "children": [],
+  "title": "Gain a working knowledge of map reading. Orientate a map using a compass or conspicuous features. Estimate distances and times taken to travel.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": null,
+  "children": [],
+  "title": "Trim a paper aeroplane or model glider to glide, stall and turn, then find out how an aircraft's trimming, weight and balance can affect its flight.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

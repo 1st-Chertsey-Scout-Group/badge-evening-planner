@@ -1,0 +1,17 @@
+{
+  "badge": "cyclist",
+  "parent": null,
+  "children": [
+    "46377",
+    "46379",
+    "49122",
+    "45396",
+    "45380",
+    "45402"
+  ],
+  "title": "Off-road cycling",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

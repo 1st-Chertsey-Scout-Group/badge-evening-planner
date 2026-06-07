@@ -1,0 +1,34 @@
+{
+  "slug": "adventure",
+  "type": "challenge",
+  "badgeType": "Challenge Award",
+  "title": "Adventure",
+  "description": "Abseil down a mountain! Sail down a river! Hover on a hovercraft! It's time to embrace four new adventurous activities, and see where they take you.",
+  "versionDate": "January 2017",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/awards/adventure/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./adventure.png",
+    "alt": "Hexagonal badge showing a raft with a flag, and the word Dacia."
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "75736",
+    "75737",
+    "75738",
+    "75739"
+  ],
+  "optional": []
+}

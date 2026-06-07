@@ -1,0 +1,10 @@
+{
+  "badge": "digital-maker",
+  "parent": null,
+  "children": [],
+  "title": "In a coding language of your choice, create a basic program to meet a need of Scouting or your section.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

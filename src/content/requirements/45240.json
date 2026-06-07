@@ -1,0 +1,10 @@
+{
+  "badge": "electronics",
+  "parent": null,
+  "children": [],
+  "title": "Explain the principles behind the operation of each circuit and the typical values of voltage and current found in each.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

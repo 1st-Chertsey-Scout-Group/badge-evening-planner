@@ -1,0 +1,10 @@
+{
+  "badge": "water-activities",
+  "parent": "45872",
+  "children": [],
+  "title": "Snorkel Diver Award of the British Sub-Aqua Club.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,13 @@
+{
+  "badge": "local-knowledge",
+  "parent": null,
+  "children": [
+    "45488",
+    "46044"
+  ],
+  "title": "Rural and suburban areas",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

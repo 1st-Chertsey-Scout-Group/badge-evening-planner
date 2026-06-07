@@ -1,0 +1,20 @@
+{
+  "badge": "fire-safety",
+  "parent": null,
+  "children": [
+    "49166",
+    "49167",
+    "49168",
+    "49169",
+    "49170",
+    "49171",
+    "49172",
+    "49173",
+    "49174"
+  ],
+  "title": "Be aware of dangers in the home and the fire precautions necessary for:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

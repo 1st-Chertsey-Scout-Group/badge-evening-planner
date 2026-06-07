@@ -1,0 +1,10 @@
+{
+  "badge": "mechanic",
+  "parent": "45183",
+  "children": [],
+  "title": "Show how you would check tyre pressures and inflate a tyre correctly.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

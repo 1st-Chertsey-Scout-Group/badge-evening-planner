@@ -1,0 +1,10 @@
+{
+  "badge": "angler",
+  "parent": null,
+  "children": [],
+  "title": "Understand how the Countryside code should be followed by anglers, and where and how to fish legally.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

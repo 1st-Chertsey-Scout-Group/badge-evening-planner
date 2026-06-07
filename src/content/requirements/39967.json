@@ -1,0 +1,10 @@
+{
+  "badge": "hill-walker",
+  "parent": null,
+  "children": [],
+  "title": "Show that you're aware of developments in technology, such as the Global Positioning System (GPS), digital mapping or waterproof maps.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

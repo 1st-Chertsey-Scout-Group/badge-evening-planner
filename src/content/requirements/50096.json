@@ -1,0 +1,10 @@
+{
+  "badge": "navigator",
+  "parent": "45490",
+  "children": [],
+  "title": "Convert grid bearings to magnetic bearings and vice versa.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

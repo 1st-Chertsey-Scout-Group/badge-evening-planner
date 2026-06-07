@@ -1,0 +1,45 @@
+{
+  "slug": "cyclist",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Cyclist",
+  "description": "Experience the thrill of the ride! Make certain your cycling skills are top-knotch as you plan your next cycling adventure.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/cyclist/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "Young people might find these websites useful:",
+      "details": "- [bikeability.org.uk](https://www.bikeability.org.uk/)\n- [britishschoolscyclingassociation.com](https://britishschoolscyclingassociation.com/)\n- [cyclingscotland.org](http://www.cyclingscotland.org/)\n- [sustrans.org.uk](https://www.sustrans.org.uk/)\n- [britishcycling.org.uk/scotland](http://www.britishcycling.org.uk/scotland)\n- [britishcycling.org.uk](https://www.britishcycling.org.uk/mtbleadership)"
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": {
+    "title": "GO Outdoors",
+    "url": "https://www.scouts.org.uk/supporters/go-outdoors/",
+    "logoUrl": "https://www.scouts.org.uk/media/7342/gooutdoors.png?width=800&height=450&v=1dab58ee87e5d70"
+  },
+  "image": {
+    "src": "./cyclist.png",
+    "alt": "Badge showing a bike and the words Go Outdoors"
+  },
+  "requirementsIntro": "To earn your badge, complete the first two requirements:",
+  "optionsIntro": "Then choose one of the following options:",
+  "optionsToQualify": 1,
+  "mandatory": [
+    "45373",
+    "45374"
+  ],
+  "optional": [
+    "45375",
+    "45376",
+    "45377"
+  ]
+}

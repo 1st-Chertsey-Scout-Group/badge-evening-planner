@@ -1,0 +1,33 @@
+{
+  "slug": "air-researcher",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Air Researcher",
+  "description": "Discover one of man's greatest accomplishments - developing the technology to fly through the air.",
+  "versionDate": "January 2018",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/air-researcher/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./air-researcher.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "45278",
+    "45279",
+    "45280"
+  ],
+  "optional": []
+}

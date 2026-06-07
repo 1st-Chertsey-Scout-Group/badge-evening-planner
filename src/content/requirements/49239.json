@@ -1,0 +1,10 @@
+{
+  "badge": "model-maker",
+  "parent": "45388",
+  "children": [],
+  "title": "Build a scaled scenic model, such as a station or farmhouse for a railway layout.",
+  "notes": "You can use a kit if you like.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "outdoor",
+  "parent": "75650",
+  "children": [],
+  "title": "Show that you know the safety precautions for using lamps and stoves.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

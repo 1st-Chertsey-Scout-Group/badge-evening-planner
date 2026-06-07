@@ -1,0 +1,10 @@
+{
+  "badge": "scientist",
+  "parent": "49262",
+  "children": [],
+  "title": "Plan and run an activity, demonstration or presentation to help others understand the science behind a Scouting activity or hobby.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "activity-plus",
+  "parent": null,
+  "children": [],
+  "title": "Show your leader that you have met your target.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

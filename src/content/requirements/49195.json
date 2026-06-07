@@ -1,0 +1,10 @@
+{
+  "badge": "lifesaver",
+  "parent": "45139",
+  "children": [],
+  "title": "Royal Lifesaving Society UK (RLSS UK) Survive and Save Silver Medallion award",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

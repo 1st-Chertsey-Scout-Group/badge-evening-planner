@@ -1,0 +1,10 @@
+{
+  "badge": "communicator",
+  "parent": "45024",
+  "children": [],
+  "title": "Act as a translator for a short conversation between a sign language user and someone with no sign language experience.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

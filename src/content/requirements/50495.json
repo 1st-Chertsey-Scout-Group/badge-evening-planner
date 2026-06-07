@@ -1,0 +1,10 @@
+{
+  "badge": "geocaching",
+  "parent": "46294",
+  "children": [],
+  "title": "enter the latitude and longitude coordinates of a nearby point and navigate to the waypoint.",
+  "notes": "Be sure to check the accuracy",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

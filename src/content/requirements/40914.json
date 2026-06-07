@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": null,
+  "children": [],
+  "title": "Demonstrate your ability to identify a suitable cross country skiing route.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

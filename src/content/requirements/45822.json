@@ -1,0 +1,10 @@
+{
+  "badge": "meteorologist",
+  "parent": null,
+  "children": [],
+  "title": "Explain how weather forecasts are created.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

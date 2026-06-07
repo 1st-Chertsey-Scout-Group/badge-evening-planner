@@ -1,0 +1,10 @@
+{
+  "badge": "sports-enthusiast",
+  "parent": null,
+  "children": [],
+  "title": "Explain how you follow your sport. How do you keep up to date with developments?",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

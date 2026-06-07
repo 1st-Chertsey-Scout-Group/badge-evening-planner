@@ -1,0 +1,18 @@
+{
+  "badge": "mechanic",
+  "parent": "45182",
+  "children": [
+    "49215",
+    "49216",
+    "49217",
+    "49218",
+    "49219",
+    "49220",
+    "49221"
+  ],
+  "title": "Show you can carry out any four of these:",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": 4
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "instructor",
+  "parent": null,
+  "children": [],
+  "title": "Know what a young person in your section has to do to achieve the activity badge, so that you can instruct them in that subject.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

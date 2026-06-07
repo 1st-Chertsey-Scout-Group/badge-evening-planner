@@ -1,0 +1,10 @@
+{
+  "badge": "outdoor",
+  "parent": null,
+  "children": [],
+  "title": "Understand the three points of the Countryside Code.",
+  "notes": "Show what action you can take to follow the code.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

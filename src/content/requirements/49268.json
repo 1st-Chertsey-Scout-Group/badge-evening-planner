@@ -1,0 +1,10 @@
+{
+  "badge": "water-activities",
+  "parent": "45872",
+  "children": [],
+  "title": "British Sub-Aqua Club Try Dive or Adventure Diver, or the Discover Scuba Diving Award of the Professional Association of Diving Instructors.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "survival-skills",
+  "parent": "40805",
+  "children": [],
+  "title": "first aid treatment you may need to use while on a survival event, considering you may have limited resources available",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

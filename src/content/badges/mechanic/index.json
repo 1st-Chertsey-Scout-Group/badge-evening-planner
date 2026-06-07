@@ -1,0 +1,39 @@
+{
+  "slug": "mechanic",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Mechanic",
+  "description": "Fuel your imagination and develop problem-solving and critical thinking skills. Develop your practical vehicle maintenance knowledge.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/mechanic/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "Remember that the manufacturer's guidelines must be followed at all times",
+      "details": ""
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./mechanic.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 1,
+  "mandatory": [],
+  "optional": [
+    "45180",
+    "45181",
+    "45182",
+    "45183"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "teamwork",
+  "parent": null,
+  "children": [],
+  "title": "Take part in at least three team building activities that you have not tried before.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

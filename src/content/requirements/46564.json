@@ -1,0 +1,10 @@
+{
+  "badge": "world-faiths",
+  "parent": "45892",
+  "children": [],
+  "title": "Visit a place of worship for a faith that you are not familiar with.",
+  "notes": "Find out the differences between this building and another place of worship.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

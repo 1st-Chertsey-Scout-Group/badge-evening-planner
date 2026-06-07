@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": "43495",
+  "children": [],
+  "title": "Find out about the roles and responsibilities of flight crew members, such as pilots, co-pilots, engineers or cabin crew.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

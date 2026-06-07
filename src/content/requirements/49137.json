@@ -1,0 +1,10 @@
+{
+  "badge": "communicator",
+  "parent": "45015",
+  "children": [],
+  "title": "Show you know the meaning of some popular chat abbreviations.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "scientist",
+  "parent": "45175",
+  "children": [],
+  "title": "Change something about the experiment or activity and try it again, at least once. Predict what you think will happen and find out if you were right.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

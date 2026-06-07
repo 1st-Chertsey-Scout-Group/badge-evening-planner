@@ -1,0 +1,10 @@
+{
+  "badge": "swimmer",
+  "parent": null,
+  "children": [],
+  "title": "Pick up an object from the floor of the pool.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

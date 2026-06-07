@@ -1,0 +1,10 @@
+{
+  "badge": "swimmer",
+  "parent": null,
+  "children": [],
+  "title": "Learn about different rescues and perform one of them.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

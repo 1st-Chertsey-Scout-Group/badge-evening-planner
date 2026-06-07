@@ -1,0 +1,10 @@
+{
+  "badge": "time-on-the-water",
+  "parent": null,
+  "children": [],
+  "title": "Scouts and Explorers",
+  "notes": "Each session should last around 2 to 3 hours.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

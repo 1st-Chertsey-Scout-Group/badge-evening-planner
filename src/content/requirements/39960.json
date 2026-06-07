@@ -1,0 +1,10 @@
+{
+  "badge": "hill-walker",
+  "parent": null,
+  "children": [],
+  "title": "Using Ordnance Survey maps, complete all the information you need to plan the route for each journey.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

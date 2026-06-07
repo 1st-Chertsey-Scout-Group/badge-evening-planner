@@ -1,0 +1,10 @@
+{
+  "badge": "communicator",
+  "parent": "45024",
+  "children": [],
+  "title": "Invite a sign language user to talk to your Troop about what it's like to have impaired hearing or speech.",
+  "notes": "Help by translating for them during their visit.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

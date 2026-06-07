@@ -1,0 +1,10 @@
+{
+  "badge": "nautical-skills",
+  "parent": "40354",
+  "children": [],
+  "title": "Pipe the 'still' and 'carry on' on a Bosun's call.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

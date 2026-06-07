@@ -1,0 +1,10 @@
+{
+  "badge": "navigator",
+  "parent": null,
+  "children": [],
+  "title": "Identify a number of features or locations on that map.",
+  "notes": "You could pinpoint locations like the toilets, car park, bird hide or picnic area.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

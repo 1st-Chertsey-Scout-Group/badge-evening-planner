@@ -1,0 +1,10 @@
+{
+  "badge": "swimmer",
+  "parent": null,
+  "children": [],
+  "title": "Being in the water helps build your confidence but is also good fun. Play a game in the water with your friends and practice the skills you've learned.",
+  "notes": "You could play catch, throw and retrieve an object or have fun with some floats.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "skills",
+  "parent": null,
+  "children": [],
+  "title": "Regularly take part in physical activities over a period of four to six  weeks.",
+  "notes": "Keep a record showing your improvement. Your goal could be to develop in an activity or successfully complete a challenge.\n\nPhysical activity/challenge suggestions:\n\n- circuit training\n- football skill training\n- aerobic routine\n- synchronised swimming routine\n- Zumba aerobics\n- tap dancing\n- team sports\n- charity swim\n- long distance cycle ride\n- incident hike\n- athletic event\n- pool life-saving test\n- dance competition",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

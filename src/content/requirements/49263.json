@@ -1,0 +1,10 @@
+{
+  "badge": "scientist",
+  "parent": "49262",
+  "children": [],
+  "title": "Plan and complete your own experiment to explore the science behind one Scouting activity or hobby. Record your findings and explain what these mean to others.",
+  "notes": "Try thinking of a question you want to answer or something you want to prove.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

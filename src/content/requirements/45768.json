@@ -1,0 +1,10 @@
+{
+  "badge": "master-at-arms",
+  "parent": null,
+  "children": [],
+  "title": "Attend regular training sessions in a relevant activity like fencing, shooting or archery.",
+  "notes": "Show how you've improved in technique. You should train for at least six sessions.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

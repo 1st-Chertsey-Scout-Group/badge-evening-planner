@@ -1,0 +1,10 @@
+{
+  "badge": "earth-tribe-award",
+  "parent": "79695",
+  "children": [],
+  "title": "Identify the need",
+  "notes": "Find out what happens to non-recycled waste in your local area. Explore what happens if we do not take care with our waste and how it might impact our environment.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

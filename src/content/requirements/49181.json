@@ -1,0 +1,10 @@
+{
+  "badge": "fundraising",
+  "parent": "49176",
+  "children": [],
+  "title": "another UK registered charity",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

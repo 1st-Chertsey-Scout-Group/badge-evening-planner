@@ -1,0 +1,35 @@
+{
+  "slug": "global-issues",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Global Issues",
+  "description": "Help make the world a better place, learn about important global issues and play your part in helping change the world.",
+  "versionDate": "September 2018",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/global-issues/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./global-issues.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "45427",
+    "45428",
+    "45429",
+    "45430",
+    "45431"
+  ],
+  "optional": []
+}

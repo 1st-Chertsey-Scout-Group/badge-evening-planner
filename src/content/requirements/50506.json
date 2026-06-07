@@ -1,0 +1,10 @@
+{
+  "badge": "quartermaster",
+  "parent": "45969",
+  "children": [],
+  "title": "Show you understand that general tidiness is the secret of good quartermastering.",
+  "notes": "Explain you achieved this at the Nights Away experience.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "nautical-skills",
+  "parent": null,
+  "children": [],
+  "title": "Take part in a water activity taster session. You could try:",
+  "notes": "You could try:\n\n- paddle sports\n- rafting\n- sailing\n- windsurfing\n- pulling.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

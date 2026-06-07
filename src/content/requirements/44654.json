@@ -1,0 +1,10 @@
+{
+  "badge": "digital-citizen",
+  "parent": null,
+  "children": [],
+  "title": "Investigate if the people you interact with most online are similar to you, or different to you (ie what are their ages, genders, ethnicities, hobbies etc?).",
+  "notes": "What impact might that have on the views and opinions you see and believe?",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

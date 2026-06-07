@@ -1,0 +1,10 @@
+{
+  "badge": "activity-centre-service",
+  "parent": "45794",
+  "children": [],
+  "title": "other important tasks that the warden or manager has pointed out",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

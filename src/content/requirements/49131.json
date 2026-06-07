@@ -1,0 +1,10 @@
+{
+  "badge": "communicator",
+  "parent": "45012",
+  "children": [],
+  "title": "Construct a simple Morse code oscillator and send a short message.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

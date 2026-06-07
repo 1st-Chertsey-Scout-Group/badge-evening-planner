@@ -1,0 +1,10 @@
+{
+  "badge": "environmental-conservation",
+  "parent": null,
+  "children": [],
+  "title": "Find out about an environmental issue that is important to your local community.",
+  "notes": "It might be linked to:\n\n- recycling and conservation\n- energy efficiency in the home or your meeting place\n- the building of new homes and local land use\n- water, light, thermal, air or beach pollution\n- coastal erosion\n- the impact of tourism on the local environment.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": null,
+  "children": [],
+  "title": "Describe how a wing generates lift and the conditions that can cause an aircraft to stall.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

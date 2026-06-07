@@ -1,0 +1,10 @@
+{
+  "badge": "diy",
+  "parent": null,
+  "children": [],
+  "title": "Learn how to safely isolate individual electrical circuits at the consumer unit.",
+  "notes": "This includes letting other users know that work is being carried out",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

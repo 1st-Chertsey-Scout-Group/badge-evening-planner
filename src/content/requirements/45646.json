@@ -1,0 +1,10 @@
+{
+  "badge": "local-knowledge",
+  "parent": "45313",
+  "children": [],
+  "title": "Show how to use a map of your district.",
+  "notes": "Use it to point out any six places of interest. Show how to get to these places from your Scout Headquarters or home.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

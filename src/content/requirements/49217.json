@@ -1,0 +1,10 @@
+{
+  "badge": "mechanic",
+  "parent": "49214",
+  "children": [],
+  "title": "picketing a light aircraft",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

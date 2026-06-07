@@ -1,0 +1,10 @@
+{
+  "badge": "digital-citizen",
+  "parent": null,
+  "children": [],
+  "title": "Use several online services to research a personal opportunity that excites you but you know little about (such as a new hobby, studying at college or university, or a specific career).",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

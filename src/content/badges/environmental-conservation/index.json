@@ -1,0 +1,33 @@
+{
+  "slug": "environmental-conservation",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Environmental Conservation",
+  "description": "Make a difference a play an active part in improving the environment in your local area. Complete the badge and help protect the environment for future generations.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/environmental-conservation/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./environmental-conservation.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "45170",
+    "45171",
+    "45172"
+  ],
+  "optional": []
+}

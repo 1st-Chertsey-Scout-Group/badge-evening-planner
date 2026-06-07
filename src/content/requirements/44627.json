@@ -1,0 +1,10 @@
+{
+  "badge": "digital-citizen",
+  "parent": null,
+  "children": [],
+  "title": "For a week, keep track of how much time you spend online and what you're doing.",
+  "notes": "Looking back over the week, discuss with someone if you're happy with how you spent your time or not.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

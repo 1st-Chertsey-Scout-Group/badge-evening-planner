@@ -1,0 +1,32 @@
+{
+  "slug": "entertainer",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Entertainer",
+  "description": "Showcase your performing talent, accept a standing ovation and have fun mastering an original piece of entertainment.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/entertainer/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./entertainer.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "Choose one of the options. Then, as part of a group, complete all tasks to achieve this badge.",
+  "optionsToQualify": 1,
+  "mandatory": [],
+  "optional": [
+    "41196",
+    "41198"
+  ]
+}

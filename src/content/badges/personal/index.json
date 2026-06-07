@@ -1,0 +1,40 @@
+{
+  "slug": "personal",
+  "type": "challenge",
+  "badgeType": "Challenge Award",
+  "title": "Personal",
+  "description": "Everyone has a different idea of what a challenge looks like. Choose two you'd love to accomplish and dive right in.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/awards/personal/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "The challenges should be things that you find difficult but can overcome with some effort and commitment.",
+      "details": ""
+    },
+    {
+      "title": "They can be to do with any part of your life, for example home, school or Scouts.",
+      "details": ""
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./personal.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "75800"
+  ],
+  "optional": []
+}

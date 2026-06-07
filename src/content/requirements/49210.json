@@ -1,0 +1,10 @@
+{
+  "badge": "mechanic",
+  "parent": "49208",
+  "children": [],
+  "title": "Check the engine of a motorboat in preparation for a cruise or expedition, making sure there is fuel that is stored safely, an adequate tool kit and effective fire-fighting apparatus.",
+  "notes": "Accompany the expedition, either as the mechanic or assistant, and be fully or jointly responsible for the operation, care and maintenance of the engine throughout.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

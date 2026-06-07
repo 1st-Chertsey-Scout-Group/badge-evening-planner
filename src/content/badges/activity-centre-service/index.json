@@ -1,0 +1,34 @@
+{
+  "slug": "activity-centre-service",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Activity Centre Service",
+  "description": "Scout Activity Centres thrive on team work, friendship and outdoor adventure. Develop your campsite management skills and help the centres continue to inspire.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/activity-centre-service/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./activity-centre-service.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "45792",
+    "45793",
+    "45794",
+    "45795"
+  ],
+  "optional": []
+}

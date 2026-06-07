@@ -1,0 +1,10 @@
+{
+  "badge": "paddle-sports",
+  "parent": "40430",
+  "children": [],
+  "title": "Getting into and out of a boat safely.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

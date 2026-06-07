@@ -1,0 +1,84 @@
+{
+  "slug": "paddle-sports",
+  "type": "staged",
+  "badgeType": "Staged",
+  "title": "Paddle Sports",
+  "description": "",
+  "versionDate": "July 2019",
+  "sourceUrl": "https://www.scouts.org.uk/staged-badges/paddle-sports/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "You can meet most of these requirements by doing activities on land (without actually being on the water). It's great to do them as part of an actual paddle sports activity if you can, though.",
+      "details": ""
+    },
+    {
+      "title": "As well as activities on the programme planning tool, you can find ideas on the British Canoeing website.",
+      "details": "Visit the [British Canoeing website](https://www.britishcanoeing.org.uk/)."
+    },
+    {
+      "title": "Learn about water safety with the RNLI.",
+      "details": "You could [book a free visit from the RNLI to learn about water safety](https://rnli.org/youth-education/educational-visits)."
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./paddle-sports.png",
+    "alt": ""
+  },
+  "displayTitle": "Paddle Sports Staged Activity Badge",
+  "stages": [
+    {
+      "label": "Paddle Sports Stage 1",
+      "threshold": 1,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [],
+      "optional": [
+        "40415",
+        "40416"
+      ]
+    },
+    {
+      "label": "Paddle Sports Stage 2",
+      "threshold": 1,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [],
+      "optional": [
+        "40418",
+        "40419"
+      ]
+    },
+    {
+      "label": "Paddle Sports Stage 3",
+      "threshold": 1,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [],
+      "optional": [
+        "40421",
+        "40422"
+      ]
+    },
+    {
+      "label": "Paddle Sports Stage 4",
+      "threshold": 1,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [],
+      "optional": [
+        "40424",
+        "40425"
+      ]
+    }
+  ]
+}

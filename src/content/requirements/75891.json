@@ -1,0 +1,10 @@
+{
+  "badge": "expedition",
+  "parent": "75783",
+  "children": [],
+  "title": "Cook and eat at least one hot meal.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

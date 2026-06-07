@@ -1,0 +1,10 @@
+{
+  "badge": "paddle-sports",
+  "parent": "40421",
+  "children": [],
+  "title": "Show you can steer around a figure of eight course.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "chef",
+  "parent": null,
+  "children": [],
+  "title": "Show how to store food properly and hygienically to prevent food poisoning and keep it fresh for longer.",
+  "notes": "Think about what you might need to consider if you're using an indoor kitchen or a camp kitchen.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

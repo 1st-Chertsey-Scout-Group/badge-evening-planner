@@ -1,0 +1,12 @@
+{
+  "badge": "farming",
+  "parent": null,
+  "children": [
+    "45936"
+  ],
+  "title": "Livestock",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

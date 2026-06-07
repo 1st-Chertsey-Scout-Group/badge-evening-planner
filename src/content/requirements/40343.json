@@ -1,0 +1,10 @@
+{
+  "badge": "nautical-skills",
+  "parent": null,
+  "children": [],
+  "title": "Show how to tie a clove hitch, a bowline knot, and a round turn and two half-hitches.",
+  "notes": "Explain when these would be used.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

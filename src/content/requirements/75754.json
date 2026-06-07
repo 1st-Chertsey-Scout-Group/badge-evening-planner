@@ -1,0 +1,10 @@
+{
+  "badge": "world",
+  "parent": null,
+  "children": [],
+  "title": "Choose an aspect of local community life and find out as much as you can about it.",
+  "notes": "You could learn about:\n\n- local government\n- local history\n- different faiths and beliefs\n- types of farming/industry found locally",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "athletics-plus",
+  "parent": null,
+  "children": [],
+  "title": "Talk about the safety rules for athletics, particularly throwing and jumping events.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

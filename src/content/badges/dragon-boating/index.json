@@ -1,0 +1,44 @@
+{
+  "slug": "dragon-boating",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Dragon Boating",
+  "description": "Get up and get in the water and have a go at this ancient and exciting Chinese team sport.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/dragon-boating/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "You can also use a bell boat.",
+      "details": ""
+    },
+    {
+      "title": "Learn about water safety with the RNLI.",
+      "details": "You could [book a free visit from the RNLI to learn about water safety](https://rnli.org/youth-education/educational-visits)."
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": "Young people must check and comply with the activity rules in chapter nine of the Policy, Organisation and Rules and the Adventurous Activity Permit Scheme.",
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./dragon-boating.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "49147",
+    "49148",
+    "49149",
+    "49150",
+    "49151"
+  ],
+  "optional": []
+}

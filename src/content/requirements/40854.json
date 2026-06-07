@@ -1,0 +1,10 @@
+{
+  "badge": "navigator",
+  "parent": null,
+  "children": [],
+  "title": "Show you understand how to dress appropriately and what equipment you and the adults will need on the activity.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

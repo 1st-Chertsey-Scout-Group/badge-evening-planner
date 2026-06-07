@@ -1,0 +1,10 @@
+{
+  "badge": "camper",
+  "parent": null,
+  "children": [],
+  "title": "Show that you understand and act on the reasons for hygiene and the importance of being safe and tidy in camp.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

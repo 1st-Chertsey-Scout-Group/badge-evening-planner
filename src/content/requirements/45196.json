@@ -1,0 +1,10 @@
+{
+  "badge": "climber",
+  "parent": null,
+  "children": [],
+  "title": "Show you understand the calls used in climbing.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "sailing",
+  "parent": null,
+  "children": [],
+  "title": "Gain a Personal Activity Permit for Dinghy Sailing.",
+  "notes": "Find out more about the [Adventurous Activity Permit Scheme.](/volunteers/running-your-section/programme-guidance/information-for-volunteers/activity-permit-scheme/)",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

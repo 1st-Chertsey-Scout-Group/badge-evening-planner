@@ -1,0 +1,10 @@
+{
+  "badge": "communicator",
+  "parent": "45015",
+  "children": [],
+  "title": "Share photos and videos of a Scouting activity you've been involved with, using available technology.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

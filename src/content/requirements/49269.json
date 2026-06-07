@@ -1,0 +1,10 @@
+{
+  "badge": "water-activities",
+  "parent": "45872",
+  "children": [],
+  "title": "BKSA (British Kite Sports Association) Level One.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

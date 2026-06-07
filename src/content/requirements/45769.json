@@ -1,0 +1,10 @@
+{
+  "badge": "master-at-arms",
+  "parent": null,
+  "children": [],
+  "title": "Learn the safety rules associated with your activity and show how to follow them.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

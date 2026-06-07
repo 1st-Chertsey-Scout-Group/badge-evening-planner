@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content'
+import { getImage } from 'astro:assets'
+import Base from '@/layouts/Base.astro'
+import BadgeBrowser, { type BadgeSummary } from '@/components/BadgeBrowser'
+import { resolveBadge, leanModel } from '@/lib/resolve'
+
+const badges = await getCollection('badges')
+const summaries: BadgeSummary[] = await Promise.all(
+  badges
+    .sort((a, b) => a.data.title.localeCompare(b.data.title))
+    .map(async (b) => {
+      const img = await getImage({ src: b.data.image.src, width: 192 })
+      return {
+        slug: b.id,
+        title: b.data.title,
+        type: b.data.type,
+        img: { src: img.src, alt: b.data.image.alt },
+        model: leanModel(await resolveBadge(b)),
+      }
+    }),
+)
+---
+
+<Base>
+  <main class="mx-auto max-w-5xl px-4 py-8">
+    <h1 class="text-2xl font-bold text-slate-900 sm:text-3xl">Scout badges</h1>
+    <p class="mt-1 mb-6 text-slate-600">
+      Tick off requirements and track your progress - saved in this browser.
+    </p>
+    <BadgeBrowser client:load badges={summaries} />
+  </main>
+</Base>

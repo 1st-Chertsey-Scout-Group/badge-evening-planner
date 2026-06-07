@@ -1,0 +1,10 @@
+{
+  "badge": "artist",
+  "parent": "46100",
+  "children": [],
+  "title": "Paint, draw or illustrate each of these:",
+  "notes": "- a scene from a story\n- a person or object\n- a landscape",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

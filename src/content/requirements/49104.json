@@ -1,0 +1,10 @@
+{
+  "badge": "air-spotter",
+  "parent": null,
+  "children": [],
+  "title": "Describe the main features you would use to recognise six aircraft, which have been chosen by an appropriate adult.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

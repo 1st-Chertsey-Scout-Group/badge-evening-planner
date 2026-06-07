@@ -1,0 +1,13 @@
+{
+  "badge": "digital-citizen",
+  "parent": null,
+  "children": [
+    "49471",
+    "46115"
+  ],
+  "title": "Show that you understand your rights regarding online information by completing one of the following:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": 1
+}

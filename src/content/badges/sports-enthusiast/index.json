@@ -1,0 +1,41 @@
+{
+  "slug": "sports-enthusiast",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Sports Enthusiast",
+  "description": "If you follow a sport, rather than take part, you can prove your expert knowledge through this badge. You can choose anything from football or basketball to archery, motor racing or water polo.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/sports-enthusiast/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "You can gain more than one Sports Enthusiast badge if you follow more than one sport.",
+      "details": ""
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./sports-enthusiast.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "49977",
+    "49978",
+    "49979",
+    "49980",
+    "49981",
+    "49982"
+  ],
+  "optional": []
+}

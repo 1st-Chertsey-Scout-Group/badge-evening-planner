@@ -1,0 +1,10 @@
+{
+  "badge": "martial-arts",
+  "parent": null,
+  "children": [],
+  "title": "Take part in a competition or demonstration and talk about your performance with an instructor.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

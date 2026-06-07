@@ -1,0 +1,10 @@
+{
+  "badge": "survival-skills",
+  "parent": "40805",
+  "children": [],
+  "title": "how to build a fire and use basic lighting techniques",
+  "notes": "You should not use man-made materials such as paper or firelighters.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

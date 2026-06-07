@@ -1,0 +1,10 @@
+{
+  "badge": "cyclist",
+  "parent": "45376",
+  "children": [],
+  "title": "Show you're aware of the damage that may be caused to the environment through careless cycling across the countryside.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

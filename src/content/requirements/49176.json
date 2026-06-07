@@ -1,0 +1,13 @@
+{
+  "badge": "fundraising",
+  "parent": null,
+  "children": [
+    "49180",
+    "49181"
+  ],
+  "title": "Identify and organise a fundraising initiative for either:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": 1
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "model-maker",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Model Maker",
+  "description": "Show your creativity and attention to detail as you become an expert Model Maker.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/model-maker/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./model-maker.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 1,
+  "mandatory": [],
+  "optional": [
+    "45384",
+    "45385",
+    "45386",
+    "45387",
+    "45388"
+  ]
+}

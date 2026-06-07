@@ -1,0 +1,10 @@
+{
+  "badge": "librarian",
+  "parent": null,
+  "children": [],
+  "title": "Explain how fiction and non-fiction books are arranged on the shelves.",
+  "notes": "Why are they treated differently?",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

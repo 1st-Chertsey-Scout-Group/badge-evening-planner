@@ -1,0 +1,16 @@
+{
+  "badge": "snowsports",
+  "parent": null,
+  "children": [
+    "45619",
+    "45620",
+    "45621",
+    "45623",
+    "45642"
+  ],
+  "title": "Complete the following badge requirements:",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

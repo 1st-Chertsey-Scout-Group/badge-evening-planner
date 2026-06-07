@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": "40902",
+  "children": [],
+  "title": "Balancing on your skis or snowboard",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

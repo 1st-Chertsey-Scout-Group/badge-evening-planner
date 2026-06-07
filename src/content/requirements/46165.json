@@ -1,0 +1,10 @@
+{
+  "badge": "athletics",
+  "parent": null,
+  "children": [],
+  "title": "Find out and explain to your leader how to take part in athletics in your local area.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

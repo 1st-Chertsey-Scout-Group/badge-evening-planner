@@ -1,0 +1,10 @@
+{
+  "badge": "earth-tribe-award",
+  "parent": "79694",
+  "children": [],
+  "title": "Plan action",
+  "notes": "Identify ways people can use less or greener energy. Think about how you can tell others about these ideas and make a plan of action.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "expedition",
+  "parent": "75783",
+  "children": [],
+  "title": "Do a task, investigation, or exploration as agreed with your Leader.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

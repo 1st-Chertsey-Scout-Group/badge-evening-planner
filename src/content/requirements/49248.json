@@ -1,0 +1,10 @@
+{
+  "badge": "pulling-fixed-seat-rowing",
+  "parent": "49246",
+  "children": [],
+  "title": "draw stroke over the bow",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

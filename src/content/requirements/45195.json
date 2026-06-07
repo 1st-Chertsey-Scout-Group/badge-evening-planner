@@ -1,0 +1,10 @@
+{
+  "badge": "climber",
+  "parent": null,
+  "children": [],
+  "title": "Show that you know how to fit a climbing helmet and harness and how to tie in correctly.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "world-faiths",
+  "parent": null,
+  "children": [],
+  "title": "Read a text from a faith that you are not familiar with.",
+  "notes": "Show or discuss how this compares to your own beliefs.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

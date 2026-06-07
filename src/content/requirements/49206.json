@@ -1,0 +1,10 @@
+{
+  "badge": "mechanic",
+  "parent": "49205",
+  "children": [],
+  "title": "Discuss the principles and performance of several types of motorboat engines, other than two-stroke.",
+  "notes": "Show that you know the maintenance needed for a familiar type of marine internal combustion engine, other than two-stroke.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

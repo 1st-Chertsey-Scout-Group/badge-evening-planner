@@ -1,0 +1,10 @@
+{
+  "badge": "musician",
+  "parent": "40676",
+  "children": [],
+  "title": "Demonstrate some of the musical exercises that you use to practice your skills.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "mechanic",
+  "parent": "49214",
+  "children": [],
+  "title": "inspecting aircraft main and tail or nose wheel tyres for serviceability",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "street-sports",
+  "parent": null,
+  "children": [],
+  "title": "Own or use equipment for a street sport.",
+  "notes": "Show you can check, adjust and repair the equipment to ensure safe use.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

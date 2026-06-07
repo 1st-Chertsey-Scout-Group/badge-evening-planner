@@ -1,0 +1,10 @@
+{
+  "badge": "emergency-aid",
+  "parent": "41368",
+  "children": [],
+  "title": "the importance of getting help",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

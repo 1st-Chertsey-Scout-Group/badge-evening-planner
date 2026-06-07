@@ -1,0 +1,10 @@
+{
+  "badge": "digital-maker",
+  "parent": null,
+  "children": [],
+  "title": "Show that you know what a computer is and understand that there are lots of uses for digital technology in everyday life.",
+  "notes": "Think about where you see computer systems and technology in your day-to-day life, and about how digital technology helps make things better or easier.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

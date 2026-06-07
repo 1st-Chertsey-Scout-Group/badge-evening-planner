@@ -1,0 +1,10 @@
+{
+  "badge": "chef",
+  "parent": null,
+  "children": [],
+  "title": "Cook and serve at least one meal from your menu, including at least two courses.",
+  "notes": "This can be prepared on an open fire on camp or in a kitchen. Think about how you can avoid food waste when preparing and serving your meal.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,21 @@
+{
+  "badge": "skills",
+  "parent": null,
+  "children": [
+    "75847",
+    "75845",
+    "75831",
+    "75882",
+    "76407",
+    "75881",
+    "76367",
+    "76409",
+    "76368",
+    "75848"
+  ],
+  "title": "Learn and use at least five of these skills:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": 5
+}

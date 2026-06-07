@@ -1,0 +1,10 @@
+{
+  "badge": "geocaching",
+  "parent": "46300",
+  "children": [],
+  "title": "either submit your caches to a geocaching website or give the details to other Scouts so they can find the caches",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

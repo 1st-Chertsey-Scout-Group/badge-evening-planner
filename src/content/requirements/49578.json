@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": "40924",
+  "children": [],
+  "title": "Perform a sequence of turns in fresh snow, leaving even tracks behind",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

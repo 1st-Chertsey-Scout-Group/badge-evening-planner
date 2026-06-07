@@ -1,0 +1,33 @@
+{
+  "slug": "caver",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Caver",
+  "description": "From stalactites to stalagmites, experience a different world underground and explore fascinating cave formations",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/caver/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./caver.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "45778",
+    "45779",
+    "45780"
+  ],
+  "optional": []
+}

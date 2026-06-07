@@ -1,0 +1,10 @@
+{
+  "badge": "emergency-aid",
+  "parent": "41380",
+  "children": [],
+  "title": "is having an asthma attack",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

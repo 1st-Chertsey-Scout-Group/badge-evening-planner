@@ -1,0 +1,36 @@
+{
+  "slug": "forester",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Forester",
+  "description": "Discover how to manage and identify trees - and help preserve our woodland.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/forester/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": "You must be trained by a skilled person and understand the correct use of axes and saws. You must also be supervised by an adult at all times.",
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./forester.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "41231",
+    "41232",
+    "41233",
+    "41234",
+    "41235",
+    "41236"
+  ],
+  "optional": []
+}

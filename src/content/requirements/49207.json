@@ -1,0 +1,10 @@
+{
+  "badge": "mechanic",
+  "parent": "49205",
+  "children": [],
+  "title": "Assist with the maintenance, dismantle, service and reassemble an outboard engine.",
+  "notes": "Show how to fit it properly to the transom of a boat. Explain how to detect minor faults in starting and running whilst afloat.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

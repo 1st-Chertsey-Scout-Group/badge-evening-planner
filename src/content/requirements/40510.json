@@ -1,0 +1,10 @@
+{
+  "badge": "paddle-sports",
+  "parent": "40421",
+  "children": [],
+  "title": "Capsize, swim to the shore and empty the boat of water if necessary.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

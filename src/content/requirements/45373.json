@@ -1,0 +1,10 @@
+{
+  "badge": "cyclist",
+  "parent": null,
+  "children": [],
+  "title": "Use a bicycle that is properly equipped.",
+  "notes": "Keep it in good working order for at least six months.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

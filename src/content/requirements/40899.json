@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": null,
+  "children": [],
+  "title": "Take part in a warm-up activity to prepare you for a snowsport activity such as skiing or snowboarding.",
+  "notes": "This should be an appropriate warm-up for your upper, middle and lower body.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

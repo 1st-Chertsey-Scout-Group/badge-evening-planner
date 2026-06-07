@@ -1,0 +1,13 @@
+{
+  "badge": "mechanic",
+  "parent": "45181",
+  "children": [
+    "49206",
+    "49207"
+  ],
+  "title": "Complete one of these activities (part 1):",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": 1
+}

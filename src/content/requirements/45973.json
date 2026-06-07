@@ -1,0 +1,10 @@
+{
+  "badge": "equestrian",
+  "parent": "45955",
+  "children": [],
+  "title": "Walk, trot and canter a pony.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

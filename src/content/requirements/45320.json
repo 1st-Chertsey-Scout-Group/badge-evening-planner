@@ -1,0 +1,10 @@
+{
+  "badge": "camper",
+  "parent": null,
+  "children": [],
+  "title": "Plan a full menu for a weekend camp. Cook a least one full meal over an open fire.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

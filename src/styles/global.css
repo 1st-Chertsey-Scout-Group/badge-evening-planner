@@ -1,0 +1,35 @@
+@import 'tailwindcss';
+@plugin "@tailwindcss/typography";
+
+/* Scouts brand palette. Purple is primary; green marks completion. */
+@theme {
+  --font-sans: 'Nunito Sans Variable', ui-sans-serif, system-ui, sans-serif;
+
+  --color-scout-purple: #7413dc;
+  --color-scout-purple-dark: #5a0fab;
+  --color-scout-teal: #00a794;
+  --color-scout-red: #e1251b;
+  --color-scout-green: #23a950;
+  --color-scout-yellow: #ffe627;
+  --color-scout-navy: #003982;
+  --color-scout-ink: #1a1a2e;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-50 text-scout-ink antialiased;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

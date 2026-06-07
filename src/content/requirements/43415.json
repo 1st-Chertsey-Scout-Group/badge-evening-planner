@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": null,
+  "children": [],
+  "title": "Identify four different types of aircraft.",
+  "notes": "For example, aeroplanes, helicopters, gliders or hot air balloons.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

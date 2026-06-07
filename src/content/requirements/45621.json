@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": "40916",
+  "children": [],
+  "title": "Show you know and understand the 'Ski Way Code' published by the International Ski Federation (The F.I.S.)",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

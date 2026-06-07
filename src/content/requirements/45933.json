@@ -1,0 +1,10 @@
+{
+  "badge": "farming",
+  "parent": "45651",
+  "children": [],
+  "title": "Keep a record of the work you've done and the results you've achieved.",
+  "notes": "This could include height records of the flowers, for example.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

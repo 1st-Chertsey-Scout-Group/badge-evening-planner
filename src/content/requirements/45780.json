@@ -1,0 +1,10 @@
+{
+  "badge": "caver",
+  "parent": null,
+  "children": [],
+  "title": "Develop a good knowledge of the caving and cave conservation codes.",
+  "notes": "Show your assessor that you're aware of the environmental issues around caving.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

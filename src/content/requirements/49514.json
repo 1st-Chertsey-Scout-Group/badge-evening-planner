@@ -1,0 +1,10 @@
+{
+  "badge": "musician",
+  "parent": "49512",
+  "children": [],
+  "title": "The songs you sing and why you enjoy singing them.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "dragon-boating",
+  "parent": "49147",
+  "children": [],
+  "title": "the capsize drill",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

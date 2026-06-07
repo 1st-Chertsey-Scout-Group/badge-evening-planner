@@ -1,0 +1,10 @@
+{
+  "badge": "athletics",
+  "parent": null,
+  "children": [],
+  "title": "Talk about the safety rules in athletics, particularly throwing and jumping events.",
+  "notes": "Explain the most appropriate clothing to wear.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

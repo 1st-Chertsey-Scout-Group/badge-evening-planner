@@ -1,0 +1,10 @@
+{
+  "badge": "outdoor",
+  "parent": "75650",
+  "children": [],
+  "title": "Take part in a wide game.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

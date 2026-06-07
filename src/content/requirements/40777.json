@@ -1,0 +1,10 @@
+{
+  "badge": "librarian",
+  "parent": null,
+  "children": [],
+  "title": "Talk to your assessor about:",
+  "notes": "- books you have read and why you enjoyed them\n- information you found from books or websites\n- getting books on the internet for e-readers.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

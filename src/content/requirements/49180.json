@@ -1,0 +1,10 @@
+{
+  "badge": "fundraising",
+  "parent": "49176",
+  "children": [],
+  "title": "The Scout Association, to promote and grow Scouting nationally, or your local group to pay for something like new equipment or a new roof. You could even fundraise for both",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

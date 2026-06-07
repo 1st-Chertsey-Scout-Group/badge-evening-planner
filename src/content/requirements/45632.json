@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": "40922",
+  "children": [],
+  "title": "Equipment",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

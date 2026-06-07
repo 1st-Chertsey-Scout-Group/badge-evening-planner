@@ -1,0 +1,13 @@
+{
+  "badge": "world-faiths",
+  "parent": null,
+  "children": [
+    "45901",
+    "45902"
+  ],
+  "title": "Complete one of these activities (Part two):",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": 1
+}

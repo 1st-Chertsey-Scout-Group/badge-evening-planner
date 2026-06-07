@@ -1,0 +1,10 @@
+{
+  "badge": "paddle-sports",
+  "parent": "40421",
+  "children": [],
+  "title": "Show you can stop the vessel safely when it's moving back and forth.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "climber",
+  "parent": null,
+  "children": [],
+  "title": "Show that you're aware of environmental  issues around climbing on natural rock faces.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

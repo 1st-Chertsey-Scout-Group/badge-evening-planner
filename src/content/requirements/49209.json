@@ -1,0 +1,10 @@
+{
+  "badge": "mechanic",
+  "parent": "49208",
+  "children": [],
+  "title": "As driver or mechanic member of a power boat's crew, help to prepare the boat for a voyage by checking the engine for possible minor faults, checking the fuel supply and pump and mustering the fire-fighting equipment.",
+  "notes": "Show you know how to leave the engine in a proper manner and how to drain the engine in an emergency.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "air-researcher",
+  "parent": null,
+  "children": [],
+  "title": "Present what you have found out.",
+  "notes": "Your presentation should include a model that you have made based on your subject. You should also include diagrams and pictures wherever you can.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

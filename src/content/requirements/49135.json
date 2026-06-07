@@ -1,0 +1,10 @@
+{
+  "badge": "communicator",
+  "parent": "45015",
+  "children": [],
+  "title": "Manage a mobile phone address book and set up groups of contacts.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

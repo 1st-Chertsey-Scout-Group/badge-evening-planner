@@ -1,0 +1,10 @@
+{
+  "badge": "mechanic",
+  "parent": "45183",
+  "children": [],
+  "title": "Check and top up the level of the engine oil.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

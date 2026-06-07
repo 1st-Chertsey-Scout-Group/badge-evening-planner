@@ -1,0 +1,10 @@
+{
+  "badge": "geocaching",
+  "parent": "46293",
+  "children": [],
+  "title": "ownership and control of the system",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

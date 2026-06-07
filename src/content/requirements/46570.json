@@ -1,0 +1,10 @@
+{
+  "badge": "photographer",
+  "parent": "46569",
+  "children": [],
+  "title": "Produce 12 photographs, featuring at least two of these photographic techniques: portrait, still life (or similar), landscape or seascape, sport or action, or timelapse.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

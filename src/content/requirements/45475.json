@@ -1,0 +1,10 @@
+{
+  "badge": "orienteer",
+  "parent": null,
+  "children": [],
+  "title": "Orientate a map using either terrain or a compass.",
+  "notes": "Learn how to navigate while keeping the map set to the ground. 'Thumb' the map to log your changing position.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

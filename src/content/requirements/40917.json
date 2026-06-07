@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": null,
+  "children": [],
+  "title": "Gain a Personal Activity Permit for Snowsports.",
+  "notes": "Find out more about the [Adventurous Activity Permit Scheme](https://members.scouts.org.uk/supportresources/search?cat=26%2C359%2C366).",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

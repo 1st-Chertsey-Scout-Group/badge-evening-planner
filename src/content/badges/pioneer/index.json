@@ -1,0 +1,33 @@
+{
+  "slug": "pioneer",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Pioneer",
+  "description": "Master your pioneering skills in using ropes, wooden spars and knots. Become a key member of your team as you create amazing structures.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/pioneer/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./pioneer.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "40384",
+    "40385",
+    "40386"
+  ],
+  "optional": []
+}

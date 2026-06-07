@@ -1,0 +1,10 @@
+{
+  "badge": "mechanic",
+  "parent": "45180",
+  "children": [],
+  "title": "Show how to change a bulb at the front and in the rear light cluster of a car.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

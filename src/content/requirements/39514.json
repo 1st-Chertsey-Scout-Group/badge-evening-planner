@@ -1,0 +1,10 @@
+{
+  "badge": "community-impact",
+  "parent": null,
+  "children": [],
+  "title": "Plan action. Decide what issue your section should take action on and what you want to change. Talk to your section about what actions you would like to take.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

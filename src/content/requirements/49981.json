@@ -1,0 +1,10 @@
+{
+  "badge": "sports-enthusiast",
+  "parent": null,
+  "children": [],
+  "title": "Describe a recent major event, championship or landmark in the sport.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

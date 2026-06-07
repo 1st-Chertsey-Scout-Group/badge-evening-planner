@@ -1,0 +1,10 @@
+{
+  "badge": "adventure",
+  "parent": null,
+  "children": [],
+  "title": "Show how you have developed your skill and expertise in one of these activities.",
+  "notes": "Show that you know the safety issues involved, and that you can use any equipment needed for the activity safely.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "world-faiths",
+  "parent": null,
+  "children": [],
+  "title": "Find out how following the teachings of a particular faith affects an individual's daily life.",
+  "notes": "This could include food or dietary laws, rituals, prayers and worship, or religious observances.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

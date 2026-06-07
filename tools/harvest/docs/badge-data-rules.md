@@ -129,7 +129,10 @@ Used by `requirements`, `optionalRequirements`, and `subRequirements` (recursive
   non-empty it must be `<= len(subRequirements)`. Some badges (e.g.
   `air-researcher`, `environmental-conservation`) set it `> 0` with **no**
   sub-requirements: a stray legacy count. Astro: ignore the count unless there
-  are sub-requirements.
+  are sub-requirements. The inverse also occurs: a genuine choose-N branch left
+  at `subRequirementsToQualify == 0` (e.g. `air-spotter`'s "Complete one of these
+  activities:"). When the count is missing, `build_collections.infer_choose_n`
+  recovers N from the title's "<N> of these / the following" wording.
 - **R5** — on non-staged badges, `0 <= optionsToQualify <= len(optionalRequirements)`.
   On staged stages (`badgeType.name == "Staged"`) `optionsToQualify` is instead
   the stage threshold (nights/hikes/etc.) and is unrelated to the optional count.

@@ -1,0 +1,10 @@
+{
+  "badge": "nautical-skills",
+  "parent": "40364",
+  "children": [],
+  "title": "Hoist the colours for a Sea Scout ceremonial or nautical themed ceremony.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

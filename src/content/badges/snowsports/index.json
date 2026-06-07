@@ -1,0 +1,117 @@
+{
+  "slug": "snowsports",
+  "type": "staged",
+  "badgeType": "Staged",
+  "title": "Snowsports",
+  "description": "",
+  "versionDate": "January 2018",
+  "sourceUrl": "https://www.scouts.org.uk/staged-badges/snowsports/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "You can meet most of these requirements without leaving the warmth of your meeting place. It's great to do them as part of a practical activity (on either a natural or artificial slope) if you can, though.",
+      "details": ""
+    },
+    {
+      "title": "There's plenty of support on the National Governing Body websites for Snowsport England, Scotland, and Cymru Wales.",
+      "details": "You can find links here: [Snowsport England](https://snowsportengland.org.uk/), [Snowsport Scotland](https://snowsportscotland.org/) and [Snowsport Cymru Wales](https://www.snowsportwales.co.uk/)."
+    },
+    {
+      "title": "Snowsports can be for everyone. More support for making snowsports accessible can be found on the Disability Snowsport UK website.",
+      "details": "[Check out the Disability Snowsports UK homepage](https://www.disabilitysnowsport.org.uk/)."
+    },
+    {
+      "title": "You can do most of these steps on either a natural or artificial slope.",
+      "details": ""
+    },
+    {
+      "title": "This badge can be completed doing cross country skiing as the activity, in which case element 5 should be replaced with the ability to identify a suitable route.",
+      "details": ""
+    },
+    {
+      "title": "Your leader should be able to find lots of support on the National Governing Body websites for Snowsport England, Snowsport Scotland and Snowsport Cymru Wales.",
+      "details": ""
+    },
+    {
+      "title": "More support for making snowsports accessible can be found on the Disability Snowsport UK website.",
+      "details": "[Check out the Disability Snowsports UK homepage](https://www.disabilitysnowsport.org.uk/)."
+    },
+    {
+      "title": "You can do this stage by taking part in a Snowsport activity on either a natural or artificial slope, but it is encouraged to experience both environments as part of this badge.",
+      "details": ""
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./snowsports.png",
+    "alt": ""
+  },
+  "displayTitle": "Snowsports Staged Activity Badge",
+  "stages": [
+    {
+      "label": "Snowsports Stage 1",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "40895",
+        "40897",
+        "40899",
+        "40900",
+        "40902"
+      ],
+      "optional": []
+    },
+    {
+      "label": "Snowsports Stage 2",
+      "threshold": 1,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "40906",
+        "40908",
+        "40910",
+        "40911",
+        "40912"
+      ],
+      "optional": [
+        "40913",
+        "40914"
+      ]
+    },
+    {
+      "label": "Snowsports Stage 3",
+      "threshold": 1,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [],
+      "optional": [
+        "40916",
+        "40917"
+      ]
+    },
+    {
+      "label": "Snowsports Stage 4",
+      "threshold": 0,
+      "requirementsIntro": "",
+      "optionsIntro": "",
+      "mandatory": [
+        "40919",
+        "40920",
+        "40921",
+        "40922",
+        "40923",
+        "40924"
+      ],
+      "optional": []
+    }
+  ]
+}

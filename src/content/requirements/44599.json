@@ -1,0 +1,10 @@
+{
+  "badge": "digital-citizen",
+  "parent": null,
+  "children": [],
+  "title": "In a creative way of your choice, map out your regular digital actions, such as searches, clicks or posts.",
+  "notes": "Discuss with other young people the information you leave behind as a result of these digital actions, and whether that's OK or not.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "fire-safety",
+  "parent": null,
+  "children": [],
+  "title": "Explain the process of combustion.",
+  "notes": "Find out about the effects of smoke and heat and how to act in smoke.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

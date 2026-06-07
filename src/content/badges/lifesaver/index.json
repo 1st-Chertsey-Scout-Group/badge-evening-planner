@@ -1,0 +1,38 @@
+{
+  "slug": "lifesaver",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Lifesaver",
+  "description": "Develop your Lifesaver decision-making and planning skills. Become primed in understanding how to react in emergency situations.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/lifesaver/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "Learn about water safety with the RNLI.",
+      "details": "You could [book a free visit from the RNLI to learn about water safety](https://rnli.org/youth-education/educational-visits)."
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./lifesaver.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "45138",
+    "45139",
+    "45140"
+  ],
+  "optional": []
+}

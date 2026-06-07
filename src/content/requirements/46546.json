@@ -1,0 +1,10 @@
+{
+  "badge": "instructor",
+  "parent": null,
+  "children": [],
+  "title": "Assist with the training of other young people in your section in the subject, over a period of at least three months.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

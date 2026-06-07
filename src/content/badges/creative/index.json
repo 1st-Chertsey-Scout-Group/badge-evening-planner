@@ -1,0 +1,36 @@
+{
+  "slug": "creative",
+  "type": "challenge",
+  "badgeType": "Challenge Award",
+  "title": "Creative",
+  "description": "Whether you're trying your hand at web design or mastering an ancient craft like needlework, take your creative skills to the next level and make something extraordinary from scratch.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/awards/creative/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./creative.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "75631",
+    "75632",
+    "75633",
+    "75634",
+    "75635",
+    "75636"
+  ],
+  "optional": []
+}

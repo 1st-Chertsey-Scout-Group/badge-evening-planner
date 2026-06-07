@@ -1,0 +1,41 @@
+{
+  "slug": "power-coxswain",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Power Coxswain",
+  "description": "Have fun on the water by mastering the waterways in your chosen boat.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/power-coxswain/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "If you hold The Scout Association's Personal or Leadership Activity Permit for Power Boating or Personal Watercraft (Jet Ski), a Leadership Permit for Narrow Boating or Motor Cruising or the RYA Level 2 Powerboat Award, you automatically gain this badge.",
+      "details": ""
+    },
+    {
+      "title": "Learn about water safety with the RNLI.",
+      "details": "You could [book a free visit from the RNLI to learn about water safety](https://rnli.org/youth-education/educational-visits)."
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": "Young people must be appropriately supervised by an activity permit holder or a qualified external instructor.",
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./power-coxswain.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "45909",
+    "45910"
+  ],
+  "optional": []
+}

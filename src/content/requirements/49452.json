@@ -1,0 +1,10 @@
+{
+  "badge": "air-activities",
+  "parent": "43433",
+  "children": [],
+  "title": "Use a standard map to locate key aviation landmarks, such as airports or airfields.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

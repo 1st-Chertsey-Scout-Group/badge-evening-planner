@@ -1,0 +1,10 @@
+{
+  "badge": "media-relations-marketing",
+  "parent": null,
+  "children": [],
+  "title": "Interview a local public figure or someone in the local news, such as a church leader, politician or celebrity and present the interview to your Troop.",
+  "notes": "Get some advice from your Leader before contacting the person.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

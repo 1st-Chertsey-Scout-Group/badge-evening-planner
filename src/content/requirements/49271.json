@@ -1,0 +1,10 @@
+{
+  "badge": "writer",
+  "parent": "41213",
+  "children": [],
+  "title": "Write a 600-word review of a favourite book, play or other work of literature and talk about it with an appropriate adult.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

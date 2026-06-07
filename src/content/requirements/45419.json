@@ -1,0 +1,14 @@
+{
+  "badge": "photographer",
+  "parent": null,
+  "children": [
+    "49255",
+    "49256",
+    "49257"
+  ],
+  "title": "Video photography",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": 1
+}

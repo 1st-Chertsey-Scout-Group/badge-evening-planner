@@ -1,0 +1,10 @@
+{
+  "badge": "quartermaster",
+  "parent": "45969",
+  "children": [],
+  "title": "Keep a portable first aid kit well stocked and maintained.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

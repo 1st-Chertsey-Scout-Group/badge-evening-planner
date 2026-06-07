@@ -1,0 +1,10 @@
+{
+  "badge": "emergency-aid",
+  "parent": "41368",
+  "children": [],
+  "title": "helping someone who is unconscious",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

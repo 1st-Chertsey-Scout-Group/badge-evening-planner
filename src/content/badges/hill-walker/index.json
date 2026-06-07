@@ -1,0 +1,40 @@
+{
+  "slug": "hill-walker",
+  "type": "activity",
+  "badgeType": "Activity",
+  "title": "Hill Walker",
+  "description": "Whistle down the wind, increase your stamina and explore the UK's green and pleasant lands.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/scouts/activity-badges/hill-walker/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": null,
+  "image": {
+    "src": "./hill-walker.png",
+    "alt": ""
+  },
+  "requirementsIntro": "",
+  "optionsIntro": "",
+  "optionsToQualify": 0,
+  "mandatory": [
+    "39959",
+    "39960",
+    "39961",
+    "39962",
+    "39963",
+    "39964",
+    "39965",
+    "39966",
+    "39967",
+    "39968"
+  ],
+  "optional": []
+}

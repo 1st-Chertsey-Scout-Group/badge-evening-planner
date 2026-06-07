@@ -1,0 +1,10 @@
+{
+  "badge": "air-or-sea-navigation",
+  "parent": "40440",
+  "children": [],
+  "title": "Show that you can calculate overhead flight times, using the air speed of an aircraft, and adjust your calculations for head and tail winds of different speeds.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

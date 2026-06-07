@@ -1,0 +1,10 @@
+{
+  "badge": "islamophobia-awareness-month-blanket-badge",
+  "parent": "82588",
+  "children": [],
+  "title": "Explore the history of Muslims in the UK.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

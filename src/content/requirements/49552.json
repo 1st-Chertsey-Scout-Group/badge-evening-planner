@@ -1,0 +1,15 @@
+{
+  "badge": "sailing",
+  "parent": "40396",
+  "children": [
+    "49553",
+    "50566",
+    "50568",
+    "50560"
+  ],
+  "title": "Take part in a taster session that covers:",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

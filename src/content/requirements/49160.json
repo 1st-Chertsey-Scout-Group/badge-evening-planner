@@ -1,0 +1,10 @@
+{
+  "badge": "fire-safety",
+  "parent": null,
+  "children": [],
+  "title": "Learn what the dangers of campfires are and what precautions should be taken.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "paddle-sports",
+  "parent": "40415",
+  "children": [],
+  "title": "Name three places you could safely go canoeing or kayaking.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

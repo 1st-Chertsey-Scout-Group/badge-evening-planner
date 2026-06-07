@@ -1,0 +1,13 @@
+{
+  "badge": "model-maker",
+  "parent": null,
+  "children": [
+    "49230",
+    "49231"
+  ],
+  "title": "Model aeroplanes",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

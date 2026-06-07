@@ -1,0 +1,10 @@
+{
+  "badge": "air-or-sea-navigation",
+  "parent": "40441",
+  "children": [],
+  "title": "Show that you're aware of the latest developments in electronic technology, like the Global Positioning System and electronic charts.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

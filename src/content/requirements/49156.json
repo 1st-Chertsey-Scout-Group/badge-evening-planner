@@ -1,0 +1,10 @@
+{
+  "badge": "fire-safety",
+  "parent": null,
+  "children": [],
+  "title": "Explain what action should be taken and why, if you discover a fire has broken out in the home or at camp.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "geocaching",
+  "parent": null,
+  "children": [],
+  "title": "Show that you understand the safety and environmental aspects of geocaching, such as the Highway Code, Countryside Code and the Geocaching Association of Great Britain (GAGB) guidelines.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

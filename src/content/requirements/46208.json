@@ -1,0 +1,10 @@
+{
+  "badge": "space",
+  "parent": null,
+  "children": [],
+  "title": "Discover how different space technologies have helped us to understand and explore the universe.",
+  "notes": "Think about planetary rovers, space telescopes and advanced robotic arms.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

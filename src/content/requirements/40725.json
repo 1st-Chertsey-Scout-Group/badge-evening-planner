@@ -1,0 +1,10 @@
+{
+  "badge": "physical-recreation",
+  "parent": null,
+  "children": [],
+  "title": "Show a reasonable level of skill in your sport or pursuit.",
+  "notes": "Show how you've improved over time.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

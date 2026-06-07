@@ -1,0 +1,10 @@
+{
+  "badge": "model-maker",
+  "parent": "45386",
+  "children": [],
+  "title": "Build an electric or engine-powered model boat or yacht at least 45 cm in length.",
+  "notes": "Show that it's capable of maintaining a straight course of at least 25 metres.\n\nYou can use a kit if you like.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

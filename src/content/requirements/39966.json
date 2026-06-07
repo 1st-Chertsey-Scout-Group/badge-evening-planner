@@ -1,0 +1,10 @@
+{
+  "badge": "hill-walker",
+  "parent": null,
+  "children": [],
+  "title": "Show you're aware of ways to preserve the natural environment, such as avoiding erosion and conserving wildlife habitats.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

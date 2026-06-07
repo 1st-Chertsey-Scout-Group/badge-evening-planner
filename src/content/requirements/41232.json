@@ -1,0 +1,10 @@
+{
+  "badge": "forester",
+  "parent": null,
+  "children": [],
+  "title": "Find out how to identify trees using identification keys.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

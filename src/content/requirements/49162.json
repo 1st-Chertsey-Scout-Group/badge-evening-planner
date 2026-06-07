@@ -1,0 +1,10 @@
+{
+  "badge": "fire-safety",
+  "parent": null,
+  "children": [],
+  "title": "Learn how to make an emergency call for the fire service.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

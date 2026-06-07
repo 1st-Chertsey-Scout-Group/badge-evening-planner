@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": "40919",
+  "children": [],
+  "title": "An expedition in the woods",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

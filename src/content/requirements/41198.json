@@ -1,0 +1,12 @@
+{
+  "badge": "entertainer",
+  "parent": null,
+  "children": [
+    "45694"
+  ],
+  "title": "Option 2",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "nature",
+  "parent": null,
+  "children": [],
+  "title": "Share what you've discovered and learned with someone else.",
+  "notes": "You could give a short talk or presentation, lead an activity or nature walk, create some art, record a video or podcast, design a poster or leaflet, write a poem or perform a short play.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

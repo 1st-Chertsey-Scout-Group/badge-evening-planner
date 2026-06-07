@@ -1,0 +1,140 @@
+{
+  "slug": "time-on-the-water",
+  "type": "staged",
+  "badgeType": "Staged",
+  "title": "Time on the Water",
+  "description": "You can collect Time on the Water staged badges when you take part in some water activities.",
+  "versionDate": "January 2015",
+  "sourceUrl": "https://www.scouts.org.uk/staged-badges/time-on-the-water/",
+  "sections": [
+    "Scouts"
+  ],
+  "settings": [],
+  "activityTypes": [],
+  "outcomes": [],
+  "tips": [
+    {
+      "title": "Only certain water activities count towards this badge.",
+      "details": "Taking part in the following activities counts towards the Time on the Water Staged Activity Badge:\n\n- Kayaking\n- Canoeing\n- Stand-up paddle boarding\n- Sailing\n- Windsurfing\n- Powerboating\n- Kiteboarding\n- Surfing\n- Yachting\n- Motorcruising\n- Narrowboating\n- Pulling or rowing\n- White water rafting\n- Traditional rafting\n- Paddle boarding\n- Water-skiing"
+    },
+    {
+      "title": "Water activities you've taken part in for previous stages of the badge can be counted towards your total as you move through the sections.",
+      "details": ""
+    }
+  ],
+  "relatedBadges": [],
+  "safetyAlert": null,
+  "youthShapedSuggestions": null,
+  "supportedBy": {
+    "title": "Royal Navy",
+    "url": "https://www.scouts.org.uk/supporters/royal-navy/",
+    "logoUrl": "https://www.scouts.org.uk/media/5271/royalnavy.png?width=800&height=450&v=1db82b58ada10c0"
+  },
+  "image": {
+    "src": "./time-on-the-water.png",
+    "alt": ""
+  },
+  "displayTitle": "Time on the Water Staged Activity Badge",
+  "stages": [
+    {
+      "label": "Time on the Water 1",
+      "threshold": 1,
+      "requirementsIntro": "",
+      "optionsIntro": "Complete 1 session on the water to earn this badge:",
+      "mandatory": [],
+      "optional": [
+        "40716"
+      ]
+    },
+    {
+      "label": "Time on the Water 2",
+      "threshold": 2,
+      "requirementsIntro": "",
+      "optionsIntro": "Complete 2 sessions on the water to earn this badge:",
+      "mandatory": [],
+      "optional": [
+        "40726"
+      ]
+    },
+    {
+      "label": "Time on the Water 5",
+      "threshold": 5,
+      "requirementsIntro": "",
+      "optionsIntro": "Complete 5 sessions on the water to earn this badge:",
+      "mandatory": [],
+      "optional": [
+        "40734"
+      ]
+    },
+    {
+      "label": "Time on the Water 10",
+      "threshold": 10,
+      "requirementsIntro": "",
+      "optionsIntro": "Complete 10 sessions on the water to earn this badge:",
+      "mandatory": [],
+      "optional": [
+        "40739"
+      ]
+    },
+    {
+      "label": "Time on the Water 15",
+      "threshold": 15,
+      "requirementsIntro": "",
+      "optionsIntro": "Complete 15 sessions on the water to earn this badge:",
+      "mandatory": [],
+      "optional": [
+        "40743"
+      ]
+    },
+    {
+      "label": "Time on the Water 20",
+      "threshold": 20,
+      "requirementsIntro": "",
+      "optionsIntro": "Complete 20 sessions on the water to earn this badge:",
+      "mandatory": [],
+      "optional": [
+        "40747"
+      ]
+    },
+    {
+      "label": "Time on the Water 35",
+      "threshold": 35,
+      "requirementsIntro": "",
+      "optionsIntro": "Complete 35 sessions on the water to earn this badge:",
+      "mandatory": [],
+      "optional": [
+        "40751"
+      ]
+    },
+    {
+      "label": "Time on the Water 50",
+      "threshold": 50,
+      "requirementsIntro": "",
+      "optionsIntro": "Complete 50 sessions on the water to earn this badge:",
+      "mandatory": [],
+      "optional": [
+        "40755"
+      ]
+    },
+    {
+      "label": "Time on the water 75",
+      "threshold": 75,
+      "requirementsIntro": "",
+      "optionsIntro": "Complete 75 sessions on the water to earn this badge:",
+      "mandatory": [],
+      "optional": [
+        "88162"
+      ]
+    },
+    {
+      "label": "Time on the water 100",
+      "threshold": 100,
+      "requirementsIntro": "",
+      "optionsIntro": "Complete 100 sessions on the water to earn this badge:",
+      "mandatory": [],
+      "optional": [
+        "88179"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "badge": "navigator",
+  "parent": null,
+  "children": [
+    "47052",
+    "47054",
+    "47053"
+  ],
+  "title": "Using 1:50000 and 1:25000 scale Ordnance Survey maps:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

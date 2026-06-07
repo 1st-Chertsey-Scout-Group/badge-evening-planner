@@ -165,13 +165,43 @@ class _MarkdownParser(HTMLParser):
         self.out: list[str] = []
         self.list_stack: list[dict] = []
         self.href: str | None = None
+        self.table: dict | None = None
 
     def _block(self) -> None:
         if self.out and not self.out[-1].endswith("\n\n"):
             self.out.append("\n\n")
 
+    def _cell_flush(self) -> None:
+        buf = self.table["buf"].strip()
+        if buf:
+            self.table["cell"].append(buf)
+        self.table["buf"] = ""
+
+    def _emit_table(self) -> None:
+        rows = [r for r in self.table["rows"] if r]
+        if rows:
+            ncol = max(len(r) for r in rows)
+            fmt = lambda r: "| " + " | ".join(r + [""] * (ncol - len(r))) + " |"
+            self._block()
+            lines = [fmt(rows[0]), "| " + " | ".join(["---"] * ncol) + " |"]
+            lines += [fmt(r) for r in rows[1:]]
+            self.out.append("\n".join(lines))
+            self._block()
+
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
+        if tag == "table":
+            self.table = {"rows": [], "row": None, "cell": None, "buf": ""}
+            return
+        if self.table is not None:
+            if tag == "tr":
+                self.table["row"] = []
+            elif tag in ("td", "th"):
+                self.table["cell"] = []
+                self.table["buf"] = ""
+            elif tag in ("p", "br") and self.table["cell"] is not None:
+                self._cell_flush()
+            return
         if tag in ("p", "div"):
             self._block()
         elif tag == "br":
@@ -197,6 +227,20 @@ class _MarkdownParser(HTMLParser):
             self.out.append("#" * int(tag[1]) + " ")
 
     def handle_endtag(self, tag):
+        if self.table is not None:
+            if tag in ("td", "th"):
+                self._cell_flush()
+                cell = "<br>".join(self.table["cell"]).replace("|", "\\|")
+                if self.table["row"] is not None:
+                    self.table["row"].append(cell)
+                self.table["cell"] = None
+            elif tag == "tr" and self.table["row"] is not None:
+                self.table["rows"].append(self.table["row"])
+                self.table["row"] = None
+            elif tag == "table":
+                self._emit_table()
+                self.table = None
+            return
         if tag in ("p", "div"):
             self._block()
         elif tag in ("ul", "ol"):
@@ -213,6 +257,10 @@ class _MarkdownParser(HTMLParser):
 
     def handle_data(self, data):
         # Collapse source-formatting whitespace; block tags carry the line breaks.
+        if self.table is not None:
+            if self.table["cell"] is not None:
+                self.table["buf"] += re.sub(r"\s+", " ", data)
+            return
         self.out.append(re.sub(r"\s+", " ", data))
 
 

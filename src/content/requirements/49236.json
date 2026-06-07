@@ -1,0 +1,10 @@
+{
+  "badge": "model-maker",
+  "parent": "49234",
+  "children": [],
+  "title": "Build a free running car of any type.",
+  "notes": "Show that it can run for at least 18 metres.\n\nAirscrew drive is allowed and you can use a kit if you like.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

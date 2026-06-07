@@ -1,0 +1,10 @@
+{
+  "badge": "digital-citizen",
+  "parent": "44689",
+  "children": [],
+  "title": "Something that benefits a charity or cause you all care about.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

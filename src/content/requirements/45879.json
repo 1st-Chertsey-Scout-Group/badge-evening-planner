@@ -1,0 +1,10 @@
+{
+  "badge": "angler",
+  "parent": null,
+  "children": [],
+  "title": "Learn the water safety rules and the proper precautions to take when fishing from the bank, shore line, or from a boat.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

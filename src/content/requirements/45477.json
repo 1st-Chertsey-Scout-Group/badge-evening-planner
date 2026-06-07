@@ -1,0 +1,10 @@
+{
+  "badge": "orienteer",
+  "parent": null,
+  "children": [],
+  "title": "Show you know the safety procedures, basic first aid, appropriate clothing and equipment for countryside navigation.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

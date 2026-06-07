@@ -1,0 +1,10 @@
+{
+  "badge": "paddle-sports",
+  "parent": "40425",
+  "children": [],
+  "title": "Flat Water Raft Racing Award",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

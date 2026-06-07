@@ -1,0 +1,10 @@
+{
+  "badge": "geocaching",
+  "parent": "46294",
+  "children": [],
+  "title": "walk on a bearing using the GPS and a map",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

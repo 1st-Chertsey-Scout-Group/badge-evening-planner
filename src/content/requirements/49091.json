@@ -1,0 +1,10 @@
+{
+  "badge": "artist",
+  "parent": "46101",
+  "children": [],
+  "title": "Show that you know a lot about an aspect of your interest.",
+  "notes": "You could talk about a particular piece of art, like a painting, performance, sculpture or building. Or you could discuss a particular person or historical period connected with your chosen art form.",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

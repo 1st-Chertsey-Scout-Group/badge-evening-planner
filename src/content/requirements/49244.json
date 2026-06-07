@@ -1,0 +1,10 @@
+{
+  "badge": "pulling-fixed-seat-rowing",
+  "parent": null,
+  "children": [],
+  "title": "Show that you can take part in this activity safely.",
+  "notes": "You should:\n\n- understand how to safely enter and exit the boat\n- understand the safety equipment required and how to use it\n- gain a basic knowledge of the rules of the road for your local waters\n- understand the difference between a lifejacket and a buoyancy aid, and demonstrate how to wear them correctly\n- from a boat, heave an unweighted line to land within reach of target five metres, within three attempts\n- learn the actions and safety requirements to take when being towed\n- know how to respond in an emergency",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

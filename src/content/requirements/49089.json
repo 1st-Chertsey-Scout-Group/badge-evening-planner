@@ -1,0 +1,10 @@
+{
+  "badge": "artist",
+  "parent": "46100",
+  "children": [],
+  "title": "Show a selection of your own recent work.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

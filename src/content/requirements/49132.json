@@ -1,0 +1,10 @@
+{
+  "badge": "communicator",
+  "parent": "45015",
+  "children": [],
+  "title": "Show you know how to use your mobile safely and how to keep it safe.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

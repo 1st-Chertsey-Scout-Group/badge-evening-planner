@@ -1,0 +1,10 @@
+{
+  "badge": "skills",
+  "parent": null,
+  "children": [],
+  "title": "Take part in at least three activities that require a number of problem-solving skills.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

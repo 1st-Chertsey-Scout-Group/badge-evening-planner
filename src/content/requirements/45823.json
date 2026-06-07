@@ -1,0 +1,10 @@
+{
+  "badge": "meteorologist",
+  "parent": null,
+  "children": [],
+  "title": "Show that you understand a synoptic weather map, including fronts and isobars.",
+  "notes": "Explain how the measurements in step 1 relate to the map.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

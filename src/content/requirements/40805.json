@@ -1,0 +1,18 @@
+{
+  "badge": "survival-skills",
+  "parent": null,
+  "children": [
+    "45583",
+    "45585",
+    "45607",
+    "46031",
+    "49259",
+    "49260",
+    "49261"
+  ],
+  "title": "Show that you know:",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,17 @@
+{
+  "badge": "paddle-sports",
+  "parent": "40424",
+  "children": [
+    "49527",
+    "49528",
+    "49529",
+    "49530",
+    "49531",
+    "49532"
+  ],
+  "title": "Choose two of the disciplines below and paddle your vessel for at least 200m in each:",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": 2
+}

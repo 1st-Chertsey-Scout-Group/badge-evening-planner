@@ -1,0 +1,13 @@
+{
+  "badge": "model-maker",
+  "parent": null,
+  "children": [
+    "49232",
+    "49233"
+  ],
+  "title": "Model boats",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

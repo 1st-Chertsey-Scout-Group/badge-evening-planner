@@ -1,0 +1,10 @@
+{
+  "badge": "fire-safety",
+  "parent": null,
+  "children": [],
+  "title": "Identify different fire extinguisher types such as water, dry powder, foam and carbon dioxide.",
+  "notes": "Explain what kinds of fire they should be used on.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

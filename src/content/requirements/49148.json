@@ -1,0 +1,10 @@
+{
+  "badge": "dragon-boating",
+  "parent": null,
+  "children": [],
+  "title": "Learn the procedures for loading, numbering off, stopping, bracing the boat, forward and backward paddling.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

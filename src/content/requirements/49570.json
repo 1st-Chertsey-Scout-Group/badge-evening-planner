@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": "49569",
+  "children": [],
+  "title": "Moving in a straight line",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

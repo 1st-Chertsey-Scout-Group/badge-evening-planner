@@ -1,0 +1,10 @@
+{
+  "badge": "snowsports",
+  "parent": "40916",
+  "children": [],
+  "title": "Understand the effects of extreme temperature in cases of frostbite, hypothermia, sunstroke, heat exhaustion and dehydration. Explain how they are avoided and treated.",
+  "notes": "",
+  "optional": true,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

@@ -1,0 +1,10 @@
+{
+  "badge": "writer",
+  "parent": "41213",
+  "children": [],
+  "title": "Interview a local celebrity, or other notable person.",
+  "notes": "Write or type out the interview to show the questions you asked and the interviewee's replies.",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}

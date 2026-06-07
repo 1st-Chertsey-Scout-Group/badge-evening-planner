@@ -1,0 +1,10 @@
+{
+  "badge": "orienteer",
+  "parent": null,
+  "children": [],
+  "title": "Learn about the map colours and common symbols used on an orienteering map.",
+  "notes": "",
+  "optional": false,
+  "repeatTimes": 1,
+  "requiredOfChildren": "all"
+}
