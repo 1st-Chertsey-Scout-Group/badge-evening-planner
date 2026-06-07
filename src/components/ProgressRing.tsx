@@ -1,5 +1,6 @@
 /** @jsxImportSource preact */
 import type { ComponentChildren } from 'preact'
+import { Check } from 'lucide-preact'
 
 interface Props {
   percent: number
@@ -51,7 +52,11 @@ export default function ProgressRing({
         />
       </svg>
       {(() => {
-        const content = complete ? '✓' : (center ?? (label ? `${percent}%` : null))
+        const content = complete ? (
+          <Check size={Math.round(size * 0.5)} stroke-width={3} />
+        ) : (
+          (center ?? (label ? `${percent}%` : null))
+        )
         return content == null ? null : (
           <span class="absolute text-xs font-bold" style={{ color }}>
             {content}

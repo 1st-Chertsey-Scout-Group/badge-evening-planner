@@ -3,6 +3,7 @@ import { useEffect, useMemo, useState } from 'preact/hooks'
 import { badgeTally, nodeTally, unitTally, type Ticked } from '@/lib/progress'
 import { getTicked, onProgressChange, resetBadge, setTicked as persist } from '@/lib/storage'
 import type { ReqNode, ResolvedBadge, Stage, Unit } from '@/lib/types'
+import { Check } from 'lucide-preact'
 import ProgressRing from './ProgressRing'
 
 interface Props {
@@ -366,7 +367,7 @@ function Option({
             done ? 'border-scout-purple bg-scout-purple' : 'border-slate-300'
           }`}
         >
-          {done ? '✓' : ''}
+          {done && <Check size={14} stroke-width={3} />}
         </span>
         <span>
           <span class={`font-medium ${done ? 'text-scout-purple-dark' : 'text-slate-800'}`}>
