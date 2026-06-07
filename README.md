@@ -19,6 +19,7 @@ pnpm dev        # local dev server
 pnpm build      # static build to ./dist
 pnpm preview    # serve the build
 pnpm astro check
+pnpm test       # run the unit tests
 ```
 
 ## Badge data
