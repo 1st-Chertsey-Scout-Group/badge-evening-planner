@@ -2,25 +2,42 @@
 // markdown notes rendered to HTML. Server-only: imports astro:content, so never
 // pull this into a client island (islands use progress.ts / storage.ts).
 
-import { getEntry, type CollectionEntry } from 'astro:content'
+import { getCollection, getEntry, type CollectionEntry } from 'astro:content'
 import { md } from './markdown'
+import { rewriteLinks } from './links'
 import type { ProgressModel, ProgressNode, ProgressUnit } from './progress'
 import type { ReqNode, ResolvedBadge, Stage, Unit } from './types'
 
 type Ref = { collection: 'requirements'; id: string }
 
-async function resolveNode(ref: Ref): Promise<ReqNode> {
+let _slugs: Set<string> | null = null
+async function badgeSlugs(): Promise<Set<string>> {
+  if (!_slugs) _slugs = new Set((await getCollection('badges')).map((b) => b.id))
+  return _slugs
+}
+
+function proseHtml(src: string, slugs: ReadonlySet<string>): string {
+  return rewriteLinks(md(src), slugs)
+}
+
+// Render markdown to HTML with links resolved, for the Astro-side prose blocks
+// (tips, safety, youth-shaped) that don't go through resolveBadge.
+export async function renderProse(src: string | null | undefined): Promise<string> {
+  return proseHtml(src ?? '', await badgeSlugs())
+}
+
+async function resolveNode(ref: Ref, slugs: ReadonlySet<string>): Promise<ReqNode> {
   const entry = await getEntry(ref)
   if (!entry) throw new Error(`missing requirement ${ref.id}`)
   const d = entry.data
   return {
     id: entry.id,
     title: d.title,
-    notesHtml: md(d.notes),
+    notesHtml: proseHtml(d.notes, slugs),
     optional: d.optional,
     repeatTimes: d.repeatTimes,
     requiredOfChildren: d.requiredOfChildren,
-    children: await Promise.all(d.children.map(resolveNode)),
+    children: await Promise.all(d.children.map((c) => resolveNode(c, slugs))),
   }
 }
 
@@ -30,18 +47,20 @@ async function resolveUnit(
   optionsToQualify: number,
   requirementsIntro: string,
   optionsIntro: string,
+  slugs: ReadonlySet<string>,
 ): Promise<Unit> {
   return {
-    requirementsIntroHtml: md(requirementsIntro),
-    optionsIntroHtml: md(optionsIntro),
+    requirementsIntroHtml: proseHtml(requirementsIntro, slugs),
+    optionsIntroHtml: proseHtml(optionsIntro, slugs),
     optionsToQualify,
-    mandatory: await Promise.all(mandatory.map(resolveNode)),
-    optional: await Promise.all(optional.map(resolveNode)),
+    mandatory: await Promise.all(mandatory.map((r) => resolveNode(r, slugs))),
+    optional: await Promise.all(optional.map((r) => resolveNode(r, slugs))),
   }
 }
 
 export async function resolveBadge(badge: CollectionEntry<'badges'>): Promise<ResolvedBadge> {
   const d = badge.data
+  const slugs = await badgeSlugs()
   if (d.stages) {
     const stages: Stage[] = await Promise.all(
       d.stages.map(async (s) => ({
@@ -54,6 +73,7 @@ export async function resolveBadge(badge: CollectionEntry<'badges'>): Promise<Re
           s.optional.length,
           s.requirementsIntro,
           s.optionsIntro,
+          slugs,
         )),
       })),
     )
@@ -68,6 +88,7 @@ export async function resolveBadge(badge: CollectionEntry<'badges'>): Promise<Re
       d.optionsToQualify ?? 0,
       d.requirementsIntro ?? '',
       d.optionsIntro ?? '',
+      slugs,
     ),
   }
 }

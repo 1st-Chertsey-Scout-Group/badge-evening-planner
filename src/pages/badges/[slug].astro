@@ -3,8 +3,8 @@ import { getCollection } from 'astro:content'
 import { Image } from 'astro:assets'
 import Base from '@/layouts/Base.astro'
 import BadgeChecklist from '@/components/BadgeChecklist'
-import { resolveBadge } from '@/lib/resolve'
-import { md } from '@/lib/markdown'
+import { resolveBadge, renderProse } from '@/lib/resolve'
+import { PROSE } from '@/lib/prose'
 import { TYPE_LABEL } from '@/lib/badges'
 import { ArrowLeft } from 'lucide-preact'
 
@@ -17,6 +17,15 @@ const { badge } = Astro.props
 const d = badge.data
 const resolved = await resolveBadge(badge)
 const tags = [...d.sections, ...d.settings, ...d.activityTypes]
+
+const safetyHtml = d.safetyAlert ? await renderProse(d.safetyAlert) : ''
+const youthHtml = d.youthShapedSuggestions ? await renderProse(d.youthShapedSuggestions) : ''
+const tips = await Promise.all(
+  d.tips.map(async (t) => ({
+    title: t.title,
+    detailsHtml: t.details ? await renderProse(t.details) : '',
+  })),
+)
 ---
 
 <Base title={`${d.title} - Badge Tracker`} description={d.description}>
@@ -56,7 +65,7 @@ const tags = [...d.sections, ...d.settings, ...d.activityTypes]
       d.safetyAlert && (
         <aside class="mt-6 rounded-xl border border-scout-red/30 bg-scout-red/5 p-4">
           <p class="text-sm font-semibold text-scout-red">Safety</p>
-          <div class="prose-notes mt-1 text-sm text-slate-700" set:html={md(d.safetyAlert)} />
+          <div class={`mt-1 ${PROSE}`} set:html={safetyHtml} />
         </aside>
       )
     }
@@ -70,12 +79,10 @@ const tags = [...d.sections, ...d.settings, ...d.activityTypes]
         <section class="mt-10">
           <h2 class="mb-3 text-lg font-bold text-slate-900">Tips</h2>
           <ul class="space-y-3">
-            {d.tips.map((tip) => (
+            {tips.map((tip) => (
               <li class="rounded-xl border border-slate-200 bg-white p-4">
                 <p class="font-medium text-slate-800">{tip.title}</p>
-                {tip.details && (
-                  <div class="prose-notes mt-1 text-sm text-slate-600" set:html={md(tip.details)} />
-                )}
+                {tip.detailsHtml && <div class={`mt-1 ${PROSE}`} set:html={tip.detailsHtml} />}
               </li>
             ))}
           </ul>
@@ -103,7 +110,7 @@ const tags = [...d.sections, ...d.settings, ...d.activityTypes]
       d.youthShapedSuggestions && (
         <section class="mt-10">
           <h2 class="mb-3 text-lg font-bold text-slate-900">Youth-shaped ideas</h2>
-          <div class="prose-notes text-sm text-slate-600" set:html={md(d.youthShapedSuggestions)} />
+          <div class={PROSE} set:html={youthHtml} />
         </section>
       )
     }
