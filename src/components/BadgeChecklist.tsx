@@ -3,7 +3,7 @@ import { useEffect, useMemo, useState } from 'preact/hooks'
 import { badgeTally, nodeTally, unitTally, type Ticked } from '@/lib/progress'
 import { getTicked, onProgressChange, resetBadge, setTicked as persist } from '@/lib/storage'
 import type { ReqNode, ResolvedBadge, Stage, Unit } from '@/lib/types'
-import { Check } from 'lucide-preact'
+import { Check, ChevronDown } from 'lucide-preact'
 import ProgressRing from './ProgressRing'
 
 interface Props {
@@ -103,17 +103,10 @@ function unitStarted(unit: Unit, ticked: Ticked): boolean {
 
 function Chevron({ open }: { open: boolean }) {
   return (
-    <svg
-      width="16"
-      height="16"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      stroke-width="2"
+    <ChevronDown
+      size={16}
       class={`shrink-0 text-slate-400 transition-transform ${open ? 'rotate-180' : ''}`}
-    >
-      <path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round" />
-    </svg>
+    />
   )
 }
 

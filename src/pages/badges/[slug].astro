@@ -6,6 +6,7 @@ import BadgeChecklist from '@/components/BadgeChecklist'
 import { resolveBadge } from '@/lib/resolve'
 import { md } from '@/lib/markdown'
 import { TYPE_LABEL } from '@/lib/badges'
+import { ArrowLeft } from 'lucide-preact'
 
 export async function getStaticPaths() {
   const badges = await getCollection('badges')
@@ -20,7 +21,9 @@ const tags = [...d.sections, ...d.settings, ...d.activityTypes]
 
 <Base title={`${d.title} - Badge Tracker`} description={d.description}>
   <main class="mx-auto max-w-3xl px-4 py-8">
-    <a href="/" class="text-sm text-scout-purple hover:underline">&larr; All badges</a>
+    <a href="/" class="inline-flex items-center gap-1 text-sm text-scout-purple hover:underline">
+      <ArrowLeft size={16} /> All badges
+    </a>
 
     <header class="mt-4 flex gap-5">
       <Image
