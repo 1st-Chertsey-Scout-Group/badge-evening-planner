@@ -1,10 +1,12 @@
 ---
-title: Dealing with someone who is unconscious
-description: Checking response and breathing, and the recovery position.
+title: Dealing with someone unconscious
+description: Response checks, airway and the recovery position, run as a casualty sweep.
 duration: 15
 equipment:
   - Floor mats
-  - Cleaning wipes for mats
+  - Cleaning wipes
+  - Casualty cards (breathing / not breathing)
+  - Blankets for realism
 tags:
   - Scouts
   - First aid
@@ -17,11 +19,19 @@ requirements:
   - '49483'
 ---
 
-Demonstrate first, then let scouts practise in pairs:
+Sleeping lions, but serious: casualties are scattered across the mats and
+pairs of first aiders sweep the scene.
 
-- Checking for a response - shout and gently shake the shoulders.
-- Opening the airway and checking for normal breathing.
-- Rolling a breathing casualty into the recovery position.
-- Calling 999 if they do not respond.
+- Danger first - look before kneeling. The casualty card under each "body"
+  says whether they're breathing.
+- Response: shout, then shoulders. Nothing? Shout for help and open the
+  airway - head tilt, chin lift.
+- Look, listen and feel for normal breathing for up to ten seconds. Count it
+  out loud; ten seconds is longer than they think.
+- Breathing: roll into the recovery position and send a runner to call 999.
+  The roll is the skill - arm across, knee up, smooth as one move.
+- Not breathing: 999 immediately - that casualty belongs to the CPR base.
 
-Stress that a casualty in the recovery position must be monitored.
+Rotate so everyone plays casualty and rescuer, then run the relay: a smooth,
+correct recovery position beats a fast scrappy one, and the casualty must be
+monitored until "handover".

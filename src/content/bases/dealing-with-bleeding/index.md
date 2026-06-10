@@ -1,11 +1,13 @@
 ---
 title: Dealing with bleeding
-description: How to help someone who is bleeding - applying pressure and dressings.
+description: Pressure, dressings and when to call 999, drilled on made-up casualties.
 duration: 15
 equipment:
+  - Fake blood or casualty make-up
+  - Sterile dressings and bandages
   - Triangular bandages
   - Disposable gloves
-  - Fake blood or red ribbon for realism
+  - Stopwatch
 tags:
   - Scouts
   - First aid
@@ -18,11 +20,18 @@ requirements:
   - '49484'
 ---
 
-Scouts work in pairs and take turns being the casualty. Walk them through:
+Casualty make-up turns this from a talk into a scene: a wound painted on a
+forearm, and the first aiders arrive.
 
-- Sitting the casualty down and reassuring them.
-- Applying firm, direct pressure over the wound with a clean dressing.
-- Keeping pressure on and securing a bandage without cutting off circulation.
-- When to call 999.
+- Gloves on first - ask the scouts why before telling them.
+- Sit the casualty down, firm direct pressure straight onto the wound with a
+  clean pad.
+- Bandage over the pad, pressure kept on, then squeeze a fingertip: if the
+  colour doesn't come back, it's too tight - redo it.
+- When it's a 999 call: blood soaking through the dressing, the casualty
+  fading, or bleeding that just won't stop. Embedded object? Pad around it,
+  never pull it out.
 
-Rotate so everyone gets a go at being the first aider.
+Run it as repeated drills, rotating casualty, first aider and 999 caller.
+Finish with the timed round: a secure, comfortable dressing in under two
+minutes wins.

@@ -1,11 +1,14 @@
 ---
 title: Dealing with burns
-description: Cooling a burn and covering it to prevent infection.
-duration: 12
+description: Cooling a burn properly and busting the kitchen myths that make burns worse.
+duration: 15
 equipment:
-  - Bowl of cool water
+  - Access to cool running water, or jugs and a bowl
   - Cling film
-  - Clean dressings
+  - Washable marker or burn moulage for casualties
+  - Rings and watches as jewellery props
+  - Myth cards (butter, ice, toothpaste, burst the blister)
+  - Visible 20-minute timer
 tags:
   - Scouts
   - First aid
@@ -17,9 +20,17 @@ requirements:
   - '49485'
 ---
 
-Talk through the steps, then practise on a volunteer's forearm with cool water only:
+A kitchen scene: the casualty staggers in with a painted-on burn and a sleeve
+that caught the pan. Start the clock.
 
-- Cooling the burn under cool running water for at least 20 minutes.
-- Removing jewellery or loose clothing near the burn before it swells.
-- Covering with cling film or a clean, non-fluffy dressing.
-- Never bursting blisters or applying creams.
+- Get the burn under cool running water inside the first minute - then keep it
+  there. Start the visible 20-minute timer so the patrol feels how long that
+  really is: the burn keeps cooking until it's properly cooled.
+- While it cools, slide off rings and watches near the burn before it swells -
+  practise on a casualty wearing the props.
+- Cover lengthways with cling film - lay it on, don't wrap it tight.
+- Myth round while the timer runs: hold up each myth card and let the patrol
+  shoot it down. No butter, no ice, no creams, never burst a blister.
+
+Big burns, burns on faces or hands, or any burned child: 999. Water only on
+volunteers' forearms - no real heat anywhere near this base.
