@@ -6,5 +6,6 @@
   "notes": "Describe how they are formed.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

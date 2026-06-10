@@ -6,5 +6,6 @@
   "notes": "Show you can check, adjust and repair the equipment to ensure safe use.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

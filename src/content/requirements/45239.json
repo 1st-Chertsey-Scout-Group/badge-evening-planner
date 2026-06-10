@@ -6,5 +6,6 @@
   "notes": "One of these should be based mainly on digital electronics. They can be from a book or magazine, or you can design the circuits yourself. If possible, at least one of the circuits should be soldered using either stripboard or a custom-made printed circuit board.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

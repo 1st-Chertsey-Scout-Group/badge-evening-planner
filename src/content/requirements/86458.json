@@ -6,5 +6,6 @@
   "notes": "You could map the route using Google Maps, Ordnance Survey maps, or an aviation chart.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

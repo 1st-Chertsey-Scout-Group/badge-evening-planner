@@ -6,5 +6,6 @@
   "notes": "Explain how these affect the way you live your life.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

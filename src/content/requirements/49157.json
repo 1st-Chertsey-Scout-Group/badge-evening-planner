@@ -6,5 +6,6 @@
   "notes": "Find out about the effects of smoke and heat and how to act in smoke.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

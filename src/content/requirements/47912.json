@@ -6,5 +6,6 @@
   "notes": "You could learn about different places to swim, learn about safety flags on the beach or even some rules about swimming pools.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

@@ -6,5 +6,6 @@
   "notes": "Accompany the expedition, either as the mechanic or assistant, and be fully or jointly responsible for the operation, care and maintenance of the engine throughout.",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

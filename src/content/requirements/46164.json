@@ -6,5 +6,6 @@
   "notes": "Choose at least one from each of the three sections below, improving your distance or time over a number of attempts.\n\n| Field events | Track events | Team events |\n| --- | --- | --- |\n| Discus<br>Shot put<br>Throwing a cricket ball<br>Javelin<br>High jump<br>Long Jump<br>Standing Jump<br>Sargent Jump | 100m<br>200m<br>400m<br>800m<br>1500m<br>100m hurdles | 4 x100m relay<br>Team assault course<br>Assisted blindfold race |",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

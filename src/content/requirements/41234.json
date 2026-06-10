@@ -6,5 +6,6 @@
   "notes": "Be aware of the damage these areas may be exposed to from wind, frost, fire and animals.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

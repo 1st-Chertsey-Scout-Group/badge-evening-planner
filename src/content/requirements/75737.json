@@ -6,5 +6,6 @@
   "notes": "Show that you know the safety issues involved, and that you can use any equipment needed for the activity safely.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

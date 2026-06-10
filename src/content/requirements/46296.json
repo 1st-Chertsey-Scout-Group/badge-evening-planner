@@ -6,5 +6,6 @@
   "notes": "Talk about the features and challenges along the route. Programme the route into a handheld GPS and take the journey.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

@@ -6,5 +6,6 @@
   "notes": "You should keep a log showing courses steered, distance run, navigation marks passed and weather experienced. During the voyage:\n\n- plot the estimated position every hour by keeping up the dead reckoning\n- at least once per hour, and whenever appropriate, plot an observed position by bearings or other means of obtaining a fix.",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

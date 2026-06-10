@@ -6,5 +6,6 @@
   "notes": "Discuss with other young people what the positive and negative consequences of this might be, and what actions you can take to protect yourself.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

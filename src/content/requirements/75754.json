@@ -6,5 +6,6 @@
   "notes": "You could learn about:\n\n- local government\n- local history\n- different faiths and beliefs\n- types of farming/industry found locally",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

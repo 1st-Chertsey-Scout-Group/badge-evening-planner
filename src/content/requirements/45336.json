@@ -6,5 +6,6 @@
   "notes": "A night away doesn't have to be spent in a tent (or even outside). You could sleep in your meeting place, a lodge a little further from home, or even in a local museum.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

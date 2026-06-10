@@ -6,5 +6,6 @@
   "notes": "What impact might that have on the views and opinions you see and believe?",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

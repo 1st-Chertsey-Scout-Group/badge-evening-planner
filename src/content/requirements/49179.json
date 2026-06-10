@@ -6,5 +6,6 @@
   "notes": "Detail the cost versus the amount raised and give three top tips that could help other fundraisers.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

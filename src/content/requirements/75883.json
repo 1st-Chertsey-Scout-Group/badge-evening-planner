@@ -6,5 +6,6 @@
   "notes": "You might consider tents, stoves, rucksacks, walking equipment, emergency equipment, first aid kit, wet weather gear, appropriate food and a camera",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

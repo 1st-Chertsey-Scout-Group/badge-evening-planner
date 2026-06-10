@@ -6,5 +6,6 @@
   "notes": "You should not use man-made materials such as paper or firelighters.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

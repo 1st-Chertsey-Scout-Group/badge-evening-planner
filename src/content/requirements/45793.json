@@ -6,5 +6,6 @@
   "notes": "Show or talk about how you maintain the equipment.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

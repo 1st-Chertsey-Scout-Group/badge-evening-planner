@@ -6,5 +6,6 @@
   "notes": "Explore how much everyday things cost, try comparing differently priced products, or plan an adventure where you aim to get the best value for your money.",
   "optional": false,
   "repeatTimes": 2,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

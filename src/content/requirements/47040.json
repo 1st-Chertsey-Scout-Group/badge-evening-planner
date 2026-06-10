@@ -6,5 +6,6 @@
   "notes": "Someone with experience should guide you throughout.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

@@ -6,5 +6,6 @@
   "notes": "Talk about your own interests in music, including what you listen to most and how this is similar to or different from the music you play or sing.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

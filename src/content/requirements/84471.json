@@ -6,5 +6,6 @@
   "notes": "You could do this by fact finding, model making, reenactment, costumes or pictures. It's important you make this moment in time exciting and memorable!",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

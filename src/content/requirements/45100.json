@@ -6,5 +6,6 @@
   "notes": "Include the quantities you'll need and any dietary needs of the group, and think about how your choices can help to minimise food waste.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

@@ -6,5 +6,6 @@
   "notes": "For example, aeroplanes, helicopters, gliders or hot air balloons.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

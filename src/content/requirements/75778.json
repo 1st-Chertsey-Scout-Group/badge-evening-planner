@@ -6,5 +6,6 @@
   "notes": "At each forum, express your views on at least one item being discussed.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

@@ -6,5 +6,6 @@
   "notes": "You could try:\n\n- magic tricks\n- gymnastics display\n- campfire sketch\n- street dance\n- plays\n- concerts.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

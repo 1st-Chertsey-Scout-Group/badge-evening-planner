@@ -6,5 +6,6 @@
   "notes": "Find online examples of where you think these rights are respected.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

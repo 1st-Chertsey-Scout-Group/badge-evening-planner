@@ -6,5 +6,6 @@
   "notes": "Your Leader can plan the route but you'll work with your team, or take turns, to navigate.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

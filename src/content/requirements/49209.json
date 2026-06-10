@@ -6,5 +6,6 @@
   "notes": "Show you know how to leave the engine in a proper manner and how to drain the engine in an emergency.",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

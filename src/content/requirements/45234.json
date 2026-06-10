@@ -6,5 +6,6 @@
   "notes": "Demonstrate by identifying the values of resistors and capacitors by their markings. Explain the importance of the rating of a component.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

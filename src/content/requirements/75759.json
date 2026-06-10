@@ -6,5 +6,6 @@
   "notes": "Make sure you and your leader [read the International Links Guidance.](/volunteers/running-your-section/international-scouts-and-events/world-scouting/international-links/)",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

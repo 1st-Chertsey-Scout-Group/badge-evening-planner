@@ -6,5 +6,6 @@
   "notes": "Describe what you need to be aware of when using these to moor.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

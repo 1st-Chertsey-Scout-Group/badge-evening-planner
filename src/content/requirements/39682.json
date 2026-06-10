@@ -6,5 +6,6 @@
   "notes": "They could be badges you gain outside your normal meetings or ones you've achieved through your programme.\n\n[Explore the Scouts activity badges](/scouts/activity-badges/).",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

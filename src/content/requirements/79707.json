@@ -6,5 +6,6 @@
   "notes": "Find out how our actions and behaviour are changing nature around us. Think about what we need to do slow and reverse these changes.",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

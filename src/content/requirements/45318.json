@@ -6,5 +6,6 @@
   "notes": "You could camp in a tent, or try something new, from hammocks to bivouacs, or even indoors.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

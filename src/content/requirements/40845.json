@@ -6,5 +6,6 @@
   "notes": "You could use a map of a local park, nature reserve, zoo, or even a theme park.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

@@ -6,5 +6,6 @@
   "notes": "You could present your work as a project, performance, video recording, oral presentation, blog or website.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

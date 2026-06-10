@@ -6,5 +6,6 @@
   "notes": "Think about your actions so far and how you helped to clean up and protect your local environment. Think about other actions you could take with Scouts across the world to protect our planet.",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

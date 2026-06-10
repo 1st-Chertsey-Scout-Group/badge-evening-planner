@@ -6,5 +6,6 @@
   "notes": "Find out about online banking, digital money (such as cryptocurrencies), how to keep your money safe and how money works in games.",
   "optional": false,
   "repeatTimes": 2,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

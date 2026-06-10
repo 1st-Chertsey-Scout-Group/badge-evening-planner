@@ -6,5 +6,6 @@
   "notes": "Describe the main items that are checked.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

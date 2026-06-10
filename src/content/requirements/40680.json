@@ -6,5 +6,6 @@
   "notes": "Reach Grade Three standard for the Associated Board of the Royal School of Music (or similar). It can be on an instrument of your choice or by singing.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

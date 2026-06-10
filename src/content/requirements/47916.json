@@ -6,5 +6,6 @@
   "notes": "You can do this with or without support from a float.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

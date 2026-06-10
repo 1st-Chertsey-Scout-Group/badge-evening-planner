@@ -6,5 +6,6 @@
   "notes": "More details about this award can be found on the [British Canoeing website](https://gopaddling.info/start-awards/).",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

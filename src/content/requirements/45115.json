@@ -6,5 +6,6 @@
   "notes": "Talk about your story idea with an appropriate adult beforehand.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

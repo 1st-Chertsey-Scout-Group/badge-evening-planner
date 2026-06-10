@@ -6,5 +6,6 @@
   "notes": "Tell your assessor about the music that you most like to listen to.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

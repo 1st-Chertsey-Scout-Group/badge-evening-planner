@@ -6,5 +6,6 @@
   "notes": "You could find out about a plant, bird, insect, fish, other animal, type of habitat, or another natural thing, like soil, rocks or waterfalls.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

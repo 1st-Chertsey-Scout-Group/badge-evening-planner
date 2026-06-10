@@ -6,5 +6,6 @@
   "notes": "Keep it in good working order for at least six months.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

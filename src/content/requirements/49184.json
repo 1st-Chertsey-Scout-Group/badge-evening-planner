@@ -6,5 +6,6 @@
   "notes": "Explain the reasons for these.",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

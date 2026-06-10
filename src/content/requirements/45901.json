@@ -6,5 +6,6 @@
   "notes": "You could learn about people like Prince Siddhartha Gautama, Mohammed, Jesus Christ or a saint such as St George.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

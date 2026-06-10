@@ -6,5 +6,6 @@
   "notes": "Take turns in leading the group for part of each journey. Keep a log of your journeys.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

@@ -6,5 +6,6 @@
   "notes": "What values do we share as Scouts? Which Scout value means the most to you?",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

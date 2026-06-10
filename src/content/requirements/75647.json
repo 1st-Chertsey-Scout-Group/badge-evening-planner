@@ -6,5 +6,6 @@
   "notes": "Respect the environment you are in and, at the end of the camp, leave the site as you found it.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

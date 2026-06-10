@@ -6,5 +6,6 @@
   "notes": "Show you recognise poisonous plants and the results of overgrazing.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

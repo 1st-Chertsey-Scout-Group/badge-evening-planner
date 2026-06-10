@@ -6,5 +6,6 @@
   "notes": "Make a note of practices relating to livestock, crops, cultivation, rotation, machinery and labour force.",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

@@ -6,5 +6,6 @@
   "notes": "You could take part in an exhibition, public event or competition.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

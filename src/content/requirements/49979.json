@@ -6,5 +6,6 @@
   "notes": "Explain how they might have inspired you.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

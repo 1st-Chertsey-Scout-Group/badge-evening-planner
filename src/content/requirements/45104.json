@@ -6,5 +6,6 @@
   "notes": "This should include washing up utensils, pots and pans and the cooking area; reusing, composting or recycling where possible; and disposing of any waste in a way that prevents vermin or disease.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

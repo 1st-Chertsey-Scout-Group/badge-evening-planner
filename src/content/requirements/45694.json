@@ -6,5 +6,6 @@
   "notes": "You'll need to commit to regular rehearsals.",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

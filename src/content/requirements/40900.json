@@ -6,5 +6,6 @@
   "notes": "Show you know the importance of helmets and how to put one on correctly.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

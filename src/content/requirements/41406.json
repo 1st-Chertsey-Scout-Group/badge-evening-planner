@@ -6,5 +6,6 @@
   "notes": "You could contribute to a school, faith, community or Scout magazine or write a letter to a local paper.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

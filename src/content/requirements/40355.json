@@ -6,5 +6,6 @@
   "notes": "If you have completed Nautical Skills Stage 3 you must choose a different watercraft.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

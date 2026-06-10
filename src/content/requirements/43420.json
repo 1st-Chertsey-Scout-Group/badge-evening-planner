@@ -6,5 +6,6 @@
   "notes": "What was it like? If you've already flown in an aircraft, tell someone else about it.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

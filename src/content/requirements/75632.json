@@ -6,5 +6,6 @@
   "notes": "Show that you know how to use any equipment safely.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

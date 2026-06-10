@@ -6,5 +6,6 @@
   "notes": "Your presentation should include a model that you have made based on your subject. You should also include diagrams and pictures wherever you can.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

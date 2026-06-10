@@ -6,5 +6,6 @@
   "notes": "- shout\n- reach\n- throwing a buoyant aid\n- throwing a rope\n- wade.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

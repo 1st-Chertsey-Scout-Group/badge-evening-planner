@@ -6,5 +6,6 @@
   "notes": "This could include food or dietary laws, rituals, prayers and worship, or religious observances.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

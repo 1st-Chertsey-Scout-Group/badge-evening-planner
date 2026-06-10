@@ -6,5 +6,6 @@
   "notes": "Show competency and technique in:\n\n  - launch and recovering a watercraft\n  - manoeuvring a watercraft\n  - communicating with the group\n  - knowledge of safety.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

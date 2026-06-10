@@ -6,5 +6,6 @@
   "notes": "Make sure the location is suitable and that other navigators have proper access to the land and terrain",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

@@ -6,5 +6,6 @@
   "notes": "At least three of these should be in areas defined as terrain one and be led by a permit holder.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

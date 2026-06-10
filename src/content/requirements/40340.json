@@ -6,5 +6,6 @@
   "notes": "By the end of the session you should be competent at\ncontrolling your craft. You could try:\n\n  - canoeing\n  - a powered activity like yachting\n  - pulling\n  - sailing\n  - windsurfing.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

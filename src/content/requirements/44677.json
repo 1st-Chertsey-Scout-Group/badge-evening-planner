@@ -6,5 +6,6 @@
   "notes": "Use evidence you've found online only. After the debate, discuss how easy it was to know if the evidence you found was reliable or not.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

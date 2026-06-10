@@ -6,5 +6,6 @@
   "notes": "- three kinds of hardy annual flower\n- three kinds of vegetable\n- two kinds of bulbs, herbaceous plants, flowering shrubs or rose",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

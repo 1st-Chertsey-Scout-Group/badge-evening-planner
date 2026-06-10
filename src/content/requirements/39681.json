@@ -6,5 +6,6 @@
   "notes": "These are:\n\n- [World Challenge Award](/scouts/awards/world/)\n- [Skills Challenge Award](/scouts/awards/skills/)\n- [Creative Challenge Award](/scouts/awards/creative/)\n- [Outdoors Challenge Award](/scouts/awards/outdoor/)\n- [Adventure Challenge Award](/scouts/awards/adventure/)\n- [Expedition Challenge Award](/scouts/awards/expedition/)\n- [Teamwork Challenge Award](/scouts/awards/teamwork/)\n- [Team Leader Challenge Award](/scouts/awards/team-leader/)\n- [Personal Challenge Award](/scouts/awards/personal/)",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

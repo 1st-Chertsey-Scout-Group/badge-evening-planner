@@ -6,5 +6,6 @@
   "notes": "This should include a night away at a campsite or hostel, and should be in an area that's not well known to you.\n\nRead our [Expeditions and explorations advice](/volunteers/running-your-section/programme-guidance/information-for-volunteers/expeditions-and-explorations/).",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

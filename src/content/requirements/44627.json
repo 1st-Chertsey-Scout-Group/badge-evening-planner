@@ -6,5 +6,6 @@
   "notes": "Looking back over the week, discuss with someone if you're happy with how you spent your time or not.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

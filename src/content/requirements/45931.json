@@ -6,5 +6,6 @@
   "notes": "Agree this beforehand with your leadership team.",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

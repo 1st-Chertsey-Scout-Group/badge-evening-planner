@@ -6,5 +6,6 @@
   "notes": "Find out what their target audience is and work out a storyline that they might be interested in featuring.",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

@@ -6,5 +6,6 @@
   "notes": "You could demonstrate this by gaining a personal permit or the relevant national governing body personal competency award.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

@@ -6,5 +6,6 @@
   "notes": "It could be the one you worked at or another one you know well.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

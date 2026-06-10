@@ -6,5 +6,6 @@
   "notes": "Think of some ways you can help to keep our community clean, make less non-recycled waste, and help others do this too. Choose/pick some of these you want to do and make a plan.",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

@@ -6,5 +6,6 @@
   "notes": "This could be something completely new or an activity you've not done for a while such as skiing, snowboarding, cross country skiing, ski touring and slalom.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

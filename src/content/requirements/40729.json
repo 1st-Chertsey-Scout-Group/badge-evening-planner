@@ -6,5 +6,6 @@
   "notes": "You could run through any special equipment or clothes you need and any warm-up and warm-down routines.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

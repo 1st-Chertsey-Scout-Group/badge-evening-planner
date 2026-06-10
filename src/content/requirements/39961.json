@@ -6,5 +6,6 @@
   "notes": "Make sure you know what In Touch system will be used.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

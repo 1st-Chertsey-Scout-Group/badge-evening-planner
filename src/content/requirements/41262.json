@@ -6,5 +6,6 @@
   "notes": "This could be a background scene, character, or other image.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

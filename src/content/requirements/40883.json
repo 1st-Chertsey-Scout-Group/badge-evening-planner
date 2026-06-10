@@ -6,5 +6,6 @@
   "notes": "Show how you've improved by at least one level over that period.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

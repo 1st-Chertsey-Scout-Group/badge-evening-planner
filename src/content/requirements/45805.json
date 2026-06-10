@@ -6,5 +6,6 @@
   "notes": "You could get involved in community work, take a special part in services or celebrations or follow a training or study programme.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

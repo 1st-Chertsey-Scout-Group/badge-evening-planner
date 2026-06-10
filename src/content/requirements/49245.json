@@ -6,5 +6,6 @@
   "notes": "- take the boat away from a bank side mooring\n- row in a straight line for 100 metres\n- complete a figure-of-eight course\n- come alongside in your dinghy, to moor at a ring, post, bollard or buoy, using a round turn and two half hitches",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

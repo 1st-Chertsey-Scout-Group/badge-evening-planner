@@ -6,5 +6,6 @@
   "notes": "Give examples of three designations.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

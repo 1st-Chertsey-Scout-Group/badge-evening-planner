@@ -6,5 +6,6 @@
   "notes": "You could demonstrate this by gaining a personal permit. If you have completed Nautical Skills Stage 5, you should try a different water based activity.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

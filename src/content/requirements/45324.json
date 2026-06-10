@@ -6,5 +6,6 @@
   "notes": "Examples for this could include grease traps, a washing-up station, a camp larder, an altar fire, a flagpole, or a camp gate.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

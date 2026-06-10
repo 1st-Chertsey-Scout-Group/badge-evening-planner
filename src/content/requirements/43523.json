@@ -6,5 +6,6 @@
   "notes": "For example, make a cockpit control panel or a wing with flaps.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

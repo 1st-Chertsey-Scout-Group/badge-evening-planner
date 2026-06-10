@@ -6,5 +6,6 @@
   "notes": "This should be an appropriate warm-up for your upper, middle and lower body.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }
