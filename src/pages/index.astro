@@ -4,6 +4,7 @@ import { getImage } from 'astro:assets'
 import Base from '@/layouts/Base.astro'
 import BadgeBrowser, { type BadgeSummary, type PlanBase } from '@/components/BadgeBrowser'
 import { resolveBadge, leanModel } from '@/lib/resolve'
+import { badgeVerdict } from '@/lib/suitability'
 import { allBaseSummaries } from '@/lib/bases'
 
 const badges = await getCollection('badges')
@@ -12,12 +13,14 @@ const summaries: BadgeSummary[] = await Promise.all(
     .sort((a, b) => a.data.title.localeCompare(b.data.title))
     .map(async (b) => {
       const img = await getImage({ src: b.data.image.src, width: 192 })
+      const model = leanModel(await resolveBadge(b))
       return {
         slug: b.id,
         title: b.data.title,
         type: b.data.type,
         img: { src: img.src, alt: b.data.image.alt },
-        model: leanModel(await resolveBadge(b)),
+        model,
+        suitability: badgeVerdict(model),
       }
     }),
 )

@@ -19,6 +19,7 @@ import sys
 
 import build_collections
 import check_rules
+import classify
 import dump_raw
 import render_badge
 
@@ -39,6 +40,10 @@ def cmd_check(args: argparse.Namespace) -> int:
 def cmd_render(args: argparse.Namespace) -> int:
     print(render_badge.render_slug(args.slug))
     return 0
+
+
+def cmd_classify(args: argparse.Namespace) -> int:
+    return classify.run(badge=args.badge)
 
 
 def cmd_all(args: argparse.Namespace) -> int:
@@ -71,6 +76,10 @@ def build_parser() -> argparse.ArgumentParser:
     r.add_argument("slug", help="badge id, e.g. activity-cyclist")
     r.set_defaults(func=cmd_render)
 
+    cl = sub.add_parser("classify", help="seed data/suitability/ via the Claude API")
+    cl.add_argument("--badge", help="classify one badge slug (default: all with blanks)")
+    cl.set_defaults(func=cmd_classify)
+
     a = sub.add_parser("all", help="dump -> build -> check")
     a.add_argument("--live", action="store_true", help="refetch from the live site")
     a.add_argument("--no-images", action="store_true", help="skip downloading badge images")
@@ -91,6 +100,7 @@ def interactive() -> int:
         "3": ("check  - validate raw data against the rules", lambda: check_rules.run()),
         "4": ("render - print a badge brief", _interactive_render),
         "5": ("all    - dump -> build -> check", _interactive_all),
+        "6": ("classify - seed data/suitability/ via the Claude API", lambda: classify.run()),
     }
     while True:
         print("\nScouts badge harvest tool")

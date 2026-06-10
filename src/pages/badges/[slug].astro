@@ -4,11 +4,12 @@ import { Image } from 'astro:assets'
 import Base from '@/layouts/Base.astro'
 import BadgeChecklist from '@/components/BadgeChecklist'
 import BadgeBases from '@/components/BadgeBases'
-import { getBadgeSlugs, resolveBadge, renderProse } from '@/lib/resolve'
+import { getBadgeSlugs, resolveBadge, renderProse, leanModel } from '@/lib/resolve'
 import { basesForBadge } from '@/lib/bases'
 import { badgeHrefFor } from '@/lib/links'
 import { PROSE } from '@/lib/prose'
 import { TYPE_LABEL } from '@/lib/badges'
+import { badgeVerdict, stageVerdicts, SUIT_META } from '@/lib/suitability'
 import { ArrowLeft } from 'lucide-preact'
 
 export async function getStaticPaths() {
@@ -19,6 +20,9 @@ export async function getStaticPaths() {
 const { badge } = Astro.props
 const d = badge.data
 const resolved = await resolveBadge(badge)
+const lean = leanModel(resolved)
+const verdict = badgeVerdict(lean)
+const stageVs = stageVerdicts(lean)
 const tags = [...d.sections, ...d.settings, ...d.activityTypes]
 
 const safetyHtml = d.safetyAlert ? await renderProse(d.safetyAlert) : ''
@@ -53,9 +57,17 @@ const related = d.relatedBadges.map((r) => {
         class="h-24 w-24 shrink-0 rounded-xl bg-white object-contain p-1"
       />
       <div>
-        <p class="text-xs font-semibold tracking-wide text-scout-purple uppercase">
-          {TYPE_LABEL[d.type]}
-        </p>
+        <div class="flex flex-wrap items-center gap-2">
+          <p class="text-xs font-semibold tracking-wide text-scout-purple uppercase">
+            {TYPE_LABEL[d.type]}
+          </p>
+          <span
+            class={`rounded-full px-2 py-0.5 text-xs font-semibold ${SUIT_META[verdict].chip}`}
+            title="How achievable this badge is at our HQ"
+          >
+            {SUIT_META[verdict].label}
+          </span>
+        </div>
         <h1 class="text-2xl font-bold text-slate-900 sm:text-3xl">{d.title}</h1>
         {d.description && <p class="mt-1 text-slate-600">{d.description}</p>}
         {
@@ -82,7 +94,7 @@ const related = d.relatedBadges.map((r) => {
     }
 
     <section class="mt-8">
-      <BadgeChecklist client:load badge={resolved} bases={bases} />
+      <BadgeChecklist client:load badge={resolved} bases={bases} stageVerdicts={stageVs} />
     </section>
 
     {

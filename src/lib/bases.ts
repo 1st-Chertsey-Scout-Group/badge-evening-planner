@@ -9,7 +9,7 @@
 import { getCollection, getEntry, type CollectionEntry } from 'astro:content'
 import { getImage } from 'astro:assets'
 import { leanModel, resolveBadge } from './resolve'
-import type { ProgressModel } from './progress'
+import type { Category, ProgressModel } from './progress'
 import type { ReqNode } from './types'
 
 export interface Cover {
@@ -17,6 +17,7 @@ export interface Cover {
   reqTitle: string
   badgeSlug: string
   badgeTitle: string
+  suitability: Category
 }
 
 export interface BaseSummary {
@@ -58,6 +59,7 @@ async function coverOf(
     reqTitle: entry.data.title,
     badgeSlug,
     badgeTitle: titles.get(badgeSlug) ?? badgeSlug,
+    suitability: entry.data.suitability ?? 'unknown',
   }
 }
 
@@ -88,6 +90,7 @@ export async function basesForBadge(slug: string): Promise<BaseSummary[]> {
 export interface TreeNode {
   id: string
   title: string
+  suitability: Category
   children: TreeNode[]
 }
 
@@ -99,7 +102,7 @@ export interface BadgeTree {
 }
 
 function trim(n: ReqNode): TreeNode {
-  return { id: n.id, title: n.title, children: n.children.map(trim) }
+  return { id: n.id, title: n.title, suitability: n.suitability, children: n.children.map(trim) }
 }
 
 // The requirement tree (ids + titles only) the base builder renders so you can

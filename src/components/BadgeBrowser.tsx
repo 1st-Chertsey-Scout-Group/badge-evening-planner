@@ -1,9 +1,10 @@
 /** @jsxImportSource preact */
 import { useEffect, useMemo, useState } from 'preact/hooks'
-import { type BadgeType, type ProgressModel } from '@/lib/progress'
+import { type BadgeType, type Category, type ProgressModel } from '@/lib/progress'
 import { badgeCoverage, coveredLeavesForBadge } from '@/lib/coverage'
 import { getPlan, onPlanChange } from '@/lib/plan'
 import { TYPE_LABEL, TYPE_ORDER } from '@/lib/badges'
+import { SUIT_META, SUIT_ORDER } from '@/lib/suitability'
 
 export interface BadgeSummary {
   slug: string
@@ -11,6 +12,8 @@ export interface BadgeSummary {
   type: BadgeType
   img: { src: string; alt: string }
   model: ProgressModel
+  // how achievable the badge is at our HQ (rolled up from its requirements)
+  suitability: Category
 }
 
 export interface PlanBase {
@@ -36,6 +39,7 @@ export default function BadgeBrowser({ badges, bases }: Props) {
   const [query, setQuery] = useState('')
   const [types, setTypes] = useState<BadgeType[]>([])
   const [status, setStatus] = useState<Status>('all')
+  const [suit, setSuit] = useState<Category | 'all'>('all')
   // the plan lives in localStorage, read after hydration; skeleton until then
   const [loaded, setLoaded] = useState(false)
 
@@ -71,7 +75,8 @@ export default function BadgeBrowser({ badges, bases }: Props) {
     (r) =>
       (q === '' || r.badge.title.toLowerCase().includes(q)) &&
       (types.length === 0 || types.includes(r.badge.type)) &&
-      (status === 'all' || r.status === status),
+      (status === 'all' || r.status === status) &&
+      (suit === 'all' || r.badge.suitability === suit),
   )
 
   const completeCount = rows.filter((r) => r.status === 'complete').length
@@ -126,6 +131,16 @@ export default function BadgeBrowser({ badges, bases }: Props) {
             </Chip>
           ))}
         </div>
+        <div class="flex flex-wrap gap-2">
+          <Chip active={suit === 'all'} onClick={() => setSuit('all')} subtle>
+            Any fit
+          </Chip>
+          {SUIT_ORDER.map((c) => (
+            <Chip key={c} active={suit === c} onClick={() => setSuit(c)} subtle>
+              {SUIT_META[c].short}
+            </Chip>
+          ))}
+        </div>
       </div>
 
       <p class="mb-4 text-sm text-slate-500">
@@ -156,6 +171,13 @@ export default function BadgeBrowser({ badges, bases }: Props) {
                   {r.badge.title}
                 </span>
                 <span class="mt-1 text-xs text-slate-400">{TYPE_LABEL[r.badge.type]}</span>
+                <span
+                  class={`mt-1.5 rounded-full px-2 py-0.5 text-[11px] font-semibold ${
+                    SUIT_META[r.badge.suitability].chip
+                  }`}
+                >
+                  {SUIT_META[r.badge.suitability].short}
+                </span>
                 {!loaded ? (
                   <div class="mt-auto w-full pt-3">
                     <div class="h-1.5 w-full animate-pulse rounded-full bg-slate-200" />

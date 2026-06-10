@@ -1,7 +1,9 @@
 /** @jsxImportSource preact */
 import { useEffect, useMemo, useState } from 'preact/hooks'
 import type { BaseSummary, Cover, TouchedBadge } from '@/lib/bases'
+import type { Category } from '@/lib/progress'
 import { badgeCoverage, kitList, type BadgeCoverage as Coverage } from '@/lib/coverage'
+import { SUIT_META } from '@/lib/suitability'
 import {
   clearPlan,
   DEFAULT_LENGTH,
@@ -82,6 +84,19 @@ export default function PlanBoard({ bases, badges }: Props) {
   const kit = useMemo(() => kitList(selected), [selected])
   const completes = previews.filter((x) => x.p.tally.complete).length
 
+  // realism check: covered requirements that cannot be done in a single evening
+  const concerns = useMemo(() => {
+    const byReq = new Map<string, Category>()
+    for (const b of selected) for (const c of b.covers) byReq.set(c.reqId, c.suitability)
+    let over = 0
+    let no = 0
+    for (const cat of byReq.values()) {
+      if (cat === 'over-time') over++
+      else if (cat === 'unsuitable') no++
+    }
+    return { over, no }
+  }, [selected])
+
   const completing = previews.find((x) => x.p.tally.complete)
   function save() {
     const name = prompt(
@@ -149,6 +164,16 @@ export default function PlanBoard({ bases, badges }: Props) {
             {completes > 0 && (
               <span class="rounded-full bg-scout-green px-2.5 py-0.5 text-xs font-semibold text-white">
                 Completes {completes} badge{completes === 1 ? '' : 's'}
+              </span>
+            )}
+            {concerns.over > 0 && (
+              <span class={`rounded-full px-2.5 py-0.5 text-xs font-semibold ${SUIT_META['over-time'].chip}`}>
+                {concerns.over} over several sessions
+              </span>
+            )}
+            {concerns.no > 0 && (
+              <span class={`rounded-full px-2.5 py-0.5 text-xs font-semibold ${SUIT_META.unsuitable.chip}`}>
+                {concerns.no} can't run at HQ
               </span>
             )}
             <button
@@ -310,7 +335,18 @@ function BadgeCoverage({
         {covers.map((c) => (
           <li key={c.reqId} class="flex gap-2">
             <span class="text-scout-green">+</span>
-            {c.reqTitle}
+            <span class="flex-1">
+              {c.reqTitle}
+              {c.suitability !== 'evening' && c.suitability !== 'unknown' && (
+                <span
+                  class={`ml-1.5 inline-block rounded-full px-1.5 py-0.5 align-middle text-[11px] font-semibold ${
+                    SUIT_META[c.suitability].chip
+                  }`}
+                >
+                  {SUIT_META[c.suitability].short}
+                </span>
+              )}
+            </span>
           </li>
         ))}
       </ul>
