@@ -4,6 +4,10 @@
 
 export type BadgeType = 'activity' | 'staged' | 'challenge' | 'top'
 
+// How achievable a requirement is for our troop at its HQ. See
+// data/facility-profile.md and suitability.ts for the rollup to badge level.
+export type Category = 'evening' | 'over-time' | 'unsuitable' | 'unknown'
+
 export interface ProgressNode {
   id: string
   // a leaf done multiple times is tracked as `${id}#0`..`${id}#n-1`
@@ -11,6 +15,8 @@ export interface ProgressNode {
   // 'all' children required, or "do N of them"
   requiredOfChildren: 'all' | number
   children: ProgressNode[]
+  // leaf suitability; absent on branches (their verdict rolls up from children)
+  category?: Category
 }
 
 export interface ProgressUnit {

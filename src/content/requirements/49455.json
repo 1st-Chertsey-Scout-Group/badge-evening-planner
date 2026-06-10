@@ -6,5 +6,6 @@
   "notes": "Understand why they might be used and discover the rules around flying them safely.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

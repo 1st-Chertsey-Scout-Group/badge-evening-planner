@@ -6,5 +6,6 @@
   "notes": "It could take place during a weekend conservation camp or you could spread it over at least five weekly sessions.\n\nYou could look at:\n\n- recycling\n- reducing energy usage or renewable energy\n- protecting important habitats or wildlife\n- pollution\n- erosion\n- flooding",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

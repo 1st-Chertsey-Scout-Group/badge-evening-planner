@@ -6,5 +6,6 @@
   "notes": "Your time underway should be at least six hours.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

@@ -6,5 +6,6 @@
   "notes": "Afterwards, talk to the instructor about your performance and how you can improve.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

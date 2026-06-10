@@ -6,5 +6,6 @@
   "notes": "Navigate along a course of at least six 'legs' to the standard of the Hill and Moorland Leader award provided by Mountain Training. You're not expected to hold this award - just have a look at the course to get an idea of the level you need to achieve. Find out more on [Mountain Training's website](https://www.mountain-training.org/).",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

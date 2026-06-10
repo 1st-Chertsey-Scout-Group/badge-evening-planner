@@ -6,5 +6,6 @@
   "notes": "You could find out about local projects that aim to protect and regenerate nature, such as wildlife groups or charities. You could also learn about how people's actions are impacting nature and what can be done to reduce this.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

@@ -6,5 +6,6 @@
   "notes": "Discuss with other young people the information you leave behind as a result of these digital actions, and whether that's OK or not.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

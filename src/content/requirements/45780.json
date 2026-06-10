@@ -6,5 +6,6 @@
   "notes": "Show your assessor that you're aware of the environmental issues around caving.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

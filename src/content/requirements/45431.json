@@ -6,5 +6,6 @@
   "notes": "Compare these with the rights a Scout in another country might have.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

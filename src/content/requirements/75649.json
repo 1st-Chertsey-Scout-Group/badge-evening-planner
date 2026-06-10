@@ -6,5 +6,6 @@
   "notes": "You can choose any or all of these tools.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

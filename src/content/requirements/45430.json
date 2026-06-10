@@ -6,5 +6,6 @@
   "notes": "Issues could include Malaria, Ebola, HIV and Aids.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

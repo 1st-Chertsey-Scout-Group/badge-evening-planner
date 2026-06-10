@@ -6,5 +6,6 @@
   "notes": "Also, explain what you should look out for when equipment is nearing the end of its life.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

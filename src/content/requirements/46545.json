@@ -6,5 +6,6 @@
   "notes": "If there's no recognised technical skill course for your badge, an individual training programme can be arranged with a qualified instructor.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

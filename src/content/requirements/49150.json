@@ -6,5 +6,6 @@
   "notes": "Practice a race over a distance of at least 250 metres.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

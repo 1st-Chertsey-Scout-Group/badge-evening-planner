@@ -6,5 +6,6 @@
   "notes": "You can use photographs, films, recordings, concert programmes, ticket stubs, newspaper reviews or websites to illustrate your point.",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

@@ -6,5 +6,6 @@
   "notes": "Show how you would deal with them.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

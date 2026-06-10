@@ -6,5 +6,6 @@
   "notes": "Talk about the GPS receiver's accuracy of information provided.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

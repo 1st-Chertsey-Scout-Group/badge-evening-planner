@@ -6,5 +6,6 @@
   "notes": "Explain how electronics can be used to improve lives.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

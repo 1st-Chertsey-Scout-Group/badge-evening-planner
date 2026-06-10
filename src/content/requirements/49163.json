@@ -6,5 +6,6 @@
   "notes": "Explain what kinds of fire they should be used on.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

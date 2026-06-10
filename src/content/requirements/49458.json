@@ -6,5 +6,6 @@
   "notes": "Explain how it works and its potential impact.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

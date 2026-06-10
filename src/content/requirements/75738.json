@@ -6,5 +6,6 @@
   "notes": "Take steps to reduce any harm to the environment.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

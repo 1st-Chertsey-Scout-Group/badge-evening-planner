@@ -6,5 +6,6 @@
   "notes": "You might want to brush up on using an Ordnance Survey or similar map, a compass, a GPS device, a street map or A-Z, and rail or bus timetables",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

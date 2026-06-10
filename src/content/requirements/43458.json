@@ -6,5 +6,6 @@
   "notes": "Find out how long it'd take to fly 60 nautical miles at an airspeed of 90 knots in each of these conditions:\n\n- No wind\n- Headwind of 15 knots\n- Tailwind of 30 knots\n\nUse the formula: Time = Distance (Nautical miles) / Speed (airspeed +/- wind speed)",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

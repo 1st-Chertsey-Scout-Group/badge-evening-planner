@@ -6,5 +6,6 @@
   "notes": "The two skills must be from different lists.\n\n| Aerial | Balance | Manipulative | Ground |\n| --- | --- | --- | --- |\n| trapeze | trick-cycling | cigar boxes | handstands |\n| roman rings | stilts | club swinging | tumbling |\n| aerial ladder | ladder | devil sticks | acrobatics |\n| aerial rope | tightrope | diablo | |\n| wire walking | wire walking | | |\n| | perch | | |\n| | roller bolo | | |\n| Clowning | Juggling | Spinning | |\n| make up | with three objects or more | yo-yo | |\n| costume | | poi spinning | |\n| | | rhythmic gymnastics | |\n| | | (twirling ribbon) | |\n| | | spinning plates | |\n| | | | |",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

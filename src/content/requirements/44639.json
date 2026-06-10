@@ -6,5 +6,6 @@
   "notes": "You must use a mixture of online and offline tools, and discuss which you preferred and why.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

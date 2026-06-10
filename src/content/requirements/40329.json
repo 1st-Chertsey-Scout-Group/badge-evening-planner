@@ -6,5 +6,6 @@
   "notes": "You could try:\n\n- paddle sports\n- rafting\n- sailing\n- windsurfing\n- pulling.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

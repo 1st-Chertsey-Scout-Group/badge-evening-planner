@@ -30,6 +30,8 @@ async function resolveNode(ref: Ref, slugs: ReadonlySet<string>): Promise<ReqNod
   const entry = await getEntry(ref)
   if (!entry) throw new Error(`missing requirement ${ref.id}`)
   const d = entry.data
+  const children = await Promise.all(d.children.map((c) => resolveNode(c, slugs)))
+  const suitability = d.suitability ?? 'unknown'
   return {
     id: entry.id,
     title: d.title,
@@ -37,7 +39,10 @@ async function resolveNode(ref: Ref, slugs: ReadonlySet<string>): Promise<ReqNod
     optional: d.optional,
     repeatTimes: d.repeatTimes,
     requiredOfChildren: d.requiredOfChildren,
-    children: await Promise.all(d.children.map((c) => resolveNode(c, slugs))),
+    suitability,
+    // the rollup reads `category` on leaves only; branches derive from children
+    category: children.length === 0 ? suitability : undefined,
+    children,
   }
 }
 
@@ -99,6 +104,7 @@ function leanNode(n: ReqNode): ProgressNode {
     id: n.id,
     repeatTimes: n.repeatTimes,
     requiredOfChildren: n.requiredOfChildren,
+    category: n.category,
     children: n.children.map(leanNode),
   }
 }

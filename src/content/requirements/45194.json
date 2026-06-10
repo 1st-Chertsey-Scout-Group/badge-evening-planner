@@ -6,5 +6,6 @@
   "notes": "Explain how to coil and maintain them.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

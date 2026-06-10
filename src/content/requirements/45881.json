@@ -6,5 +6,6 @@
   "notes": "Make a note of:\n\n- the number of fish you caught\n- species and size of your fish\n- your method, tackle and bait used\n- the weather and water conditions.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

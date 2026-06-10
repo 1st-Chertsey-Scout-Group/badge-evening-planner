@@ -36,6 +36,9 @@ REPO_ROOT = Path(__file__).resolve().parents[3]
 RAW = TOOL_ROOT / "output" / "badges-raw"
 BADGES_OUT = REPO_ROOT / "src" / "content" / "badges"
 REQS_OUT = REPO_ROOT / "src" / "content" / "requirements"
+SUIT_DIR = REPO_ROOT / "data" / "suitability"
+
+CATEGORIES = {"evening", "over-time", "unsuitable", "unknown"}
 
 
 def normalize_obj(o: object) -> object:
@@ -266,6 +269,37 @@ def build_badge(raw: dict, btype: str, slug: str, reqs: dict, no_images: bool) -
     return badge
 
 
+def merge_suitability(reqs: dict) -> tuple[int, int]:
+    """Stamp each leaf requirement with its suitability category, read from the
+    hand-maintained overlay at data/suitability/<badge>.json (req id -> category).
+    The overlay is the durable source of truth; a re-harvest re-merges from it
+    instead of losing it. Leaves with no entry are 'unknown'. Branches carry no
+    category - their verdict rolls up from children in the site.
+
+    Returns (classified, total_leaves) so run() can report coverage."""
+    overlay: dict[str, str] = {}
+    for f in sorted(SUIT_DIR.glob("*.json")) if SUIT_DIR.exists() else []:
+        data = json.loads(f.read_text(encoding="utf-8"))
+        for rid, cat in data.items():
+            if cat not in CATEGORIES:
+                print(f"  ! {f.name}: {rid} has unknown category {cat!r}", file=sys.stderr)
+                continue
+            overlay[str(rid)] = cat
+
+    leaves = [rid for rid, r in reqs.items() if not r["children"]]
+    stale = set(overlay) - set(leaves)
+    if stale:
+        print(f"  ! {len(stale)} suitability entries match no leaf requirement (stale)", file=sys.stderr)
+
+    classified = 0
+    for rid in leaves:
+        cat = overlay.get(rid, "unknown")
+        reqs[rid]["suitability"] = cat
+        if cat != "unknown":
+            classified += 1
+    return classified, len(leaves)
+
+
 def verify(badges: list[dict], reqs: dict) -> list[str]:
     errors = []
     ids = set(reqs)
@@ -311,6 +345,8 @@ def run(no_images: bool = False) -> int:
             json.dumps(normalize_obj(badge), indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
         )
 
+    classified, leaves = merge_suitability(reqs)
+
     for rid, r in reqs.items():
         (REQS_OUT / f"{rid}.json").write_text(
             json.dumps(normalize_obj(r), indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
@@ -318,6 +354,7 @@ def run(no_images: bool = False) -> int:
 
     errors = verify(badges, reqs)
     print(f"wrote {len(badges)} badges, {len(reqs)} requirements")
+    print(f"suitability: {classified}/{leaves} leaves classified")
     print(f"dropped {_dropped_branches} non-Scouts section-branch requirements")
     if errors:
         print(f"\n{len(errors)} reference errors:", file=sys.stderr)

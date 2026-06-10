@@ -6,5 +6,6 @@
   "notes": "Find out the differences between this building and another place of worship.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

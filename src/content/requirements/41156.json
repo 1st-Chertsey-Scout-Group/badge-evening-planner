@@ -6,5 +6,6 @@
   "notes": "You could do this on a day trip, as several visits, or as part of a journey, such as on a hike or expedition.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

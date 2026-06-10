@@ -6,5 +6,6 @@
   "notes": "Show or discuss how this compares to your own beliefs.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

@@ -6,5 +6,6 @@
   "notes": "Write or type out the interview to show the questions you asked and the interviewee's replies.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

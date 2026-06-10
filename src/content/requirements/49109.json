@@ -6,5 +6,6 @@
   "notes": "Give a brief report on one, naming a club and airfield where it is used.\n\nTry to make it a local airfield, if possible.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

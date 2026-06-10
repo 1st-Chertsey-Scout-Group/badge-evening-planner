@@ -6,5 +6,6 @@
   "notes": "Describe the best places to install them.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

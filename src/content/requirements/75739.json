@@ -6,5 +6,6 @@
   "notes": "Follow up your research with action.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

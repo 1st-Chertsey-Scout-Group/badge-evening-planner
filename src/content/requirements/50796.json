@@ -6,5 +6,6 @@
   "notes": "Next, adjust a given true bearing to obtain a compass course.",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

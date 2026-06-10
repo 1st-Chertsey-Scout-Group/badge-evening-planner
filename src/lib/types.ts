@@ -2,12 +2,14 @@
 // Each extends the structural progress interfaces so the same value can be fed
 // straight into the completion math.
 
-import type { BadgeType, ProgressNode, ProgressUnit } from './progress'
+import type { BadgeType, Category, ProgressNode, ProgressUnit } from './progress'
 
 export interface ReqNode extends ProgressNode {
   title: string
   notesHtml: string
   optional: boolean
+  // leaf suitability; 'unknown' until classified (data/suitability/<badge>.json)
+  suitability: Category
   children: ReqNode[]
 }
 

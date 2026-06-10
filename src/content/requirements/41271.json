@@ -6,5 +6,6 @@
   "notes": "The elements of the project should all fit within the project's specific purpose.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

@@ -1,8 +1,9 @@
 /** @jsxImportSource preact */
 import { useEffect, useMemo, useState } from 'preact/hooks'
-import { nodeTally, unitTally, type Ticked } from '@/lib/progress'
+import { nodeTally, unitTally, type Category, type Ticked } from '@/lib/progress'
 import { badgeCoverage, coveredLeavesForBadge, coveredTicks } from '@/lib/coverage'
 import { getPlan, onPlanChange } from '@/lib/plan'
+import { SUIT_META } from '@/lib/suitability'
 import type { BaseSummary } from '@/lib/bases'
 import type { ReqNode, ResolvedBadge, Stage, Unit } from '@/lib/types'
 import { Check } from 'lucide-preact'
@@ -13,6 +14,8 @@ interface Props {
   badge: ResolvedBadge
   // bases that cover this badge (each lists the leaf requirements it covers)
   bases: BaseSummary[]
+  // one verdict per stage (staged badges only), computed at build
+  stageVerdicts?: Category[]
 }
 
 interface View {
@@ -25,7 +28,7 @@ const EMPTY: View = { ticked: new Set(), coveredBy: new Map() }
 
 // Read-only checklist: a requirement is ticked when a base in the current plan
 // covers it. There is no manual progress - the plan is the only source of done.
-export default function BadgeChecklist({ badge, bases }: Props) {
+export default function BadgeChecklist({ badge, bases, stageVerdicts }: Props) {
   const [view, setView] = useState<View>(EMPTY)
   const [loaded, setLoaded] = useState(false)
 
@@ -90,7 +93,9 @@ export default function BadgeChecklist({ badge, bases }: Props) {
       </div>
 
       {badge.stages
-        ? badge.stages.map((stage, i) => <StageSection key={i} stage={stage} index={i} {...ctx} />)
+        ? badge.stages.map((stage, i) => (
+            <StageSection key={i} stage={stage} index={i} verdict={stageVerdicts?.[i]} {...ctx} />
+          ))
         : badge.unit && <UnitView unit={badge.unit} {...ctx} />}
     </div>
   )
@@ -104,7 +109,12 @@ interface Ctx {
 const pctOf = (t: { done: number; needed: number }): number =>
   t.needed ? Math.round((t.done / t.needed) * 100) : 100
 
-function StageSection({ stage, index, ...ctx }: { stage: Stage; index: number } & Ctx) {
+function StageSection({
+  stage,
+  index,
+  verdict,
+  ...ctx
+}: { stage: Stage; index: number; verdict?: Category } & Ctx) {
   const t = unitTally(stage, ctx.ticked)
   return (
     <section
@@ -124,6 +134,7 @@ function StageSection({ stage, index, ...ctx }: { stage: Stage; index: number } 
           />
         </span>
         <h3 class="flex-1 font-semibold text-slate-800">{stage.label}</h3>
+        {verdict && <SuitChip category={verdict} />}
       </div>
       <div class="border-t border-slate-100 px-4 pt-3 pb-4">
         <RequirementList nodes={[...stage.mandatory, ...stage.optional]} {...ctx} />
@@ -220,6 +231,7 @@ function Requirement({ node, ...ctx }: { node: ReqNode } & Ctx) {
           {node.repeatTimes > 1 && (
             <span class="text-xs text-slate-500"> ({node.repeatTimes} times)</span>
           )}
+          <SuitChip category={node.suitability} />
         </span>
         {node.notesHtml && <Prose html={node.notesHtml} />}
         {via && <Attribution titles={via} />}
@@ -288,6 +300,7 @@ function Option({ option, ...ctx }: { option: ReqNode } & Ctx) {
         <div class="flex-1">
           <span class={`font-medium ${done ? 'text-scout-purple-dark' : 'text-slate-800'}`}>
             {option.title}
+            {option.children.length === 0 && <SuitChip category={option.suitability} />}
           </span>
           {option.notesHtml && <Prose html={option.notesHtml} />}
           {via && <Attribution titles={via} />}
@@ -313,6 +326,20 @@ function Box({ done }: { done: boolean }) {
 
 function Attribution({ titles }: { titles: string[] }) {
   return <p class="mt-0.5 text-xs font-medium text-scout-green">via {titles.join(', ')}</p>
+}
+
+// Whether this requirement is doable in an evening at our HQ. Unclassified leaves
+// stay quiet - no chip - so the list is not littered until the data is seeded.
+function SuitChip({ category }: { category: Category }) {
+  if (category === 'unknown') return null
+  const m = SUIT_META[category]
+  return (
+    <span
+      class={`ml-1.5 inline-block rounded-full px-1.5 py-0.5 align-middle text-[11px] font-semibold ${m.chip}`}
+    >
+      {m.short}
+    </span>
+  )
 }
 
 function Prose({ html }: { html: string }) {

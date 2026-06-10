@@ -6,5 +6,6 @@
   "notes": "Be sure to check the accuracy",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

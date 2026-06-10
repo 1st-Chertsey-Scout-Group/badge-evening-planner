@@ -6,5 +6,6 @@
   "notes": "- camera techniques such as panning, zooming, close-ups, long shots and using additional lighting\n- production techniques such as editing, how to avoid jump cuts and maintaining continuity.",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

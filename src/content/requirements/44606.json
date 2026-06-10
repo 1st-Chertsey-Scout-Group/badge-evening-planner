@@ -6,5 +6,6 @@
   "notes": "Always do this with a trusted adult.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

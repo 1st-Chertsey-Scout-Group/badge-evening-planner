@@ -6,5 +6,6 @@
   "notes": "Alternatively, you can do this work at a similar activity centre.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

@@ -6,5 +6,6 @@
   "notes": "This includes:\n\n- spare food and safety or emergency equipment\n- what you should wear\n- what you should carry.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

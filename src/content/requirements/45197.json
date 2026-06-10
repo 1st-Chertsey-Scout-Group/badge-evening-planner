@@ -6,5 +6,6 @@
   "notes": "Alternatively, you can take part in a climbing-like activity, such as crate stacking or high ropes, and show you know about the safety equipment used.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

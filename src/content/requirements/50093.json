@@ -6,5 +6,6 @@
   "notes": "This should include 'deviating from course' (the four right angles technique to bypass an obstacle also known as 'boxing').",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

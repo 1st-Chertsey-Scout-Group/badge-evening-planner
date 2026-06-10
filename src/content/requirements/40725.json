@@ -6,5 +6,6 @@
   "notes": "Show how you've improved over time.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

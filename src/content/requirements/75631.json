@@ -6,5 +6,6 @@
   "notes": "Some of these should be new to you. You could try:\n\n- music\n- photography\n- wood or metalwork\n- needlework\n- cooking\n- website design\n- dance.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

@@ -6,5 +6,6 @@
   "notes": "- a scene from a story\n- a person or object\n- a landscape",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

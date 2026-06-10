@@ -6,5 +6,6 @@
   "notes": "Explain how you achieved this in the Troop or Group store.",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

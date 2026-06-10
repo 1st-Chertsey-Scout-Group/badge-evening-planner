@@ -6,5 +6,6 @@
   "notes": "Show how to identify the polarity of a diode and a specific PIN on an integrated circuit.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

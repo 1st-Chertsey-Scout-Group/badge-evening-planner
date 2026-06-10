@@ -6,5 +6,6 @@
   "notes": "Explore how different shapes and materials change how it flies.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

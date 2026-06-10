@@ -6,5 +6,6 @@
   "notes": "For example, transporting people, carrying goods, or helping in emergencies.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

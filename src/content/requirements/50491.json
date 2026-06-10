@@ -6,5 +6,6 @@
   "notes": "Measure the exact distance.",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

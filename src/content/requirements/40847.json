@@ -6,5 +6,6 @@
   "notes": "You could pinpoint locations like the toilets, car park, bird hide or picnic area.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

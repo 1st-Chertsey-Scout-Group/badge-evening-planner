@@ -6,5 +6,6 @@
   "notes": "You could scoop water over your head or face, blow some bubbles, or dip your head under the water.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

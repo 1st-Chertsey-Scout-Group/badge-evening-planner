@@ -6,5 +6,6 @@
   "notes": "Understand what actions to take in emergency events, such as engine failure, cable break or autorotation.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

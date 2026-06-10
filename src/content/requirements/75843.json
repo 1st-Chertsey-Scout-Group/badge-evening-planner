@@ -6,5 +6,6 @@
   "notes": "For example, at a Patrol Leaders' Council or something similar and report back to them afterwards.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

@@ -6,5 +6,6 @@
   "notes": "Can set the map to north and can recognise conventional map symbols.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

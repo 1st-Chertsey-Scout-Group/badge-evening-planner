@@ -6,5 +6,6 @@
   "notes": "It should include sleeping tents, food and equipment stores, a fire or stove, kitchen and eating area.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

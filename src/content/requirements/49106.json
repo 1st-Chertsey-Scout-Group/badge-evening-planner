@@ -6,5 +6,6 @@
   "notes": "Record the aircraft you spot, including any distinctive features and the aircraft's approximate heading.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

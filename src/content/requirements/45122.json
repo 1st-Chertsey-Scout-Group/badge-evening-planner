@@ -6,5 +6,6 @@
   "notes": "It could involve a campfire or stage routine involving mime, drama, music, storytelling or conjuring.\n\nAlternatively, it could take the form of a presentation featuring sketches, film, slides, tapes, photography or sound recordings.",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

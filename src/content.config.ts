@@ -18,6 +18,9 @@ const requirements = defineCollection({
     repeatTimes: z.number().int().positive(),
     // "do all of children" or "do N of children"
     requiredOfChildren: z.union([z.literal('all'), z.number().int().positive()]),
+    // leaf suitability for our troop, merged in from data/suitability/ by the
+    // harvester. Absent until classified; resolve.ts treats absence as unknown.
+    suitability: z.enum(['evening', 'over-time', 'unsuitable', 'unknown']).optional(),
   }),
 })
 

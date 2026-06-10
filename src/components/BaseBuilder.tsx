@@ -1,6 +1,7 @@
 /** @jsxImportSource preact */
 import { useEffect, useMemo, useState } from 'preact/hooks'
 import type { BadgeTree, TreeNode } from '@/lib/bases'
+import { SUIT_META } from '@/lib/suitability'
 import { Check, Copy, Download, X } from 'lucide-preact'
 
 interface Props {
@@ -72,7 +73,7 @@ export default function BaseBuilder({ badges }: Props) {
     [badges, badgeSlug],
   )
 
-  function toggle(node: TreeNode) {
+  function toggle(node: Pick<TreeNode, 'id' | 'title'>) {
     setPicked((p) => {
       const next = { ...p }
       if (next[node.id]) delete next[node.id]
@@ -250,7 +251,7 @@ export default function BaseBuilder({ badges }: Props) {
                         <button
                           type="button"
                           aria-label={`Remove ${p.title}`}
-                          onClick={() => toggle({ id: p.reqId, title: p.title, children: [] })}
+                          onClick={() => toggle({ id: p.reqId, title: p.title })}
                           class="mt-0.5 rounded p-0.5 text-slate-400 hover:bg-slate-100 hover:text-slate-700"
                         >
                           <X size={13} />
@@ -332,7 +333,18 @@ function Tree({
                 checked={Boolean(picked[n.id])}
                 onChange={() => onToggle(n)}
               />
-              {n.title}
+              <span>
+                {n.title}
+                {n.suitability !== 'unknown' && (
+                  <span
+                    class={`ml-1.5 inline-block rounded-full px-1.5 py-0.5 align-middle text-[11px] font-semibold ${
+                      SUIT_META[n.suitability].chip
+                    }`}
+                  >
+                    {SUIT_META[n.suitability].short}
+                  </span>
+                )}
+              </span>
             </label>
           </li>
         ),

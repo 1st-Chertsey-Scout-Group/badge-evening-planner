@@ -6,5 +6,6 @@
   "notes": "You could:\n\n- prepare and paint, paper or tile the walls of a room\n- prepare and paint woodwork or furniture\n- fit a curtain track and hang curtains\n- make a freestanding storage unit or put up shelves\n- cover a floor with vinyl overlay, lino, tiles or carpet\n- hang a door and fit or repair locks and other door furniture\n- lay a patio, decking or path\n- build a low wall, barbecue, gate or fence\n- carry out routine service checks on a car, then clean and polish the car\n\nAlternatively, you could do any other projects of a similar skill level. Agree what you'll do with an adult who is skilled in the relevant areas.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

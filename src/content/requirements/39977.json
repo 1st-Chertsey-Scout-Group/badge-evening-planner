@@ -6,5 +6,6 @@
   "notes": "Each hike or journey must involve at least four hours of activity and a purpose, which you will agree with your leader. The sorts of activity that count as a hike away include:\n\n- taking part in a dusk to dawn hike\n- exploring a bridleway on horseback\n- an overnight expedition by foot\n- a trip down a river in an open canoe\n- a cycle ride\n- any other similar activity.",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

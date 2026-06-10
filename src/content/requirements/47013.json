@@ -6,5 +6,6 @@
   "notes": "For example, if you made a battery, what are batteries usually made from? If you created an eruption, how similar or different is this to how volcanoes erupt?",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

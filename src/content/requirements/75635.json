@@ -6,5 +6,6 @@
   "notes": "Explain why it's important to use them safely.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

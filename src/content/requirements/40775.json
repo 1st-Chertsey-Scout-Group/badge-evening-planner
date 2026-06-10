@@ -6,5 +6,6 @@
   "notes": "Use some of these references to gather information for a journey with a purpose:\n\n- leisure leaflet or webpage\n- bus or train timetable\n- almanac or a who's who",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

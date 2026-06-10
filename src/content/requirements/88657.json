@@ -6,5 +6,6 @@
   "notes": "Take time to reflect on what you thought and felt. You might choose to connect more with nature by growing plants, learning more or spending time outdoors, or join a project to help nature, either on your own or as a group.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

@@ -6,5 +6,6 @@
   "notes": "Alternatively, make a useful item from wood, metal or plastic.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

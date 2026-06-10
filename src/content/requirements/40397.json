@@ -6,5 +6,6 @@
   "notes": "You can find out more about the Scheme on the [RYA website](https://www.rya.org.uk/training/courses/youth-sailing-scheme-start-sailing-stage-1-sss1c).",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

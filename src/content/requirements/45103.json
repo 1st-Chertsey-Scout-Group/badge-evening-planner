@@ -6,5 +6,6 @@
   "notes": "This can be prepared on an open fire on camp or in a kitchen. Think about how you can avoid food waste when preparing and serving your meal.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

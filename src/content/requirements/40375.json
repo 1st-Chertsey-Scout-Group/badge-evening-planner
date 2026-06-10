@@ -6,5 +6,6 @@
   "notes": "Show you can carry out simple repairs over the course of three months.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

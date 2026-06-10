@@ -6,5 +6,6 @@
   "notes": "Explain, in simple terms, the functions they perform in electronic circuits.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

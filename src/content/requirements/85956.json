@@ -6,5 +6,6 @@
   "notes": "Learn how to spot scams, why false claims can damage businesses, and discover ways to stay safe, happy and healthy when dealing with money in everyday life.",
   "optional": false,
   "repeatTimes": 2,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

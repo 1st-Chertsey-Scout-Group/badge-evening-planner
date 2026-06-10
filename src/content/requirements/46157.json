@@ -6,5 +6,6 @@
   "notes": "| Points | 100 m | 200 m | 400 m | 800 m | 1500 m |\n| --- | --- | --- | --- | --- | --- |\n| 10 | 13.4 s | 28.0 s | 64.0 s | 2.30 min | 5.10 min |\n| 9 | 14.0 s | 28.8 s | 67.0 s | 2.40 min | 5.25 min |\n| 8 | 14.7 s | 31.4 s | 71.0 s | 3.00 min | 5.45 min |\n| 7 | 15.3 s | 32.6 s | 75.0 s | 3.10 min | 5.50 min |\n| 6 | 15.8 s | 33.2 s | 79.0 s | 3.20 min | 6.20 min |\n| 5 | 16.3 s | 34.0 s | 83.0 s | 3.40 min | 6.50 min |\n| 4 | 16.8 s | 35.5 s | 88.0 s | 4.00 min | 7.30 min |\n| 3 | 17.6 s | 38.3 s | 94.0 s | 4.20 min | 8.00 min |\n| 2 | 18.3 s | 40.0 s | 100.0 s | 4.40 min | 8.30 min |\n| 1 | 20.0 s | 45.0 s | 120.0 s | 5.00 min | 9.30 min |\n| | High Jump | Long Jump | Shot | Discus | Cricket Ball |\n| 10 | 1.60 m | 5.00 m | 9.5 m | 35.0 m | 65.0 m |\n| 9 | 1.40 m | 4.75 m | 8.5 m | 29.0 m | 55.0 m |\n| 8 | 1.30 m | 4.40 m | 7.2 m | 22.0 m | 50.0 m |\n| 7 | 1.25 m | 4.20 m | 6.5 m | 17.0 m | 45.0 m |\n| 6 | 1.20 m | 4.00 m | 5.5 m | 14.0 m | 35.0 m |\n| 5 | 1.00 m | 3.75 m | 4.1 m | 12.0 m | 30.0 m |\n| 4 | 0.90 m | 3.30 m | 3.7 m | 10.0 m | 25.0 m |\n| 3 | 0.85 m | 2.80 m | 3.3 m | 9.0 m | 20.0 m |\n| 2 | 0.80 m | 2.45 m | 2.8 m | 8.5 m | 15.0 m |\n| 1 | 0.75 m | 2.10 m | 1.8 m | 6.0 m | 10.0 m |\n\n| Minimum points total for the award of badge: | |\n| --- | --- |\n| Age | Points |\n| Under 11 | 6 |\n| Under 12 | 9 |\n| Under 13 | 13 |\n| Under 14 | 17 |\n| Under 15 | 22 |",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

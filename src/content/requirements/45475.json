@@ -6,5 +6,6 @@
   "notes": "Learn how to navigate while keeping the map set to the ground. 'Thumb' the map to log your changing position.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

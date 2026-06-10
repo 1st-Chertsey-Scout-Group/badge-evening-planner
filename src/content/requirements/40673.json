@@ -6,5 +6,6 @@
   "notes": "Reach Grade Two standard for the Associated Board of the Royal\nSchool of Music (or similar). It can be on an instrument of your choice or by singing.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

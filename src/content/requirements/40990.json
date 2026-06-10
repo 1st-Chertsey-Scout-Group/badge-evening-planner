@@ -6,5 +6,6 @@
   "notes": "Complete a quiz in teams to see who in your Troop knows the most about the World Scout Movement and discuss what you think World Scouting could do in the future.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

@@ -6,5 +6,6 @@
   "notes": "Each session should last around 2 to 3 hours.",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

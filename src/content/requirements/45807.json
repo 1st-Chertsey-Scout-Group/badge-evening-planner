@@ -6,5 +6,6 @@
   "notes": "You could learn about influential people, or visit a shrine or other holy place.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

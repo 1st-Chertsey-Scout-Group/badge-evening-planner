@@ -6,5 +6,6 @@
   "notes": "- documentary\n- music video\n- drama\n- comedy\n- advertisement\n- training film\n\nCreate a storyboard and script for each of these. Edit the film using editing software on a computer or a smartphone app.",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "over-time"
 }

@@ -6,5 +6,6 @@
   "notes": "Find out how flying impacts the environment and what the industry is doing to reduce its carbon footprint.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

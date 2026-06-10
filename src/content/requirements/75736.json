@@ -6,5 +6,6 @@
   "notes": "At least two of these activities should be new to you and you should try to do them on at least two separate occasions.\n\nYou could try:\n\n- abseiling\n- canoeing\n- caving or potholing\n- climbing\n- cycling\n- dragon boating\n- gliding\n- hillwalking\n- hiking\n- hovercrafting\n- mountain boarding\n- night hiking\n- orienteering\n- paragliding\n- pony trekking or horse riding\n- powered aircraft\n- pulling\n- rafting\n- sailing\n- snowboarding\n- stunt kiting\n- sub-aqua\n- surfing\n- water-skiing\n- windsurfing",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

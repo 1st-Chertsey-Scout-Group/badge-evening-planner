@@ -6,5 +6,6 @@
   "notes": "You could try flying them into a bucket or through a hoop!",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

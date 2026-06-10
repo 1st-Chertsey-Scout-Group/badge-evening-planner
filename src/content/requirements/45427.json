@@ -6,5 +6,6 @@
   "notes": "With other Scouts, talk about why companies might choose to have the items made in other countries. What are the advantages and disadvantages of overseas production?",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

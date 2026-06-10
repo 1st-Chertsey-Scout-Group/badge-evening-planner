@@ -6,5 +6,6 @@
   "notes": "For example:\n\n- unblocking a sink\n- patching a leaking pipe\n- adjusting the float arm of a cistern\n- changing a lightbulb\n- hinge a door back in place\n- fixing a door bell ringer\n- stabilising a wobbly stair rail\n- repairing a tear in clothes or upholstery\n- removing common stains eg ink, wine, and coffee",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

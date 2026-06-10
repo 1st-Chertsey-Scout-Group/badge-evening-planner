@@ -6,5 +6,6 @@
   "notes": "Talk about why the items on your list are important.",
   "optional": true,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

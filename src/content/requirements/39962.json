@@ -6,5 +6,6 @@
   "notes": "There might be water hazards, unstable ground, changeable weather conditions or other dangers.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

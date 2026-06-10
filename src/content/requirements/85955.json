@@ -6,5 +6,6 @@
   "notes": "Explore different types of bank accounts, learn the difference between credit and debit or talk about the risks of using payday loans.",
   "optional": false,
   "repeatTimes": 2,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

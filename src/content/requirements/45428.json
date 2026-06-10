@@ -6,5 +6,6 @@
   "notes": "Decide in small groups what five things were needed to help people after the disaster. Decide as a Troop how best you can help when a natural disaster happens.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

@@ -6,5 +6,6 @@
   "notes": "You could look at this in the context of music, sport and fashion.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

@@ -6,5 +6,6 @@
   "notes": "Why are they treated differently?",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

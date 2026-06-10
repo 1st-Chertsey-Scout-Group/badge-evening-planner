@@ -6,5 +6,6 @@
   "notes": "How do standard weather forecasts differ from METAR reports?",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "unsuitable"
 }

@@ -6,5 +6,6 @@
   "notes": "You could write to your MP and other local agencies or speak to a community group.",
   "optional": false,
   "repeatTimes": 1,
-  "requiredOfChildren": "all"
+  "requiredOfChildren": "all",
+  "suitability": "evening"
 }

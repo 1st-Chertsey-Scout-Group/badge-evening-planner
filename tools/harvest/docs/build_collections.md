@@ -41,3 +41,10 @@ re-harvest. The schema it satisfies is `src/content.config.ts`.
   filtered to the Scouts-bearing branch only; badge `sections` trimmed to Scouts.
 - All text normalised to ASCII (typographic punctuation and accents folded; the
   pound sign kept) via `normalize_text` in [core](core.md).
+- Each leaf requirement is stamped with a `suitability` category (`evening` /
+  `over-time` / `unsuitable` / `unknown`), merged in from the overlay at
+  `data/suitability/<badge>.json` (req id -> category). The overlay is the
+  durable, hand-maintained source of truth, so a re-harvest re-merges from it
+  rather than wiping it; a leaf with no entry is `unknown`. Seed the overlay with
+  `cli.py classify` (see [classify](classify.md)). Branches carry no category -
+  their verdict rolls up from their leaves in the site.
